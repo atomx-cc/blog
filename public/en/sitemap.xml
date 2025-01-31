@@ -2,169 +2,169 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/posts/papermod/papermod-installation/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/papermod/papermod-installation/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/papermod/papermod-features/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/papermod/papermod-features/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/papermod/papermod-faq/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/papermod/papermod-faq/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/papermod/papermod-icons/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/papermod/papermod-icons/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/papermod/papermod-variables/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/papermod/papermod-variables/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/docs/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/docs/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="//localhost:1313/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="//localhost:1313/fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/"
-                />
-  </url><url>
-    <loc>//localhost:1313/tags/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/series/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/hugo-paper/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="//localhost:1313/fr/posts/"
+                href="http://localhost:1313/hugo-paper/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/posts/"
+                href="http://localhost:1313/hugo-paper/fa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/posts/"
+                href="http://localhost:1313/hugo-paper/"
                 />
   </url><url>
-    <loc>//localhost:1313/series/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/hugo-paper/series/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/papermod/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-paper/posts/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/hugo-paper/fr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="http://localhost:1313/hugo-paper/fa/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/hugo-paper/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hugo-paper/series/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-paper/tags/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-paper/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/css/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/html/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/markdown/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/markdown-syntax/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="//localhost:1313/fr/posts/markdown-syntax/"
+                href="http://localhost:1313/hugo-paper/fr/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="//localhost:1313/fa/posts/markdown-syntax/"
+                href="http://localhost:1313/hugo-paper/fa/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/posts/markdown-syntax/"
+                href="http://localhost:1313/hugo-paper/posts/markdown-syntax/"
                 />
   </url><url>
-    <loc>//localhost:1313/categories/syntax/</loc>
+    <loc>http://localhost:1313/hugo-paper/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/themes/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/themes/</loc>
+    <loc>http://localhost:1313/hugo-paper/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/series/themes-guide/</loc>
+    <loc>http://localhost:1313/hugo-paper/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/code/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/code/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/code_syntax/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/code_syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/gist/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/gist/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/privacy/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/rich-content/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/shortcodes/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/syntax/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/math-typesetting/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/emoji/</loc>
+    <loc>http://localhost:1313/hugo-paper/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/emoji-support/</loc>
+    <loc>http://localhost:1313/hugo-paper/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/archives/</loc>
+    <loc>http://localhost:1313/hugo-paper/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="//localhost:1313/fr/archives/"
+                href="http://localhost:1313/hugo-paper/fr/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/archives/"
+                href="http://localhost:1313/hugo-paper/archives/"
                 />
   </url><url>
-    <loc>//localhost:1313/search/</loc>
+    <loc>http://localhost:1313/hugo-paper/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="//localhost:1313/fr/search/"
+                href="http://localhost:1313/hugo-paper/fr/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/search/"
+                href="http://localhost:1313/hugo-paper/search/"
                 />
   </url>
 </urlset>
