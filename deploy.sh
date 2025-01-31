@@ -3,8 +3,8 @@
 # Exit if any command fails
 set -e
 
-# Ensure we're on main branch
-git checkout main
+# Store current branch name
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 # Build static files
 hugo --minify
@@ -15,7 +15,7 @@ cp -r public/* /tmp/hugo-public/
 
 # Push main branch
 git add .
-git commit -m "Update source content"
+git commit -m "Update source content" || true
 git push origin main
 
 # Switch to gh-pages and clean
@@ -28,8 +28,10 @@ rm -rf /tmp/hugo-public
 
 # Push gh-pages branch
 git add .
-git commit -m "Update site content"
+git commit -m "Update site content" || true
 git push origin gh-pages
 
-# Return to main
-git checkout main
+# Return to original branch
+git checkout "$CURRENT_BRANCH"
+
+echo "Deployment complete! Returned to $CURRENT_BRANCH branch."
