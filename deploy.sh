@@ -3,29 +3,33 @@
 # Exit if any command fails
 set -e
 
+# Ensure we're on main branch
+git checkout main
+
 # Build static files
 hugo --minify
 
-# Push main branch first
+# Save public contents to temp
+mkdir -p /tmp/hugo-public
+cp -r public/* /tmp/hugo-public/
+
+# Push main branch
 git add .
 git commit -m "Update source content"
 git push origin main
 
-# Clean untracked files and switch branch
-git clean -f -d
+# Switch to gh-pages and clean
 git checkout gh-pages
-
-# Clean current branch
 rm -rf *
 
-# Copy public files
-cp -r public/* .
+# Copy saved content to root
+cp -r /tmp/hugo-public/* .
+rm -rf /tmp/hugo-public
 
 # Push gh-pages branch
 git add .
 git commit -m "Update site content"
 git push origin gh-pages
 
-# Clean and return to main
-git clean -f -d
+# Return to main
 git checkout main
