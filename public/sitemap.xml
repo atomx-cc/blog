@@ -2,21 +2,21 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:1313/hugo-paper/en/sitemap.xml</loc>
+    <loc>https://atomx-cc.github.io/hugo-paper/en/sitemap.xml</loc>
     
       <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/hugo-paper/fr/sitemap.xml</loc>
+    <loc>https://atomx-cc.github.io/hugo-paper/fr/sitemap.xml</loc>
     
       <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/hugo-paper/fa/sitemap.xml</loc>
+    <loc>https://atomx-cc.github.io/hugo-paper/fa/sitemap.xml</loc>
     
       <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     
