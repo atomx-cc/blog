@@ -35,3 +35,7 @@ git push origin gh-pages
 git checkout "$CURRENT_BRANCH"
 
 echo "Deployment complete! Returned to $CURRENT_BRANCH branch."
+
+# test local webpage
+# hugo serve -D
+# http://localhost:1313/hugo-paper/
