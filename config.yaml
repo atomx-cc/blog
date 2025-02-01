@@ -2,8 +2,10 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://atomx-cc.github.io/hugo-paper/"
 title: PaperMod
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
-paginate: 5
+copyright: "© [Atom.X](https://atomx.cc)"
+# paginate: 5
+pagination:
+  pagerSize: 5
 theme: [PaperMod]
 
 enableInlineShortcodes: true
@@ -29,17 +31,29 @@ languages:
       series: series
     menu:
       main:
-        - name: Archive
-          url: archives
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 1
+        - identifier: archives
+          name: Archive
+          url: /archives/
+          weight: 3
+        
+        - identifier: tags
+          name: Tags
+          url: /tags/
           weight: 5
-        - name: Search
-          url: search/
+        
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 9
+       
+        - identifier: wiki
+          name: WiKi
+          url: /wiki/
           weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
   fr:
     languageName: ":fr:"
@@ -144,34 +158,34 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "Atom's Home"
     Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
+      👋 Welcome to my home online!
 
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+      My favourite **Topics**: 
 
       - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
 
       - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
 
   socialIcons:
-    - name: github
+    - name: Github
       title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+      url: ""
     - name: Discord
       title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
+      url: ""
     - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+      title: Follow on X /Twitter
+      url: "https://twitter.com/Atomxx3"
+    - name: Instagram
+      title: Photos and Stories
+      url: "https://instagram.com/atomxu3"
 
-  editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #  URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
 
   # label:
   # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
@@ -179,9 +193,16 @@ params:
   # icon: icon.png
   # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  # Analytics and SEO
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc123"  # Only content value
+    bing:
+      SiteVerificationTag: "XYZabc456"  
+    yandex:
+      SiteVerificationTag: "XYZabc789"  
+  # For Google Analytics 4
+  # googleAnalytics: "G-MEASUREMENT_ID"  # Replace with your tracking ID
 
   assets:
     disableHLJS: true
