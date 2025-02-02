@@ -1,5 +1,17 @@
 # How to build Hugo site with theme PaperMod
 
+# Config.yaml change
+
+## TOC
+change the table of content on the right side colum of webpage, or in the middle top.
+
+## Global config 
+
+it's unnecessary to add too many repeated front matters.
+
+such as "author, TOC " etc.
+
+ignore the date format, accept all formats popular globally, such as "2006-1-2, 2006-01-02, 2-1-2006" etc.
 
 
 # Deploy webpages on Github Pages
