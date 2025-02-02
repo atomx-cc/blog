@@ -4,24 +4,69 @@
   <url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/papermod/papermod-installation/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/papermod/papermod-installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/papermod/papermod-installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/posts/papermod/papermod-installation/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/papermod/papermod-features/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/papermod/papermod-features/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/papermod/papermod-features/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/posts/papermod/papermod-features/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/docs/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/docs/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://atomx-cc.github.io/hugo-paper/fr/"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="https://atomx-cc.github.io/hugo-paper/fa/"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -31,24 +76,69 @@
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/papermod/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/series/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/series/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/series/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/series/papermod/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/papermod/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/posts/papermod/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://atomx-cc.github.io/hugo-paper/fr/posts/"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="https://atomx-cc.github.io/hugo-paper/fa/posts/"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -58,33 +148,123 @@
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/series/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/series/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/categories/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/css/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/html/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/html/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/html/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/markdown/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://atomx-cc.github.io/hugo-paper/fr/posts/markdown-syntax/"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fa"
-                href="https://atomx-cc.github.io/hugo-paper/fa/posts/markdown-syntax/"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -94,60 +274,320 @@
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/categories/syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/categories/syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/categories/syntax/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/themes/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/categories/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/categories/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/categories/themes/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/series/themes-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/series/themes-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/series/themes-guide/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/code/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/code/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/code_syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/code_syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/code_syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/posts/code_syntax/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/gist/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/gist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/gist/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/gist/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/privacy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/privacy/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/rich-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/rich-content/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/posts/rich-content/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/shortcodes/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/syntax/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/math-typesetting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/math-typesetting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/posts/math-typesetting/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/emoji/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/emoji/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/emoji/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/posts/emoji-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/posts/emoji-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/posts/emoji-support/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/categories/about/</loc>
     <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/categories/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/categories/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/categories/about/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/about/</loc>
     <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/about/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/tags/resume/</loc>
     <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/tags/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/tags/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx-cc.github.io/hugo-paper/tags/resume/"
+                />
   </url><url>
     <loc>https://atomx-cc.github.io/hugo-paper/archives/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://atomx-cc.github.io/hugo-paper/fr/archives/"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/archives/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -158,8 +598,13 @@
     <loc>https://atomx-cc.github.io/hugo-paper/search/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://atomx-cc.github.io/hugo-paper/fr/search/"
+                hreflang="zh"
+                href="https://atomx-cc.github.io/hugo-paper/zh/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx-cc.github.io/hugo-paper/ru/search/"
                 />
     <xhtml:link
                 rel="alternate"
