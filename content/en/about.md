@@ -3,7 +3,7 @@ author: "Atom.X"
 title: "About"
 date: 2017-09-16
 # url: /about/
-description: IT farmer, remote worker, Aaronic priest
+description: IT farmer, Remote worker, Evangelist, Priest
 categories:
   - About
 tags:
@@ -40,7 +40,3 @@ Looking for business partners: Create shared offices and living spaces with gard
 
 
 [Photo: Sailing on the Rhine in April 2022]
-
-[Email ](mailto:hi@atomx.cc)｜
-[Telegram](https://t.me/atomxxx) ｜
-[Podcast](https://podcasters.spotify.com/pod/show/coolshell)

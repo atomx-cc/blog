@@ -60,7 +60,7 @@ languages:
   zh:
     languageName: "简体中文"
     contentDir: content/zh
-  # languagedirection: ltr
+    #languagedirection: ltr
     weight: 2
     title: Atom.X
     taxonomies:
@@ -93,10 +93,39 @@ languages:
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
+      languageAltTitle: "简体中文"
+      profileMode:
+        enabled: true
+        title: "欢迎来访!"
+        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageTitle: ProfileMode image
+        # imageWidth: 120
+        # imageHeight: 120
+        subtitle: "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应"
+        buttons:
+          - name: "博客"
+            url: posts/
+          - name: "商业项目"
+            url: about/
+          - name: "社会活动"  
+            url: about/
+            
       homeInfoParams:
-        Title: "欢迎来访! \U0001F44B"
-        Content: 在这里您可以找到有关技术、编程等的文章。
+          Title: "欢迎来访!"
+          Content: >
+            "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应"
 
+            - My favourite **Topics**:
+
+            - Think of danger in times of safety;
+
+            - Disaster Recovery;
+
+            - Load balancing;
+
+            - Multi-Site High Availability(Active-Active across multiple locations), several live places in urban and rural areas;
+          
+          
   ru:
     languageName: "Pусский"
     contentDir: content/ru
@@ -183,29 +212,45 @@ params:
     imageTitle: my image
     # imageWidth: 120
     # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+    # buttons:
+      # - name: Archives
+      #   url: archives
+      # - name: Tags
+      #   url: tags
 
   homeInfoParams:
-    Title: "Atom's Home"
+    Title: 👋 Welcome !  
     Content: >
-      👋 Welcome to my home online!
+      I am a passionate developer who loves to code and write about technology.
+      
+      - My favourite **Topics**:
+            
+      - Think of danger in times of safety;
 
-      My favourite **Topics**: 
+      - Disaster Recovery;
 
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
+      - Load balancing;
 
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+      - Multi-Site High Availability(Active-Active across multiple locations);
 
   socialIcons:
+    - name: Telegram
+      title: Talk on Telegram
+      url: "https://t.me/atomxxx"
+    - name: Email
+      title: Send an Email
+      url: "mailto:hi@atomx.cc"
     - name: Github
       title: View Source on Github
       url: ""
     - name: Discord
       title: Join discord community
+      url: ""
+    - name: LinkedIn
+      title: Connect on LinkedIn
+      url: ""
+    - name: Podcast
+      title: Listen to Podcast
       url: ""
     - name: X
       title: Follow on X /Twitter
