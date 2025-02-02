@@ -106,9 +106,9 @@ languages:
           - name: "博客"
             url: posts/
           - name: "商业项目"
-            url: about/
+            url: cases-business/
           - name: "社会活动"  
-            url: about/
+            url: cases-social-works/
             
       homeInfoParams:
           Title: "欢迎来访!"
@@ -201,7 +201,33 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
+
+  # Global default front matter
+  author: "Atom.X"
   ShowToc: true
+  TocOpen: true
+  # TOC position configuration
+  toc:
+    enabled: true
+    position: right    # right side TOC
+    # position: left    # left side TOC
+
+  # Global date settings for front matter "date:" field
+  date:
+    format: "2006-1-2"    # Base format
+    formats: 
+      - "2006-1-2"
+      - "2006-01-02"
+      - "2-1-2006"
+      - "2006/1/2"
+      - "2006.1.2"
+      - "January 2, 2006"
+      - "02 Jan 2006"
+    validation: false      # Disable strict validation
+  # Display format settings
+  listDateFormat: "2006-1-2"
+  singleDateFormat: "2006-1-2"
+
   # comments: false
   images: ["images/papermod-cover.png"]
 
