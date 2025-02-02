@@ -1,7 +1,7 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://atomx-cc.github.io/hugo-paper/"
-title: PaperMod
+title: Atom.X
 copyright: "© [Atom.X](https://atomx.cc)"
 # paginate: 5
 pagination:
@@ -23,7 +23,8 @@ minify:
 
 languages:
   en:
-    languageName: "English"
+    languageName: English
+    contentDir: content/en
     weight: 1
     taxonomies:
       category: categories
@@ -35,6 +36,7 @@ languages:
           name: About
           url: /about/
           weight: 1
+
         - identifier: archives
           name: Archive
           url: /archives/
@@ -50,58 +52,86 @@ languages:
           url: /search/
           weight: 9
        
-        - identifier: wiki
-          name: WiKi
-          url: /wiki/
-          weight: 10
+        # - identifier: wiki
+        #   name: WiKi
+        #   url: /wiki/
+        #   weight: 10
 
-  fa:
-    languagedirection: ltr
-    weight: 3
-    title: PaperMod RTL
+  zh:
+    languageName: "简体中文"
+    contentDir: content/zh
+  # languagedirection: ltr
+    weight: 2
+    title: Atom.X
     taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
+      category: categories
+      tag: tags
+      series: series
+
     menu:
       main:
-        - name: FATags
-          url: fatags
-          weight: 10
+        - identifier: about
+          name: "关于"
+          url: about/
+          weight: 1
+
+        - identifier: archives
+          name: "归档"
+          url: archives/
+          weight: 3
+        
+        - identifier: tags
+          name: "标签"
+          url: tags/
+          weight: 5
+        
+        - identifier: search
+          name: "搜索"
+          url: search/
+          weight: 9
+       
+    
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
       homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to RTL layout
+        Title: "欢迎来访! \U0001F44B"
+        Content: 在这里您可以找到有关技术、编程等的文章。
 
-  fr:
-    languageName: ":fr:"
-    weight: 2
-    title: PaperModL2
+  ru:
+    languageName: "Pусский"
+    contentDir: content/ru
+    weight: 3
+    title: "Атом.X"
     taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
+      category: categories
+      tag: tags
+      series: series
     menu:
       main:
-        - name: Archive
+        - identifier: about
+          name: "обо мне"
+          url: about/
+          weight: 1      
+        - identifier: archives
+          name: "Архив"
           url: archives/
+          weight: 3
+        - identifier: tags
+          name: "Теги"
+          url: tags/
           weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: NullLink
-          url: "#"
-
+        - identifier: categories
+          name: "Категории"
+          url: categories/
+          weight: 8
+        - identifier: search
+          name: "Поиск"
+          url: search/
+          weight: 9
+    
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
-      languageAltTitle: French
+      languageAltTitle: Rусский
       profileMode:
         enabled: true
         title: PaperMod
