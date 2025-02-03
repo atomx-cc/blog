@@ -1,5 +1,10 @@
 # How to build Hugo site with theme PaperMod
 
+# Check the structure of directory and files.
+
+in terminal zsh, command line ``tree -L 2 --dirsfirst`` for 2 layers of directories.
+
+
 # Config.yaml change
 
 ## TOC
@@ -11,7 +16,27 @@ it's unnecessary to add too many repeated front matters.
 
 such as "author, TOC " etc.
 
-ignore the date format, accept all formats popular globally, such as "2006-1-2, 2006-01-02, 2-1-2006" etc.
+## Date format in front matter
+When you build static webpage, there are error reports such as below. 
+
+``` % hugo serve -D ```
+ERROR the "date" front matter field is not a parsable date: see ./hugo-paper/content/zh/cases-business.md
+
+because front matter, We ignore the date format, input example "2006-1-2, 2-1-2006" etc.
+
+Hugo strictly requires YYYY-MM-DD format with leading zeros, such as "2006-01-02".
+
+1. Fix dates using script:
+
+please check up-date-format.sh in my repo.
+
+
+1. Use VS Code search & replace:
+
+Find: date: (\d{4})-(\d)-(\d)
+
+Replace: date: $1-0$2-0$3
+
 
 
 # Deploy webpages on Github Pages

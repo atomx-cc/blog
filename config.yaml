@@ -213,20 +213,17 @@ params:
     # position: left    # left side TOC
 
   # Global date settings for front matter "date:" field
+  
+  DateFormat: "2006-1-2"    # Global date format
+  # Front matter date settings
+  # Date parsing settings
   date:
-    format: "2006-1-2"    # Base format
-    formats: 
+    format: "2006-1-2"      # Primary format
+    layouts:
       - "2006-1-2"
-      - "2006-01-02"
-      - "2-1-2006"
-      - "2006/1/2"
-      - "2006.1.2"
-      - "January 2, 2006"
-      - "02 Jan 2006"
-    validation: false      # Disable strict validation
-  # Display format settings
-  listDateFormat: "2006-1-2"
-  singleDateFormat: "2006-1-2"
+    #  - "2006-01-02"
+    validation: false       # Disable validation
+  
 
   # comments: false
   images: ["images/papermod-cover.png"]
