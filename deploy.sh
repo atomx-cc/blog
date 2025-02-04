@@ -9,22 +9,14 @@ CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 # Build static files
 hugo --minify
 
-# Save public contents to temp
-mkdir -p /tmp/hugo-public
-cp -r public/* /tmp/hugo-public/
-
-# Push main branch
-git add .
-git commit -m "Update source content" || true
-git push origin main
-
-# Switch to gh-pages and clean
+# Switch to gh-pages branch
 git checkout gh-pages
-rm -rf *
 
-# Copy saved content to root
-cp -r /tmp/hugo-public/* .
-rm -rf /tmp/hugo-public
+# Use rsync to update files, excluding CNAME
+rsync -av --delete \
+    --exclude=CNAME \
+    --exclude=.git \
+    public/ ./
 
 # Push gh-pages branch
 git add .
