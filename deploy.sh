@@ -4,7 +4,7 @@
 set -e
 
 # Store current branch name
-CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+CURRENT_BRANCH=$(git symbolic-ref --short HEAD)
 
 # Build static files
 hugo --minify
@@ -13,10 +13,10 @@ hugo --minify
 git checkout gh-pages
 
 # Use rsync to update files, excluding CNAME
-rsync -av --delete \
+rsync -av \
     --exclude=CNAME \
     --exclude=.git \
-    public/ ./
+    public/ ./ || true
 
 # Push gh-pages branch
 git add .
