@@ -1,6 +1,6 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://atomx-cc.github.io/hugo-paper/"
+baseURL: "https://atomx-cc.github.io/blog/"
 title: Atom.X
 copyright: "© [Atom.X](https://atomx.cc)"
 # paginate: 5
