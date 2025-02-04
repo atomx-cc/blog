@@ -6,199 +6,187 @@ categories:
 tags:
   - Resume
 ---
+I mainly involve business cases such as Internet and e-commerce operations, fresh agricultural product supply chain, agriculture, and catering.
 
-我主要涉及的互联网和电商运营、生鲜农产品供应链、农业、餐饮等商业案例。
+## [Cool Shell Crowd Creation](https://coolshell.in/)
 
+Time: 2022 -
 
-## [酷壳众创](https://coolshell.in/)
+Location: Ukraine, Germany
 
-时间：2022 -
+Programmer blog and community operation
 
-地点：乌克兰、德国
+**Project Overview:**
+Cooperate with [Chen Hao - Left Ear Mouse](https://coolshell.cn/) to prepare for the European [MegaEase Cloud](http://megaease.com) cloud computing company, explore marketing agency business in Europe, submit business plans to local investment incubators and pass the review, and apply for business Schengen visas. Due to the unexpected death of partner and founder Chen Hao, the original plan was temporarily shelved. . .
 
-程序员博客和社群运营
+Continue to operate the [Cool Shell Blog](https://coolshell.in/) community, recruit partners, and serve entrepreneurs who work remotely.
 
-**项目概述：**
-与[陈皓 - 左耳朵耗子](https://coolshell.cn/)合作，筹备欧洲[MegaEase Cloud](http://megaease.com)云计算公司，探索欧洲地区的营销代理业务，递交商业计划到本地投资孵化器并通过审查，办理商务申根签证，由于合伙人和创始人陈皓意外去世，原计划暂搁置。。。
+## Organic Farm in Ukraine
 
-继续运营[酷壳博客](https://coolshell.in/)社群，招募合作伙伴，为远程工作的创业者服务。
+Time: 2020 -
 
+Location: Ukraine. Kiev, Cherkasy, Potava
 
-## 乌克兰有机农场
+Farm and agricultural product management
 
-时间：2020 -
+**Project Overview:**
 
-地点：乌克兰. 基辅、切尔卡西、波塔瓦
+Independently operated organic farm, and served as co-founder and business director of IRKLIEV Ecological Park Co., Ltd., operating fresh agricultural products/food business for investors, and transforming large agricultural/forestry/animal husbandry/fishery farms left over from the former Soviet Union, as well as the operation of attached residential, commercial and industrial buildings.
 
-农场和农产品经营
+Affected by the war, the project was suspended and awaiting resumption. . .
 
-**项目概述：**
+## [Nande Group](https://qizhong.land/)
 
-独立经营有机农场，并曾在伊尔克利夫IRKLIEV生态园有限责任公司，担任联合创始人和业务总监，为投资者经营生鲜农产品/食品业务，并改造前苏联遗留的大型农/林/牧/渔场，以及附属的住宅、商业和工业建筑的经营。
+Time: 2020.7-12
 
-受战争影响，该项目暂停，等待恢复。。。
+Location: Beijing
 
+New media and web development.
 
-## [南德集团](https://qizhong.land/)
+**Project Overview:**
+Provide project demand analysis and IT technical support for Mou Zhongqi's third entrepreneurship.
 
-时间：2020.7-12
+Create [Nande Archives](https://doc.qizhong.land/), and arrange publicly available historical documents by time series and classification tags, including Mou Qizhong's speech collection, letters, articles, activities, meeting documents and video materials, the electronic version of the original corporate newspaper "Nande Vision", documentary planning, etc.
 
-地点：北京
-
-新媒体和web开发。
-
-**项目概述：**
-为牟其中第三次创业提供项目需求分析和IT技术支持。
-
-制作[南德档案馆](https://doc.qizhong.land/)，按时间序列和分类标签编排可公开发布的历史文件，包括牟其中演讲文集、书信、文章、活动、会议文件和影像资料、原企业报《南德视界》的电子版制作、纪录片策划等；
-
-涉及西伯利亚农林牧副渔业和跨境贸易的相关产业的研究与规划会议，文件材料制作；
+Research and planning meetings on related industries in Siberia's agriculture, forestry, animal husbandry, sideline production, fishery and cross-border trade, and document material production;
 [https://github.com/chzionland](https://github.com/chzionland)
 
 [https://github.com/chzionland/doc/blob/cn/SUMMARY.md](https://github.com/chzionland/doc/blob/cn/SUMMARY.md)
 
+Note: Due to many force majeure factors involving business, law, etc., the front end of the project webpage has been closed.
 
-注释：由于涉及商业、法律等诸多不可抗力因素，项目网页前端已关闭。
+[Mou Qizhong](https://de.zxc.wiki/wiki/Mou_Qizhong) is the most well-known first-generation private entrepreneur and the first billionaire in China after the reform and opening up. He is widely known as the [Godfather of Chinese Private Enterprises](https://www.latimes.com/archives/la-xpm-1996-03-28-fi-52176-story.html) by the media.
 
-[牟其中](https://de.zxc.wiki/wiki/Mou_Qizhong)是中国改革开放后最知名的第一代民营企业家，第一个亿万富翁，被媒体广泛称为[中国私企教父](https://www.latimes.com/archives/la-xpm-1996-03-28-fi-52176-story.html)。
+## Hangzhou Yixinzhai Catering Management Co., Ltd.
 
+Time: 2019.1-6
 
-## 杭州市颐心斋餐饮管理有限公司
+Location: Hangzhou
 
-时间：2019.1-6
+Online and offline (O2O) operations and IT technical support for vegetarian restaurants
 
-地点：杭州
+**Project Overview:**
 
-素食餐饮店的线上和线下（O2O）运营、IT技术支持
+Hosting the largest traditional vegetarian buffet restaurant and vegan dessert bakery in East China, assisting the management and operation optimization of the founding team of (Suxin Buffet Restaurant), the format upgrade and product innovation of catering services, participating in the plant-based protein industry exhibition forum, and promoting business cooperation and promotion with international leading companies such as Beyond meat, Just egg, Otly, and Omnipork in the Chinese market.
 
-**项目概述：**
+## Yonghui Yunchuang Technology Co., Ltd.
 
-托管华东地区最大的传统素食自助餐厅和纯素甜品烘焙店，辅助（素心自助餐厅）创始团队的管理运营优化，餐饮服务的业态升级和产品创新，参加植物基蛋白行业展会论坛，促进与Beyond meat、Just egg、Otly、Omnipork 等国际头部公司在中国市场的业务合作推广。
+Time: 2018.7-8
 
-## 永辉云创科技有限公司
+Location: Shanghai
 
-时间：2018.7-8
+Online and offline (O2O) platform product operation of fresh community stores.
 
-地点：上海
+**Project Overview:**
 
-生鲜社区店的线上和线下（O2O）平台产品运营。
+In response to the business expansion of hundreds of ["Yonghui Life" convenience stores](http://www.yonghuivip.com/) per year, explore fresh e-commerce and home delivery models, investigate the surrounding business formats of urban communities, front warehouses, trunk and branch logistics and the last 3 kilometers of delivery, convenience store O2O online and offline activities and user operations, platform product innovation, data analysis, project comprehensive operation management optimization, etc.
 
-**项目概述：**
+## [Zhejiang Weiyang Technology Co., Ltd.](https://weiyang.cn/)
 
-为应对年增长数百个[”永辉生活“便利店](http://www.yonghuivip.com/)的业务扩张，探索生鲜电商和宅配模式，调研城市社区周边业态，前置仓库、干线和支线物流及最后3公里配送，便利店O2O线上线下活动和用户运营，平台产品创新，数据分析，项目综合运营管理优化等。
+Time: 2016.1-2017.8
 
+Location: Hangzhou, Huzhou
 
-## [浙江味央科技有限公司](https://weiyang.cn/)
+Comprehensive operation management of agricultural and e-commerce projects
 
-时间：2016.1-2017.8
+**Project Overview:**
+[NetEase Agricultural Division](https://netease.com/) The Internet celebrity pig farm explores high-quality breeding and fresh food e-commerce platform models. The main business scope includes:
 
-地点：杭州、湖州
+**Platform rules:**
+Research on the agricultural product e-commerce industry chain, product innovation, platform rule formulation, including investment promotion rules, user service terms, purchase and sales contracts, etc., explore commercial market expansion, etc., involving the collaboration of multiple departments such as finance, legal affairs, market, production, and IT;
 
-农业和电商项目综合运营管理
+**Production standards:**
+Study national agricultural policies and regulations, involving the "Environmental Protection Law", "Food Safety Law", hundreds of relevant laws and regulations on pollution emissions and facility construction, production standards, etc., provide compliance review and analysis for the legal department, and related technical support consultation, etc.; and assist in farm production management and operation, troubleshooting of hardware and software of automated feeding equipment, optimizing feeding curve efficiency, and Chinese equipment operation guides, etc.;
 
-**项目概述：**
-[网易农业事业部](https://netease.com/) 的网红猪场，探索高品质养殖和生鲜电商平台模式，，主要业务范围包括：
+**Public relations cooperation:**
+Communicate and coordinate industry associations, scientific research institutions, and expert think tanks, introduce external cooperation resources, compile EU "animal welfare" standards and various "breeding management" technology public courses and materials, and empower market popularization and internal training;
 
-**平台规则：**
-农产品电商产业链的调研，产品创新、平台规则制定，包括招商规则、用户服务条款，购销合同等，探索商业市场拓展等，涉及财务、法务、市场、生产、IT等多部门协作；
+## E-commerce consultant and trainer
 
-**生产标准：**
-研究国家农业政策法规，涉及《环境保护法》、《食品安全法》、污染排放和设施建设的上百项相关法规、生产标准等，提供法务部门的合规审查分析，及相关技术支持咨询等；并协助农场生产管理运维，自动化饲喂设备软硬件故障排除，优化饲喂曲线效率，汉化设备操作指南等；
+Time: 2013-2015
 
-**公关合作：**
-沟通协调行业协会、科研机构、专家智库，引进外部合作资源，编译欧盟“动物福利”标准及各种“养殖管理”技术的公开课和资料，为市场科普和内训赋能；
+Location: Xinjiang, Qinghai, Ningxia, Sichuan, Anhui, Zhejiang, Jiangsu, etc.
 
+Agricultural products e-commerce consulting and training
 
-## 电商咨询和培训师
+**Project Overview:**
 
-时间：2013-2015
+Served as consultant and lecturer, the main companies and institutions served include:
 
-地点：新疆、青海、宁夏、四川、安徽、浙江、江苏等
+- [Zhejiang Time-honored Brand Association]();
+- [Tianxia Online Business Research Institute](),;
+- [Tao Yuanwai](),;
+- [Ali Business School](),;
+- [Ali Research Institute](),;
+- [Rural Taobao](https://www.taobao.com/markets/cun/gyct);
+- [Zhejiang Province Counterpart Support Office (Assisting Xinjiang, Qinghai and other western regions)](),;
 
-农产品电商咨询和培训
+Main business scope includes:
 
-**项目概述：**
+Undertaking the government's western development and e-commerce poverty alleviation projects, developing a series of rural Taobao agricultural products e-commerce courses, training thousands of government civil servants, college student village officials and corporate e-commerce teams in more than 10 provinces and cities, and serving dozens of time-honored brand associations and hundreds of Chinese time-honored brands in large-scale marketing activities such as Double 11/12.
 
-任顾问和讲师，服务的主要公司和机构包括：
+Focusing on leisure agriculture and regional characteristic agriculture, forestry, animal husbandry, sideline production and fishery, we assist in the construction of localized management teams, recruit talents for positions such as product managers, operations supervisors, and customer service, and provide market research, product selection, Taobao outsourcing service providers (TP Taobao partners), marketing promotion, industrial park operations and other solutions.
 
-- [浙江省老字号协会]()；
-- [天下网商研究院]()，；
-- [淘员外]()，；
-- [阿里商学院]()，；
-- [阿里研究院]()，；
-- [农村淘宝](https://www.taobao.com/markets/cun/gyct)；
-- [浙江省对口支援办公室（援新疆、青海等西部地区）]()，；
+## [Capvision Information Technology Co., Ltd.](https://capvision.com/)
 
-主要业务范围包括：
+Time: 2014
 
-承接政府西部大开发和电商扶贫工程，开发农村淘宝系列农产品电商课程，在10多个省市地区培训政府公务员、大学生村官和企业电商团队数千人，服务数十家老字号协会和数百家中华老字号的双11/12等大型营销活动。
+Location: Beijing, Shanghai, Guangzhou, Shenzhen, Hangzhou
 
-聚焦休闲农业和区域特色农林牧副渔业，辅助本地化的经营管理团队建设，产品经理、运营主管、客服等岗位人才招募，以及提供市场调研、选品、淘宝外包服务商（TP淘拍档）、营销推广、产业园运营等解决方案。
+Agricultural industry investment research and consulting
 
+**Project Overview:**
 
-## [凯盛融英信息科技有限公司](https://capvision.com/)
+Through Capvision - the industry-wide expert think tank platform, we provide consulting services for more than 30 investment fund companies' analysts and researchers on Internet + agricultural projects such as planting, breeding, land transfer, agricultural materials, and agricultural products e-commerce;
 
-时间：2014
+## [Zhejiang Xinghe E-commerce Co., Ltd.](http://www.zjnonghe.com/xinghe/zyyw/xxhcy/index.html)
 
-地点：北京、上海、广州、深圳、杭州
+Time: 2014.7-12
 
-农业产业投资调研和咨询
+Location: Anhui, Hangzhou
 
-**项目概述：**
+Agricultural e-commerce management consulting
 
-通过凯盛融英 - 全行业专家智库平台，为超过30家投资基金公司的分析师和研究员，提供种植、养殖、土地流转、农资、农产品电商等涉及互联网+农业项目的咨询服务；
+**Project Overview:**
 
+Provide consulting services to general managers and management, as well as technical support for business development, research, planning, program revision, and operation management. The main sub-projects include:
 
-## [浙江兴合电子商务有限公司](http://www.zjnonghe.com/xinghe/zyyw/xxhcy/index.html)
+- Phase I of Jutudi, crowdfunding of agricultural products and land of Guliyu Farm, [Juhuasuan: fellow villagers invite you to share land, customize private farm](http://act.ju.taobao.com/go/act/juhuasuan/jtd.php);
+- Characteristic China Zhejiang Pavilion, and outsourced local characteristic pavilions of other provinces and cities, etc.;
+- E-commerce industrial park, Huizhou ancient town leisure tourism products, [Taobao crowdfunding: 10,000 people crowdfunding, rebuilding China's beautiful ancient villages](https://izhongchou.taobao.com/dreamdetail.htm?id=1130), rural e-commerce projects in the surrounding areas of Huangshan, etc.;
 
-时间：2014.7-12
+## [Taobao New Agriculture Development Department](https://ny.taobao.com/)
 
-地点：安徽、杭州
+Time: 2012.5-2013.7
 
-农业电商管理咨询
+Location: Hangzhou
 
-**项目概述：**
+Ecological agriculture e-commerce platform operation
 
-为总经理和管理层提供咨询顾问，以及业务拓展、调研、策划、方案修订、运营管理等技术支持，主要子项目包括：
+**Project Overview:**
+[Alibaba](https://alibaba.com) - Operate the Taobao eco-agriculture platform and support the development of eco-agricultural e-commerce for small farmers. The main business scope includes:
 
-- 聚土地一期，谷物语农场的农产品和土地众筹，[聚划算：老乡喊你来分地，定制私家农场](http://act.ju.taobao.com/go/act/juhuasuan/jtd.php)；
-- 特色中国浙江馆，及外包的其他省市的地方特色馆等；
-- 电子商务产业园、徽州古镇休闲游产品、[淘宝众筹：万人众筹，重建中国美丽古村落](https://izhongchou.taobao.com/dreamdetail.htm?id=1130)、黄山周边区域的农村电商项目等；
+**Prototype design:**
+Through the CNCA national agricultural certification information system and Alibaba's agricultural products and food related platforms, investigate the market data of three products and one label (organic, green, pollution-free, and landmark) agricultural products; output platform demand analysis documents PRD and prototype diagrams, assist in the functional design of technical research and development, process testing, collect user feedback data, assist UX designers to improve user experience, formulate customer service FAQ lists, and guide product launch;
 
+**Community marketing:**
+Refer to the farm to table model of CSA community support agriculture, based on tens of thousands of Taobao agricultural product market stores, develop Taobao ecological farm origins, and enter thousands of farms in the first year of MVP testing 0-1 stage. Direct traffic from social media such as Weibo to Taobao agricultural market stores. Plan online and offline activities of industry associations and KOL farm members, such as agricultural product pre-sales/crowdfunding/group purchases/farmers' markets, etc., to promote interaction between merchants and customers and product sales;
 
-## [淘宝新农业发展部](https://ny.taobao.com/)
+**Operation rules:**
+Formulate investment promotion rules, user service terms, quality certification, product selection standards, and origin evaluation system. Based on the performance goals of user and data growth, through timetable and progress management tools, solve the supply chain service guarantee problems of actual application scenarios, involving cross-departmental collaboration such as business operations, technology research and development, and marketing;
 
-时间：2012.5-2013.7
+## Beijing Tourism Consulting Service Center
 
-地点：杭州
+Time: 2004.11-2009.10
 
-生态农业电商平台运营
+Location: Beijing
 
-**项目概述：**
- [阿里巴巴](https://alibaba.com) - 运营淘宝生态农业平台，支持生态小农电商发展，主要业务范围包括：
+IT operation and maintenance and translation
 
-**原型设计：**
-通过CNCA国家农业认证信息系统，和阿里巴巴的农产品食品相关平台，调研三品一标（有机，绿色，无公害，地标）农产品市场数据；输出平台需求分析文档PRD和原型图，协助技术研发的功能设计，流程测试，收集用户反馈数据，协助UX设计师改进用户体验，制定客服FAQ清单，辅导产品上线；
+**Project Overview:**
 
-**社区营销：**
-参考CSA社区支持农业的farm to table农场到餐桌模式，基于数万淘宝农产品集市店，开发淘宝生态农场原产地，MVP测试0-1阶段首年入驻农场数千家。从微博等社交媒体导流至淘宝农业集市店。策划行业协会和KOL农场会员线上线下活动，如农产品预售/众筹/团购/农夫市集等，促进商家与客户的互动和产品销售；
+Engaged in foreign trade business outsourcing, the main business scope includes:
 
-**运营规则：**
-制定招商规则，用户服务条款，品质认证，选品标准，产地评估体系。基于用户和数据增长的业绩目标，通过时间表和进度管理工具，解决实际应用场景的供应链服务保障问题，涉及业务运营、技术研发、市场等跨部门协作；
+**Translation:** Provide English-Chinese translation for international trade exhibition business, business travel services for inbound passengers;
 
-
-## 北京旅游咨询服务中心
-
-时间：2004.11-2009.10
-
-地点：北京
-
-IT运维和翻译
-
-**项目概述：**
-
-从事涉外商贸业务外包，主要业务范围包括：
-
-**翻译：** 提供国际商贸会展业务的英汉翻译，入境旅客的商旅服务；
-
-**IT：** 主要服务于环境和化学分析工程类客户，提供中小型企业网站运维，办公自动化设备和网络管理，工程图绘制和程控软件汉化，设备测试和技术服务咨询等。
+**IT:** Mainly serves environmental and chemical analysis engineering customers, provides small and medium-sized enterprise website operation and maintenance, office automation equipment and network management, engineering drawing and program control software Chinese localization, equipment testing and technical service consulting, etc.
