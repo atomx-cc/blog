@@ -525,7 +525,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/ru/categories/about/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -540,6 +540,42 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/categories/about/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/ru/tags/resume/</loc>
+    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/tags/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/tags/resume/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/tags/resume/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/ru/education-training/</loc>
+    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/education-training/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/education-training/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/education-training/"
                 />
   </url><url>
     <loc>https://atomx.cc/ru/about/</loc>
@@ -560,22 +596,40 @@
                 href="https://atomx.cc/ru/about/"
                 />
   </url><url>
-    <loc>https://atomx.cc/ru/tags/resume/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <loc>https://atomx.cc/ru/cases-social-works/</loc>
+    <lastmod>2017-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://atomx.cc/tags/resume/"
+                href="https://atomx.cc/cases-social-works/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://atomx.cc/zh/tags/resume/"
+                href="https://atomx.cc/zh/cases-social-works/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://atomx.cc/ru/tags/resume/"
+                href="https://atomx.cc/ru/cases-social-works/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/ru/cases-business/</loc>
+    <lastmod>2017-02-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/cases-business/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/cases-business/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/cases-business/"
                 />
   </url><url>
     <loc>https://atomx.cc/ru/archives/</loc>

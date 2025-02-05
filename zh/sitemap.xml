@@ -569,6 +569,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/education-training/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/education-training/"
                 />
@@ -600,6 +605,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/cases-social-works/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/cases-social-works/"
                 />
@@ -610,6 +620,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/cases-business/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/cases-business/"
                 />
     <xhtml:link
                 rel="alternate"
