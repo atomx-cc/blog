@@ -48,16 +48,21 @@ languages:
           name: Tags
           url: /tags/
           weight: 5
+
+        - identifier: categories
+          name: Categories
+          url: categories/
+          weight: 8
         
         - identifier: search
           name: Search
           url: /search/
           weight: 9
        
-        # - identifier: wiki
-        #   name: WiKi
-        #   url: /wiki/
-        #   weight: 10
+        - identifier: Coolshell
+          name: Coolshell.in
+          url: https://coolshell.in/
+          weight: 10
 
   zh:
     languageName: "简体中文"
@@ -87,10 +92,21 @@ languages:
           url: tags/
           weight: 5
         
+        - identifier: categories
+          name: "分类"
+          url: categories/
+          weight: 8
+        
         - identifier: search
           name: "搜索"
           url: search/
           weight: 9
+
+        - identifier: Coolshell
+          name: 酷壳众创
+          url: https://coolshell.in/zh/
+          weight: 10
+
        
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
@@ -159,6 +175,10 @@ languages:
           name: "Поиск"
           url: search/
           weight: 9
+        - identifier: Coolshell
+          name: Coolshell.in
+          url: https://coolshell.in/ru/
+          weight: 10
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
