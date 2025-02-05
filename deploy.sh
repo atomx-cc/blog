@@ -21,7 +21,7 @@ git worktree add -B gh-pages public origin/gh-pages
 cp public/CNAME CNAME.tmp || true
 
 # Build static files directly into the worktree
-hugo --minify --buildDrafts --verbose
+hugo --minify --buildDrafts
 
 
 # Restore CNAME file
