@@ -1,6 +1,6 @@
 ---
 title: "Mathematical Thinking Stanford, W8 Assignment 10"
-date: 2023-9- 00 
+date: 2023-09-01 
 categories:
   - IT
 tags:

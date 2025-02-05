@@ -1,6 +1,6 @@
 ---
 title: "Mathematical Thinking Stanford, W5 Assignment 7"
-date: 2023-9- 00 
+date: 2023-09-01
 categories:
   - IT
 tags:
