@@ -1,5 +1,5 @@
 ---
-title: "商业案例"
+title: Business cases
 date: 2017-02-03
 categories:
   - About
