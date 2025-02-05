@@ -11,28 +11,31 @@ git add .
 git commit -m "Update content" || true
 git push origin "$CURRENT_BRANCH"
 
-# Build static files
+# Remove existing worktree if exists
+git worktree remove -f public 2>/dev/null || true
+
+# Add gh-pages worktree
+git worktree add -B gh-pages public origin/gh-pages
+
+# Save CNAME file
+cp public/CNAME CNAME.tmp || true
+
+# Build static files directly into the worktree
 hugo --minify
 
-# Switch to gh-pages branch
-git checkout gh-pages
+# Restore CNAME file
+# cp CNAME.tmp public/CNAME || true
+# rm CNAME.tmp
 
-# Use rsync to update files, excluding CNAME
-rsync -av \
-    --exclude=CNAME \
-    --exclude=.git \
-    public/ ./ || true
-
-# Push gh-pages branch
+# Commit and push gh-pages
+cd public
 git add .
 git commit -m "Update site content" || true
 git push origin gh-pages
+cd ..
 
-# Return to original branch
-git checkout "$CURRENT_BRANCH"
-
-echo "Deployment complete! Returned to $CURRENT_BRANCH branch."
+echo "Deployment complete!"
 
 # test local webpage
 # hugo serve -D
-# http://localhost:1313/hugo-paper/
+# http://localhost:1313/hugo-paper/# http://localhost:1313/hugo-paper/
