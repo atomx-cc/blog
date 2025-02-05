@@ -12,27 +12,76 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Syntax</title>
-      <link>https://atomx.cc/zh/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/syntax/</guid>
+      <title>IT</title>
+      <link>https://atomx.cc/zh/categories/it/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/it/</guid>
       <description></description>
     </item>
     <item>
-      <title>Themes</title>
-      <link>https://atomx.cc/zh/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/themes/</guid>
+      <title>商业</title>
+      <link>https://atomx.cc/zh/categories/%E5%95%86%E4%B8%9A/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E5%95%86%E4%B8%9A/</guid>
       <description></description>
     </item>
     <item>
-      <title>About</title>
-      <link>https://atomx.cc/zh/categories/about/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/about/</guid>
+      <title>Life</title>
+      <link>https://atomx.cc/zh/categories/life/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://atomx.cc/zh/categories/education/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politics</title>
+      <link>https://atomx.cc/zh/categories/politics/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agriculture</title>
+      <link>https://atomx.cc/zh/categories/agriculture/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/agriculture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment</title>
+      <link>https://atomx.cc/zh/categories/environment/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生活</title>
+      <link>https://atomx.cc/zh/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://atomx.cc/zh/categories/business/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>https://atomx.cc/zh/categories/%E5%85%B3%E4%BA%8E/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E5%85%B3%E4%BA%8E/</guid>
       <description></description>
     </item>
   </channel>

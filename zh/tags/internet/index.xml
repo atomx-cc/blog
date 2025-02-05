@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Internet on Atom.X</title>
+    <link>https://atomx.cc/zh/tags/internet/</link>
+    <description>Recent content in Internet on Atom.X</description>
+    <image>
+      <title>Atom.X</title>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>zh</language>
+    <copyright>Atom.X</copyright>
+    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://atomx.cc/zh/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematical Thinking Stanford, W4</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-0/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantifier_%28logic%29&#34;&gt;Quantifier(logic)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;$∀$ , For All, Conjunction, ∧, all things
+$∃$, Exist, Disjunction, &lt;strong&gt;∨&lt;/strong&gt;, at least one&lt;/p&gt;
+&lt;p&gt;$∃x$[$A(x) ∧ B(x)$] ≠ $∃x$$A(x)$ ∧ $∃x$$B(x)$, False&lt;/p&gt;
+&lt;p&gt;There is a game player who is both an attacker and a defender.&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;There is a game player who is an attacker, and There is a game player(another one?) who is a defender.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;$∃x$[$A(x) ∨ B(x)$] =  $∃x$$A(x)$ &lt;strong&gt;∨&lt;/strong&gt; $∃x$$B(x)$&lt;/p&gt;
+&lt;p&gt;There is a game player who is an attacker or a defender.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W3 Assignment 5</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-5/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-5/</guid>
+      <description>&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the existence assertions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a. ($∃x$ ∈ ℕ)($x^3 = 27$ )&lt;/p&gt;
+&lt;p&gt;b. ($∃𝑛$ ∈ ℕ)(𝑛&amp;gt;10000)&lt;/p&gt;
+&lt;p&gt;c. natural number n is not a prime
+($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 &lt;strong&gt;∧&lt;/strong&gt; $m$&amp;gt;1 &lt;strong&gt;∧ $n=pm$&lt;/strong&gt;)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the ‘for all’ assertions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)
+¬($∃x$ ∈ $ℕ$)($x^3$ = 28)
+($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
+&lt;p&gt;($∀x$ ∈ ℕ)¬($x^3$ = 28)&lt;/p&gt;
+&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )
+c.  ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( ****$n=pq$) ****⇒&lt;strong&gt;$n=pq&lt;/strong&gt;n=pq$$p$=1 V &lt;strong&gt;$q=1$&lt;/strong&gt; )]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W3</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-0/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-0/</guid>
+      <description>&lt;p&gt;the most difficult lecture&lt;/p&gt;
+&lt;h1 id=&#34;analysis-of-language---quantifiers&#34;&gt;Analysis of language - quantifiers&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Irrational_number&#34;&gt;irrational&lt;/a&gt; numbers&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%80&#34;&gt;∀&lt;/a&gt; for all&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%83&#34;&gt;∃&lt;/a&gt; there exists&lt;/p&gt;
+&lt;p&gt;express an existence &lt;strong&gt;assertion&lt;/strong&gt;.
+a confident and forceful statement of fact or belief.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Combination of quantifiers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;there is no largest natural number.&lt;/p&gt;
+&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
+&lt;p&gt;(∃𝑛 ∈ ℕ)(∀𝑚∈ ℕ)(𝑛&amp;gt;𝑚), False&lt;/p&gt;
+&lt;p&gt;American Melanoma Foundation: “One American dies of Melanoma almost every hour.”&lt;/p&gt;
+&lt;p&gt;∃A∀H(A dies in hour H), False, misunderstanding: An American dies once every hour, ridiculous.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 Assignment 4</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-4/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-4/</guid>
+      <description>&lt;h1 id=&#34;1-building-truth-table-φ--ψ&#34;&gt;1. Building truth table φ ⇔ ψ&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;φ&lt;/th&gt;
+          &lt;th&gt;ψ&lt;/th&gt;
+          &lt;th&gt;φ ⇒ ψ&lt;/th&gt;
+          &lt;th&gt;ψ ⇒ φ&lt;/th&gt;
+          &lt;th&gt;φ ⇔ ψ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;✔︎&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;✔︎&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;a. φ ⇔ ψ is true if φ and ψ are both true or both false
+(φ ⇒ ψ)=(ψ ⇒ φ) , (φ ⇒ ψ)∧(ψ ⇒ φ) = φ ⇔ ψ, φ = ψ&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 QUIZ</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-quiz/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-quiz/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;
+&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;implication has a **truth part(**conditional &lt;strong&gt;)&lt;/strong&gt; and a causation part.&lt;/p&gt;
+&lt;p&gt;implication = conditional + causation&lt;/p&gt;
+&lt;p&gt;conditional means &lt;strong&gt;⇒&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;φ ⇒ ψ&lt;/strong&gt; is the truth part of “ φ  implies ψ ”.&lt;/p&gt;
+&lt;p&gt;φ is the antecedent&lt;/p&gt;
+&lt;p&gt;ψ is the consequent
+define the truth of φ⇒ψ in terms of the truth/falsity of φ and ψ.&lt;/p&gt;
+&lt;h2 id=&#34;equivalence-quiz&#34;&gt;&lt;strong&gt;Equivalence Quiz&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Which of the following &lt;strong&gt;conditions&lt;/strong&gt; is necessary and sufficient for &lt;strong&gt;the natural number $n$&lt;/strong&gt; &lt;strong&gt;to be multiple of 10&lt;/strong&gt; ?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 Assignment 3</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-3/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-3/</guid>
+      <description>&lt;h1 id=&#34;1-d-y-t&#34;&gt;1. D, Y, T&lt;/h1&gt;
+&lt;p&gt;a. T ⇒ [D ∧ Y]&lt;/p&gt;
+&lt;p&gt;b. D ⇒ ¬ Y&lt;/p&gt;
+&lt;p&gt;c. ¬ D ⇒  ¬ T&lt;/p&gt;
+&lt;p&gt;d. T ⇒  ¬ (D ∧ Y)&lt;/p&gt;
+&lt;p&gt;e. ¬ D ∧ Y ∧ T ,  T ⇒ [¬ D ∧ Y], following means “then or and”, they are all conjunctions relationship.&lt;/p&gt;
+&lt;p&gt;f. (T ∧ Y) ⇒ ¬ D , T ⇒ [Y ⇒ ¬ D]&lt;/p&gt;
+&lt;p&gt;g. T ⇒ [D ⇔ Y], T⇒ [(D ⇒Y) ∧ (Y⇒D)]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W1 Assignment 2</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-2/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-2/</guid>
+      <description>&lt;h1 id=&#34;1-simplify-the-symbolic-statements&#34;&gt;1. Simplify the symbolic statements.&lt;/h1&gt;
+&lt;p&gt;(b) (p≥7)∧(p&amp;lt;12), 7≤p&amp;lt;12&lt;/p&gt;
+&lt;p&gt;(c) (x&amp;gt;5)∧(x&amp;lt;7), 5&amp;lt;x&amp;lt;7&lt;/p&gt;
+&lt;p&gt;(d) (x&amp;lt;4)∧(x&amp;lt;6), x&amp;lt;4&lt;/p&gt;
+&lt;p&gt;(e) $(y&amp;lt;4)∧(y^2 &amp;lt;9), y^2&amp;lt;9$&lt;/p&gt;
+&lt;p&gt;(f) (x≥0)∧(x≤0), x=0&lt;/p&gt;
+&lt;h1 id=&#34;2-express-each-of-your-simplified-statements-from-question-1-in-natural-english&#34;&gt;2. Express each of your simplified statements from question 1 in natural English.&lt;/h1&gt;
+&lt;p&gt;(b) p is greater than or equal to 7 and less than 12.&lt;/p&gt;
+&lt;p&gt;(c) x is greater than 5, and less than 7.&lt;/p&gt;
+&lt;p&gt;(d) x is less than 4&lt;/p&gt;
+&lt;p&gt;(e) y squared is less than 9&lt;/p&gt;
+&lt;p&gt;(f) x is equal to 0&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W1 Assignment 1</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-1/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-1/</guid>
+      <description>&lt;h1 id=&#34;truth-table&#34;&gt;Truth table&lt;/h1&gt;
+&lt;p&gt;φ ∧ ψ = ψ ∧ φ&lt;/p&gt;
+&lt;p&gt;∧ conjunction 合取: anyone is false, φ ∧ ψ will be false&lt;/p&gt;
+&lt;p&gt;∨ disjunction 析取: anyone is truth, φ ∨ ψ will be truth.&lt;/p&gt;
+&lt;p&gt;∨ : Communism, Soviet Union, China, Socialism, anyone is truth, then it is truth, Big, resources absorbing power, Totalitarianism&lt;/p&gt;
+&lt;p&gt;∧ : Germany,&lt;/p&gt;
+&lt;h2 id=&#34;greek-alphabet---wikipediahttpsenwikipediaorgwikigreek_alphabet&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;φ: phi&lt;/p&gt;
+&lt;p&gt;ψ: psi&lt;/p&gt;
+&lt;p&gt;θ: Theta&lt;/p&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;p&gt;True table game, triary logic&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking- Stanford</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mathematical-thinking-stanford/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mathematical-thinking-stanford/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject&#34;&gt;Math symbols&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking&#34;&gt;Mathematical Thinking- Stanford&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking/resources/7qIB0&#34;&gt;About instructor&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;assignment--quiz&#34;&gt;Assignment &amp;amp; Quiz&lt;/h1&gt;
+&lt;p&gt;The course contents sub documents as below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MTS W8 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W8 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W7 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W6 Assignment 8&lt;/li&gt;
+&lt;li&gt;MTS W5 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W4 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W3 Assignment 5&lt;/li&gt;
+&lt;li&gt;MTS W3 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W2 Assignment 4&lt;/li&gt;
+&lt;li&gt;MTS W2 Assignment 3&lt;/li&gt;
+&lt;li&gt;MTS W2 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W1 Assignment 2&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W4 Assignment 6</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-6/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-6/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;¬ [$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¬ [$∃x$A(x)]&lt;/p&gt;
+&lt;p&gt;if it is not the case that at least a x satisfies A(x),&lt;/p&gt;
+&lt;p&gt;then for all x are not not satisfy A(x),&lt;/p&gt;
+&lt;p&gt;so for all x, ¬A(x) is true.&lt;/p&gt;
+&lt;p&gt;$∀x$[¬A(x)]&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Prove false&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;There is an even prime bigger than 2&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;x are parts of natural number set $N$, Prime number P(x), Even number E(x)&lt;/p&gt;
+&lt;p&gt;$∃x$[E(x)P(x)∧(x&amp;gt;2)]&lt;/p&gt;
+&lt;p&gt;¬ {$∃x$[E(x)P(x)∧(x&amp;gt;2)]} is True&lt;/p&gt;
+&lt;p&gt;$∀x$[E(x)P(x) ⇒ (2≥ x)]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W5 Assignment 7</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w5-quiz/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w5-quiz/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Contrapositive  反證&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if φ ⇒ ψ , then ¬ψ ⇒ ¬φ&lt;/p&gt;
+&lt;p&gt;$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/p&gt;
+&lt;h1 id=&#34;assignment-7&#34;&gt;Assignment 7&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove or disprove the statement “All birds can fly.”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;birds b, fly birds are F(b)&lt;/p&gt;
+&lt;p&gt;Assume $∀b$ ⇒ F(b) True.&lt;/p&gt;
+&lt;p&gt;$∃o$, there are some birds, such as ostrich o, it can not fly.&lt;/p&gt;
+&lt;p&gt;$∀b$[$∃o$$(b=o)$ ⇒ ¬F(b)]&lt;/p&gt;
+&lt;p&gt;so not all birds could fly, $∀b$ ⇒ F(b) False.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Prove or disprove the claim (∀x, y ∈ R)[(x − y)2 &amp;gt; 0].
+Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W6 Assignment 8</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w6-assignment-8/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w6-assignment-8/</guid>
+      <description>&lt;p&gt;Induction: the inference of a general law from particular instances.&lt;/p&gt;
+&lt;p&gt;Axiom/ principle: generally acknowledged truth.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;to prove $∀n$ A$(n)$&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Method, principle of mathematical induction&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove &lt;strong&gt;A$(1)$&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Dominoes:  $∀n$ [ A$(n)$ ⇒ A$(n+1)$] induction step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: for any n, 1+2+3 …… + n = 1/2n(n+1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if n = 1, both side equal to 1, then the identity is true.&lt;/p&gt;
+&lt;p&gt;Assume  A$(n)$ and deduce A$(n+1)$, the identity holds for all n&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1+2+3 …… + n+1 = 1/2(n+1)[(n+1)+1]&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W7</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w7-assignment-0/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w7-assignment-0/</guid>
+      <description>&lt;h1 id=&#34;number-theory&#34;&gt;number theory&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.britannica.com/science/number-theory&#34;&gt;Number theory | Definition, Topics, &amp;amp; History | Britannica&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;0 is not a natural number? it depends on the mathematical community, if they design the norm(standard) that 0 i a natural number, then it is.&lt;/p&gt;
+&lt;p&gt;but in a default condition, we normally set 0 is not natural number.&lt;/p&gt;
+&lt;h2 id=&#34;ba&#34;&gt;b|a&lt;/h2&gt;
+&lt;p&gt;Vertical bar sign in Discrete mathematics, means b divides a, b is a &lt;em&gt;factor&lt;/em&gt; of a.&lt;/p&gt;
+&lt;p&gt;division theory ?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Euclidean_division&#34;&gt;Euclidean division - Wikipedia&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W8 Assignment 10</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w8-assignment-10/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w8-assignment-10/</guid>
+      <description>&lt;p&gt;cognitive conception&lt;/p&gt;
+&lt;p&gt;completeness property 完整属性&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Upper_and_lower_bounds&#34;&gt;upper and lower bound&lt;/a&gt; 上界、下界&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Least-upper-bound_property&#34;&gt;least upper bound&lt;/a&gt; 最小上界 LUB&lt;/p&gt;
+&lt;p&gt;S&lt;a href=&#34;https://en.wikipedia.org/wiki/Set_%28mathematics%29&#34;&gt;et theory&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;subset relations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Natural numbers, Integers, Rational numbers, Real numbers&lt;/p&gt;
+&lt;p&gt;N ⊂ Z ⊂ Q ⊂ R&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://d3c33hcgiwev3.cloudfront.net/_1dc41c143a819b67c9704cc09941d38c_Supplement__Set_Theory_.pdf?Expires=1697241600&amp;amp;Signature=lfPfw5Vn7fiAaHasCEMQXvvrAJXuC0gXdHIGZQbE6xCRPvbJqZ0yqwjR5AJttYA~AFZP8xcRYp1xsDqJOy4bZIqgM4dn76VEDOpsG4JmtHK1ZnLSyRJDjFEibvQk1ux8H7Yzdhl0rj6Bd--vmOv3FLqz5ZCwlC-p3wGxvuAJdko_&amp;amp;Key-Pair-Id=APKAJLTNE6QMUY6HBC5A&#34;&gt;Elements of Set Theory&lt;/a&gt;(SUPPLEMENT, KEITH DEVLIN: Introduction to Mathematical Thinking)&lt;/p&gt;
+&lt;p&gt;empty set ∅&lt;/p&gt;
+&lt;p&gt;different from  &lt;strong&gt;Φ(phi)&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Phi&#34;&gt;the 21st letter of the Greek alphabet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;eg. &lt;strong&gt;Set A&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If $A(x)$ is some property, the set of all those x which satisfy $A(x)$ is denoted by {$x | A(x)$}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W8 Quiz</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w8-quiz/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w8-quiz/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;least upper bound&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A set A of reals can have at most one least upper bound.&lt;/p&gt;
+&lt;p&gt;if a is LUB, then a≤b&lt;/p&gt;
+&lt;p&gt;if b is LUB, then b≤a&lt;/p&gt;
+&lt;p&gt;if a, b are both two LUBs, then b=a,&lt;/p&gt;
+&lt;p&gt;such as {42} has the only element 42 as both an upper bound and a lower bound.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;lower bound&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if a set A of reals has a lower bound, it has infinitely many lower bounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>语言交换app的扭曲变形</title>
+      <link>https://atomx.cc/zh/posts/edu/en/language-exchange-app-distorted/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/en/language-exchange-app-distorted/</guid>
+      <description>&lt;p&gt;我一个月前到达乌克兰基辅，准备学习当地语言，并安装了语言交换app，但是一段时间后让我很失望，卸载了！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2021.6.14，乌克兰语 vs. 俄语&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我决定在这里通过工作签证和居留许可临时工作不超过3年。&lt;/p&gt;
+&lt;p&gt;所以我考虑学习当地语言，大多数朋友推荐俄语，因为它在世界各地更流行。我认为如果我们更尊重当地人，我应该说乌克兰语。但朋友们认为这与民族情结无关，你在乌克兰说俄语，只有少数激进的民族主义者才会生气。&lt;/p&gt;
+&lt;p&gt;我不知道如何选择，俄语还是乌克兰语？这两种语言非常相似。我想探索不超过1个月的时间来决定最终偏好哪一种。无论如何，我开始了在线自学乌克兰语音标和字母。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2021.7.1，两周后我可以阅读和拼写单词&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我每天都在被动地学习俄语或乌克兰语。我没有刻意学习它，我已经能够读出许多路边广告牌并拼写出来。如果我在乌克兰或俄罗斯待的时间更长，我很确定我可以在日常生活中很好地掌握它。&lt;/p&gt;
+&lt;p&gt;我仍然不能和当地人自由交谈，需要一些时间来练习，所以我决定去语言交换App寻求帮助，一位同事建议使用Tandem。这是我第一次使用语言交换App，让我们试试看效果如何？&lt;/p&gt;
+&lt;p&gt;在语言交换app上注册个人资料：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的母语是中文，我的英语水平中等，日语水平初级，寻找乌克兰语或俄语的当地人做语言交换的伙伴。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2021.7.15，不到一个月后，我改变了语言交换的想法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我已经住在基辅1.5个月了，对当前的乌克兰社会有了更多的了解。作为一个发展中国家，它在很多方面都和中国大陆非常相似。&lt;/p&gt;
+&lt;p&gt;我应该搬到西欧或北美，所以我不打算长期住在乌克兰。&lt;/p&gt;
+&lt;p&gt;我的博客中另一篇文章中解释了为何 &lt;strong&gt;“移民到更好的地方”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;那么现在对我来说，当地语言不是必要的。&lt;/p&gt;
+&lt;p&gt;所以在当前阶段仅仅练习英语，我将通过雅思7分，之后，我或许把乌克兰语作为下一个目标。&lt;/p&gt;
+&lt;p&gt;我在语言交流社区的个人资料更改如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的爱好：IT、计算机科学、远程工作、极客。
+我想与之交谈的人：独立思考、聪明、思想开放、喜欢分享。
+我的目标：我希望通过雅思认真考试并获得7分，能够流利地说英语，这里不是交友约会的社交场所。
+我的话题：环境、人类学、宇宙学、农业食品、政治、体育、健康等。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://app.tandem.net/members/atom9125120&#34;&gt;https://app.tandem.net/members/atom9125120&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;我为何退出语言交换app&#34;&gt;我为何退出语言交换app&lt;/h1&gt;
+&lt;p&gt;2021.7.15，在安装这个App不到1个月后，我想退出Tandem，它不适合的某些原因如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;效率低下&lt;/strong&gt;
+当一个语言App的核心功能被设计成即时消息时，但它不是一个专业的即时通讯软件，用户体验不是很好，我很了解这些软件的问题，因为我学习IT并在网络公司工作的缘故。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如果Tandem的开发是基于其他主要的学习App或即时消息软件，例如，Whatsapp、Telegram等。我很确定会有更多人在这里被激活，但Tandem可能会担心用户行为的失控。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;学习 vs. 约会？&lt;/strong&gt;
+Tandem类似于一个社交网络App，当我第一次登录Tandem社区时，至少有10个人跟我打招呼。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;但他们中的大部分人只是打个招呼，然后一生只出现一次，我有理由怀疑这是互联网公司的营销策略，通过机器人向人们批量打招呼，为了促销会员订阅量。&lt;/p&gt;
+&lt;p&gt;有一个女孩在她的Tandem个人资料中这样写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我婚姻幸福，所以如果你想一起学习语言以外的东西，请不要写信或关注我 :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tandem正处于这种尴尬境地，既不像是语言学习App，也不像是约会App。这家app公司的OKR应该是如何让人们更多地做语言交换。但很多人并没有按照这个目标去交流语言学习，而是通过它寻找闲聊的人，约会或别有目的，这似乎也不是Tandem的错，用户行为已经失控了。&lt;/p&gt;
+&lt;p&gt;我建议语言伙伴转移到其他专业的即时消息软件，显然这对语言交换app不利。&lt;/p&gt;
+&lt;p&gt;如果我想练习英语，我应该找一个以英语为母语的人，而不是以韩语为母语的人。似乎目前没有那么多以英语为母语的人对我的母语中文感兴趣，也许是因为近年来中国关闭了大门，许多西方人发现他们更难生存并逐渐离开了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;更专业的App&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我建议进行认真的语言学习，这是值得付费的。
+&lt;a href=&#34;https://www.lingoda.com/,%5D%28https://www.lingoda.com/en/p/home-new/%29&#34;&gt;https://www.lingoda.com/&lt;/a&gt;
+&lt;a href=&#34;https://www.rosettastone.eu/&#34;&gt;https://www.rosettastone.eu/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;为什么要推广日语&#34;&gt;&lt;strong&gt;为什么要推广日语？&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;正如我之前提到的，大多数人无法坚持练习。&lt;/p&gt;
+&lt;p&gt;除了俄罗斯学生索菲亚一直用英语和我交谈之外，她是唯一一个能坚持说话超过2周的人，尽管我们俩的英语都不太好。&lt;/p&gt;
+&lt;p&gt;当我犹豫不决，不知道偏爱哪种语言时。我的语言交换伙伴也几乎处于相同的境地。&lt;/p&gt;
+&lt;p&gt;索菲亚想学习韩语，并且对东亚感兴趣。简短交谈后，她决定考虑2个月，最终偏爱哪一种。&lt;/p&gt;
+&lt;p&gt;我更了解东亚，主要包括日本、韩国和中国。&lt;strong&gt;如果有人对东亚感兴趣，我肯定会推荐日本。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;日本的文化：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最典型的传统和真实的文化特征。这是一个具有悠久历史的新老国家。&lt;/p&gt;
+&lt;p&gt;许多人喜欢学习日语，因为著名的日本动画电影和美味的食物。我喜欢宫崎骏动画电影中的所有人物。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Hayao_Miyazaki&#34;&gt;https://en.wikipedia.org/wiki/Hayao_Miyazaki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在发展中国家有许多盗版视频拷贝，他们很穷，买不起正版。这里有一个试用版：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ice.startmovie.site/movie/tt0096283/icc.html&#34;&gt;https://ice.startmovie.site/movie/tt0096283/icc.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://thesmartlocal.com/japan/japanese-anime-movies/&#34;&gt;https://thesmartlocal.com/japan/japanese-anime-movies/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;坦率地说，日本的特殊文化从小就深深地影响了我，只有日本动画电影具备这种极强的感染力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;日本的进步：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;日本更加开放，他们向全世界学习，相比较而言，中国很保守和老旧；&lt;/li&gt;
+&lt;li&gt;日本在科技方面是现代和先进的，是亚洲最强大和最发达的国家；&lt;/li&gt;
+&lt;li&gt;日本可能是世界前10名的国家之一；&lt;/li&gt;
+&lt;li&gt;日本是唯一一个列入七国集团的国家 &lt;a href=&#34;https://en.wikipedia.org/wiki/Group_of_Seven&#34;&gt;https://en.wikipedia.org/wiki/Group_of_Seven&lt;/a&gt;；&lt;/li&gt;
+&lt;li&gt;日本是第一个被列入经合组织的亚洲国家；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;日本的国土主要是岛屿，面积不够大，所以日本人移民到全世界，日本护照可以免签进入130多个国家，真的是高价值的护照。所以对太多人来说，移民到日本并不容易，但欢迎大家去那里旅行和学习。&lt;/p&gt;
+&lt;h1 id=&#34;下一代会更好&#34;&gt;下一代会更好&lt;/h1&gt;
+&lt;p&gt;让我们回到英语的话题。&lt;/p&gt;
+&lt;p&gt;乌克兰靠近欧洲和英国，我以为在我来这里之前，至少大部分人都会说英语，但事实上，并非如此。&lt;/p&gt;
+&lt;p&gt;我已经住在基辅超过3个月了，我至少遇到了100个当地人，但能说英语的人不超过10个，他们都是成年人，有日常工作，通常会遇到外国人，的确，基辅是一个国际化的首都城市。&lt;/p&gt;
+&lt;p&gt;有时我们和当地人交谈很麻烦，感谢伟大的IT时代，我们可以通过智能手机解决翻译问题。&lt;/p&gt;
+&lt;p&gt;我经常去我住的酒店附近的餐厅，我问在那里工作的一个人“你能说英语吗？”，他只是微笑并说“No English”，他每天只能对我说“Hi, Yes, No”并对我微笑。据说许多人的月薪不超过300美元，甚至大学教授月薪也不过只有500美元。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.1 商业框架：媒体内容（详解）</title>
+      <link>https://atomx.cc/zh/posts/business/marketing/2-1-media-content-details/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/business/marketing/2-1-media-content-details/</guid>
+      <description>&lt;p&gt;可复制并填写的空白模板，参考：&lt;a href=&#34;&#34;&gt;1.2 商业框架：品牌设计- 企业形象识别（模板）- ×××品牌名&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;为什么从媒体开始启动项目&#34;&gt;&lt;strong&gt;为什么从媒体开始启动项目？&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;大多数开放面向市场的项目，无论是否卖东西（做电商），都要从营销和传播开始，吸引流量和用户粉丝，当聚集一定量后，做什么都很轻松，因此创业先从媒体开始做起，当一切都没有的时候，就可以几乎0成本启动。&lt;/p&gt;
+&lt;p&gt;参考前文：[论写作的重要性]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;从0开始快速启动项目的方法：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;先养一个垂直行业（例如农业、健康、教育等类别）的媒体号，通过自动化运营方法，花最少的时间和成本，在几个月之内高效率地吸纳几万用户，通过数据分析指导项目演进方向，同时流量变现分配给相应的有专业经验的参与者，制定若干种可能的具体产品形态，快速做迭代测试至形成稳定的产品和客户。&lt;/p&gt;
+&lt;p&gt;媒体属于市场部门的工作范围，是促成营销的必备工具，包括线上或线下各种用途的材料，请根据以下结构梳理内容，准备原始图文视频等素材，填入以下结构中。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;相关专业&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;全套CI/VI素材设计标准和规范需要多个专业协作，包括并不限于：市场研究、产品开发、品牌规划、客服、UX用户体验/UI交互/GUI美术设计等相关专业人员。&lt;/p&gt;
+&lt;p&gt;媒体内容框架主要描述的类型和结构包括：&lt;/p&gt;
+&lt;p&gt;品牌标识（logo、slogan等）、&lt;/p&gt;
+&lt;p&gt;品牌文化内容展示、&lt;/p&gt;
+&lt;p&gt;业务范围、&lt;/p&gt;
+&lt;p&gt;产品信息、&lt;/p&gt;
+&lt;p&gt;产品特色、&lt;/p&gt;
+&lt;p&gt;联系地址及方式、&lt;/p&gt;
+&lt;p&gt;公司人物简介、&lt;/p&gt;
+&lt;p&gt;发展方向；&lt;/p&gt;
+&lt;p&gt;由于互联网的发展日趋线上，而且由于环保的要求，不一定需要印刷材料。媒体类型非常多样化，按照从小到大的素材内容的结构和类型如下：&lt;/p&gt;
+&lt;h2 id=&#34;品牌设计体系&#34;&gt;品牌设计体系&lt;/h2&gt;
+&lt;p&gt;品牌个性/属性的元素是构成品牌和媒体内容的基本素材和最小单位，可以将各种素材的结构组合，设计各种格式和类型的媒体文件，因此品牌设计体系是做媒体内容的先决条件，如此严谨按照科学规律循序渐进，小作坊可变成跨国巨头。&lt;/p&gt;
+&lt;p&gt;详情参考 ‣&lt;/p&gt;
+&lt;h1 id=&#34;媒体文件&#34;&gt;媒体文件&lt;/h1&gt;
+&lt;p&gt;主要包括以下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;名片&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;海报/传单&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;目录/手册&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;演示稿&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多媒体&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Name/ Business card&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Poster/Flyer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Catalog/ Broschure&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Slide&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Article&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Music, Video&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;名片&#34;&gt;名片&lt;/h3&gt;
+&lt;p&gt;用于快速社交的传播，中英文等多语种对照的主要素材结构：&lt;/p&gt;
+&lt;p&gt;单位名&lt;/p&gt;
+&lt;p&gt;标识&lt;/p&gt;
+&lt;p&gt;个人姓名&lt;/p&gt;
+&lt;p&gt;头像&lt;/p&gt;
+&lt;p&gt;头衔&lt;/p&gt;
+&lt;p&gt;联系方式：手机，座机，email，&lt;/p&gt;
+&lt;p&gt;社交账号&lt;/p&gt;
+&lt;p&gt;地址&lt;/p&gt;
+&lt;p&gt;业务简介&lt;/p&gt;
+&lt;p&gt;材料要求：尽可能环保，或含有本公司产品的成分&lt;/p&gt;
+&lt;h3 id=&#34;海报&#34;&gt;&lt;strong&gt;海报&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;根据使用场合不同，分为以下系列多套&lt;/p&gt;
+&lt;p&gt;可以是一次性活动使用，或作为长期稳定宣传。&lt;/p&gt;
+&lt;p&gt;线下：&lt;/p&gt;
+&lt;p&gt;展会论坛&lt;/p&gt;
+&lt;p&gt;线上：&lt;/p&gt;
+&lt;p&gt;社交媒体&lt;/p&gt;
+&lt;p&gt;电商店铺&lt;/p&gt;
+&lt;h3 id=&#34;宣传册用户手册&#34;&gt;&lt;strong&gt;宣传册/用户手册&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;比海报的内容更丰富的图文并茂的媒体形式，可以完全电子化而不必印刷，例如采用PDF格式，宣传册主要用于展会论坛，用户手册是内容更丰富的产品详细说明书。&lt;/p&gt;
+&lt;h3 id=&#34;演讲稿&#34;&gt;&lt;strong&gt;演讲稿&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Demo演示稿、格式，根据使用场合与演讲对象的不同分为系列多套：&lt;/p&gt;
+&lt;p&gt;专家学者&lt;/p&gt;
+&lt;p&gt;普通客户&lt;/p&gt;
+&lt;p&gt;投资人&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2.2 商业框架：媒体内容（模板）- ×××品牌名</title>
+      <link>https://atomx.cc/zh/posts/business/marketing/2-2-media-content-template/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/business/marketing/2-2-media-content-template/</guid>
+      <description>&lt;p&gt;本框架使用方法的详解，参考前文&lt;/p&gt;
+&lt;p&gt;[2.1 商业框架：媒体内容（详解）]&lt;/p&gt;
+&lt;p&gt;媒体内容框架主要描述其类型和结构&lt;/p&gt;
+&lt;h1 id=&#34;媒体文件&#34;&gt;媒体文件&lt;/h1&gt;
+&lt;h2 id=&#34;名片&#34;&gt;名片&lt;/h2&gt;
+&lt;p&gt;单位名&lt;/p&gt;
+&lt;p&gt;标识&lt;/p&gt;
+&lt;p&gt;个人姓名&lt;/p&gt;
+&lt;p&gt;头像&lt;/p&gt;
+&lt;p&gt;头衔&lt;/p&gt;
+&lt;p&gt;联系方式：手机，座机，email，&lt;/p&gt;
+&lt;p&gt;社交账号&lt;/p&gt;
+&lt;p&gt;地址&lt;/p&gt;
+&lt;p&gt;业务简介&lt;/p&gt;
+&lt;p&gt;印刷材料：要求尽可能环保，或含有本公司产品的成分&lt;/p&gt;
+&lt;h2 id=&#34;海报&#34;&gt;&lt;strong&gt;海报&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;根据使用场景不同，分为以下系列多套&lt;/p&gt;
+&lt;p&gt;线下：&lt;/p&gt;
+&lt;p&gt;展会论坛&lt;/p&gt;
+&lt;p&gt;线上：&lt;/p&gt;
+&lt;p&gt;社交媒体&lt;/p&gt;
+&lt;p&gt;电商店铺&lt;/p&gt;
+&lt;h2 id=&#34;宣传册&#34;&gt;&lt;strong&gt;宣传册&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;用户手册&lt;/p&gt;
+&lt;p&gt;PDF&lt;/p&gt;
+&lt;h2 id=&#34;演讲稿&#34;&gt;&lt;strong&gt;演讲稿&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Keynote&lt;/p&gt;
+&lt;h2 id=&#34;多媒体&#34;&gt;多媒体&lt;/h2&gt;
+&lt;p&gt;图片：&lt;/p&gt;
+&lt;p&gt;音频：&lt;/p&gt;
+&lt;p&gt;视频：&lt;/p&gt;
+&lt;p&gt;动画：&lt;/p&gt;
+&lt;p&gt;游戏：&lt;/p&gt;
+&lt;h2 id=&#34;ci-衍生品&#34;&gt;&lt;strong&gt;CI 衍生品&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;在物理上的视觉设计呈现&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;文具&lt;/li&gt;
+&lt;li&gt;图书&lt;/li&gt;
+&lt;li&gt;广告牌&lt;/li&gt;
+&lt;li&gt;包装、标签&lt;/li&gt;
+&lt;li&gt;服装、背包&lt;/li&gt;
+&lt;li&gt;车辆广告&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;文案&#34;&gt;文案&lt;/h1&gt;
+&lt;p&gt;根据内容长度分类&lt;/p&gt;
+&lt;p&gt;1-2篇文章/周 × 50周/全年 = 专栏作家 = 出版图书&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;长篇≤ 3000汉字，文章，阅读时长6-10分钟（300-500字/分钟）&lt;/li&gt;
+&lt;li&gt;中篇≤ 1500汉字，详情&lt;/li&gt;
+&lt;li&gt;短篇≤ 150汉字，简介&lt;/li&gt;
+&lt;li&gt;短句≤ 15汉字，标语口号slogan&lt;/li&gt;
+&lt;li&gt;名称≤ 5汉字，品牌名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;7wh&#34;&gt;&lt;strong&gt;7WH&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;请通过最简洁的文字和图表描述项目，参考以下描述结构。&lt;/p&gt;
+&lt;p&gt;What 主题，定义，是什么&lt;/p&gt;
+&lt;p&gt;When 时间，周期，历史&lt;/p&gt;
+&lt;p&gt;Where 地点&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1.6 商业框架：品牌营销的理论源头</title>
+      <link>https://atomx.cc/zh/posts/business/marketing/1-6-brand-marketing-theory-source/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/business/marketing/1-6-brand-marketing-theory-source/</guid>
+      <description>&lt;p&gt;参考前文：&lt;a href=&#34;&#34;&gt;广告韭菜2: （FL）胡来的品牌农业首席顾问&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我们不能仅仅批判败坏的典型，更应该追寻美好事物的源头，来自广告营销和品牌设计圈大佬的理论和实践图书，现找到部分经典列举如下。&lt;/p&gt;
+&lt;h1 id=&#34;创造产品内在价值的理论&#34;&gt;创造产品内在价值的理论&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Innovation and Entrepreneurship《创新与企业家精神》，Peter Drucker 德鲁克;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Blue Ocean Strategy《蓝海战略》，W. Chan Kim 钱.金;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The Innovator&amp;rsquo;s Solution: Creating and Sustaining Successful Growth《创新者的解答》，Clayton M. Christensen 克莱顿•克里斯坦森；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The Innovator&amp;rsquo;s Dilemma: When New Technologies Cause Great Firms to Fail 《创新者的窘境》，Clayton M. Christensen 克莱顿•克里斯坦森；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;品牌价值成份和定位的理论&#34;&gt;品牌价值成份和定位的理论&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Positioning: The Battle for Your Mind《定位》;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Marketing Warfare, 20th Anniversary Edition《商战》；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Focus: The Future of Your Company Depends on It《聚焦》；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; The origin of brands《品牌的起源》；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Differentiate Or Die: Survival in Our Era of Killer Competition《与众不同》；&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; REPOSITIONING: Marketing in an Era of Competition, Change and Crisis《重新定位》；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上书籍的作者均为 Al Ries 艾·里斯和Jack Trout 杰克·特劳特&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我们终于成功注销了公司</title>
+      <link>https://atomx.cc/zh/posts/agri-env/we-cancel-company-registration-successfully/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/agri-env/we-cancel-company-registration-successfully/</guid>
+      <description>&lt;p&gt;最近和税务局的交流过程挺有意思，记录下来，值得大家好好琢磨一下。&lt;/p&gt;
+&lt;p&gt;这几年搞“大众创新，万众创业”，骗了多少人下海，最终还是得上岸。&lt;/p&gt;
+&lt;p&gt;我们是从事互联网和计算机技术的独立开发者，受到杭州某科创园招商引资邀请，到杭州下辖的F区注册创业公司，我们本来想搞一个体户10-50万注册金。&lt;/p&gt;
+&lt;p&gt;但园区领导说要把我们科技型企业好好扶持起来搞大，建议注册1000万，我们刚开始创业的学生，哪里见过这么大的钱啊，然后我们想就折中了一下就注册个500万吧。&lt;/p&gt;
+&lt;p&gt;注册好之后一年多过去了，科创园那边开过几次会，涉及多方合作经营问题，管理层的领导也换了几届，对于企业入驻园区和政策扶持的事情没有兑现落实什么，我们也一直没有搬到那边办公，这个新注册公司未正常运作，小团队的创始人是近两年毕业的学生为主，刚开始起步，没有受过基本的财税培训，不熟悉工商税务情况，有个年轻同学做兼职外包的财务。&lt;/p&gt;
+&lt;h1 id=&#34;催缴罚款&#34;&gt;&lt;strong&gt;催缴罚款&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;直至2019.10.23号上午接到一个电话，本地中老年男子口音自称税务局的，态度强硬地命令我们赶快申报税务，否则要罚款了，我们当时有点蒙，以为是网络诈骗电话，我们并没做什么业务，小微企业哪儿来的税，想不起来还有这档子事。&lt;/p&gt;
+&lt;p&gt;当天下午又连续接到同样的4-5个催税和罚款的通知，我们还差点当做骚扰电话屏蔽了，经过财务网络查询核实，过去季度确实有一笔小订单是走了这个长期闲置的公司账户，也确证来电号码是该区税务局，打电话的是该局片区管理员王××，然后就着手准备材料交给财务处理吧。&lt;/p&gt;
+&lt;p&gt;第二天10.24号，这个税务局老王从上午10点到晚上7点，又连着拨了7个电话，有的我接到，有的没接到，像上级领导居高临下的口气，继续粗暴催促，要我们到税务局去一趟。我告诉他，通知这么迟，要先上网弄的，他说线上办不了，得线下办理，直接去区里的行政服务中心的税务大厅赶紧交钱。&lt;/p&gt;
+&lt;p&gt;我们的兼职财务同学在报税方面是个新手，一听这样说就慌了，赶紧带着所有材料包括公章等，当天中午就打车到几十公里外的F区办税的行政服务中心，经过挂号排队等待，办税人员看了情况说，这种申报业务直接网上自己提交就可以，也没有什么罚款，不需要跑到大厅来办。&lt;/p&gt;
+&lt;p&gt;财务跑那么远费了大半天时间，啥也没办成，只是得到一句话，悻悻地回来了，到家已经8点多，但这是最后一天，要抓紧时间提交，连夜整理材料，遇到电脑故障不能登录等问题，搞到深夜当天没有全部提交完成。&lt;/p&gt;
+&lt;p&gt;第三天10.25号，老王电话一接通就质问为什么不快些交钱，到我们局里来交2000块税和几百块罚款，罚定了，还要信用评级扣分，拉黑名单 ……&lt;/p&gt;
+&lt;p&gt;那意思是：你不来，就要把你收拾怎么的 ……&lt;/p&gt;
+&lt;h1 id=&#34;求教领导&#34;&gt;&lt;strong&gt;求教领导&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;我们确实也郁闷，不早准备，已经过了最后期限，反正是要去交罚款的，我们能怎么着？于是财务将已经申报的材料撤回，再延迟几日继续整理提交各种票据凭证吧。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;临期才通知，是不是有钓鱼执法的意味？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;然后我通过办税服务热线12366，找到税务局钱科长电话，反映了“初创小微企业，财税业务不熟悉，通知办税期限太紧，管理员态度糟糕，不懂业务乱指挥，我们耽误期限，望换个好的业务指导员，以求尽快完工”，希望领导给个说法云云。&lt;/p&gt;
+&lt;p&gt;钱科长回复：老王年纪大了，脾气可能不太好，他只是一个电话催税的办事员，也不是什么领导，不要怕他；税务局本来就没有通知的义务，办企业要知道这些常识，如果再延期会罚得更多。该罚的款，尽快交了，并允诺信用评级方面可以协调一下不扣分，以后有什么业务问题可以电话问科长。&lt;/p&gt;
+&lt;p&gt;感谢领导这么平易近人的通话，稍感宽慰，我也和他说明，我们实际办公地址不在该局辖区，过来一趟不容易，遵纪守法纳税是公民应尽义务，没有人会公然违抗法律，得延迟几天才能到线下税务局跑一趟，希望尽量减少我们跑路的时间，大家确实都比较忙。&lt;/p&gt;
+&lt;p&gt;接下来两天老王又挂了几通电话，通过税务系统看到我们撤回了已经提交的申报材料，似乎对我们想做0申报表示震惊和遗憾，说“怎么能撤回？你看着办吧…… ”，没有再高声厉喝的官腔，可能是领导交代过注意态度而有所收敛了。&lt;/p&gt;
+&lt;p&gt;明确这是骚扰电话后， 月末几天对老王来电均置之不理，我只回复了其中一个电话，明确告诉他：我们自己会学习，并根据网络系统提示来办事情，不需要听你讲什么，你指导业务不专业。&lt;/p&gt;
+&lt;h1 id=&#34;系统改进&#34;&gt;&lt;strong&gt;系统改进&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;财务是90后小同学，每天埋头忙着很多活儿，佛系得像个未成年人，说未成年人犯得着和成年人纠结生气吗？办事的时候是冷静的，然后说起来觉得这没道理，肯定还有不少人被老王们带坑里去了。&lt;/p&gt;
+&lt;p&gt;我们希望这个系统有改进。&lt;/p&gt;
+&lt;h2 id=&#34;官威&#34;&gt;&lt;strong&gt;官威&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;老王别再打那么多电话了，年纪都到我们父辈或爷爷辈的人，也该退休享享清福，有必要还和我们毕业不久的新同学一起那样拼么？换做谁都不喜欢听这种粗暴官腔，都什么年代了。&lt;/p&gt;
+&lt;p&gt;一些事业单位公务人员，在同一个岗位上兢兢业业（坐井观天）一辈子不了解外面的世界，也许枯燥重复的作业和贫乏的工作环境会限制想象力，只知道敬畏上级领导，不知道人与人之间互相尊重，对待下属和人民的态度尤其糟糕。&lt;/p&gt;
+&lt;p&gt;像老王儿女这个年纪的时候，我们团队小伙伴就有人出入联合国大会等国际重要场合，什么世界级富商牛人和各国部长政要没见识过？老王你才多大的芝麻官儿，哪儿来的官威冲我们发飙呢？&lt;/p&gt;
+&lt;p&gt;我们知道，即使罚款和交滞纳金也没多少，我们没工夫搭理这茬子事，甘愿缴点罚金怎么了？让我们大老远跑一趟损失时间和钱更多，能远程办就尽可能不跑实地。&lt;/p&gt;
+&lt;p&gt;但老王不会替咱着想，还没到罚款的时候，就惯用这种胁迫的口气“xxx 你过来一趟交税罚款扣分”，就是要让你跑一些没必要跑的路，有必要吗？可能他面临着（税收）业绩指标，也让我们分享一下压力，我们替你分享坏情绪，你可以替我们分担企业经营成本吗？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;老王开口说话不单破坏和人民的关系，更毁坏政府形象和公众信任，给组织脸上抹黑。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;互动交流&#34;&gt;&lt;strong&gt;互动交流&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;我认同所有的组织都没有通知的法定义务，因为“通知”这个词在当前的语境里很有官僚意味，常用的“下发通知”就是居高临下的单向沟通模式，只能我讲你听，而且必需接受；&lt;/p&gt;
+&lt;p&gt;如果你想自下而上沟通，往往没有回音，或像踢皮球遇到高墙弹回来。既然有收费（税）的权利，就一定有相应的义（服）务，包括正常的互动沟通交流（不叫通知）和（财税）业务培训，只收钱不服务就是强取豪夺。&lt;/p&gt;
+&lt;p&gt;既然没有义务通知，连着几天拨了20多通电话是个什么操作？通知变成了骚扰电话。请老王的领导- 钱科长解释一下。&lt;/p&gt;
+&lt;p&gt;所以钱科长一句话“没有通知的义务”甩包袱也是不对的，能甩到哪里去？还不是甩给上级部门，说没有这样规定我们的工作，所以我就不动了，这样缺乏主观能动性，就是被动地挤牙膏工作模式，让人民觉得国家公务员真冷酷无理。&lt;/p&gt;
+&lt;p&gt;然后迫于（税收？）业绩压力，又违背工作职责主动拨了电话，因态度粗暴拨打太多造成骚扰，导致用户投诉举报，这样能干得好？&lt;/p&gt;
+&lt;p&gt;老王们的通知或不通知都是尴尬的，左右都不是人，不知道该怎么正常地工作了。&lt;/p&gt;
+&lt;h2 id=&#34;指导培训&#34;&gt;&lt;strong&gt;指导培训&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;不认同钱科长说的“有业务问题电话找我”，这个说辞算是搞搞人际关系的小聪明，在当时情况下仅仅是为了缓和下气氛，真实业务没有这样操作的。&lt;/p&gt;
+&lt;p&gt;试想一下，在一个IT信息业极其发达的年代，很多业务已经能通过互联网办理了，还有个科长和你说“有事来电话找我”，意欲何为？听你口述学习业务？还是搞搞个人关系，约饭局 ？……&lt;/p&gt;
+&lt;p&gt;回到我们为什么迟迟未申报的问题上，确实我们初创小团队不懂财税业务，我咨询过12366和税务局电话，也证实了科长没有指导或培训业务的职责，而且科长明确表示其他科员也没有这个义务，那么他怎么就可以揽了这活儿呢？谁敢经常往科长那儿打电话问这问那？所以他表面关心示好，实际等于敷衍，啥也没说。&lt;/p&gt;
+&lt;p&gt;哪个部门有指导和培训业务的职能？看哪些教程？这些问题还没搞清楚。&lt;/p&gt;
+&lt;p&gt;通过紧急学习才知晓，有经验的老财务那里才是唯一的途径获取到这些在学校学不到，在社会上四处碰壁的“学问”。相信很多朋友都有同感，你到政务部门办事，经常碰到的都是一张张冷板板的臭脸，好像你欠了他们家多少钱似地，他们不明确告诉你有多少步要走，中间有什么坑怎么避开，每走一步，他们就和你零碎地说一点。&lt;/p&gt;
+&lt;p&gt;从来都没有一份完整的教程和指南，即使有，也是那种说不清道不明，只有他们能解释的办事程序，可能一件简单的事情，到了他们那里各种出错，要跑很多趟才能搞完，中间出错了，也永远都是由于你不懂造成的，除非你和他们有私人关系，否则不会给你好脸色看。&lt;/p&gt;
+&lt;p&gt;其实网络时代的人都明白，碰到问题首先上网自己搜索找答案，可是当前大多政务类网络内容的质量堪忧，且不说粗糙的网站和软件设计，糟糕的用户体验流程，说明文档往往看了也不太明白，还是只能回到实地或电话找他们问。而且还经常A窗口的说法和B窗口还不一致，然后转给C窗口，说要请示领导答复。&lt;/p&gt;
+&lt;p&gt;都9102年了，还有什么业务是通过互联网办理不了的？我们碰到的这点问题算什么？不过是业界应用多年的非常成熟的财税政务系统ERP的一点功能而已，为什么还要用人工，反复多次还搞不明白呢？国家在这方面的投入还少吗？&lt;/p&gt;
+&lt;p&gt;单就发通知这么简单一个功能，可以短信息，机器语音等多种方式，如果一定要人工发语音信息，可以自建或外包呼叫中心，请有经过专业培训的客服接打电话，成本越来越低，为什么让一个不专业的等着混日子养老的人操作呢？才多大点鸡毛蒜皮事，就系统性地大规模浪费大家时间和国家资源，还让领导殚精竭虑了。&lt;/p&gt;
+&lt;h2 id=&#34;地址在哪儿&#34;&gt;&lt;strong&gt;地址在哪儿？&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;老王和钱科长都让我们到税务局才能办罚款，可是在税务系统平台里找不到办理该业务的具体地址和联系电话，包括平台的“行政处罚决定书”里也没有标示地址，经过网络查询，发现税务局所在地不是我们熟知的行政服务中心，通过当地朋友线下核实，发现网络地图上的税务局地址确实是错误的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;小微企业和税务局第一次打交道是罚款&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;于是再次电话和钱科长核实办事地址，他只说在715所附近，讲不出来详细地址门牌号，地图里我查到好多个715所，而该辖区的715所旁边并没有什么税务局。&lt;/p&gt;
+&lt;p&gt;我们电话里同时登录高德地图，他指出办事地址附近有哪些其他的地标建筑物，标注了一个叫“财税干部学校”的单位。&lt;/p&gt;
+&lt;p&gt;我：“国家办事机关的地址比较隐秘嘛？这么不容易找”。&lt;/p&gt;
+&lt;p&gt;钱：“都是公开的，只是搬家了，地址还没改过来，本地人都知道715所，你们外地人不清楚吧”。&lt;/p&gt;
+&lt;p&gt;我：“你们可以向高德地图申请标注一下正确的地址单位名称”。&lt;/p&gt;
+&lt;p&gt;钱：“这不是我们的职责，上级部门的事，换地址是他们才能决定的”。&lt;/p&gt;
+&lt;p&gt;我：……&lt;/p&gt;
+&lt;p&gt;就这么一件小事都要麻烦科长，我能说什么？仅仅要一个办事地址都要打两次电话聊了差不多10分钟，这样的效率和脑路，在追求进步的企业和组织里，是不是该破产下岗了？&lt;/p&gt;
+&lt;h1 id=&#34;终结&#34;&gt;&lt;strong&gt;终结&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;经过一段时间了解，对比传统的税务局或各种局的政府事务部门，发现12366和行政服务中心的电话客服更专业规范些，大部分工作人员比较年轻，有耐心，讲话清楚，也不会随意冲人喊叫。毕竟是“行政服务中心”，里面的人有那么点服务的意识吧，原来“为人民服务”的正确地方是在这里，而不是在各种“局”子里。&lt;/p&gt;
+&lt;p&gt;而各种“局”里无论有没编制的都是领导，给局子停车场看门的都是你“大爷”，在一线城市的局一般会比较规范守法规，其他小地方就难说了，有的局子看门大爷一言不合就能专针对你的停车费从10块涨到20，还能开出发票来，大爷就是大爷。&lt;/p&gt;
+&lt;p&gt;一个同样从阿里出来创业的老乡坦言，回老家第一年注册农产品电商公司就搞怕了，一件小事都会让你跑很多趟，效率太低，大多数时候局里的人只能搞搞关系，人情世故的社会复杂，直至今天依然如此，然后被迫无奈放弃回老家注册公司，把重心返回到大城市发展了，而此时他的年营业额已经上千万。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>与农委谈话：关于农业&#43;互联网</title>
+      <link>https://atomx.cc/zh/posts/agri-env/about-agriculture-plus-internet/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/agri-env/about-agriculture-plus-internet/</guid>
+      <description>&lt;p&gt;2019.8.30, 11:00- 12:00am，与某地农委领导W总谈话&lt;/p&gt;
+&lt;p&gt;我在过去10年的农业+互联网项目经历，主要分为前后两段。&lt;/p&gt;
+&lt;h1 id=&#34;前半段2010--2015年做小规模&#34;&gt;&lt;strong&gt;前半段2010- 2015年，做小规模&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;前半段经历，从2010.3月进入北京小毛驴市民农园开始为标志，然后2012.5月去淘宝新农业发展部，我主要做支持服务小农的工作，发现行不通，因为农业是一个很大的概念和范围，谈做农业就像说搞工业一样，里面涉及N多个具体的行业，几乎行业之间又都是隔行如隔山的完全不同。即使阿里这样体量的大平台，举全集团之力参与也是感到很疲乏。&lt;/p&gt;
+&lt;p&gt;2014年阿里上市之后宣布“农业农村”是它的三大战略之一，也就是那几年无数资本和网络公司都到农村刷墙（贴广告标语），公开宣布进军农村。阿里先后改组成立的直接叫“农”的部门就包括 &amp;mdash; “新农业发展部、农村淘宝、乡村事业部、数字农业事业部”，集团十多个平台公司参与“从土地到餐桌”的全产业链上中下游的过程，涉及农资供应、农业生产、电商零售、消费终端等等各个环节。&lt;/p&gt;
+&lt;p&gt;中国几千年的小农经济很稳固，典型特征一直都是数量多，单位小，分布散，因此整体效率就比较低，只能用来保障基本吃饭，干不了什么大事。&lt;/p&gt;
+&lt;p&gt;中国职业农民较少，从业者不知道啥叫标准和认证，ISO, HACCP, GAP 是啥？农业生产几乎是华北东北西北大片地为主，现代化程度高，也更职业化，但面向的收购对象是中粮华润这种体量的大企业，其他地方大部分是临时工，不专业的小散户，常见滞销的小品类大多也是他们做出来的，他们对市场供需反应比较慢，且应对风险的抗压能力也比较差。&lt;/p&gt;
+&lt;p&gt;网络虚拟空间是现实世界的真实映射，因此在电商平台上小作坊遍布，2014年淘宝全平台上农产品和食品商家总量60万，没记错数字的话，日均30单以上（能全职当成生计）的商家不超过1.5万，超过60%做得较好的商家，因其创始人或团队中有较好的设计师，电商/互联网营销要靠视觉设计过用户第一关。&lt;/p&gt;
+&lt;p&gt;但是完全交给互联网公司玩，很多好东西的口碑和品质都会被他们玩坏，我用互联网做过三品一标和老字号，小作坊没多少成功案例，早期做淘宝和天猫可以捡个流量红利，晚了进入许多会亏本，电商成本在不断增高。&lt;/p&gt;
+&lt;h2 id=&#34;网络泡沫和虚假数字&#34;&gt;&lt;strong&gt;网络泡沫和虚假数字&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;根据某些媒体报道的数字，2019年全社会电商农产品销售额是4000亿，全社会（线上+线下）农产品销售额大约是1.26万亿，这样看好像电商对传统行业的渗透率挺高的。&lt;/p&gt;
+&lt;p&gt;但是据说统计部门对某些品类划分有争议，例如面粉、蜂蜜、茶叶算食品还是农产品？电商平台和小卖家将其算作农产品，在大卖家和国家统计局那边就算作工业类的食品。食物品类那么多，因此混淆的数字也比较大，稍微在报表上做点文章就好看了，一般人看不出来。&lt;/p&gt;
+&lt;p&gt;概念混淆：“食品”“预包装食品”“散装食品”“食用农产品”“初级农产品”&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ibook.antpedia.com/x/264396.html&#34;&gt;https://ibook.antpedia.com/x/264396.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;商家傻傻分不清楚这些概念分类，平台也分不清，消费者更不懂了。因此真实数据是多少？可能谁也不清楚。电商公司统计的时候为了业绩好看，吸引媒体和投资人，有意或无意地把（工业）食品也算进农产品里去的嫌疑是极大的，在电脑上改数字太简单了，网络泡沫就是这么吹起来的。&lt;/p&gt;
+&lt;h1 id=&#34;后半段2016年--至今做大规模&#34;&gt;&lt;strong&gt;后半段2016年- 至今，做大规模&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;这段职业生涯，我转向给业界知名的或规模化大型农业单位服务，从2016.1.4日开始给网易养猪为标志（丁磊的规模依然很小，另有故事），算是脱离做纯互联网平台的思维，进入实体行业中好像逐渐找到了通路的感觉，理解到不能再做小，得做大的基本道理。&lt;/p&gt;
+&lt;p&gt;西方箴言：if you want to know the truth, please follow the money ！（如果想知道真相，请跟着钱找答案）, 资本天生是非常敏感的，它总是流向那些能够增值的行业和经营者手中。为什么银行存款再多也不愿意给小农？不愿意发放给农村农业农民？&lt;/p&gt;
+&lt;p&gt;以前政策支持农民合作社，后来又是家庭农场，为什么逐渐没动静了呢？无数的小个体夫妻作坊，全产业链经营，啥都要自己干，小个体没有实力做不了多少事，地球上最富裕的国家也贴不起那么庞大的群体。&lt;/p&gt;
+&lt;p&gt;过去20年不少三农问题专家呼吁“工业反哺农业，城市反哺农村”，这个口号让亿万农民欢欣鼓舞，大家觉得提出这个口号的专家是有良知的。农民曾付出巨大代价和成本支持工业和现代化，“反哺”的道理好像应该是这样，但结果怎么样呢？2000年左右开始试点取消农业税，城市反哺了20多年，发展三农和振兴乡村口号现在还在喊，效果并不好。&lt;/p&gt;
+&lt;p&gt;主要问题在于农业初始阶段产品，是各有特性的农产品，而不是一般的商品，不能完全按照一般商品的市场化规律去做，这也是我理解的为什么全世界的政府都会补贴农业的原因，不能完全商品化的其他产品还包括，教育，医疗，社会保障，及各种涉及民生工程或国家战略层面的项目。&lt;/p&gt;
+&lt;h2 id=&#34;立足专业单品实业互联网&#34;&gt;&lt;strong&gt;立足专业单品，实业+互联网&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;不能颠倒秩序”互联网+实业“。&lt;/p&gt;
+&lt;p&gt;因为互联网膨胀太厉害，虚的多，实的少，互联网从业者在资本加持下，都很年轻就获得超出其他一般实业高很多倍的收入，很容易飘起来变得自以为是，不会踏踏实实做事，所以互联网+实业失败居多，反过来实业+互联网的成功案例会更多些，所以我更看好后者。因为做实业的老板都是一个个子儿地挣出来，不太容易吹牛该报表就赚到钱。&lt;/p&gt;
+&lt;p&gt;没有全品类营销，即使电商综合排名前几位的大平台也做不到，垂直类目或单品成功概率高，无论要不要互联网营销，选品都很重要，选品的维度很多，并非三品一标就能定生死，如果选品对了，但是营销包装环节搞错了，也会把一个好产品甚至地标搞砸了，互联网很容易过度营销。&lt;/p&gt;
+&lt;p&gt;现实中互联网不断烧钱补贴用户再不断融资，套现走人的成功案例也不少，高风险高收益，一般人抗不住这个风险，成功概率也不高，现实中这个商业套路是成立的，但并非唯一的，关键看我们自己怎么定位事业，以农业产品为例，整个产业链大体分为三段，源头生产端，中间流通供应链，下游零售消费端，我们自己到底想做哪一段？全产业链投入巨大，非一般实力和背景可为。单做其中任何一个环节都有不少成功者，即使纯粹做一产，也有许多成功的巨无霸，只是他们并不玩互联网媒体营销和电商套路，大象无形，我们不知道而已。&lt;/p&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;1.农产品生鲜电商资本已经烧了很多钱（5，8年），我们只知道失败案例，但是我们消费者公众和很多从业者都不知道那些拿到很多个国家产品品质认证，生产管理体系认证，各种商检资质证书的出口贸易供应商们，人家只关心生产，根本不看什么电商和互联网营销套路，若非出口贸易国家政策变动的不可抗力强制，他们才不想出口转内销，他们不想掺和到混乱的劣币驱逐良币的市场;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.近年外卖和快餐又成为资本追捧对象，大家只知道美团，饿了么，但是多少人听说过丽华快餐？她是奥运会，亚运会，世博会和军队的供应商，人家都不屑于做小散单配送;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;基本上互联网零售已经掌握在少数几个大佬手上，你再插进去机会渺茫，但并非在滚滚风尘中找不到我们安身立命的落脚点，线上零售不行，还有线下零售啊，批发团购不行，还有供应链呢，如果供应链再过几年也被少数几个巨头垄断了，我们还可以搞生产啊，如果一二三产都被人占了，那就好好读书做创新研发卖IP吧，如果还没机会，那是不可能的，除非地球流浪到银河系以外，地球人进化成都不要吃饭了。&lt;/p&gt;
+&lt;h1 id=&#34;创业者对政府农委的期待&#34;&gt;&lt;strong&gt;创业者对政府农委的期待&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;听说地方政府都很重视区域发展，把很多污染性的工业拆了，留下来的是做环保生态产业，包括农业一产也支持，这就符合我们的定位，我们也喜欢往有品质和更高要求方向发展。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;圈子：政府农委首先可以成为一个行业重要圈子，更易于找到业务和人脉关系，我们许多干技术的人不善于社交，甚至很多80后有社交恐惧症，我们需要圈子;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;服务：如果政府主办的创业园线下实体的服务比较好，我们都乐意搬到就近的地方居住，或在这里办公，由于我们主要做线上技术，目前对办公地点没有选择，只要是环境好的都可以考虑，这也是目前大多数创业者的心声;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;项目：由于我们是搞技术出身的，不善营销，而且总是向国外学习和看齐，很理想化，对项目和自己要求比较高，所以初期创业能拿到手去做的项目并不多，如果通过政府农委，我们也来个招投标，捡点技术支持服务做做，也发挥一下我们的特长，体现我们的价值，大家在农创客这个平台上形成一个生态圈协作发展，这就有一种参与感和集体归属感，创业者不再孤独。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>为什么有一种人叫“新农人”？</title>
+      <link>https://atomx.cc/zh/posts/agri-env/whats-new-farmer-in-china/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/agri-env/whats-new-farmer-in-china/</guid>
+      <description>&lt;p&gt;在农业、食品、餐饮业的电商和供应链行业混迹至今，8年过去了，我仍然不太理解，&lt;strong&gt;新农人们到底“新”在哪儿？&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;前言&#34;&gt;&lt;strong&gt;前言&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;2010年3月，通过环保和三农公益组织，我开始尝试有机农业，这是一个全新领域，大概从那时起新浪微博成为新的社交媒体主战场，率先引爆自媒体的各种“新农人”话题，然后开始见到各种“新农人”身份标签频频登场亮相。&lt;/p&gt;
+&lt;p&gt;2012年5月，我到杭州的“淘宝新农业发展部”工作（也叫“新”），我的主要业务是开发原产地的农产品，让消费者了解农产品背后的生产者、生产方式、生产环境，情怀点讲叫“食物背后的故事”，科学点讲叫“规范化可溯源和标准认证管理”。&lt;/p&gt;
+&lt;p&gt;阿里经过多次改组，将淘宝系的所有与农产品食品有关的类目业务收归一个事业部管理。&lt;/p&gt;
+&lt;p&gt;然后我又经历了网易农业（养猪）、永辉云创（生鲜零售）、以及其他N家相关业务公司的全职或兼职工作，期间把中国媒体上留下响亮名字的几乎所有“自然农法，有机、生态农业”的经营主体至少都亲身经历了一遍、并有机会去探索体验台湾、日本、欧盟标准的农业经营模式。&lt;/p&gt;
+&lt;p&gt;总之，接触到国内的从业者很多喜欢给自己贴上“新“的身份标签，与之对比，境外的从业者则大多是说自己的产品有”创新“。&lt;/p&gt;
+&lt;p&gt;我经常出入各种有机农业圈活动，认识的同行也特别多，我不太愿意为了群体身份认同感，就给自己贴这个标签，我有一些不同的想法。&lt;/p&gt;
+&lt;p&gt;我曾经生活的环境可谓是山水田园，并通过网络从事远程工作的感觉甚好，因此参考日本案例，我用过“半农半X”身份标签一段时间，我想将来等养老时可能长期会回到这种状态。&lt;/p&gt;
+&lt;p&gt;现在中国的所有重要资源都汇集在少数大城市，我们创业阶段每天都在浑天黑地折腾拼命，哪里有条件享受山水田园的清闲环境呢！我很长时间和“乡村”基本绝缘了，也就不好意思再给自己挂上“半农”的标签）&lt;/p&gt;
+&lt;p&gt;所谓名不正则言不顺，缺乏说服力，也就无法适配生产关系和生产力，这个产业链肯定也会出许多莫名其妙的故障。之所以质疑其“新”，我的主要理由如下：&lt;/p&gt;
+&lt;h1 id=&#34;新农人的定义标准是什么&#34;&gt;&lt;strong&gt;新农人的定义标准是什么？&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;我们所有人都无一例外地是要用网络和计算机工作的，下面名单中的这些算不算新农人？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新晋网红李子柒，拍摄田园风的vlog；&lt;/li&gt;
+&lt;li&gt;碧桂园创始人杨国强，投资农业餐饮机器人；&lt;/li&gt;
+&lt;li&gt;华大基因总经理尹烨，研发农业物种基因；&lt;/li&gt;
+&lt;li&gt;佳格天地CEO张弓，研发农业卫星数据；&lt;/li&gt;
+&lt;li&gt;类似名单很长 ……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以擅长做系列“互联网+” 报告著称的阿里研究院，发表过首份&lt;a href=&#34;http://www.aliresearch.com/cn/search?queryName=%E6%96%B0%E5%86%9C%E4%BA%BA%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&#34;&gt;《中国新农人研究报告（2014）》&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;我参加过几次阿里研究院的内部和外部的闭门会，几位老专家也都面对面地交谈过，无论他们怎么拿阿里大数据做评选标准出来说话，总不免让人感到这又是一个小圈子的自嗨。客观地讲，把研究院三个字改成“公关组”更合适。&lt;/p&gt;
+&lt;p&gt;此外，一家农业圈的广告和品牌策划媒体公司 &amp;mdash; 新农堂联合阿里研究院，搞过“杰出新农人”的年度评选盛典，选出电商圈内的一批代表性人物。&lt;/p&gt;
+&lt;p&gt;各家媒体也参与报告评论，报告中说：&lt;strong&gt;“中国新农人的规模已达百万级，新农人是互联网赋能三农的必然产物，是农民群体中先进生产力的代表”。“云计算＋大数据”是新农人发展的根基。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;解读一下报告的意思：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;1.新农人的定义是“农业+互联网”，只要是用了互联网和电商工具，从事与三农相关工作的人都算是新农人；&lt;/li&gt;
+&lt;li&gt;2.新农人的规模百万级，依据是淘宝上的百万级农副食品小卖家，该数据是否包括大型工厂？则不太清楚；&lt;/li&gt;
+&lt;li&gt;3.结论就是，新农人是互联网的产物，如果没有互联网公司的基础服务，就不会有新农人；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这份报告就仅仅在2014年出过一个首份，就没有然后了，不知道为什么。后来看到写这份报告的阿里P9级总监老C同学，当时经常看到这哥们在外面演讲推广新农人的报告，两年后因出轨被老婆在网上曝光成为热搜，可能因此他后续没办法研究新农人了。&lt;/p&gt;
+&lt;p&gt;电商确实是近20年发展出现的新事物，随着电商战场上硝烟此起彼伏，阿里痼疾明显增长疲软无法应战，拼多多霸蛮地占领了农村市场高地，推出《2020年新农人调研报告》：模式创新+人才培育是拼多多农产品上行核心战略。“新农人”这个词历久弥新，依然有很强生命力的。&lt;/p&gt;
+&lt;p&gt;相比早先对任何行业都提出“以自我为中心”的“互联网+”，电商公司近些年有了一点进步，普遍知道改口叫“+互联网”，把某个具体产业放在重要首位。与这些电商公司相比，一向不太靠谱的百度百科又出了一个看起来比较好点的定义标准。&lt;/p&gt;
+&lt;h1 id=&#34;究竟哪些地方是新的&#34;&gt;&lt;strong&gt;究竟哪些地方是“新”的？&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;我总觉得这“新农人”的人设太勉强，基本就是电商公司自己说的，网络时代擅长造新词。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;因为工作的是年轻人？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;无论古今中外，农业生产的主力本来就是青壮年，怎么最近10年有年轻人参与就叫“新”了？30年前怎么就不叫新呢&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;因为使用了网络和电脑作为工具？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照以上阿里和拼多多的定义，会电脑和上网的算“新”；那么按照铁道部的定义，会坐高铁的也算“新农人”，行吗？因为千百年来，农民这个群体就是被圈定在一小块地方土里刨食，现在被解放了活动范围能够极广泛，因此促进了商品经济发展，这么重大历史里程碑的变革，怎么就不能将“乘高铁”作为“新农人”的必备定义条件呢？
+互联网只是让人获取更多信息，属于精神思维的虚拟层面，交通工具拓展了人身流动的边界，行万里路不是更重要吗？&lt;/p&gt;
+&lt;p&gt;以此类推。
+餐饮服务业的人用上手机和电脑，为啥就不叫自己“新服务员”？
+工厂使用了最新的物联网设备，为啥他们不叫自己“新工人”？
+零售业，因为加了个电子支付，线上下单，送货上门，就叫“新零售”了，这也是电商公司造新词。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;只是在城里卖产品的人算不算农民？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;按照电商公司的定义，从不从事生产源头工作，开展服务和流通工作的，用手机和电脑卖点农产品的都算“新农人”。&lt;/p&gt;
+&lt;p&gt;如果在城市楼房里开网店卖农产品的或指导别人卖农产品的人也可以叫“新农人”，城市里菜市场和各种农产品食品公司的人都可以叫“新农人”啦？&lt;/p&gt;
+&lt;p&gt;我理解的“农人”是跟生产密切相关的，而不是脱离农业产地专职营销的人。而且打上这种身份标签，与年龄和是否使用互联网没太大关系了。那么怎样才能算“新”呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生产力有科技发明和创造吗？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;犹如工业革命的机器提高了生产效率，这称之为新。如今中国政府最关心的也不再仅仅是生产效率和粮食产量，而消费者最关心的相关问题是“环境污染”，“食品安全”，大家愿意为“产品质量”买单，你还在淘宝上为了便宜几块几毛的吃货和掌柜讨价还价吗？大批量进口的生鲜食品涌进中国市场，奢侈品价格的食品也都有大把的人去抢单。&lt;/p&gt;
+&lt;p&gt;我以前认为，马云一边喊着“环保”口号，一边布局买全球制造“碳排放”，是很虚伪的。我现在理解了，如果不把狼放进来，依照中国过去延续几千年小农经济的安逸惯性，我们的从业者将永远都是羊，会继续过着在淘宝上为了鸡毛蒜皮竞价的日子，“中国质造”和“大国崛起”是句空话。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生产关系有变革和创新吗？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人类社会的关系&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我曾经去一些被奉为农业或电商的“**模式”的地区做调研和考察，这些“**模式”之所以被媒体和地方政府热捧，因为口号迎合了三农政策，如解决留守儿童，农民收入，土地流转，空巢老人问题，也迎合了“大众创新，万众创业”的号召。&lt;/p&gt;
+&lt;p&gt;但事实上，这些**模式的开创者们除了围着政府转，拿农业政策补助，围着网络平台转，拿流量红利，此外还做了什么积极有效的工作呢？这种靠社会关系的生意在广大的地区依然存在，传统政商社会的关系用在农业电商领域一点也没变。&lt;/p&gt;
+&lt;p&gt;我还见过一些年轻人在创业孵化园里做的农业项目，提出新的“管理农民”从事放心农产品生产的商业模式，通过20张PPT居然就想忽悠投资人拿钱。&lt;/p&gt;
+&lt;p&gt;我发现只要提“管理农民”这几个字的，基本都是没有经历过农村的生产和生活体验的人，或者对农民没有一点设身处地的理解。&lt;/p&gt;
+&lt;p&gt;怎么去“管理”农民呢？他们服你管吗？许多新农人根本不懂怎么和这个庞大的农业生产的群体如何相处协作。&lt;/p&gt;
+&lt;p&gt;如果把眼光放得长远一些，而不是随着资本投入从种子轮到A，B轮直至上市的节奏，持续看这些风潮涌动的“互联网+农业”项目，看他们如此这般“管理”能撑几年。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人和自然的关系&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;基本上做电商的圈子很少有听说人和自然环境的关系，因为我们工作的对象是动物植物微生物，这都是经历亿万年的进化而来的有机生命，有其客观生长规律，不是工厂生产的无生命的无机产品那样可以任由人去改造和控制。&lt;/p&gt;
+&lt;p&gt;当然华大基因已经通过合成生物学技术，将无机的化学物质合成为生命体，这个边界被打破，而公众对“转基因”早已恐慌，只是不熟悉技术上类似的名词“生物工程”，这是后话。&lt;/p&gt;
+&lt;p&gt;如果一个农业产品生产者或经销商，不关心其与自然和环境的关系，可以判别他们其实不懂自己的产品。&lt;/p&gt;
+&lt;p&gt;在那些尚未商业化开发的原始地区，淳朴自然的居民虽然不懂现代科学的“环保，低碳，可持续”的概念，但是他们知道尊重和保护自然，对环境有着非常朴素的理解和认识。&lt;/p&gt;
+&lt;p&gt;而现在且未来长期依然要靠农业获取生存基础物质的许多地球人却不懂这些，这个世界还缺那种只想靠土地上动物和植物赚钱的人吗？他们迟早要被新商业文明所抛弃。&lt;/p&gt;
+&lt;p&gt;无论你是不是“互联网+”，也不会因为多了个“新农人”标签就会改变被终结的命运。&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;&lt;strong&gt;结语&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;其实，无论其他国家地区有没有“新农人”这个标签，中国是应该需要一种职业身份叫“新农人”，农业是一切人类活动和生存的基础，中国这样一个传统古老的农业落后大国需要好好改进。&lt;/p&gt;
+&lt;p&gt;在互联网泡沫大潮中，想想我们跟农业相关的人，应该怎样成为“新”的一代呢？抛开一切偏狭的利益导向，站在客观公正和宏观立场上，这么事关10几亿人前途命运的大事情和职业，是应该有精准定义和评估的。&lt;/p&gt;
+&lt;p&gt;我整理了以下这些指标定义“新农人”，欢迎大家交流，多提供评估维度：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

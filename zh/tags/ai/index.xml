@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Atom.X</title>
+    <link>https://atomx.cc/zh/tags/ai/</link>
+    <description>Recent content in AI on Atom.X</description>
+    <image>
+      <title>Atom.X</title>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>zh</language>
+    <copyright>Atom.X</copyright>
+    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://atomx.cc/zh/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mathematical Thinking Stanford, W4</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-0/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantifier_%28logic%29&#34;&gt;Quantifier(logic)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;$∀$ , For All, Conjunction, ∧, all things
+$∃$, Exist, Disjunction, &lt;strong&gt;∨&lt;/strong&gt;, at least one&lt;/p&gt;
+&lt;p&gt;$∃x$[$A(x) ∧ B(x)$] ≠ $∃x$$A(x)$ ∧ $∃x$$B(x)$, False&lt;/p&gt;
+&lt;p&gt;There is a game player who is both an attacker and a defender.&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;There is a game player who is an attacker, and There is a game player(another one?) who is a defender.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;$∃x$[$A(x) ∨ B(x)$] =  $∃x$$A(x)$ &lt;strong&gt;∨&lt;/strong&gt; $∃x$$B(x)$&lt;/p&gt;
+&lt;p&gt;There is a game player who is an attacker or a defender.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W3 Assignment 5</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-5/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-5/</guid>
+      <description>&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the existence assertions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a. ($∃x$ ∈ ℕ)($x^3 = 27$ )&lt;/p&gt;
+&lt;p&gt;b. ($∃𝑛$ ∈ ℕ)(𝑛&amp;gt;10000)&lt;/p&gt;
+&lt;p&gt;c. natural number n is not a prime
+($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 &lt;strong&gt;∧&lt;/strong&gt; $m$&amp;gt;1 &lt;strong&gt;∧ $n=pm$&lt;/strong&gt;)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the ‘for all’ assertions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)
+¬($∃x$ ∈ $ℕ$)($x^3$ = 28)
+($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
+&lt;p&gt;($∀x$ ∈ ℕ)¬($x^3$ = 28)&lt;/p&gt;
+&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )
+c.  ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( ****$n=pq$) ****⇒&lt;strong&gt;$n=pq&lt;/strong&gt;n=pq$$p$=1 V &lt;strong&gt;$q=1$&lt;/strong&gt; )]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W3</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-0/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-0/</guid>
+      <description>&lt;p&gt;the most difficult lecture&lt;/p&gt;
+&lt;h1 id=&#34;analysis-of-language---quantifiers&#34;&gt;Analysis of language - quantifiers&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Irrational_number&#34;&gt;irrational&lt;/a&gt; numbers&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%80&#34;&gt;∀&lt;/a&gt; for all&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%83&#34;&gt;∃&lt;/a&gt; there exists&lt;/p&gt;
+&lt;p&gt;express an existence &lt;strong&gt;assertion&lt;/strong&gt;.
+a confident and forceful statement of fact or belief.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Combination of quantifiers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;there is no largest natural number.&lt;/p&gt;
+&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
+&lt;p&gt;(∃𝑛 ∈ ℕ)(∀𝑚∈ ℕ)(𝑛&amp;gt;𝑚), False&lt;/p&gt;
+&lt;p&gt;American Melanoma Foundation: “One American dies of Melanoma almost every hour.”&lt;/p&gt;
+&lt;p&gt;∃A∀H(A dies in hour H), False, misunderstanding: An American dies once every hour, ridiculous.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 Assignment 4</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-4/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-4/</guid>
+      <description>&lt;h1 id=&#34;1-building-truth-table-φ--ψ&#34;&gt;1. Building truth table φ ⇔ ψ&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;φ&lt;/th&gt;
+          &lt;th&gt;ψ&lt;/th&gt;
+          &lt;th&gt;φ ⇒ ψ&lt;/th&gt;
+          &lt;th&gt;ψ ⇒ φ&lt;/th&gt;
+          &lt;th&gt;φ ⇔ ψ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;✔︎&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;✔︎&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;a. φ ⇔ ψ is true if φ and ψ are both true or both false
+(φ ⇒ ψ)=(ψ ⇒ φ) , (φ ⇒ ψ)∧(ψ ⇒ φ) = φ ⇔ ψ, φ = ψ&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 QUIZ</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-quiz/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-quiz/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;
+&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;implication has a **truth part(**conditional &lt;strong&gt;)&lt;/strong&gt; and a causation part.&lt;/p&gt;
+&lt;p&gt;implication = conditional + causation&lt;/p&gt;
+&lt;p&gt;conditional means &lt;strong&gt;⇒&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;φ ⇒ ψ&lt;/strong&gt; is the truth part of “ φ  implies ψ ”.&lt;/p&gt;
+&lt;p&gt;φ is the antecedent&lt;/p&gt;
+&lt;p&gt;ψ is the consequent
+define the truth of φ⇒ψ in terms of the truth/falsity of φ and ψ.&lt;/p&gt;
+&lt;h2 id=&#34;equivalence-quiz&#34;&gt;&lt;strong&gt;Equivalence Quiz&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Which of the following &lt;strong&gt;conditions&lt;/strong&gt; is necessary and sufficient for &lt;strong&gt;the natural number $n$&lt;/strong&gt; &lt;strong&gt;to be multiple of 10&lt;/strong&gt; ?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 Assignment 3</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-3/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-3/</guid>
+      <description>&lt;h1 id=&#34;1-d-y-t&#34;&gt;1. D, Y, T&lt;/h1&gt;
+&lt;p&gt;a. T ⇒ [D ∧ Y]&lt;/p&gt;
+&lt;p&gt;b. D ⇒ ¬ Y&lt;/p&gt;
+&lt;p&gt;c. ¬ D ⇒  ¬ T&lt;/p&gt;
+&lt;p&gt;d. T ⇒  ¬ (D ∧ Y)&lt;/p&gt;
+&lt;p&gt;e. ¬ D ∧ Y ∧ T ,  T ⇒ [¬ D ∧ Y], following means “then or and”, they are all conjunctions relationship.&lt;/p&gt;
+&lt;p&gt;f. (T ∧ Y) ⇒ ¬ D , T ⇒ [Y ⇒ ¬ D]&lt;/p&gt;
+&lt;p&gt;g. T ⇒ [D ⇔ Y], T⇒ [(D ⇒Y) ∧ (Y⇒D)]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W1 Assignment 2</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-2/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-2/</guid>
+      <description>&lt;h1 id=&#34;1-simplify-the-symbolic-statements&#34;&gt;1. Simplify the symbolic statements.&lt;/h1&gt;
+&lt;p&gt;(b) (p≥7)∧(p&amp;lt;12), 7≤p&amp;lt;12&lt;/p&gt;
+&lt;p&gt;(c) (x&amp;gt;5)∧(x&amp;lt;7), 5&amp;lt;x&amp;lt;7&lt;/p&gt;
+&lt;p&gt;(d) (x&amp;lt;4)∧(x&amp;lt;6), x&amp;lt;4&lt;/p&gt;
+&lt;p&gt;(e) $(y&amp;lt;4)∧(y^2 &amp;lt;9), y^2&amp;lt;9$&lt;/p&gt;
+&lt;p&gt;(f) (x≥0)∧(x≤0), x=0&lt;/p&gt;
+&lt;h1 id=&#34;2-express-each-of-your-simplified-statements-from-question-1-in-natural-english&#34;&gt;2. Express each of your simplified statements from question 1 in natural English.&lt;/h1&gt;
+&lt;p&gt;(b) p is greater than or equal to 7 and less than 12.&lt;/p&gt;
+&lt;p&gt;(c) x is greater than 5, and less than 7.&lt;/p&gt;
+&lt;p&gt;(d) x is less than 4&lt;/p&gt;
+&lt;p&gt;(e) y squared is less than 9&lt;/p&gt;
+&lt;p&gt;(f) x is equal to 0&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W1 Assignment 1</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-1/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-1/</guid>
+      <description>&lt;h1 id=&#34;truth-table&#34;&gt;Truth table&lt;/h1&gt;
+&lt;p&gt;φ ∧ ψ = ψ ∧ φ&lt;/p&gt;
+&lt;p&gt;∧ conjunction 合取: anyone is false, φ ∧ ψ will be false&lt;/p&gt;
+&lt;p&gt;∨ disjunction 析取: anyone is truth, φ ∨ ψ will be truth.&lt;/p&gt;
+&lt;p&gt;∨ : Communism, Soviet Union, China, Socialism, anyone is truth, then it is truth, Big, resources absorbing power, Totalitarianism&lt;/p&gt;
+&lt;p&gt;∧ : Germany,&lt;/p&gt;
+&lt;h2 id=&#34;greek-alphabet---wikipediahttpsenwikipediaorgwikigreek_alphabet&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;φ: phi&lt;/p&gt;
+&lt;p&gt;ψ: psi&lt;/p&gt;
+&lt;p&gt;θ: Theta&lt;/p&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;p&gt;True table game, triary logic&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking- Stanford</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mathematical-thinking-stanford/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mathematical-thinking-stanford/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject&#34;&gt;Math symbols&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking&#34;&gt;Mathematical Thinking- Stanford&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking/resources/7qIB0&#34;&gt;About instructor&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;assignment--quiz&#34;&gt;Assignment &amp;amp; Quiz&lt;/h1&gt;
+&lt;p&gt;The course contents sub documents as below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MTS W8 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W8 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W7 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W6 Assignment 8&lt;/li&gt;
+&lt;li&gt;MTS W5 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W4 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W3 Assignment 5&lt;/li&gt;
+&lt;li&gt;MTS W3 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W2 Assignment 4&lt;/li&gt;
+&lt;li&gt;MTS W2 Assignment 3&lt;/li&gt;
+&lt;li&gt;MTS W2 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W1 Assignment 2&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W4 Assignment 6</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-6/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-6/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;¬ [$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¬ [$∃x$A(x)]&lt;/p&gt;
+&lt;p&gt;if it is not the case that at least a x satisfies A(x),&lt;/p&gt;
+&lt;p&gt;then for all x are not not satisfy A(x),&lt;/p&gt;
+&lt;p&gt;so for all x, ¬A(x) is true.&lt;/p&gt;
+&lt;p&gt;$∀x$[¬A(x)]&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Prove false&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;There is an even prime bigger than 2&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;x are parts of natural number set $N$, Prime number P(x), Even number E(x)&lt;/p&gt;
+&lt;p&gt;$∃x$[E(x)P(x)∧(x&amp;gt;2)]&lt;/p&gt;
+&lt;p&gt;¬ {$∃x$[E(x)P(x)∧(x&amp;gt;2)]} is True&lt;/p&gt;
+&lt;p&gt;$∀x$[E(x)P(x) ⇒ (2≥ x)]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W5 Assignment 7</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w5-quiz/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w5-quiz/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Contrapositive  反證&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if φ ⇒ ψ , then ¬ψ ⇒ ¬φ&lt;/p&gt;
+&lt;p&gt;$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/p&gt;
+&lt;h1 id=&#34;assignment-7&#34;&gt;Assignment 7&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove or disprove the statement “All birds can fly.”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;birds b, fly birds are F(b)&lt;/p&gt;
+&lt;p&gt;Assume $∀b$ ⇒ F(b) True.&lt;/p&gt;
+&lt;p&gt;$∃o$, there are some birds, such as ostrich o, it can not fly.&lt;/p&gt;
+&lt;p&gt;$∀b$[$∃o$$(b=o)$ ⇒ ¬F(b)]&lt;/p&gt;
+&lt;p&gt;so not all birds could fly, $∀b$ ⇒ F(b) False.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Prove or disprove the claim (∀x, y ∈ R)[(x − y)2 &amp;gt; 0].
+Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W6 Assignment 8</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w6-assignment-8/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w6-assignment-8/</guid>
+      <description>&lt;p&gt;Induction: the inference of a general law from particular instances.&lt;/p&gt;
+&lt;p&gt;Axiom/ principle: generally acknowledged truth.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;to prove $∀n$ A$(n)$&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Method, principle of mathematical induction&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove &lt;strong&gt;A$(1)$&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Dominoes:  $∀n$ [ A$(n)$ ⇒ A$(n+1)$] induction step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: for any n, 1+2+3 …… + n = 1/2n(n+1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if n = 1, both side equal to 1, then the identity is true.&lt;/p&gt;
+&lt;p&gt;Assume  A$(n)$ and deduce A$(n+1)$, the identity holds for all n&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1+2+3 …… + n+1 = 1/2(n+1)[(n+1)+1]&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W7</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w7-assignment-0/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w7-assignment-0/</guid>
+      <description>&lt;h1 id=&#34;number-theory&#34;&gt;number theory&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.britannica.com/science/number-theory&#34;&gt;Number theory | Definition, Topics, &amp;amp; History | Britannica&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;0 is not a natural number? it depends on the mathematical community, if they design the norm(standard) that 0 i a natural number, then it is.&lt;/p&gt;
+&lt;p&gt;but in a default condition, we normally set 0 is not natural number.&lt;/p&gt;
+&lt;h2 id=&#34;ba&#34;&gt;b|a&lt;/h2&gt;
+&lt;p&gt;Vertical bar sign in Discrete mathematics, means b divides a, b is a &lt;em&gt;factor&lt;/em&gt; of a.&lt;/p&gt;
+&lt;p&gt;division theory ?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Euclidean_division&#34;&gt;Euclidean division - Wikipedia&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W8 Assignment 10</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w8-assignment-10/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w8-assignment-10/</guid>
+      <description>&lt;p&gt;cognitive conception&lt;/p&gt;
+&lt;p&gt;completeness property 完整属性&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Upper_and_lower_bounds&#34;&gt;upper and lower bound&lt;/a&gt; 上界、下界&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Least-upper-bound_property&#34;&gt;least upper bound&lt;/a&gt; 最小上界 LUB&lt;/p&gt;
+&lt;p&gt;S&lt;a href=&#34;https://en.wikipedia.org/wiki/Set_%28mathematics%29&#34;&gt;et theory&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;subset relations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Natural numbers, Integers, Rational numbers, Real numbers&lt;/p&gt;
+&lt;p&gt;N ⊂ Z ⊂ Q ⊂ R&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://d3c33hcgiwev3.cloudfront.net/_1dc41c143a819b67c9704cc09941d38c_Supplement__Set_Theory_.pdf?Expires=1697241600&amp;amp;Signature=lfPfw5Vn7fiAaHasCEMQXvvrAJXuC0gXdHIGZQbE6xCRPvbJqZ0yqwjR5AJttYA~AFZP8xcRYp1xsDqJOy4bZIqgM4dn76VEDOpsG4JmtHK1ZnLSyRJDjFEibvQk1ux8H7Yzdhl0rj6Bd--vmOv3FLqz5ZCwlC-p3wGxvuAJdko_&amp;amp;Key-Pair-Id=APKAJLTNE6QMUY6HBC5A&#34;&gt;Elements of Set Theory&lt;/a&gt;(SUPPLEMENT, KEITH DEVLIN: Introduction to Mathematical Thinking)&lt;/p&gt;
+&lt;p&gt;empty set ∅&lt;/p&gt;
+&lt;p&gt;different from  &lt;strong&gt;Φ(phi)&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Phi&#34;&gt;the 21st letter of the Greek alphabet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;eg. &lt;strong&gt;Set A&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If $A(x)$ is some property, the set of all those x which satisfy $A(x)$ is denoted by {$x | A(x)$}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W8 Quiz</title>
+      <link>https://atomx.cc/zh/posts/edu/mts/mts-w8-quiz/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w8-quiz/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;least upper bound&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A set A of reals can have at most one least upper bound.&lt;/p&gt;
+&lt;p&gt;if a is LUB, then a≤b&lt;/p&gt;
+&lt;p&gt;if b is LUB, then b≤a&lt;/p&gt;
+&lt;p&gt;if a, b are both two LUBs, then b=a,&lt;/p&gt;
+&lt;p&gt;such as {42} has the only element 42 as both an upper bound and a lower bound.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;lower bound&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if a set A of reals has a lower bound, it has infinitely many lower bounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>高效社交</title>
+      <link>https://atomx.cc/zh/posts/life/efficient-social-interaction/</link>
+      <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/life/efficient-social-interaction/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;每天有无数人在网上为无意义的话题浪费大量时间聊天，同时为互联网公司贡献巨额利润。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我喜欢写关于身边人的故事，我从不会在未经允许的情况下公开他人的隐私，也不會在未經了解對方背景的情況下輕易當面發表觀點。&lt;/p&gt;
+&lt;p&gt;因為說真话可能会让一些人感到被冒犯，為了應對複雜的社交場景和思維頑固不化的人類，所以開發一款聊天機器人bot是非常有趣且有必要的。&lt;/p&gt;
+&lt;p&gt;我特別想要帮助周围的人，让世界变得更美好，有句古老的格言和谚语是这样说的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;良药苦口利于病，忠言逆耳利于行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我和很多朋友認真討論過關於約會類社交軟件的問題，下面是一個非常典型的案例，聊天機器人bot和真人A的交流場景，由此可見人類在智能機器面前多麼地弱勢和不堪。&lt;/p&gt;
+&lt;h2 id=&#34;典型案例&#34;&gt;典型案例&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;有多少人在聊天軟件上浪费时间？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以下面一个日常常见的在线对话为例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;网友A：嗨，很高兴认识你。&lt;/li&gt;
+&lt;li&gt;機器人bot：我希望我们可以交换博客和简历链接，以便更好地了解彼此。&lt;/li&gt;
+&lt;li&gt;网友A：不，我没有写博客。&lt;/li&gt;
+&lt;li&gt;機器人bot：&lt;strong&gt;博客和简历可以节省你结交新朋友的时间，你可以在15分钟内最大程度地了解他们，包括他们重要的经历、教育背景、职业、兴趣、习惯和喜欢的话题，他们对世界的洞察力，人生观和价值观等等。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;网友A：也许吧，但我喜欢交流。我喜欢直接了解别人，直接和他们沟通。&lt;/li&gt;
+&lt;li&gt;機器人bot：是的，请了解一下近期的科技进步，&lt;strong&gt;未来会有更多的机器人和你对话，我很肯定，在你和某人见面之前，你可能会和一个人工智能机器人聊几个小时。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;网友A：我并不否认你说的。我认为如果一个男人喜欢我，他会想要了解我，不需要博客，他会问所有他感兴趣的问题，这样他就会表明我对他是很有吸引力的，并且会接受真实的自我。我不想重塑自己。&lt;/li&gt;
+&lt;li&gt;機器人bot：&lt;strong&gt;如果有一百多个机器人和你聊天，你如何在其中找到你真正的人类爱人？你认为会是真的吗？会有人仅仅因为一些照片和约会网站上几句话的描述就爱上你吗？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;网友A：我会开始和这个人交流，如果他不想进行视频交流，那么一切都会很清楚。&lt;/li&gt;
+&lt;li&gt;機器人bot：你通过视频聊天来过滤垃圾信息很聪明，但是你可能已经在这个人身上浪费了很多小时，才走到这一步。&lt;/li&gt;
+&lt;li&gt;网友A：我能理解你。你越深入了解，如果你想看看真正的我，你可以去我的Instagram。&lt;/li&gt;
+&lt;li&gt;機器人bot：我只是想帮助人们在这个时代生活得更好，避免诈骗和垃圾信息。特别是帮助女孩如何保护自己，节省时间和宝贵的生命。这是一项有意义的工作。&lt;/li&gt;
+&lt;li&gt;网友A：好吧，因为我以为你喜欢我。&lt;/li&gt;
+&lt;li&gt;機器人bot：是的，当他们是陌生人的时候，我喜欢每个人，如果你和他们交朋友并走得更近，了解更多关于他们的坏脾气和习惯，那么你就会对他们失去兴趣，对吗？&lt;/li&gt;
+&lt;li&gt;网友A：这是Tinder，人们在这里绝对不是在找朋友。如果你不喜欢我，不把我当女孩看，那我觉得沟通没有意义。我不相信男女之间有纯友谊。你相信爱情吗？还是你打算一辈子单身？晚安。&lt;/li&gt;
+&lt;li&gt;機器人bot：嗨，早上好。是的，我不知道如何描述爱情和友谊之间的区别。&lt;/li&gt;
+&lt;li&gt;网友A：一个模棱两可的回答，没有回答我的任何问题。&lt;/li&gt;
+&lt;li&gt;機器人bot：我认为我们的思维模式不同，我应该更理性一些。&lt;strong&gt;如果我不了解你，那我怎么能爱你呢？仅仅是因为你Instagram上那些夸张炫目的照片，肤浅和推销式的口号吗？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;网友A：我不是在说我自己，而是在说普遍情况。你从一开始就很理性。这里的关键是欲望。你想了解这个人吗？我不认为你可以提前了解一切。例如，我的生活是不可预测的，因此它很有趣。但看起来我试图说服你接受一些你不想或不接受的东西。&lt;/li&gt;
+&lt;li&gt;機器人bot：我不明白你的意思，抱歉。了解一个人的最佳方式是通过他们写作的有深度思考和足够丰富的文字。没有其他更好的方法了。我没有太多时间聊天，你可能不了解真实的互联网世界，什么是机器人和诈骗技术。再见，祝你好运。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;機器人bot关闭了聊天框，再也不想和这种頭腦簡單的人類说话了，整个过程至少花费了大约 30 分钟。&lt;/p&gt;
+&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
+&lt;p&gt;我退出了大部分社交媒体应用程序，那是一个个甜蜜陷阱、骗局或欺诈，没有人真的想在那里建立认真的关系。他们并不互相了解，但在合作、约会或见面之前，他们会浪费整整一天甚至几年的时间聊天，但最终却得到糟糕的结果或一无所获。&lt;/p&gt;
+&lt;p&gt;所以，我不接受低效率的社交方式，无论是线上还是线下，我只和那些主要展示其背景信息的人交流，形式可能是简历和博客。&lt;/p&gt;
+&lt;p&gt;如果你知道如何写一份好的简历，那么你就会遇到对的人，并获得更好的机会，因为这是一种认真对待生活和事业的态度。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>思维模型、系统、框架</title>
+      <link>https://atomx.cc/zh/posts/it/thinking-models_systems-frameworks/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/thinking-models_systems-frameworks/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;信息知识模因&#34; loading=&#34;lazy&#34; src=&#34;https://www.gapingvoid.com/content/uploads/2019/03/data-information-knowledge-insight-wisdom-impact.jpg&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;从数据到影响力&#34;&gt;从数据到影响力&lt;/h1&gt;
+&lt;p&gt;演变阶段：数据→ 信息→ 知识→ 洞察力→ 智慧→ 影响力&lt;/p&gt;
+&lt;p&gt;数据：海量的信息片段，苍白空洞如垃圾；&lt;/p&gt;
+&lt;p&gt;信息：对客观事物描述更丰富的个体数据；&lt;/p&gt;
+&lt;p&gt;知识：描述复杂世界关系，将信息点连线；&lt;/p&gt;
+&lt;p&gt;洞察力：发现知识点之间可能存在的关联，需要眼光、智慧、内省力等品质；&lt;/p&gt;
+&lt;p&gt;智慧：找到实现知识点之间的连接路径和解决方案；&lt;/p&gt;
+&lt;p&gt;影响力 ：路径联通后，由此向空间全方位产生辐射影响力；&lt;/p&gt;
+&lt;h2 id=&#34;from-data-to-impact&#34;&gt;From Data to Impact&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gapingvoid.com/blog/2019/03/05/want-to-know-how-to-turn-change-into-a-movement/&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data, Information, Knowledge, Insight, Wisdom, Impact&lt;/p&gt;
+&lt;p&gt;how to turn change into a movement?&lt;/p&gt;
+&lt;p&gt;信息知识模因&lt;a href=&#34;https://gapingvoid.us1.list-manage.com/track/click?u=028de8672d5f9a229f15e9edf&amp;amp;id=b532e1e1b8&amp;amp;e=bbb308db6c&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;用&lt;strong&gt;github按钮&lt;/strong&gt;记录每一个data的已知或未知的确定性或不确定性（四种组合）的标记，data影响最后的impact。&lt;/p&gt;
+&lt;p&gt;从源头第1步记录碎片的元数据开始，推导出最后第5,6步的结果。为了明文加密，信息安全和隐私保护，抽象化的结果是，隐藏具体的人物，时间，地点，事件，数字等，这样就做出了通用的模型或框架。&lt;/p&gt;
+&lt;h2 id=&#34;认知层次httpszhuanlanzhihucomp67941177&#34;&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/67941177&#34;&gt;认知层次&lt;/a&gt;&lt;/h2&gt;
+&lt;h1 id=&#34;dikw-model&#34;&gt;&lt;strong&gt;DIKW Model&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Knowledge management&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/DIKW_pyramid&#34;&gt;Wiki：DIKW_pyramid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb&#34;&gt;Data Demystified — DIKW model&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.i-scoop.eu/big-data-action-value-context/dikw-model/&#34;&gt;The DIKW model for knowledge management and data value extraction&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;系统化工程的知识框架体系，结构模型思维，辅助决策。解决集体决策大脑缺失的问题，这样可以解释，独裁机构无法采用群众大脑的集体决策，而只能采纳一小群自然人团体的片面局部决策，因此导致集权组织人祸频发，所以他们一定要从人群中选一个王出来代表集体决策。&lt;/p&gt;
+&lt;p&gt;区块链的树状结构，和集体大脑思维一致，形成总体树干，项目管理上叫WBS。&lt;/p&gt;
+&lt;h1 id=&#34;理论模型&#34;&gt;理论模型&lt;/h1&gt;
+&lt;h2 id=&#34;分形学&#34;&gt;分形学&lt;/h2&gt;
+&lt;p&gt;局部和整体的形状特性是一样的，从局部可以推导整体的特征，也可以从整体看到局部的特征&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Fractal&#34;&gt;维基百科：分形&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/24318397&#34;&gt;知乎：分形简介&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/topic/19610593/intro&#34;&gt;知乎：分形&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;品牌= 核心的基因无限继承&lt;/p&gt;
+&lt;h2 id=&#34;模因谜米meme&#34;&gt;模因/谜米（meme）&lt;/h2&gt;
+&lt;p&gt;The Selfish Gene《自私的基因》，作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>web app开发框架</title>
+      <link>https://atomx.cc/zh/posts/it/web-app-framworks-for-developers/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/web-app-framworks-for-developers/</guid>
+      <description>&lt;p&gt;适合于初級开发者的日常需求&lt;/p&gt;
+&lt;h1 id=&#34;优质web-app方案的关键因素&#34;&gt;优质web app方案的关键因素&lt;/h1&gt;
+&lt;p&gt;关键因素：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;优质的搜索功能&lt;/li&gt;
+&lt;li&gt;內容管理系统（CMS）&lt;/li&gt;
+&lt;li&gt;多语言系统&lt;/li&gt;
+&lt;li&gt;移动端支持&lt;/li&gt;
+&lt;li&gt;商业智能和数据分析&lt;/li&gt;
+&lt;li&gt;管理多种渠道的功能&lt;/li&gt;
+&lt;li&gt;有可视化界面（GUI）的后台管理&lt;/li&gt;
+&lt;li&gt;可支持的第三方插件&lt;/li&gt;
+&lt;li&gt;开发文档，使用说明，测试环境&lt;/li&gt;
+&lt;li&gt;网络和数据安全性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;优质的搜索功能&#34;&gt;优质的搜索功能&lt;/h3&gt;
+&lt;p&gt;这在市场上扮演非常重要角色的功能之一，有助于提高转化率。基本上，此功能是一种过滤功能，可处理关键字并帮助您在搜索和销售中获得准确的效果。&lt;/p&gt;
+&lt;h3 id=&#34;內容管理系统cms&#34;&gt;&lt;strong&gt;內容管理系统（CMS）&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;内容（比如各种软文，产品概念，相关文创内容等）是使网站在全球市场中独树一帜的系统。这是对网站产生巨大影响的功能之一，它是提高转化率的关键。&lt;/p&gt;
+&lt;h3 id=&#34;多语言系统&#34;&gt;多语言系统&lt;/h3&gt;
+&lt;p&gt;Multiple language CMS web app&lt;/p&gt;
+&lt;p&gt;对多种语言的集中管理，而不是每个语言都需要维护一份代码。&lt;/p&gt;
+&lt;h3 id=&#34;移动端支持&#34;&gt;移动端支持&lt;/h3&gt;
+&lt;p&gt;每个人都希望能够在移动设备上轻松浏览，甚至考虑小程序，并将维护成本降到最低。最起码应采取响应式和自适应式的设计，在页面功能和美学的设计上都应采用移动端用户（小屏幕设备）体验优先的的设计。当前的网站设计（几乎没有响应式设计和自适应式的设计，几乎没有移动端优先的考虑）对移动端用户是非常不友好的。&lt;/p&gt;
+&lt;h3 id=&#34;bi-商业智能&#34;&gt;BI 商业智能&lt;/h3&gt;
+&lt;p&gt;数据驱动业务。在管理数据时，必须获取有关数据的准确详细信息。在管理数据时应保持速度，商业智能有助于在网站上完成任务，因为只有通过速度和流程，您才能分析交易的深度，抓住商业机会。&lt;/p&gt;
+&lt;h3 id=&#34;管理多种渠道的功能&#34;&gt;管理多种渠道的功能&lt;/h3&gt;
+&lt;p&gt;同时管理多种渠道的产品，列表和订单的功能，除了在自己的品牌网站售卖，可能还在其他平台上售卖，考虑初始阶段可能需要通过电商巨头平台的导流。&lt;/p&gt;
+&lt;h3 id=&#34;有可视化界面gui的后台管理&#34;&gt;有可视化界面（GUI）的后台管理&lt;/h3&gt;
+&lt;p&gt;可视化的内容管理界面是降低维护成本的关键因素，离开了程序员和就无法完成日常维护的设计是非常不完善的，必须是普通人不用教也可以管理的后台。&lt;/p&gt;
+&lt;h3 id=&#34;可支持的第三方插件&#34;&gt;可支持的第三方插件&lt;/h3&gt;
+&lt;p&gt;第三方插件旨在提供适应性，定制性和创新性。这些功能可以在开发网站时使用，某些功能可能不是标准软件包的一部分，便需要通过第三方插件实现。&lt;/p&gt;
+&lt;p&gt;上述的许多功能便是可以通过插件实现的，比如: 多语言系统，可视化系统管理后台，内容管理后台等。当前框架安装了哪些插件？找到对应的CMS版本，才能安装翻译和SEO等其他插件plugin 。&lt;/p&gt;
+&lt;h3 id=&#34;开发文档使用说明测试环境&#34;&gt;开发文档，使用说明，测试环境&lt;/h3&gt;
+&lt;p&gt;产品和内容是业务的核心，网站就像外装、房子、交通工具，修饰、陈列或装载核心。&lt;/p&gt;
+&lt;p&gt;服装随着时间推移需要更换，房子和交通工具需要在技术迭代过程中可以同步得到修缮和升级，完善的开发文档是维护网站稳定运行的保障，无论开发人员如何更换，网站都可以得到应有的维护。&lt;/p&gt;
+&lt;p&gt;使用说明可以帮助企业内部成员更高效地使用网站和协作办公。&lt;/p&gt;
+&lt;p&gt;在商业环境中，尤其是自建网站，除了正在直接使用的网站（生产环境），通常还需要一个备份网站（测试环境）。&lt;/p&gt;
+&lt;h3 id=&#34;安全性&#34;&gt;安全性&lt;/h3&gt;
+&lt;p&gt;AAA (Authentication, Authorization, Account) 原则，不同的角色（开发人员，数据管理，运维，测试，管理层等&amp;hellip;）需要有明确的权限，并根据权限设置账号功能，操作记录可跟踪。&lt;/p&gt;
+&lt;p&gt;有灾难备份方案。&lt;/p&gt;
+&lt;h1 id=&#34;主流框架和语言&#34;&gt;主流框架和语言&lt;/h1&gt;
+&lt;h2 id=&#34;软件框架httpsenwikipediaorgwikisoftware_framework&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Software_framework&#34;&gt;软件框架&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;框架的功能类似于基础设施，与具体的软件应用无关，但是提供并实现最为基础的软件架构和体系。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E8%80%85&#34;&gt;软件开发者&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;通常依据特定的框架实现更为复杂的运用和业务逻辑。这样的软件应用可以在支持同一种框架的软件系统中运行。&lt;/p&gt;
+&lt;p&gt;Tips：&lt;/p&gt;
+&lt;p&gt;由于没有开放互联网，不能使用更新的服务器镜像并获取高级版本的编程框架，国内软件版本相较落后，这是先天条件决定的，如果决定做国际业务，请考虑用国际网络资源。&lt;/p&gt;
+&lt;p&gt;软件框架和编程语言的主流类型选择如下。&lt;/p&gt;
+&lt;h2 id=&#34;media-framework-媒体平台&#34;&gt;Media framework 媒体平台&lt;/h2&gt;
+&lt;p&gt;Most simple way&lt;/p&gt;
+&lt;h2 id=&#34;github-pageshttppagesgithubcom&#34;&gt;&lt;a href=&#34;http://pages.GitHub.com&#34;&gt;GitHub pages&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;for: personal website, blog, profile, CV, gitbook style, side categories etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IT 小工具</title>
+      <link>https://atomx.cc/zh/posts/it/it-tools/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/it-tools/</guid>
+      <description>&lt;p&gt;经过很多不同用户试用后的测评推荐&lt;/p&gt;
+&lt;h2 id=&#34;图形处理&#34;&gt;图形处理&lt;/h2&gt;
+&lt;p&gt;个人图片转换成卡通风格头像&lt;/p&gt;
+&lt;h3 id=&#34;传统ai&#34;&gt;传统ai&lt;/h3&gt;
+&lt;p&gt;可以看到生成的头像与真人偏差太大，以至于无法识别&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ailab.wondershare.com/app/general/features/image&#34;&gt;ailab.wondershare&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imagetocartoon.com/&#34;&gt;imagetocartoon&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;最新ai&#34;&gt;最新ai&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.midjourney.com/&#34;&gt;midjourney&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nwn.blogs.com/nwn/2022/11/nick-yee-avatar-midjourney.html&#34;&gt;nick-yee-avatar-midjourney&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;找机器人干活的口令格式，例如&lt;/p&gt;
+&lt;p&gt;/imagine &lt;image link&gt; fantasy-hunter-warrior&lt;/p&gt;
+&lt;p&gt;/imagine &lt;image link&gt; futuristic-cyberpunk-hacker&lt;/p&gt;
+&lt;p&gt;/imagine &lt;image link&gt; captain-america&lt;/p&gt;
+&lt;h2 id=&#34;批量删除yt的播放列表watch-later&#34;&gt;批量删除yt的播放列表watch later&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.alphr.com/delete-all-watch-later-videos-youtube/&#34;&gt;https://www.alphr.com/delete-all-watch-later-videos-youtube/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;yt限制了批量操作，需要一个小脚本在开发者模式下代替人手自动执行。注意：
+先在url后加上&amp;amp;disable_polymer=true，进入旧版yt，然后使用脚本有效。&lt;/p&gt;
+&lt;h2 id=&#34;chrome内核浏览器直接获取网页视频地址下载的方法&#34;&gt;Chrome内核浏览器直接获取网页视频地址下载的方法&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.softs8.com/jiaocheng/48.html&#34;&gt;http://www.softs8.com/jiaocheng/48.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当一切浏览器插件都不管用，在线视频下载也无效的时候，对于流媒体，搜下面这个插件&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>工作/学习/休闲的软件工具库</title>
+      <link>https://atomx.cc/zh/posts/it/it-tools-for-common-users/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/it-tools-for-common-users/</guid>
+      <description>&lt;p&gt;适合于普通用户的日常需求&lt;/p&gt;
+&lt;h1 id=&#34;ai&#34;&gt;AI&lt;/h1&gt;
+&lt;p&gt;更新：2024-10-1，近年来AI爆发，取代了很多传统的互联网服务商，所以过去多年这个网页中所列的很多工具可能将被淘汰，可选的AI很多，例如&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google, Vertex AI studio;&lt;/li&gt;
+&lt;li&gt;Microsoft, Copilot;&lt;/li&gt;
+&lt;li&gt;Anthropic, Claud;&lt;/li&gt;
+&lt;li&gt;OpenAI, ChatGPT;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;珍惜资源增强技能提升认知&#34;&gt;珍惜资源，增强技能，提升认知&lt;/h1&gt;
+&lt;p&gt;只要稍稍用心维护，被认为落后过时的电子产品还是可以继续发挥正常功能作用的，不少对技术有追求的IT从业者，不用最新版本的硬件，经常喜欢用已经落后了1-2代以上的二手产品，自己拼一拼攒一下就继续用，不仅仅是便宜，重要的是珍惜资源不浪费，我们看待硬件就像一个个有机生命体，这也符合极客三观。&lt;/p&gt;
+&lt;p&gt;比对待硬件更重要的是选择软件，不单要规避软件流氓的骚扰入侵的风险，还要充分利用网络时代带来的各种便利，提高个人或组织的工作协同效率和质量，不仅仅是用于工作，学习和休闲也需要效率质量，在此推荐一些与以往不同的高效高质量的工作/学习/休闲装备。&lt;/p&gt;
+&lt;p&gt;网络硬件和软件只是一堆冷冰冰的机器和毫无意识的技术，要让其像生物一样具备有机的生命力，还得有一些良好配合使用的附加条件，包括人类自然语言，各种机器语言，逻辑理性，艺术审美，科学技术，文明信仰，独立思维，组织管理，议事规则，协议契约等等。&lt;/p&gt;
+&lt;p&gt;因为既然用网络，你就不是一个人在玩单机游戏，而是有一群人和你的跨时空在线协同，这就是每天发生在与现实世界平行的另一个维度的网络世界里的真实场景，精彩或灾难。&lt;/p&gt;
+&lt;p&gt;早在10多年前，web 和 app已经一体了，软件不再需要下载客户端安装，而是直接在浏览器上使用云端的服务。以下推荐的大部分工具是我长期使用的，极少数几个没有经过测试，请使用过的朋友提供一些反馈意见。&lt;/p&gt;
+&lt;h2 id=&#34;语言&#34;&gt;语言&lt;/h2&gt;
+&lt;p&gt;母语，至少要精通一种语言，即母语中文的正常书写，阅读，口述的要求，达到合格的中学毕业水平足够；&lt;/p&gt;
+&lt;p&gt;英语，听说读写能力不做要求，由于网页和语音翻译软件越来越好用，但作为必要的加分项，可以帮助看到外面的世界，扩大资讯量很多倍以上，高效工作的基础离不开熟练使用互联网搜索和英语阅读的资讯搜集能力；&lt;/p&gt;
+&lt;h2 id=&#34;知识问答-百科&#34;&gt;&lt;strong&gt;知识问答/ 百科&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;全球排名第一百科网 &lt;a href=&#34;https://zh.wikipedia.org/&#34;&gt;维基百科&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;全球第一知识问答网 &lt;a href=&#34;https://www.quora.com/&#34;&gt;Quora&lt;/a&gt;， 知乎和Quora很像，已经成为中文广告商的软广告平台，也是华文键盘侠最大的炫耀卖弄肤浅经验和错误“知识”的集散地。&lt;/p&gt;
+&lt;p&gt;因为涉嫌干扰广告主和平台合作方的利益，不少网友提交的真实客观的经验和知识分享，被强制封锁屏蔽，知乎已经缺乏公正和客观，所以不推荐用。&lt;/p&gt;
+&lt;h2 id=&#34;mooc&#34;&gt;&lt;strong&gt;Mooc&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;国际最顶尖名校的课程平台，在付费注册按钮边可以选择旁听，如果不拿学历证，一般学习都是免费的，出海搜一下能找到很多国外好的MOOC，例如&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/&#34;&gt;Coursera&lt;/a&gt;；&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.edx.org/&#34;&gt;EDX&lt;/a&gt;；&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.khanacademy.org/&#34;&gt;可汗学院&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;coursera是我第一个用的，也是最常用的平台，其他两个我用得少，其中可汗学院据说小孩学数学最适合。&lt;/p&gt;
+&lt;p&gt;‌&lt;/p&gt;
+&lt;h2 id=&#34;演讲&#34;&gt;&lt;strong&gt;演讲&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;科普讲座 &lt;a href=&#34;http://www.ted.com/&#34;&gt;TED&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pechakucha.com/&#34;&gt;PechaKucha&lt;/a&gt;
+‌小TED，遵循 20秒/张 x 20张的演讲格式，起源于日本已经传播至全世界数百万参与者。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/jom6MiYWYqMDtNHtoQRsQg&#34;&gt;CC讲坛演讲指南| 如何做好一场有趣有思想的演讲&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;‌&lt;/p&gt;
+&lt;h1 id=&#34;硬件操作系统工具库&#34;&gt;硬件、操作系统、工具库&lt;/h1&gt;
+&lt;h2 id=&#34;手机&#34;&gt;手机&lt;/h2&gt;
+&lt;p&gt;部分老旧手机还可以刷手机固件操作系统，将出厂内置的其他软件统统去掉。&lt;/p&gt;
+&lt;p&gt;新的国产安卓可以安装小黒屋工具，将无法卸载却其实没必要的捆绑软件关进小黒屋，这是此操作对于普通用户来说可能略显麻烦。国外版本的苹果手机不错，可以试试 Google Pixel，会玩的可以买ubuntu版本的手机。&lt;/p&gt;
+&lt;p&gt;‌苹果设备的图形界面对用户很友好，操作时最便利的，但是鉴于安全，还是得配一个完全自主的android手机。&lt;/p&gt;
+&lt;h2 id=&#34;电脑&#34;&gt;电脑&lt;/h2&gt;
+&lt;p&gt;即使领导层，也要习惯用电脑办公，并使用例如 Quip 或 GoogleDrive之类的办公套件，在电脑的屏幕上能看得清文档目录结构，方便理清思路，这些在手机上是很不方便的。&lt;/p&gt;
+&lt;p&gt;‌&lt;/p&gt;
+&lt;h2 id=&#34;操作系统&#34;&gt;操作系统&lt;/h2&gt;
+&lt;p&gt;本篇所列的软件都有可以在 win10 和 MacOS 上使用，为了工作便捷选自己熟悉的系统比较好；&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;个人建议尽可能使用苹果，和Linux操作系统，我试过 Manjaro 版本，听说软件库很多，但是由于操作不方便，我还是放弃了，选用了Ubuntu，感觉非常棒，社区支持多，用户能找到教程也多；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;‌&lt;/p&gt;
+&lt;h2 id=&#34;私服&#34;&gt;私服&lt;/h2&gt;
+&lt;p&gt;私有云，NAS，软路由，交换机，VPN，家庭影音娱乐的综合解决方案，高效专业团队应该有一套自己的这种装备，有待补充；&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.freenas.org/&#34;&gt;NAS&lt;/a&gt;；&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/support/nas_selector&#34;&gt;群晖&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PSMD管理体系设计和实施</title>
+      <link>https://atomx.cc/zh/posts/it/pivot-structure-modeling-and-deploy/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/pivot-structure-modeling-and-deploy/</guid>
+      <description>&lt;p&gt;PSMD&lt;a href=&#34;http://xuemen.github.io/PSMD/&#34;&gt;(Pivot Structure Modeling and Deploy)&lt;/a&gt;培养共同体建模、部署人员，帮助适应分布式自治组织( Distributed Autonomous Community)的需要。它本身是开放、半自助的共同体。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/xuemen/PSMD/blob/master/README.md&#34;&gt;Github repo - PSMD&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由于这篇文档面向普通人，用了一个通俗易懂的概念“管理体系设计和实施”，英文原义为“枢纽结构建模和部署”，面向的是开发者，对基本概念的理解有较高要求。&lt;/p&gt;
+&lt;h2 id=&#34;psmd讲义&#34;&gt;&lt;strong&gt;PSMD讲义&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;以下是面向创业者和组织管理层的讲解稿。&lt;/p&gt;
+&lt;p&gt;项目介绍：&lt;a href=&#34;http://xuemen.github.io/PSMD/PSMD.html&#34;&gt;PSMD.html&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;筹备期(call for member)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;案例：&lt;a href=&#34;http://xuemen.github.io/PSMD/workshop/cfm.case.html&#34;&gt;workshop/cfm.case.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;讲义：&lt;a href=&#34;http://xuemen.github.io/PSMD/workshop/cfm.html&#34;&gt;workshop/cfm.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;初创期(start)&lt;/p&gt;
+&lt;p&gt;案例：&lt;a href=&#34;http://xuemen.github.io/PSMD/workshop/start.case.html&#34;&gt;workshop/start.case.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;讲义：&lt;a href=&#34;http://xuemen.github.io/PSMD/workshop/start.html&#34;&gt;workshop/start.html&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;转型期(evolution)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;案例：&lt;a href=&#34;http://xuemen.github.io/PSMD/workshop/evo.case.html&#34;&gt;workshop/evo.case.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;讲义：&lt;a href=&#34;http://xuemen.github.io/PSMD/workshop/evo.html&#34;&gt;workshop/evo.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这节基本总结了整个筹备阶段的公司治理问题的解决方案&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/xuemen/PSMD/blob/master/workshop/1.html&#34;&gt;章程规定，筹备阶段 [一]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://xuemen.github.io/PSMD/workshop/1.html#20&#34;&gt;http://xuemen.github.io/PSMD/workshop/1.html#20&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/xuemen&#34;&gt;https://github.com/xuemen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sina.com.cn/s/blog_591ac3040102v67t.html&#34;&gt;关于筹备期，更早的笔记：&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(2014-11-18 01:57:34) 加上人名和身份证号就能用。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sina.com.cn/s/blog_591ac3040102vus8.html&#34;&gt;许可声明&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;筹备协议：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sina.com.cn/s/blog_591ac3040102v67t.html&#34;&gt;范本：&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sina.com.cn/s/blog_591ac3040102vp0s.html&#34;&gt;要点：&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在线议事规则：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.sina.com.cn/s/blog_591ac304010186yg.html&#34;&gt;范本：&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PSMD会成为脑机接口吗？</title>
+      <link>https://atomx.cc/zh/posts/it/psmd-is-neural-link-port/</link>
+      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/psmd-is-neural-link-port/</guid>
+      <description>&lt;p&gt;什么是PSMD？为什么要提这个？从它的作者说起。&lt;/p&gt;
+&lt;p&gt;黄勇刚 / 行动比语言诚实&lt;/p&gt;
+&lt;p&gt;清华计算机系少年班，可能你听说过姚班，14岁上大学那种天才。&lt;/p&gt;
+&lt;p&gt;他工作几年后就做到公司董事管理层，开始涉及编程之外的组织架构和管理的事务，程序员中最早的的远程工作者，最早一批的比特币持有者，在中国会写智能合约的没多少人吧，在互联网技术研究方面，他都是走在最前沿的。&lt;/p&gt;
+&lt;p&gt;他重点在研发的psmd组织体系建模和部署，最后将变成软件infra基础设施，可供开发者（建模者、部署者）使用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitee.com/hyg&#34;&gt;hyg-gitee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://weibo.com/u/1494926084&#34;&gt;hyg-微博&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.sina.com.cn/mars22&#34;&gt;hyg-新浪博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhihu.com/people/huang-yong-gang&#34;&gt;hyg-知乎&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其实黄老师区别于大多数普通程序员，他一点也不封闭，很新潮，在社交媒体上留下大量的内容，只是不太符合平常人的口味。新浪博客已经关闭，链接失效，且看且珍惜。&lt;/p&gt;
+&lt;h1 id=&#34;互联网先知&#34;&gt;互联网先知&lt;/h1&gt;
+&lt;p&gt;我在中国过去十多年工作的过程中，遇到无数的欺诈、作弊、腐败、投机、潜规则等各种组织管理的弊病，公司的漏洞影响到我的职业发展，我感到非常苦闷，“城市套路深，我要回农村”，于是我决定逃避到农村。&lt;/p&gt;
+&lt;p&gt;2010年春天，我加入一个三农（农业农村农民）公益组织，参与创建有机农场联盟，北京有机农夫市集等，有机农业圈的朋友都知道这些。&lt;/p&gt;
+&lt;p&gt;当时中国食品安全的问题闹得很凶，有机概念的农产品有许多忠实顾客，在北京最繁华的老外扎堆的朝阳区每周举办的市集里，我认识了有机农产品铁粉 — 黄勇刚，起初只知道他是学计算机的，人狠话少，总之很厉害，对他了解不多。&lt;/p&gt;
+&lt;p&gt;为公益组织工作不到2年，我又受不了，发现自己还是太天真了，以为公益组织可能会单纯一点，其实公益组织的弊病一点也不比商业公司少，甚至各种低等的劣根性更多。&lt;/p&gt;
+&lt;p&gt;没有更好地方可去，于是我只能再回到商业领域继续干，尽管是top3的业界知名互联网大厂，进去兴奋了2个月，发现也不过是打着幌子的招牌好看，绣花枕头里的草包而已，依然感到苦闷，我经常在工作之余四处游荡，探索解决方案，我也只是个基层打工仔而已，但是考虑问题的眼光总是触及老板的层次。&lt;/p&gt;
+&lt;h1 id=&#34;psmd能成为圣经吗&#34;&gt;PSMD能成为圣经吗？&lt;/h1&gt;
+&lt;p&gt;大约2015年，通过黄勇刚的博客了解到，他写了一个叫PSMD的东西，当时我非常兴奋，世界上怎么有这样聪明的人，还被我发现了？这是幸运之神降临到我的跟前。&lt;/p&gt;
+&lt;p&gt;有久旱逢甘霖的感觉，花了不少时间去学习，得到他耐心辅导和几次培训，他按分钟计时收我这多年老友的咨询费，非常理性，但不尽情面，他每一句话都极其精确滴水不漏，没有歧义含糊不清，总是在极短时间内提几个问题即能抓住要害关键点，然后几句话精辟总结。&lt;/p&gt;
+&lt;p&gt;从那时开始，我确信某些人的脑子可能安装了Alpha Go操作系统，比钢铁侠马斯克更超前安装了脑机接口，实现从碳基生物人结合硅基体的过渡，在其他一切AI还都是人工智障的时候，这人的大脑已经外挂真正的人工智能，他似乎更接近上帝和真理。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;宇宙规律的奥秘和真理也一直在那里，老黄就是最早领悟真理的先知，并用代码写了出来。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;由于我没有足够知识，不能直接通透理解先知老黄的话，于是我通过其他渠道验证了对psmd的印象，我亲眼见识到的，找他咨询的大老板们，包括在线教育界知名机构等等，应该都是职场上很犀利的人精吧，看着这些台面上的大人物在他的面前都被碾压智商，都被训得跟孙子似的，那种现场观摩的酸爽感真是太好了，犹如同时吃着火锅和冰激凌，冰火两重天。&lt;/p&gt;
+&lt;p&gt;老黄的气场和睿智，所有人都不服不行，简直可以封神，我不迷信，私下里崇拜其尊号：黄大仙。&lt;/p&gt;
+&lt;p&gt;如果谁不服的，不妨去试试，如果你能和他打平手，我都会给你免费打一年工。&lt;/p&gt;
+&lt;h1 id=&#34;关键生态位&#34;&gt;关键生态位&lt;/h1&gt;
+&lt;p&gt;再仔细看PSMD的时候，我有一种雾里看花水中望月的感觉，就像英文不好的人读一本西方经典名著，或类似阅读困难症的人看一部非常深奥的法律书，他写的每一个字和每一个符号都认识，但就是不知道通篇在讲什么，但是又非常认同他写的每一句话都是极其合理和精准的。&lt;/p&gt;
+&lt;p&gt;PSMD的简介采用了人类自然语言书写，似乎用一些特别的语法结构和定义，经过黄大仙不断在github里迭代版本，现在看起来并没有特别晦涩难懂。&lt;/p&gt;
+&lt;p&gt;而这仅仅是给入门者（幼儿园）用的初级版本，高级版本是用编程代码写的，将成为一个软件Infrastructure基础设施，就像http, smtp等网络协议，但是很少有人知道这些重要的网络协议是谁写的，只要接上网络的人都在享用http的好处。&lt;/p&gt;
+&lt;p&gt;好的事物如上帝普惠众生，圣经里说的“作光和盐”，而人们都意识不到其存在，也像空气和水一样，似乎免费或廉价，但是非常非常重要，这种人生状态被黄大仙在PSMD中定义为“关键生态位”，他奋斗目标就是在“关键生态位”上服务全社会。&lt;/p&gt;
+&lt;p&gt;所以没搞懂的同学不要急，可以看看他的社交媒体，例如微博、博客与知乎，有许多网友提出非常刁钻的问题，邀请他解答现实问题，案例很精彩、一针见血或浅显易懂，由此可以理解PSMD到底是干啥用的。&lt;/p&gt;
+&lt;p&gt;从他在社交媒体上的格言，可以窥见其真实性情&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;黄勇刚：行动比语言诚实&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;无处实施&#34;&gt;无处实施&lt;/h1&gt;
+&lt;p&gt;如果有人问PSMD到底怎么样，我的答复一定是“很好，值得探究”，尽管尚未得到实施验证，但是我看到并确信，在更先进的国家地区的组织里早已经实现了，包括一些高智商精英的创业团队里，例如各种合伙人企业，包括律师、投资人、会计师、科学家等等，他们处于“关键生态位”。&lt;/p&gt;
+&lt;p&gt;而我在中国长期处于“原始生态位” — 也就是原始野蛮丛林，正往“自觉生态位”过渡，这个阶段很难捱，这是我们很多朋友感到消沉压抑的原因，跨过去得大解脱，跨不过去就抑郁症。要么追随主流，始终停留在“原始生态位”上睡大觉，永远不要觉醒，这样可能还觉得自己很优秀，或生存质量挺好的错觉，一辈子在稀里糊涂的幸福迷幻中过去也是一种无奈。&lt;/p&gt;
+&lt;p&gt;我就是一直在作死的路上折腾着，曾经跳槽多家大公司，矢志不渝地试图在工作中实施PSMD，很快我就被迫离职或被开除。在解决问题的时候，我不太在乎自己的一点薪资福利，总是以此去触碰天花板 &amp;ndash; 上层管理者的利益。&lt;/p&gt;
+&lt;p&gt;然后每一次更换工作，我都抱着很大的希望，尽力去继续测试PSMD，无论是小个体户或大公司，我发现每一个案例都根本不符合PSMD的要求。经历多家商业公司和公益组织后，均无一例外地失败，这个代价很高，我没有稳定工作收入了，然后只能选择自己创业做点IT外包和农业咨询。&lt;/p&gt;
+&lt;p&gt;在经历无数的挫折后，我理解唯有遵守潜规则，才是在中国生存的常态。资本论里讲“资本原始积累的每一个毛孔都滴着血和肮脏的东西”，按照历史客观规律，例如西方殖民史，强盗是可以变成文明人的，但是现实看到，很多公司赚到大钱后并没有把自己洗白，过了原始积累阶段后，邪恶得变本加厉了，无法摆脱魔戒的引力，他们对特权、潜规则、开后门、走关系、投机、偷盗上瘾。&lt;/p&gt;
+&lt;p&gt;每个微小的单位组织都是社会的细胞，我所看到的那些组织弊病基本属于癌症晚期，扩散到全身每个细胞，不可救药了。由于多年过去，我依然没有地方可以实施PSMD，只好暂时搁置PSMD这个好工具，最终放弃了改良的幻想，直至出海离开中国。&lt;/p&gt;
+&lt;p&gt;PSMD的创造者&amp;ndash; 黄老师，一直对我提出尖锐且刻薄的批评，我都接受，把他当做老朋友和人生导师。他是一个非常聪明，追求极致精确的完美主义者，有理想和疯狂的计划，可惜理解他的人极其稀少，我希望有更多人能读懂和认可他。&lt;/p&gt;
+&lt;p&gt;到目前为止，我对PSMD的理解还是非常肤浅的，但是我认为它有非常大的潜力，用于构建未来文明社会的组织生态，成为虚拟和现实互相映射的网络基础设施。&lt;/p&gt;
+&lt;h1 id=&#34;黄大仙其人&#34;&gt;黄大仙其人&lt;/h1&gt;
+&lt;p&gt;我把黄老师介绍给很多人，但是能接受他的人是极其稀少的，唯有几个家境较好，有人生追求且高智商的人能和他谈得来，他有一些特征不被主流社会接纳：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;从来不参加一般的社交活动，与老朋友会面也要提前预约，并按照分钟计时，惜时如命，到点就走；与任何人说话都言简意赅，充分倾听，没有一句废话，直击本质，不留情面；&lt;/li&gt;
+&lt;li&gt;几乎不与人在外吃饭，自己在家动手做，对食材质量要求极高，每天对照营养表，将各种食物摄入量和生理指标记录放github库里，用数字技术能力，给自己创建虚拟的人体模型；&lt;/li&gt;
+&lt;li&gt;有严重洁癖，在外面总是带着消毒水擦拭自己接触的东西，需要几台空气净化器，力图将住宅内的空气净化到半导体车间的水平；皮肤对光过敏，不能出来晒太阳，在家里也要拉着窗帘；&lt;/li&gt;
+&lt;li&gt;使用特别大且重的电脑，挂很多屏幕在墙上，站着工作，租着办公室也不用，他有个中国最早的远程工作团队，成员分布在不同地方，宅家里很多年了；&lt;/li&gt;
+&lt;li&gt;放弃了婚姻，对婚姻和家庭的组织关系，有一套特别的理念说明，详情可以查询他的博客；&lt;/li&gt;
+&lt;li&gt;中年大叔，完全秃了，但是心态很年轻，喜欢看二次元日本动漫和MV；&lt;/li&gt;
+&lt;li&gt;经常对找上门来咨询的老板发脾气，拍桌子让他们走人，直言不讳，宁可不赚那笔太low的钱；&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

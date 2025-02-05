@@ -6,11 +6,6 @@
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/papermod/papermod-installation/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/posts/ool/papermod/papermod-installation/"
                 />
@@ -24,11 +19,6 @@
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/papermod/papermod-features/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/posts/ool/papermod/papermod-features/"
                 />
@@ -38,13 +28,47 @@
                 href="https://atomx.cc/posts/ool/papermod/papermod-features/"
                 />
   </url><url>
-    <loc>https://atomx.cc/tags/docs/</loc>
+    <loc>https://atomx.cc/posts/ool/papermod/papermod-faq/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/docs/"
+                hreflang="ru"
+                href="https://atomx.cc/ru/posts/ool/papermod/papermod-faq/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/ool/papermod/papermod-faq/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/posts/ool/papermod/papermod-icons/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/posts/ool/papermod/papermod-icons/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/ool/papermod/papermod-icons/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/posts/ool/papermod/papermod-variables/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/posts/ool/papermod/papermod-variables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/ool/papermod/papermod-variables/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/tags/docs/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -78,11 +102,6 @@
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/papermod/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/papermod/"
                 />
@@ -96,11 +115,6 @@
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/series/papermod/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/series/papermod/"
                 />
@@ -112,11 +126,6 @@
   </url><url>
     <loc>https://atomx.cc/posts/ool/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/papermod/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -204,11 +213,6 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/css/"
                 />
@@ -220,11 +224,6 @@
   </url><url>
     <loc>https://atomx.cc/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/html/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -240,11 +239,6 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/markdown/"
                 />
@@ -256,11 +250,6 @@
   </url><url>
     <loc>https://atomx.cc/posts/ool/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/markdown-syntax/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -276,11 +265,6 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/categories/syntax/"
                 />
@@ -292,11 +276,6 @@
   </url><url>
     <loc>https://atomx.cc/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/themes/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -312,11 +291,6 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/categories/themes/"
                 />
@@ -328,11 +302,6 @@
   </url><url>
     <loc>https://atomx.cc/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/series/themes-guide/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -348,11 +317,6 @@
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/code/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/code/"
                 />
@@ -364,11 +328,6 @@
   </url><url>
     <loc>https://atomx.cc/posts/ool/code_syntax/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/code_syntax/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -384,11 +343,6 @@
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/gist/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/gist/"
                 />
@@ -400,11 +354,6 @@
   </url><url>
     <loc>https://atomx.cc/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/privacy/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -420,11 +369,6 @@
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/posts/ool/rich-content/"
                 />
@@ -436,11 +380,6 @@
   </url><url>
     <loc>https://atomx.cc/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/shortcodes/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -456,11 +395,6 @@
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/syntax/"
                 />
@@ -472,11 +406,6 @@
   </url><url>
     <loc>https://atomx.cc/posts/ool/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/math-typesetting/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -492,11 +421,6 @@
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/emoji/"
                 />
@@ -508,11 +432,6 @@
   </url><url>
     <loc>https://atomx.cc/posts/ool/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/emoji-support/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -528,11 +447,6 @@
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/about/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/categories/about/"
                 />
@@ -546,11 +460,6 @@
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/education-training/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/education-training/"
                 />
@@ -562,11 +471,6 @@
   </url><url>
     <loc>https://atomx.cc/tags/resume/</loc>
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/resume/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -600,11 +504,6 @@
     <lastmod>2017-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/cases-social-works/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/cases-social-works/"
                 />
@@ -616,11 +515,6 @@
   </url><url>
     <loc>https://atomx.cc/cases-business/</loc>
     <lastmod>2017-02-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/cases-business/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"

@@ -11,11 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/papermod/papermod-installation/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/posts/ool/papermod/papermod-installation/"
                 />
@@ -29,13 +24,47 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/papermod/papermod-features/"
+                hreflang="ru"
+                href="https://atomx.cc/ru/posts/ool/papermod/papermod-features/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-faq/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/ool/papermod/papermod-faq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://atomx.cc/ru/posts/ool/papermod/papermod-features/"
+                href="https://atomx.cc/ru/posts/ool/papermod/papermod-faq/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-icons/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/ool/papermod/papermod-icons/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/posts/ool/papermod/papermod-icons/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-variables/</loc>
+    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/ool/papermod/papermod-variables/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/posts/ool/papermod/papermod-variables/"
                 />
   </url><url>
     <loc>https://atomx.cc/ru/</loc>
@@ -65,11 +94,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/docs/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/docs/"
                 />
@@ -80,11 +104,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/tags/papermod/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/papermod/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -101,11 +120,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/series/papermod/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/series/papermod/"
                 />
@@ -116,11 +130,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/ool/papermod/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/papermod/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -209,11 +218,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/css/"
                 />
@@ -224,11 +228,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -245,11 +244,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/markdown/"
                 />
@@ -260,11 +254,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/ool/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -281,11 +270,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/categories/syntax/"
                 />
@@ -296,11 +280,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -317,11 +296,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/categories/themes/"
                 />
@@ -332,11 +306,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/series/themes-guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/series/themes-guide/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -353,11 +322,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/code/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/code/"
                 />
@@ -368,11 +332,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/ool/code_syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/code_syntax/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -389,11 +348,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/gist/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/gist/"
                 />
@@ -404,11 +358,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/tags/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/privacy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -425,11 +374,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/posts/ool/rich-content/"
                 />
@@ -440,11 +384,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/tags/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -461,11 +400,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/syntax/"
                 />
@@ -476,11 +410,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/ool/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/math-typesetting/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -497,11 +426,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/emoji/"
                 />
@@ -512,11 +436,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/ool/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/ool/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -533,11 +452,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/about/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/categories/about/"
                 />
@@ -551,11 +465,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/resume/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/resume/"
                 />
@@ -566,11 +475,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/education-training/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/education-training/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -605,11 +509,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/cases-social-works/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/cases-social-works/"
                 />
@@ -620,11 +519,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/cases-business/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/cases-business/"
                 />
     <xhtml:link
                 rel="alternate"
