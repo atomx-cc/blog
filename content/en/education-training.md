@@ -1,5 +1,5 @@
 ---
-title: "教育培训"
+title: Education & training
 date: 2017-09-17
 categories:
   - About
@@ -7,114 +7,107 @@ tags:
   - Resume
 ---
 
-我的基础知识和技能结构
+My basic knowledge and skill structure
 
-更新时间 2023.4
+Updated 2023.4
 
 ## IT
 
 - Git
 - SQL
-- 操作系统 Linux
-- 编程语言 C++/ Python
-- 电商运营
-- 用户体验设计 (UX)
-- 搜索引擎优化 (SEO)
-- 客户关系管理 (CRM)
+- Operating system Linux
+- Programming language C++/ Python
+- E-commerce operation
+- User experience design (UX)
+- Search engine optimization (SEO)
+- Customer relationship management (CRM)
 
-
-## 农业与食品
+## Agriculture and food
 
 - ISO22000
-- 食品安全
-- 动物福利
-- 感官测评
-- 中央厨房运营
-- 环境、健康与安全规范 (EHS)
-- HACCP 危害分析临界控制点
+- Food safety
+- Animal welfare
+- Sensory evaluation
+- Central kitchen operation
+- Environmental, health and safety regulations (EHS)
+- HACCP Hazard Analysis Critical Control Point
 
+## Language
 
-## 语言
+- Chinese - Native C1,
+- English - Fluent B2,
+- Japanese - Beginner A1,
+- Russian - Elementary A2,
 
-- 汉语 - 母语 C1,
-- 英语 - 流利 B2,
-- 日语 - 入门 A1,
-- 俄语 - 初级 A2,
+## Education
 
+Major: IT and E-commerce
 
-## 教育
+Study period: September 2000 - July 2003 Month
 
-专业：IT 与电子商务
+Location: Hubei, China
 
-学习期间：2000 年 9 月 - 2003 年 7 月
+School: [Wuhan Vocational and Technical College](https://wtc.edu.cn/main.htm)
 
-地点：中国.湖北
+Address: No. 463 Guanshan Avenue, Wuhan, 430074
 
-学校：[武汉职业技术学院](https://wtc.edu.cn/main.htm)
+Education: Vocational and Technical Education and Training/College
 
-地址：武汉市关山大道463号，430074
+## Open Classes
 
-学历：职业技术教育培训/ 大专
+Subjects: Environment, Agriculture, Animals, Food, Biology, Health, Sustainable Development, Computers, Mathematics, etc.
 
+Study Period: November 2014 - Present
 
-## 公开课
+School: [Coursera.org](http://coursera.org/)
 
-科目：环境、农业、动物、食品、生物、健康、可持续发展、计算机、数学等
+10 completed Study multiple courses, such as:
 
-学习期间：2014 年 11 月 - 至今
+**Main courses:**
 
-学校：[Coursera.org](http://coursera.org/)
+[Food Safety and Toxicology](https://www.coursera.org/learn/shipin-anquan)
 
-已经完成 10 多门课程学习，例如：
+[Animal Behavior and Welfare](https://www.coursera.org/learn/animal-welfare)
 
-**主要课程：**
+[Modern World Part I: Global History](https://www.coursera.org/learn/modern-world)
 
-[食品安全和毒理学](https://www.coursera.org/learn/shipin-anquan)
+[Python Specialization](https://www.coursera.org/specializations/python)
 
-[动物行为和福利](https://www.coursera.org/learn/animal-welfare)
+[Model Thinking](https://www.coursera.org/learn/model-thinking)
 
-[当代世界第一部：全球历史](https://www.coursera.org/learn/modern-world)
+[Internet History, Technology and Security](https://www.coursera.org/learn/internet-history)
 
-[Python专项课](https://www.coursera.org/specializations/python)
+[Google IT Technical Support](https://www.coursera.org/professional-certificates/google-it-support?)
 
-[模型思维](https://www.coursera.org/learn/model-thinking)
+[Learning How to Learn: Powerful Mental Tools to Master Difficult Problems](https://www.coursera.org/learn/learning-how-to-learn)
 
-[互联网历史、技术和安全](https://www.coursera.org/learn/internet-history)
+[Programming and Algorithms](https://www.coursera.org/specializations/biancheng-suanfa)
 
-[Google IT 技术支持](https://www.coursera.org/professional-certificates/google-it-support?)
+[Introduction to Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking/)
 
-[学习如何学习：强大的心里工具帮助掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
+[IBM Cybersecurity Analysis](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
 
-[编程和算法](https://www.coursera.org/specializations/biancheng-suanfa)
+### Subtitle Group Compilation and Training
 
-[数学思考入门](https://www.coursera.org/learn/mathematical-thinking/)
+Period: 2014 - 2017
 
-[IBM 网络安全分析](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
-
-
-
-### 字幕组编译和培训
-
-期间：2014 - 2017
-
-我召集了30多名相关专业背景的团队成员，来自10多个不同的国家和地区，在以下平台上：
-- [Coursera 翻译社区(GTC)](https://www.coursera.support/s/feed/0D51U00003BmIp9SAF?language=en_US);
+I gathered more than 30 team members with relevant professional backgrounds from more than 10 different countries and regions on the following platforms:
+- [Coursera Translation Community (GTC)](https://www.coursera.support/s/feed/0D51U00003BmIp9SAF?language=en_US);
 - [Transifex](http://transifex.com);
 - [Quip](https://quip.com/);
 
-组织团队线上协作、新成员的软件培训、公开课的字幕翻译等，主要课程例如：
+Organize team online collaboration, software training for new members, subtitle translation for public courses, etc. The main courses are as follows:
 
+**Main courses:**
 
-**主要课程：**
+[Sustainable Development Era](https://www.coursera.org/learn/sustainable-development);
 
-[可持续发展时代](https://www.coursera.org/learn/sustainable-development) ；
+[Digital Marketing](https://www.coursera.org/specializations/digital-marketing);
 
-[数字营销](https://www.coursera.org/specializations/digital-marketing)；
+[Our Earth, Climate, History and Process](https://www.coursera.org/learn/our-earth);
 
-[我们的地球, 气候, 历史和进程](https://www.coursera.org/learn/our-earth)；
+Note: In the ```Our Earth``` course, simulation software is included, welcome to try!
 
-注释：在 ```我们的地球``` 课程中，附带模拟软件，欢迎试用！
+BYOE (build your own earth), a digital earth teaching simulation software, is used to explore how the air, water, soil and life on Earth were formed over the past 4.5 billion years, and the mutual influence of macro and micro ecology.
 
-数字地球教学模拟软件BYOE（build your own earth），用于探索地球过去 45 亿年的空气、水、土壤和生命如何形成，及宏观和微观生态的相互影响。
-
-[BYOE](http://www.buildyourownearth.com/)可模拟地球环境变量的动态过程，用于环境、气象、农业等行业的科普。
+[BYOE](http://www.buildyourownearth.com/) can simulate the dynamic process of Earth's environmental variables and is used for popular science in the environment, meteorology, agriculture and other industries.
