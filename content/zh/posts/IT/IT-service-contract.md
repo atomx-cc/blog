@@ -3,13 +3,13 @@ title: "IT服务合同"
 date: 2014-06-08
 description: 
 categories:
-  - Business
-  - IT 
+  - IT
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
-  - Remote Jobs 
+  - 社交媒体
+  - 市场营销
+  - 互联网
+  - 远程工作
 ---
 
 适用于一般的中小型企业IT服务外包的合同模板

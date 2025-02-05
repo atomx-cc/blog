@@ -3,11 +3,11 @@ title: "1.0 商业框架：概述- 品牌、传媒、营销"
 date: 2020-06-08
 description: 
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 > 营销是一门艺术，应该像搭乐高积木一样欢乐和简单
@@ -53,7 +53,7 @@ tags:
 
 品牌是一个名称、术语、设计、符号或任何其他特征，定义企业形象，在消费群体心中建立企业、产品或服务的“个性化”特征。
 
-[https://zh.wikipedia.org/wiki/品牌](https://zh.wikipedia.org/wiki/%E5%93%81%E7%89%8C)
+[wiki: 品牌](https://zh.wikipedia.org/wiki/%E5%93%81%E7%89%8C)
 
 一切与**企业形象识别**相关的活动统称为品牌，主要关于抽象概念的设计，完全停留在纸面上；
 
@@ -73,7 +73,7 @@ tags:
 
 **信息传播**过程中，从传播者到接受者之间的信息载体，及存储和传递信息或数据的一切通信渠道和工具。
 
-[https://en.wikipedia.org/wiki/Media_(communication)](https://en.wikipedia.org/wiki/Media_(communication))
+[wiki: 传媒](https://en.wikipedia.org/wiki/Media_(communication))
 
 品牌的更具象化的**文化宣传内容和材料**，通过线上和线下实现延伸，居于中间衔接上游品牌和下游营销。
 
@@ -83,14 +83,14 @@ tags:
 
 广告是一种媒体传播活动，为了商业或非盈利目标，推广或销售产品、服务或想法、沟通信息、促进认识。
 
-[https://zh.wikipedia.org/wiki/廣告](https://zh.wikipedia.org/wiki/%E5%BB%A3%E5%91%8A)
+[wiki：廣告](https://zh.wikipedia.org/wiki/%E5%BB%A3%E5%91%8A)
 
 广告就是付费的媒体宣传（Paid Media)，提高知名度的宣传机会，广告是品牌策划简单的视觉体现，广告的目的是对特定消费群体进行品牌宣传；
 广告宣传针对你所提供的内容，市场宣传则针对客户需要的内容，两者的区别是关注的重点不同；
 
 ### **传播**
 
-[https://en.wikipedia.org/wiki/Communication](https://en.wikipedia.org/wiki/Communication)
+[wiki：传播](https://en.wikipedia.org/wiki/Communication)
 
 也叫沟通（来自拉丁语 communicare，意为“分享”或“与之相关”）是“对自我与他人、私人与公共,以及内心思想和外部世界之间分歧的明显回答。
 
@@ -98,7 +98,7 @@ tags:
 
 是管理和传播来自个人或组织（例如企业、政府机构或非营利组织）的信息以影响公众认知，通過運用各種資訊傳播方式與其內外公眾進行雙向溝通，在組織與公眾之間建立相互了解和依賴的關係，以樹立良好組織形象的活動。
 
-[https://zh.wikipedia.org/zh-hans/公共关系](https://zh.wikipedia.org/zh-hans/%E5%85%AC%E5%85%B1%E5%85%B3%E7%B3%BB)
+[wiki: 公共关系](https://zh.wikipedia.org/zh-hans/%E5%85%AC%E5%85%B1%E5%85%B3%E7%B3%BB)
 
 公关是一种**Earned Media exposure**，公关的主要职能之一是通过媒体沟通进行品牌传播，以获取公众对于企业、产品或服务的关注与认知；
 
@@ -110,7 +110,7 @@ tags:
 
 营销是探索、创造和提供价值的过程，以满足目标市场在商品和服务方面的需求。
 
-[https://zh.wikipedia.org/wiki/市场营销](https://zh.wikipedia.org/wiki/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80)
+[wiki: 市场营销](https://zh.wikipedia.org/wiki/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80)
 
 一切与**市场和销售**相关的经济活动统称为营销，主要关于商品和服务推广，市场是关于如何规划扩大品牌的计划。
 
@@ -123,7 +123,7 @@ tags:
 
 ### 运营
 
-[https://en.wikipedia.org/wiki/Operation](https://en.wikipedia.org/wiki/Operation)
+[wiki: 运营](https://en.wikipedia.org/wiki/Operation)
 
 也叫營運（台湾版），管理和操作艺术、娱乐、媒体、商业等行業的业务。
 
@@ -212,11 +212,10 @@ Marketing can be a great way to get a customer’s attention, but branding is a 
 
 营销：面向客户；
 
-**品牌和营销的关系？**
+[品牌和营销是什么关系？](https://www.zhihu.com/question/480630310/answer/2077471563)
 
-[https://www.zhihu.com/question/480630310/answer/2077471563](https://www.zhihu.com/question/480630310/answer/2077471563)
+[Marketing vs. branding: what’s the difference?](https://99designs.com/blog/marketing-advertising/marketing-vs-branding/)
 
-[https://99designs.com/blog/marketing-advertising/marketing-vs-branding/](https://99designs.com/blog/marketing-advertising/marketing-vs-branding/)
 
 **媒体和营销的关系？**
 
@@ -227,9 +226,9 @@ Marketing can be a great way to get a customer’s attention, but branding is a 
 | **目标：**品牌意识、消费者激活、获取和转化
 1. 视觉/创意概念的连贯性是最重要的--与众不同，并且有明确的目的，忠实于公司的传统和目标。
 2.多媒体将大众传播平台与目标广告相结合。
-3. 多次接触消费者--但不要太多次。
-4. 60%需要情感化 - 30%是战术性的 - 10%是实验性的信息传递。
-5. 营销需要有效地销售产品，足以从产品销售中赚钱。
+1. 多次接触消费者--但不要太多次。
+2. 60%需要情感化 - 30%是战术性的 - 10%是实验性的信息传递。
+3. 营销需要有效地销售产品，足以从产品销售中赚钱。
  | **目标：**品牌意识，网络增长
 1. 媒体需要为其消费的渠道而制作。
 2. 媒体需要以消费者为中心的自愿性。
@@ -296,23 +295,16 @@ Pewdiepie模式
 如果成功，你 可以在你的媒体产品上出售广告。
 营销模式 |
 
-**参考资料.**
+**参考资料**
 
-媒体与营销之间的3个根本性区别
+[媒体与营销之间的3个根本性区别](https://medium.com/@jesperastrom/the-3-fundamental-differences-between-media-marketing-8709821c546f)
 
-[https://medium.com/@jesperastrom/the-3-fundamental-differences-between-media-marketing-8709821c546f](https://medium.com/@jesperastrom/the-3-fundamental-differences-between-media-marketing-8709821c546f)
+[什么是CPA, CPC?](https://www.publift.com/adteach/what-are-cpm-cpc-cpa-ctr)
 
-**什么是CPA, CPC?**
 
-[https://www.publift.com/adteach/what-are-cpm-cpc-cpa-ctr](https://www.publift.com/adteach/what-are-cpm-cpc-cpa-ctr)
+[品牌、广告、市场与公关的职能区别？](https://www.prnasia.com/blog/archives/2130)
 
-**品牌、广告、市场与公关的职能区别？**
-
-[https://www.prnasia.com/blog/archives/2130](https://www.prnasia.com/blog/archives/2130)
-
-**品牌、营销、广告，三者的区别是什么？**
-
-[https://www.eq-international.com/blog/branding-marketing-advertising-differences-versus-strategy-info](https://www.eq-international.com/blog/branding-marketing-advertising-differences-versus-strategy-info)
+[品牌、营销、广告，三者的区别是什么？](https://www.eq-international.com/blog/branding-marketing-advertising-differences-versus-strategy-info)
 
 - 品牌塑造是战略性地塑造公众对您的业务以及您所销售的任何产品的看法的过程。
 - 营销是通过市场调查了解目标客户、了解他们的问题并向他们展示您的产品如何帮助他们解决其中一个或多个问题的过程。
@@ -328,31 +320,3 @@ Pewdiepie模式
 [秩序关系3：品牌、传媒、营销.png](https://docs.google.com/drawings/d/e/2PACX-1vQ45ClmqDLdtVkkiiS7G-8WoQK4z_GyMc44Tjibedhwz0YV8YA1zn168RyqbfBr4eurtnm2MzqSRcsT/pub?w=960&h=720)
 
 [https://docs.google.com/drawings/d/e/2PACX-1vSBOiLAen-B-hDDz-XJS50CVPy1PFObnw0a28vveII-1P0KnWfunIOxB3MNLc9CyfbzwiRWObC1OQc5/pub?w=983&h=730](https://docs.google.com/drawings/d/e/2PACX-1vSBOiLAen-B-hDDz-XJS50CVPy1PFObnw0a28vveII-1P0KnWfunIOxB3MNLc9CyfbzwiRWObC1OQc5/pub?w=983&h=730)
-
-# **理论源头**
-
-我们不能仅仅批判营销界普遍弄虚作假的败坏典型，更应该追寻美好事物的源头，来自广告、营销、品牌设计圈大佬的理论和实践，现找到部分经典图书：
-
-- 创造产品内在价值的理论：
-    - Innovation and Entrepreneurship《创新与企业家精神》，Peter Drucker 德鲁克;
-    - Blue Ocean Strategy《蓝海战略》，W. Chan Kim 钱.金;
-    - The Innovator's Solution: Creating and Sustaining Successful Growth《创新者的解答》，Clayton M. Christensen 克莱顿•克里斯坦森；
-    - The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail 《创新者的窘境》，Clayton M. Christensen 克莱顿•克里斯坦森；
-- 品牌价值成份和定位的理论：
-    - Positioning: The Battle for Your Mind《定位》;
-    - Marketing Warfare, 20th Anniversary Edition《商战》；
-    - Focus: The Future of Your Company Depends on It《聚焦》；
-    - The origin of brands《品牌的起源》；
-    - Differentiate Or Die: Survival in Our Era of Killer Competition《与众不同》；
-    - REPOSITIONING: Marketing in an Era of Competition, Change and Crisis《重新定位》；
-    
-    以上书籍的作者均为 Al Ries 艾·里斯和Jack Trout 杰克·特劳特
-    
-- 文化基因- 谜米（meme）的理论：
-    - The Selfish Gene《自私的基因》
-    
-    作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。
-    
-- 文化的理论：
-    - Cultural Strategy: Using Innovative Ideologies to Build Breakthrough Brands《文化战略》，Douglas B. Holt道格拉斯•霍尔特；
-    - How Brands Become Icons: The Principles of Cultural Branding《品牌何以成为标志》，Douglas B. Holt道格拉斯•霍尔特；

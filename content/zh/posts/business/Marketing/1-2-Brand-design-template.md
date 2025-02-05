@@ -3,11 +3,11 @@ title: "1.2 商业框架：品牌设计- 企业形象识别（模板）"
 date: 2020-06-08
 description: 
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 

@@ -4,11 +4,11 @@ date: 2023-02-11
 description: 
 categories:
   - IT
-  - Business    
+  - 商业
 tags:
-  - Remote Jobs
-  - Internet
-  - Immigration
+  - 移民移居
+  - 互联网
+  - 远程工作
 ---
 
 > **人为什么要终身老死在一个地方？**

@@ -3,19 +3,20 @@ title: "商业框架：品牌设计- 企业形象识别（详解）"
 date: 2020-06-08
 description: 
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
+市场营销中的企业形象的最佳实践，四个关键品牌要求对于成功的案例至关重要。
 
 [维基百科：CI企业形象识别](https://en.wikipedia.org/wiki/Corporate_identity)
 
 ## **CI 4 实施原则**
 
-市场营销最佳实践，四个要素是成功的关键。
+四个关键要素：
 
 - Differentiation. 差异是否有竞争者？与他们的差别？或填补了一个市场空白。
 - Relevance. 关联成为网络基础设施，像水、电、道路一样重要。与不同行业之间是否有关联？让尽可能多的人成为利益相关者 Industry(Environment, Aircraft, Ship, Agriculture, Biology, Food, etc.)

@@ -4,12 +4,11 @@ date: 2020-12-03
 description: 
 categories:
   - IT
-  - Business
+  - 商业
 tags:
-  - Internet
-  - Remote Jobs
-  - Wealth
-  - Career
+  - 互联网
+  - 创业者
+  - 远程工作
 ---
 
 如何创建高效率和有质量保证的团队组织。

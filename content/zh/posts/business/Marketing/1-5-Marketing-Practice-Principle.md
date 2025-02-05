@@ -3,11 +3,11 @@ title: "1.5 商业框架：精简问卷- 品牌营销实施原则"
 date: 2020-06-08
 description: 
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 Core Questionnaire of CI & Marketing Practice Principle

@@ -4,11 +4,11 @@ date: 2023-09-01
 description: 
 categories:
   - IT
-  - Business    
+  - 商业
 tags:
-  - Remote Jobs
-  - Internet
-  - Immigration
+  - 移民移居
+  - 互联网
+  - 远程工作
 ---
 
 每年互联网上都出现一些新词，近几年流行趋势是“数字游民”，其实我更愿意叫它“远程工作”。

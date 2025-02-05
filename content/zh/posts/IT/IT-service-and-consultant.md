@@ -3,13 +3,13 @@ title: "IT服务和咨询"
 date: 2014-06-09
 description: 
 categories:
-  - Business
-  - IT 
+  - IT
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
-  - Remote Jobs 
+  - 社交媒体
+  - 市场营销
+  - 互联网
+  - 远程工作
 ---
 
 该服务保障全年365天接到请求后，不超过24小时内响应，协助远程安装和排除故障。

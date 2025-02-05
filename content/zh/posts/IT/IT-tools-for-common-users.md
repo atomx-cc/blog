@@ -5,9 +5,8 @@ description:
 categories:
   - IT
 tags:
-  - Social Media
-  - Remote Jobs
-  - Internet
+  - 互联网
+  - 远程工作
   - AI
 ---
 

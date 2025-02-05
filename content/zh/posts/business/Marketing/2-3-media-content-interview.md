@@ -3,11 +3,11 @@ title: "2.3 商业框架：媒体内容- 人物访谈"
 date: 2020-06-10
 description: 
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 

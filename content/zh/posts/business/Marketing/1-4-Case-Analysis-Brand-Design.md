@@ -3,11 +3,11 @@ title: "1.4 商业框架：案例解析 - 品牌设计"
 date: 2020-06-08
 description: 
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 

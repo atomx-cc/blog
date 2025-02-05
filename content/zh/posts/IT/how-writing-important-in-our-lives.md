@@ -5,10 +5,10 @@ description:
 categories:
   - IT
 tags:
-  - Social Media
-  - Marketing
-  - Internet
-  - Resume
+  - 社交媒体
+  - 市场营销
+  - 互联网
+  - 简介
 ---
 
 > 论从写作形式的自媒体拓展社交和启动创业的必要性！

@@ -5,9 +5,9 @@ description:
 categories:
   - IT
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 社交媒体
+  - 市场营销
+  - 互联网
 ---
 
 本方案适用于通用的一般中小型企业的客服需求。

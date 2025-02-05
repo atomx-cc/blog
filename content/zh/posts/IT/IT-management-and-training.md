@@ -4,10 +4,12 @@ date: 2025-01-01
 description: 
 categories:
   - IT
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 社交媒体
+  - 市场营销
+  - 互联网
+  - 远程工作
 ---
 
 面向人群：非IT专业，想独立创业，缺乏IT基础，需要改进个人信息资产管理水平。

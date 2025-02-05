@@ -3,11 +3,11 @@ title: "1.3 商业框架：营销活动 - 市场和销售"
 date: 2020-06-08
 description: 
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 

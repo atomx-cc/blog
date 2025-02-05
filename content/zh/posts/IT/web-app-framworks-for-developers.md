@@ -5,10 +5,8 @@ description:
 categories:
   - IT
 tags:
-  - Social Media
-  - Remote Jobs
-  - Internet
-  - Math & CS
+  - 互联网
+  - 远程工作
   - AI
 ---
 
@@ -311,6 +309,7 @@ integrate Wordpress into Codeigniter
 1. 多地自动备份
 为了防备触发网络审查的敏感词而被删或屏蔽，需要在多个平台备份，
 例如在Notion上创建主站和写作，同时备份到github、gitbook和google drive。
+
 2. 分享权限范围设定
 部分文章和内容必须在限定范围分享，
 例如仅限注册和付费会员可查阅或可编辑，其他内容可面向普通公众。
