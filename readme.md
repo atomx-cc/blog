@@ -48,7 +48,7 @@ We compelte all of the jobs locally, then.
 Create branch gh-pages(or any other name), sync all documents from ./public/ to root directory ./
 of gh-pages.
 
-for convenience, prepare scripture `deploy.sh`, one click and compete all automatically in local terminal.
+for convenience, prepare script `deploy.sh`, one click and complete all automatically in local terminal.
 
 ## Option 2, from Github Action
 
