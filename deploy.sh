@@ -6,6 +6,11 @@ set -e
 # Store current branch name
 CURRENT_BRANCH=$(git symbolic-ref --short HEAD)
 
+# Commit and push changes in current branch first
+git add .
+git commit -m "Update content" || true
+git push origin "$CURRENT_BRANCH"
+
 # Build static files
 hugo --minify
 
