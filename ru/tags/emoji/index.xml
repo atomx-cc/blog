@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Emoji on Атом.X</title>
-    <link>https://atomx-cc.github.io/blog/ru/tags/emoji/</link>
+    <link>https://atomx.cc/ru/tags/emoji/</link>
     <description>Recent content in Emoji on Атом.X</description>
     <image>
       <title>Атом.X</title>
-      <url>https://atomx-cc.github.io/blog/images/papermod-cover.png</url>
-      <link>https://atomx-cc.github.io/blog/images/papermod-cover.png</link>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.141.0</generator>
     <language>ru</language>
     <copyright>Atom.X</copyright>
     <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://atomx-cc.github.io/blog/ru/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://atomx.cc/ru/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emoji Support</title>
-      <link>https://atomx-cc.github.io/blog/ru/posts/ool/emoji-support/</link>
+      <link>https://atomx.cc/ru/posts/ool/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/ru/posts/ool/emoji-support/</guid>
+      <guid>https://atomx.cc/ru/posts/ool/emoji-support/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
   </channel>

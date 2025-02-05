@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Atom.X</title>
-    <link>https://atomx-cc.github.io/blog/categories/</link>
+    <link>https://atomx.cc/categories/</link>
     <description>Recent content in Categories on Atom.X</description>
     <image>
       <title>Atom.X</title>
-      <url>https://atomx-cc.github.io/blog/images/papermod-cover.png</url>
-      <link>https://atomx-cc.github.io/blog/images/papermod-cover.png</link>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://atomx-cc.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://atomx.cc/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Syntax</title>
-      <link>https://atomx-cc.github.io/blog/categories/syntax/</link>
+      <link>https://atomx.cc/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/categories/syntax/</guid>
+      <guid>https://atomx.cc/categories/syntax/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>https://atomx-cc.github.io/blog/categories/themes/</link>
+      <link>https://atomx.cc/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/categories/themes/</guid>
+      <guid>https://atomx.cc/categories/themes/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>https://atomx-cc.github.io/blog/categories/about/</link>
+      <link>https://atomx.cc/categories/about/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/categories/about/</guid>
+      <guid>https://atomx.cc/categories/about/</guid>
       <description></description>
     </item>
   </channel>

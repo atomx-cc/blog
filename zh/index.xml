@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Atom.X</title>
-    <link>https://atomx-cc.github.io/blog/zh/</link>
+    <link>https://atomx.cc/zh/</link>
     <description>Recent content on Atom.X</description>
     <image>
       <title>Atom.X</title>
-      <url>https://atomx-cc.github.io/blog/images/papermod-cover.png</url>
-      <link>https://atomx-cc.github.io/blog/images/papermod-cover.png</link>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
     <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://atomx-cc.github.io/blog/zh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://atomx.cc/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install / Update PaperMod</title>
-      <link>https://atomx-cc.github.io/blog/zh/posts/ool/papermod/papermod-installation/</link>
+      <link>https://atomx.cc/zh/posts/ool/papermod/papermod-installation/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/posts/ool/papermod/papermod-installation/</guid>
+      <guid>https://atomx.cc/zh/posts/ool/papermod/papermod-installation/</guid>
       <description>Read aboout Install and Update instructions and sampled configuration templates</description>
     </item>
     <item>
       <title>Features / Mods</title>
-      <link>https://atomx-cc.github.io/blog/zh/posts/ool/papermod/papermod-features/</link>
+      <link>https://atomx.cc/zh/posts/ool/papermod/papermod-features/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/posts/ool/papermod/papermod-features/</guid>
+      <guid>https://atomx.cc/zh/posts/ool/papermod/papermod-features/</guid>
       <description>Learn About All Features in PaperMod</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://atomx-cc.github.io/blog/zh/posts/ool/markdown-syntax/</link>
+      <link>https://atomx.cc/zh/posts/ool/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/posts/ool/markdown-syntax/</guid>
+      <guid>https://atomx.cc/zh/posts/ool/markdown-syntax/</guid>
       <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
     </item>
     <item>
       <title>Code Syntax Guide</title>
-      <link>https://atomx-cc.github.io/blog/zh/posts/ool/code_syntax/</link>
+      <link>https://atomx.cc/zh/posts/ool/code_syntax/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/posts/ool/code_syntax/</guid>
+      <guid>https://atomx.cc/zh/posts/ool/code_syntax/</guid>
       <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
     </item>
     <item>
       <title>Rich Content and Shortcodes</title>
-      <link>https://atomx-cc.github.io/blog/zh/posts/ool/rich-content/</link>
+      <link>https://atomx.cc/zh/posts/ool/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/posts/ool/rich-content/</guid>
+      <guid>https://atomx.cc/zh/posts/ool/rich-content/</guid>
       <description>A brief description of Hugo Shortcodes</description>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>https://atomx-cc.github.io/blog/zh/posts/ool/math-typesetting/</link>
+      <link>https://atomx.cc/zh/posts/ool/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/posts/ool/math-typesetting/</guid>
+      <guid>https://atomx.cc/zh/posts/ool/math-typesetting/</guid>
       <description>A brief guide to setup KaTeX</description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>https://atomx-cc.github.io/blog/zh/posts/ool/emoji-support/</link>
+      <link>https://atomx.cc/zh/posts/ool/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/posts/ool/emoji-support/</guid>
+      <guid>https://atomx.cc/zh/posts/ool/emoji-support/</guid>
       <description>Guide to emoji usage in Hugo</description>
     </item>
     <item>
       <title>教育培训</title>
-      <link>https://atomx-cc.github.io/blog/zh/education-training/</link>
+      <link>https://atomx.cc/zh/education-training/</link>
       <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/education-training/</guid>
-      <description>&lt;p&gt;我的基础知识和技能结构&lt;/p&gt;
+      <guid>https://atomx.cc/zh/education-training/</guid>
+      <description>&lt;p&gt;我的基础知识和技能结构。&lt;/p&gt;
 &lt;p&gt;更新时间 2023.4&lt;/p&gt;
 &lt;h2 id=&#34;it&#34;&gt;IT&lt;/h2&gt;
 &lt;ul&gt;
@@ -112,16 +112,16 @@
     </item>
     <item>
       <title>关于Atom</title>
-      <link>https://atomx-cc.github.io/blog/zh/about/</link>
+      <link>https://atomx.cc/zh/about/</link>
       <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/about/</guid>
+      <guid>https://atomx.cc/zh/about/</guid>
       <description>农民、IT工、社工、布道师</description>
     </item>
     <item>
       <title>社会活动</title>
-      <link>https://atomx-cc.github.io/blog/zh/cases-social-works/</link>
+      <link>https://atomx.cc/zh/cases-social-works/</link>
       <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/cases-social-works/</guid>
+      <guid>https://atomx.cc/zh/cases-social-works/</guid>
       <description>&lt;p&gt;我主要涉及的环境保护、三农（农业、农村、农民）发展、纪录片和公开课科普等公益项目。&lt;/p&gt;
 &lt;h2 id=&#34;中国肉食数据图谱&#34;&gt;中国肉食数据图谱&lt;/h2&gt;
 &lt;p&gt;时间：2019&lt;/p&gt;
@@ -173,9 +173,9 @@
     </item>
     <item>
       <title>商业案例</title>
-      <link>https://atomx-cc.github.io/blog/zh/cases-business/</link>
+      <link>https://atomx.cc/zh/cases-business/</link>
       <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx-cc.github.io/blog/zh/cases-business/</guid>
+      <guid>https://atomx.cc/zh/cases-business/</guid>
       <description>&lt;p&gt;我主要涉及的互联网和电商运营、生鲜农产品供应链、农业、餐饮等商业案例。&lt;/p&gt;
 &lt;h2 id=&#34;酷壳众创httpscoolshellin&#34;&gt;&lt;a href=&#34;https://coolshell.in/&#34;&gt;酷壳众创&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;时间：2022 -&lt;/p&gt;
