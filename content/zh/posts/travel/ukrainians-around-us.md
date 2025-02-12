@@ -3,12 +3,12 @@ title: "我周围的乌克兰人"
 date: 2021-06-01
 description: 
 categories:
-  - Education
-  - Life
-tags:
-  - Ukraine
-  - Fraud & False
-  - Wisdom
+    - 旅行
+    - 生活
+tags:  
+    - 心理
+    - 乌克兰
+    - 难民
 ---
 
 

@@ -3,25 +3,22 @@ title: "在欧洲养蜜蜂"
 date: 2022-11-05
 description: 
 categories:
-  - Agriculture
-  - Business
+  - 自然环境
 tags:
-  - Organic Food
-  - Farm
-  - Nature
-  - Remote Jobs
+  - 农庄和园艺
+  - 有机食品
+  - 远程工作
 ---
 
 
 # 德国农场劳动换宿
 
-过去几个月我在传统的德国家庭农场体验生活，同时也是为了等待律师的消息，有穷游经验的朋友应该不陌生，有一些劳动换宿平台可以方便找到附近的主人。
+过去几个月我在传统的德国家庭农场体验生活，同时也是为了等待律师的消息，有穷游经验的朋友应该不陌生，有一些劳动换宿平台可以方便找到附近的农庄主人。
 
 例如
+[Helpx.net](https://helpx.net/)
 
-[https://helpx.net/](https://helpx.net/)
-
-[https://www.wwoofchina.org/](https://www.wwoofchina.org/home/)
+[wwoof.org](https://www.wwoofchina.org/home/)
 
 # 养蜂人家
 

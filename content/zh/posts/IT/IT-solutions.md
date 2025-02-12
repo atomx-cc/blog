@@ -12,12 +12,25 @@ tags:
 
 经过很多不同用户试用后的测评推荐
 
+# 翻译方案
 
-## 图形处理
+## 谷歌翻译插件
+
+参考 [弗拉基米尔·梅格雷](https://vmegre.com/)，由于缺乏对这个技术的研究，以下是我目前我的初步判断。
+
+可能网页原文只有一种俄语版，在网页的语言列表上，通过调用谷歌的某个翻译插件，直接将网页翻译成对应的目标语言。要求联网才能调用谷歌翻译，有几个缺陷：因为是免费的谷歌服务，翻译质量并不高，而且搜索引擎不会抓取其他语言版本的网页，所以除了原文的俄语或英语，其他语言版本的内容在网络上搜不到。
+
+## 调用API翻译
+
+也就是调用例如谷歌Google Vertex AI studio 中的 api，将源语言文件翻译成多种目标语言的文件，然后通过web app的网页发布，符合markdown或xml等格式的规范，对搜索引擎很友好，这是最佳方案，但是稍微更费时费力。
+
+
+
+# 图形处理
 
 个人图片转换成卡通风格头像
 
-### 传统ai
+## 传统ai
 
 可以看到生成的头像与真人偏差太大，以至于无法识别
 
@@ -25,7 +38,7 @@ tags:
 
 [imagetocartoon](https://imagetocartoon.com/)
 
-### 最新ai
+## 最新ai
 
 [midjourney](https://docs.midjourney.com/)
 
@@ -38,6 +51,10 @@ tags:
 /imagine <image link> futuristic-cyberpunk-hacker
 
 /imagine <image link> captain-america
+
+
+
+# 其他
 
 ## 批量删除yt的播放列表watch later
 

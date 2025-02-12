@@ -1,4 +1,8 @@
-# How to build Hugo site with theme PaperMod
+
+customize Hugo site with theme PaperMod
+
+[build Hugo site with theme PaperMod](https://themes.gohugo.io/themes/hugo-papermod/)
+
 
 # Check the structure of directory and files.
 

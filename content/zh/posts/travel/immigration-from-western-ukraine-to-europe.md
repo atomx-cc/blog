@@ -2,12 +2,11 @@
 title: "俄乌战争，往西部去"
 date: 2022-03-01
 description: 
-categories:
-    - Politics
+    - 旅行
 tags:  
-    - Russia
-    - Ukraine
-    - War
+    - 俄罗斯
+    - 乌克兰
+    - 战争
 ---
 
 

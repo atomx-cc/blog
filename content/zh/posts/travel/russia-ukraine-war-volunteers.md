@@ -3,16 +3,16 @@ title: "俄乌战争中的义工"
 date: 2022-03-05
 description: 
 categories:
-    - Politics
+    - 旅行
+    - 生活
 tags:  
-    - Russia
-    - Ukraine
-    - War
-    - Crime
+    - 俄罗斯
+    - 乌克兰
+    - 战争
 ---
 
 
-由于生活工作受到严重影响，且有安全之忧，我已经离开乌克兰，先到邻国避开混乱局势，走之前犹豫了几天，想着我能为乌克兰干点什么？
+由于我的生活和工作受到严重影响，且有安全之忧，我已经离开乌克兰，先到邻国避开混乱局势，走之前犹豫了几天，想着我能为乌克兰干点什么？
 
 过去几天在路上不停迁徙，总结了一下，可以考虑参与以下工作。
 
@@ -23,27 +23,27 @@ tags:
 > 我的原则：必须加入一个有编制的军队组织体系，经过武器培训和实地演练才能上战场，否则不要参与，拒绝成为无谓的炮灰。
 > 
 
-战场上每天都要流血牺牲的，网友们请勿冲动好奇，跑到战场捡起武器就干，先评估一下自己是否有经验，不然反而成了累赘，个体鲁莽上战场，只能无辜丧命，没有意义。
+战场上每天都要流血牺牲的，网友们请勿冲动好奇，跑到战场捡起武器就干，先评估一下自己是否有经验，不然反而成了累赘，个体鲁莽上战场，只能无辜丧命，没有价值。
 
 做一些后勤补给和远程工作也是一种支持，我希望找到政府和军队的组织管理体系的接口，方便外国人申请加入，请知道的朋友提供一些信息吧。
 
 我看到很多外国网友都在申请加入乌克兰志愿军，而国防部网站和facebook页面至今也没有英文版，外国人使用很不方便，除了发邮件，还没找到更好的申请方式。
 
-[https://kyivindependent.com/national/want-to-help-ukraines-military-as-a-foreigner-heres-what-you-can-do/](https://kyivindependent.com/national/want-to-help-ukraines-military-as-a-foreigner-heres-what-you-can-do/)
+[外国人想帮助乌克兰军队的方法](https://kyivindependent.com/national/want-to-help-ukraines-military-as-a-foreigner-heres-what-you-can-do/)
 
 首先，我可以组织志愿者帮助将所有乌克兰语页面做英文版或其他语言版本。
 
 2022.3.6，今天找到一些军队工作接口。
 
-[https://anygulfjobs.com/ukraine-army-job-requirements-for-foreigners-2022/](https://anygulfjobs.com/ukraine-army-job-requirements-for-foreigners-2022/)
+[乌克兰军队的外国人的工作需求](https://anygulfjobs.com/ukraine-army-job-requirements-for-foreigners-2022/)
 
-[https://www.reddit.com/r/ukraine/comments/t1hs55/update_joining_the_ukrainian_army_as_a_foreigner/](https://www.reddit.com/r/ukraine/comments/t1hs55/update_joining_the_ukrainian_army_as_a_foreigner/)
+[Reddit: 外国人加入乌克兰军队](https://www.reddit.com/r/ukraine/comments/t1hs55/update_joining_the_ukrainian_army_as_a_foreigner/)
 
 之前我们认为这是一场政府对政府军队对军队的战争，和咱普通人没关系，实际我们完全错了，误判和低估了战况，乌克兰政府军可能扛不住了，总统发表讲话，动员民间所有人参战，也就是你只要捡起枪就可以干，对此我表示质疑。
 
 我接触过的大部分乌克兰人，都认为政府的历届总统和公务员都是腐败分子，富豪土财主和政府官员勾结瓜分国家财产，有多少乌克兰人志愿加入政府军与“敌人”决战呢？可能只有少数极端民族主义者。
 
-有个乌克兰网络军的群 [https://t.me/itarmyofukraine2022](https://t.me/itarmyofukraine2022)，这是我见过人最多的群，可以自发组织分一些专业群出来接任务做，我没仔细看，有朋友分析没什么技术含量，距离战场远，没有IT技术背景也可以参与，就是普通人按照提示通过网络完成一些简单任务，类似发帖子灌水之类的。
+有个电报群 - [乌克兰网络军](https://t.me/itarmyofukraine2022)，这是我见过人最多的群，可以自发组织分一些专业群出来接任务做，我没仔细看，有朋友分析没什么技术含量，距离战场远，没有IT技术背景也可以参与，就是普通人按照提示通过网络完成一些简单任务，类似发帖子灌水之类的。
 
 我目前的态度是，远离战争，帮助平民。最近挖掘出来一些深层次问题，有关[俄乌战争的背景]，事情非常复杂，超乎普通老百姓的想象，所以尽可能避开这种局势。
 
@@ -128,7 +128,7 @@ Refugee legal advice [https://t.me/ukrasylumrefugee](https://t.me/ukrasylumrefug
 
 我了解到，例如：
 
-乌克兰边境附近俄军动态监测 [https://kordon.io/about.html](https://kordon.io/about.html)，
+[乌克兰边境附近俄军动态监测](https://kordon.io/about.html)，
 
 欢迎大家提供更多信息，这些工作都需要匿名，你懂得怎么保护信息安全，这里就不过多描述了。
 
