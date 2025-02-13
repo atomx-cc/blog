@@ -3,11 +3,12 @@ title: "归国华侨采访见闻录二"
 date: 2013-09-11
 description: 
 categories:
-  - Life
+  - 生活
+  - 商业
 tags:
-  - Agriculture & Farm
-  - Organic Food
-  - Immigration
+  - 农庄和园艺
+  - 有机食品
+  - 移民移居
 ---
 
 

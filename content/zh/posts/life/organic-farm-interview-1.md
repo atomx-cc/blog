@@ -3,11 +3,12 @@ title: "归国华侨采访见闻录一"
 date: 2013-09-11
 description: 
 categories:
-  - Life
+  - 生活
+  - 商业
 tags:
-  - Agriculture & Farm
-  - Organic Food
-  - Immigration
+  - 农庄/园艺
+  - 有机食品
+  - 移民/移居
 ---
 
 广州从化，石谷农场

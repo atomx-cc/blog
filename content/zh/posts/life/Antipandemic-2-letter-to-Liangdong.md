@@ -3,11 +3,10 @@ title: "写给梁冬老师的信"
 date: 2020-10-28
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - China
-  - Philosophy
-  - Health
+  - 
+  - 心理/健康
 ---
 
 小洁来信2，抗疫方案

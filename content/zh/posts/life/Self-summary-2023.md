@@ -3,11 +3,11 @@ title: "年终总结2023"
 date: 2023-12-31
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Math & CS
-  - Remote Jobs
+  - 神/造物主
+  - 数学/计算机
+  - 远程工作
 ---
 
 今年关键词：远程工作、官僚主义、信仰。

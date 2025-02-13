@@ -20,11 +20,16 @@ tags:
 
 **项目概述：**
 
-主办方为中国生物多样性保护与绿色发展基金会（简称中国绿发会），以及下属的分支公益组织 - 良食基金，该机构是中国首个政府背景的大型环保基金，合作的美国智库为[Brighter Green’s consultants](https://brightergreen.org/)。
+项目采集数据源自联合国粮农组织FAO、中国国家统计局、欧盟和美国农业部等，我们从事原始数据挖掘、清洗、分析和可视化并撰写报告，研究中国对比世界范围的畜牧业和水产品的生产及肉食消费状况。
+
+**合作机构：**
+
+- [中国生物多样性保护与绿色发展基金会（绿发会）](https://en.wikipedia.org/wiki/China_Biodiversity_Conservation_and_Green_Development_Foundation)，中国政府背景的大型环保基金；
+- [良食基金](https://www.goodfoodchina.net/en)，绿发会下属分支的项目主办机构；
+- [Brighter Green’s consultants](https://brightergreen.org/)，提供专家支持的美国智库；
 
 
 **项目文件**
-项目采集数据源自联合国粮农组织FAO、中国国家统计局、欧盟和美国农业部等，我们从事原始数据挖掘、清洗、分析和可视化并撰写报告，研究中国对比世界范围的畜牧业和水产品的生产及肉食消费状况。
 
 预计未来在有资源持续投入的情况下，版本升级为动态的数据大屏幕Dash board，建立关系型数据库，为环境、教育、科研、政府、智库、动物和植物基蛋白生产商等机构，提供开源的数据验证和研究服务；
 
@@ -42,6 +47,7 @@ tags:
 环境教育项目游学
 
 **项目概述：**
+
 加入丹麦WWOOF组织，参与家庭农场和社区学校的环境教育、社区儿童陪护、园艺、农田的日常运营管理；
 
 陪同丹麦有机食品出口商、[CACN 中国认证认可监督管理委员会](http://www.cnca.gov.cn/)的官员和有机认证公司，参观当地的有机农场。
@@ -57,7 +63,7 @@ tags:
 
 **项目概述：**
 
-在[网易公开课]()等平台编译并发布中国大陆最早的动物福利公开课，及翻译动物保护组织工作坊培训用的系列文件资料。
+在[网易公开课](https://open.163.com/newview/movie/free?pid=AC9E1S3QJ)等平台编译并发布中国大陆最早的动物福利公开课，及翻译动物保护组织工作坊培训用的系列文件资料。
 
 为中国动物福利协会招募和培训志愿者超过20位，累计完成超过120节短视频编译和发布，主题为：环境、生物、水、农业、食品、健康、文化遗产、可持续发展、人类未来 ……
 
@@ -66,9 +72,9 @@ tags:
 - [B站：动物福利](https://space.bilibili.com/10633017)
 
 **合作机构：**
-- [英国爱丁堡大学- 苏格兰农学院 SRUC- Scotland’s Rural College](https://www.sruc.ac.uk/)
-[]
-- [中国动物福利协会]()
+
+- [英国爱丁堡大学-苏格兰农学院(SRUC)](https://www.sruc.ac.uk/)
+- [中国动物福利协会](http://www.iccaw.org.cn/)
 
 
 ## [北京小毛驴市民农园](https://chinadevelopmentbrief.org/ngos/little-donkey-farm/)
@@ -88,6 +94,7 @@ tags:
 销售”生鲜宅配套餐“，”农场租地套餐“，家庭会员超过3000户，年均增长率超过200%，该项目开创中国最早的生鲜电商和私家定制的网红农场成功案例；
 
 **合作机构：**
+
 - [北京有机农夫市集](https://www.facebook.com/farmersmarketbj/);
 - [中国人民大学农业与农村发展学院](http://sarden.ruc.edu.cn/About/AboutUs/index.htm);
 
@@ -104,11 +111,13 @@ tags:
 
 调研中国东部（江浙沪）的会议团队来自12个国家的学者和专家，主要议题为生态文明、三农问题、乡村建设、可持续发展等；
 
-项目材料：
+**项目材料：**
+
 - 英文：[2011.12 首届全球南方国家可持续发展论坛](https://our-global-u.org/oguorg/en/the-first-south-south-forum-on-sustainability/)
 
 
 **主办单位：**
+
 - [香港岭南大学](https://commons.ln.edu.hk/);
 - [中国人民大学农业与农村发展学院](http://sarden.ruc.edu.cn/About/AboutUs/index.htm);
 - [联合国开发计划署(UNDP)](http://en.wikipedia.org/wiki/United_Nations_Development_Programme);
@@ -132,12 +141,12 @@ tags:
 - 农村社区和农民市集，
 - 生鲜便利店和有机餐厅，
 - 香港乡村历史博物馆，
-- 残障人群社会福利事业，（社会企业）
-- 公益基金会，[嘉道理农场暨植物园(KFBG)](https://www.kfbg.org/)
+- 残障人群社会福利事业（社会企业）
+- 公益基金会 - [嘉道理农场暨植物园(KFBG)](https://www.kfbg.org/)
 
 通过工作坊讨论的方式，考察以香港为代表的高度发达的现代化城市案例，调研有特色的岭南农耕文化与今天特定的地域格局的关系，探索农业在城乡互动中具有不可缺少的多重角色，及发挥着重要的支撑功能。
 
-文件：香港城市農耕考察报告
+文件：香港城市农耕考察报告
 
 
 ## [北京地球村环境教育中心](http://www.chinadevelopmentbrief.org.cn/org660/)
@@ -181,5 +190,6 @@ IGR-2，Second Intergovernmental Review Meeting on the Implementation of the GPA
 GPA，The Global Program of Action for the Protection of the Marine Environment from Land-based Activities 保护海洋环境免受陆上活动污染全球行动纲领；
 
 **项目文件：**
+
 - 英文 [UNEP:《保护海洋环境免受陆上活动污染全球行动纲领》](https://www.unep.org/explore-topics/oceans-seas/what-we-do/addressing-land-based-pollution/governing-global-programme-4)
 - 中文 [中国环境部:《保护海洋环境免受陆上活动污染全球行动纲领》](http://www.mee.gov.cn/home/ztbd/rdzl/hyhj/zl/200610/P020061009589836389579.pdf)

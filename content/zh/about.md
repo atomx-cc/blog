@@ -11,27 +11,28 @@ tags:
 
 # **目前**
 
-截至2024年3月，目前我住在中欧的一个平静的小镇，正在钻研互联网涌现的新技术。
+截至2024年3月，目前我住在中欧一个平静的小镇，正在钻研近年来互联网上涌现的新技术。
 
 远程工作的同时，我还兼职农民，包括放牧（马、牛、羊、牧羊犬、蜜蜂）、种植有机果蔬、维护园艺景观、修房子、带孩子等，非常有趣和健康的生活方式，即体力/脑力劳动均衡各半。
 
 
 # **过去**
 
-在2022年2月俄乌战前，我在乌克兰中部经营农场，经过了1年多的流离失所和动荡不安，我一路向西到达欧洲腹地，经过很多美丽的小城镇，遇到了很多不同种族和文化背景的人。
+在2022年2月俄乌战前，我在乌克兰中部经营农场，经过了1年多的流离失所和动荡不安，我一路向西到达欧洲腹地，经过很多美丽古老的城镇，遇到了很多不同种族和文化背景的有故事的人。
 
-在2020年出海前，我从事农产品电商运营10年，曾在中国多家业界头部互联网公司的农业部门工作过，并做过数十家涉农企业的管理咨询和培训讲师，熟悉有机农业和生鲜食品供应链行业。
+在2020年出海前，我从事农产品电商运营10年，曾在中国多家业界头部互联网公司的农业部门工作过，并做过数十家涉农企业的管理咨询和培训讲师，熟悉有机农业和生鲜食品供应链。
 
 我还参加过无数生态环境主题的社会活动，为多家环保和农业类的非营利组织和智库服务。
 
 
 # **未来**
 
-近年来随着瘟疫和战争，我时常颇有危机感，大环境可能会迫使很多人改变生活方式，我们不得不远离大城市和现代文明，为了应对未来不可预料的/毁灭性的/不可抗力的灾难和社会混乱，有必要立即开始为最坏的情况做准备:
+随着瘟疫和战争的爆发，近年来我时常颇有危机感，大环境可能会迫使很多人改变生活方式，人们不得不远离大城市和现代文明，为了应对未来不可预料的/毁灭性的/不可抗力的灾难和社会混乱，有必要立即开始为最坏的情况做准备:
 
 > 居安思危、灾难备份、负载均衡、高可用、异地多活、自给自足。
 
-寻找创业伙伴：探索地球各大洲的不同人文和自然环境下，创建带有园艺农庄的共享办公和生活空间，供远程工作的伙伴们使用，协同开发有益社会的软件和线上业务，并贡献社区。
+寻找创业伙伴：探索地球各大洲的不同人文和自然环境下，创建带有园艺农庄的共享办公和生活空间，供远程工作的伙伴们使用，协同开发有益社会的软件和线上业务，贡献给光明和谐的未来。
 
 
-[照片：航行在莱茵河 2022年4月]
+![](https://lh3.googleusercontent.com/pw/AP1GczMN01oih23eaj9VWvcOrd2rw9pi6x2k2DG0qUiXPjndCIUl5g0CA2VYpUle5wfbHxgJWAaUCDoa-Mp766rJ9sNhDoi8AE1HKC7-kIJtm3BDoFPE9LhVFF3WCbL_Wc5mmIP-CNu8Qou5cvmwhpZD2sB0Ch0D3en92OTHMOnBKLz_5Qg7Qb1A_dhVZnbuQwaLXdKw0kW1AcT_AApnZb_GoRU4IVLWv2sCySgCwIqdhM_cKCxl9zyIiNjftycw2TcCUmJKneAKn6yPQEZO8DIdJ1xrspj-lir0sutl_Yt83niZVnb8Vqm5pxjKul3d5L2i8fBk0W5SSwev2TqWCFquH9Vx8-Ps2KcUPqpV-616OYi8MwjNVugmt50DGTh1LQb7JMzIJiVXtlf2clR3xfyrBAMkAt2ayMJyg47vuSDAK6f9qabBbstZDc_buwv6zSFgAKR0wnnkwKb2ezTgkh0om5wSctCQ2h5Nh-OBXFyGaW150xJOz-NYhiwg3ktHGV_NvR80iYTRgxvJ5NJoxFTNSw8BdpDoRdlUsoUpXan7i0OVimkKpBi6GJ50QQSSVMOQxkSzgGgMLO72EWXAu7ywLUdCxWpt2xhD7d7DyNZYeRFsZj5JPz1MJ4G1p7VKELdYX-mhDMz8i9xt5fseqA5sF6bi3hOUZX0p7Rt40UDTqsgCC5LW8PActu6NYNsuz0MNC7nVsS_o-i928DY5GnyPDNz_ZoB95_3MsKsNzWOx3kuviOn3ei9HiSjmlyAU1_dkiK1DsD6hdg9HecOtgcRnHAT5egA9RD253rviW4mW7OzxO3hC12Ns720bXVXtsg8I1-wgmdqyb3Ip8hKzNCVz43ysF8U84U6OU3_fxkmqXMVUxCoGoJpq6fKF23TJI8SoFPGLH86t1KqVN6BNd3Jmdp_X=w640-h480-s-no?authuser=1)
+照片：航行在莱茵河 2022年4月

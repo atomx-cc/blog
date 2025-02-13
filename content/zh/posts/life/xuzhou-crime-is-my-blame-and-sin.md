@@ -3,12 +3,12 @@ title: "徐州铁链女事件与我有关"
 date: 2022-01-03
 description: 
 categories:
-  - Politics
-  - Life
+  - 政治正确
+  - 生活
 tags:
-  - Crime
-  - China
-  - Immigration
+  - 腐败/犯罪
+  - 
+  - 移民/移居
 ---
 
 徐州铁链女事件，和我有很大关系！预见海外排华，华人将无立锥之地。

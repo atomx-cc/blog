@@ -3,11 +3,12 @@ title: "如何化解“积郁成疾”"
 date: 2024-05-04
 description: 
 categories:
-  - Life
+  - 生活
+  - 自然环境
 tags:
-  - Agriculture & Farm
-  - Health
-  - Immigration
+  - 农庄/园艺
+  - 心理/健康
+  - 移民/移居
 ---
 
 最近又一位老哥生病了，在网络上发求助信息，我于是捐赠并在播客下留言。

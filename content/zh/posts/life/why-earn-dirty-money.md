@@ -3,11 +3,12 @@ title: "为什么说都是跪着挣钱的？"
 date: 2021-08-15
 description: 
 categories:
-  - Life
+  - 生活
+  - 商业
 tags:
-  - God
-  - Philosophy
-  - Immigration
+  - 神/造物主
+  - 文化/哲学
+  - 移民/移居
 ---
 
 

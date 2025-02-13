@@ -3,11 +3,10 @@ title: "新冠防治手册 — 治疗篇"
 date: 2020-10-28
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - China
-  - Philosophy
-  - Health
+  - 
+  - 心理/健康
 ---
 
 小洁来信3

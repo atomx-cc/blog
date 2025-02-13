@@ -98,8 +98,8 @@ tags:
 
 [我们的地球, 气候, 历史和进程](https://www.coursera.org/learn/our-earth)；
 
-注释：在 ```我们的地球``` 课程中，附带模拟软件，欢迎试用！
+注释：```我们的地球``` 课程附带模拟软件，欢迎试用！
 
 数字地球教学模拟软件BYOE（build your own earth），用于探索地球过去 45 亿年的空气、水、土壤和生命如何形成，及宏观和微观生态的相互影响。
 
-[BYOE](http://www.buildyourownearth.com/)可模拟地球环境变量的动态过程，用于环境、气象、农业等行业的科普。
+[BYOE](http://www.buildyourownearth.com/)可模拟地球环境变量的动态过程，用于环境、气象、农业等行业的科普和研究。

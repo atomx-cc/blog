@@ -12,7 +12,7 @@ tags:
 
 欢迎复制[普鲁斯特问卷- 模板]
 
-我建议所有的朋友都填写[普鲁斯特问卷](https://en.wikipedia.org/wiki/Proust_Questionnaire)，这是认识新人的好方法，阅读他们的背景资料和各种FAQ。
+我建议所有的朋友都填写[普鲁斯特问卷](https://en.wikipedia.org/wiki/Proust_Questionnaire)，这是认识新人的好方法，阅读他们的背景资料和各种FAQ常见问答。
 
 
 ## 1. 你认为最完美的快乐是怎样的？

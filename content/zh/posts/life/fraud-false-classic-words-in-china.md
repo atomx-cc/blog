@@ -3,11 +3,12 @@ title: "那些思维错乱的俗话"
 date: 2010-12-11
 description: 
 categories:
-  - Education
+  - 生活
+  - 教育
 tags:
-  - Fraud & False
-  - China
-  - Philosophy
+  - 移民/移居
+  - 心理/健康
+  - 文化/哲学
 ---
 
 
@@ -72,9 +73,7 @@ tags:
 
 ## 附录八 被中国人误传了数千年的七句话
 
-胡正的书《我的世界之源代码》，P226
-
-[http://www.huzheng.org/geniusreligion/TheSourceCodeOfMyWorld.pdf](http://www.huzheng.org/geniusreligion/TheSourceCodeOfMyWorld.pdf)
+胡正的书 - [《我的世界之源代码》](http://www.huzheng.org/geniusreligion/TheSourceCodeOfMyWorld.pdf)P226
 
 英年聪慧，很早就成功了，对世俗有很多不同看法，这个极客信了佛，有点疯疯癫癫。
 
@@ -84,7 +83,7 @@ tags:
 
 **出炉**
 
-经常看到这样的报道“新一届选美大赛名单出炉”，也就是“新鲜的美女出炉”，这群女人经过选美后就成了烤鸭吗？果然是，选美的都不喜欢穿衣服，如同烤鸭被拔了毛，美女们满面红光喜气洋洋，也像那烤得金黄发亮酥脆的烤鸭表皮，揭开皮，里面全是油腻。
+经常看到这样的报道“新一届选美大赛名单出炉”，也就是“新鲜的美女出炉”，这群女人经过选美后就成了烤鸭吗？果然是，选美的都不喜欢穿衣服，如同烤鸭被拔了毛，美女们满面红光喜气洋洋，也像那烤得金黄发亮酥脆的烤鸭表皮，揭开皮，里面全是油腻，正好满足中年油腻男的需求。
 
 **量产**
 

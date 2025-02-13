@@ -3,12 +3,12 @@ title: "乌克兰同事卡佳"
 date: 2021-08-01
 description: 
 categories:
-  - Education
+  - 生活
+  - 商业
 tags:
-  - Ukraine
-  - University
-  - Fraud & False
-  - Crime
+  - 乌克兰
+  - 移民移居
+  - 留学
 ---
 
 

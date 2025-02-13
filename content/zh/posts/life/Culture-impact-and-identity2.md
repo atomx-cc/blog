@@ -3,12 +3,12 @@ title: "文化冲击和身份认同2"
 date: 2024-09-01
 description: 
 categories:
-  - Education
-  - Life
+  - 旅行
+  - 生活
 tags:
-  - Immigration
-  - Travel
-  - Culture
+  - 移民/移居
+  - 心理/健康
+  - 文化/哲学
 ---
 
 
