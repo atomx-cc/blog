@@ -12,96 +12,82 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docs</title>
-      <link>https://atomx.cc/tags/docs/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/docs/</guid>
+      <title>AI</title>
+      <link>https://atomx.cc/tags/ai/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>PaperMod</title>
-      <link>https://atomx.cc/tags/papermod/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/papermod/</guid>
+      <title>Internet</title>
+      <link>https://atomx.cc/tags/internet/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/internet/</guid>
       <description></description>
     </item>
     <item>
-      <title>Css</title>
-      <link>https://atomx.cc/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/css/</guid>
+      <title>Math &amp; CS</title>
+      <link>https://atomx.cc/tags/math--cs/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/math--cs/</guid>
       <description></description>
     </item>
     <item>
-      <title>Html</title>
-      <link>https://atomx.cc/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/html/</guid>
+      <title>Remote Jobs</title>
+      <link>https://atomx.cc/tags/remote-jobs/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/remote-jobs/</guid>
       <description></description>
     </item>
     <item>
-      <title>Markdown</title>
-      <link>https://atomx.cc/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/markdown/</guid>
+      <title>Intro</title>
+      <link>https://atomx.cc/tags/intro/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/intro/</guid>
       <description></description>
     </item>
     <item>
-      <title>Themes</title>
-      <link>https://atomx.cc/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/themes/</guid>
+      <title>Marketing</title>
+      <link>https://atomx.cc/tags/marketing/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/marketing/</guid>
       <description></description>
     </item>
     <item>
-      <title>Code</title>
-      <link>https://atomx.cc/tags/code/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/code/</guid>
+      <title>Social Media</title>
+      <link>https://atomx.cc/tags/social-media/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/social-media/</guid>
       <description></description>
     </item>
     <item>
-      <title>Gist</title>
-      <link>https://atomx.cc/tags/gist/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/gist/</guid>
+      <title>互联网</title>
+      <link>https://atomx.cc/tags/%E4%BA%92%E8%81%94%E7%BD%91/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/%E4%BA%92%E8%81%94%E7%BD%91/</guid>
       <description></description>
     </item>
     <item>
-      <title>Privacy</title>
-      <link>https://atomx.cc/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/privacy/</guid>
+      <title>数学&amp;计算机</title>
+      <link>https://atomx.cc/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
       <description></description>
     </item>
     <item>
-      <title>Shortcodes</title>
-      <link>https://atomx.cc/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Syntax</title>
-      <link>https://atomx.cc/tags/syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Emoji</title>
-      <link>https://atomx.cc/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/emoji/</guid>
+      <title>Introduction</title>
+      <link>https://atomx.cc/tags/introduction/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/introduction/</guid>
       <description></description>
     </item>
     <item>
       <title>Resume</title>
       <link>https://atomx.cc/tags/resume/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/resume/</guid>
       <description></description>
     </item>

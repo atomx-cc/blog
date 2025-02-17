@@ -12,78 +12,14 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Sun, 17 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Sep 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/tags/resume/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Education &amp; training</title>
-      <link>https://atomx.cc/education-training/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/education-training/</guid>
-      <description>&lt;p&gt;My basic knowledge and skill structure&lt;/p&gt;
-&lt;p&gt;Updated 2023.4&lt;/p&gt;
-&lt;h2 id=&#34;it&#34;&gt;IT&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Git&lt;/li&gt;
-&lt;li&gt;SQL&lt;/li&gt;
-&lt;li&gt;Operating system Linux&lt;/li&gt;
-&lt;li&gt;Programming language C++/ Python&lt;/li&gt;
-&lt;li&gt;E-commerce operation&lt;/li&gt;
-&lt;li&gt;User experience design (UX)&lt;/li&gt;
-&lt;li&gt;Search engine optimization (SEO)&lt;/li&gt;
-&lt;li&gt;Customer relationship management (CRM)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;agriculture-and-food&#34;&gt;Agriculture and food&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;ISO22000&lt;/li&gt;
-&lt;li&gt;Food safety&lt;/li&gt;
-&lt;li&gt;Animal welfare&lt;/li&gt;
-&lt;li&gt;Sensory evaluation&lt;/li&gt;
-&lt;li&gt;Central kitchen operation&lt;/li&gt;
-&lt;li&gt;Environmental, health and safety regulations (EHS)&lt;/li&gt;
-&lt;li&gt;HACCP Hazard Analysis Critical Control Point&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;language&#34;&gt;Language&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Chinese - Native C1,&lt;/li&gt;
-&lt;li&gt;English - Fluent B2,&lt;/li&gt;
-&lt;li&gt;Japanese - Beginner A1,&lt;/li&gt;
-&lt;li&gt;Russian - Elementary A2,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;p&gt;Major: IT and E-commerce&lt;/p&gt;</description>
-    </item>
     <item>
       <title>About</title>
       <link>https://atomx.cc/about/</link>
       <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/about/</guid>
       <description>IT farmer, Remote worker, Evangelist, Priest</description>
-    </item>
-    <item>
-      <title>Social works</title>
-      <link>https://atomx.cc/cases-social-works/</link>
-      <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/cases-social-works/</guid>
-      <description>&lt;p&gt;I am mainly involved in public welfare projects such as environmental protection, agriculture, rural areas, and farmers (agriculture, rural areas, and farmers), documentaries, and public science courses.&lt;/p&gt;
-&lt;h2 id=&#34;china-meat-data-atlas&#34;&gt;China Meat Data Atlas&lt;/h2&gt;
-&lt;p&gt;Time: 2019&lt;/p&gt;
-&lt;p&gt;Location: Beijing, Hangzhou&lt;/p&gt;
-&lt;p&gt;Data analysis and visualization of environmental protection foundations.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Project Overview:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The organizer is the China Biodiversity Conservation and Green Development Foundation (hereinafter referred to as China Green Development Foundation), and its affiliated branch public welfare organization - Good Food Foundation, which is China&amp;rsquo;s first large-scale environmental protection fund with a government background. The cooperating American think tank is &lt;a href=&#34;https://brightergreen.org/&#34;&gt;Brighter Green’s consultants&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Business cases</title>
-      <link>https://atomx.cc/cases-business/</link>
-      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/cases-business/</guid>
-      <description>&lt;p&gt;I mainly involve business cases such as Internet and e-commerce operations, fresh agricultural product supply chain, agriculture, and catering.&lt;/p&gt;
-&lt;h2 id=&#34;cool-shell-crowd-creationhttpscoolshellin&#34;&gt;&lt;a href=&#34;https://coolshell.in/&#34;&gt;Cool Shell Crowd Creation&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Time: 2022 -&lt;/p&gt;
-&lt;p&gt;Location: Ukraine, Germany&lt;/p&gt;
-&lt;p&gt;Programmer blog and community operation&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Project Overview:&lt;/strong&gt;
-Cooperate with &lt;a href=&#34;https://coolshell.cn/&#34;&gt;Chen Hao - Left Ear Mouse&lt;/a&gt; to prepare for the European &lt;a href=&#34;http://megaease.com&#34;&gt;MegaEase Cloud&lt;/a&gt; cloud computing company, explore marketing agency business in Europe, submit business plans to local investment incubators and pass the review, and apply for business Schengen visas. Due to the unexpected death of partner and founder Chen Hao, the original plan was temporarily shelved. . .&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

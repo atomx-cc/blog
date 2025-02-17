@@ -12,27 +12,27 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Syntax</title>
-      <link>https://atomx.cc/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/categories/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>https://atomx.cc/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/categories/themes/</guid>
+      <title>IT</title>
+      <link>https://atomx.cc/categories/it/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/categories/it/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
       <link>https://atomx.cc/categories/about/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/categories/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://atomx.cc/categories/business/</link>
+      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/categories/business/</guid>
       <description></description>
     </item>
   </channel>

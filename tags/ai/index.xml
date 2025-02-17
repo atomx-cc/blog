@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Atom.X</title>
+    <link>https://atomx.cc/tags/ai/</link>
+    <description>Recent content in AI on Atom.X</description>
+    <image>
+      <title>Atom.X</title>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>en</language>
+    <copyright>Atom.X</copyright>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://atomx.cc/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[程序设计与算法]</title>
+      <link>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc3-c&#43;&#43;/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc3-c&#43;&#43;/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://cplusplus.com/&#34;&gt;cplusplus.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;教材《新标准 c++程序设计》 郭炜, 清华大学&lt;/p&gt;
+&lt;h1 id=&#34;w11-c11-新特性&#34;&gt;w11. C++11 新特性&lt;/h1&gt;
+&lt;p&gt;auto 自动变量类型&lt;/p&gt;
+&lt;p&gt;decltype 关键字，求表达式类型&lt;/p&gt;
+&lt;p&gt;shared_ptr 智能指针&lt;/p&gt;
+&lt;p&gt;nullptr 空指针&lt;/p&gt;
+&lt;p&gt;基于范围的for循环&lt;/p&gt;
+&lt;p&gt;右值引用和move语义&lt;/p&gt;
+&lt;p&gt;unordered_map 无序容器(哈希表)&lt;/p&gt;
+&lt;p&gt;regex 正则表达式&lt;/p&gt;
+&lt;p&gt;Lambda 表达式&lt;/p&gt;
+&lt;h2 id=&#34;强制类型转换&#34;&gt;强制类型转换&lt;/h2&gt;
+&lt;p&gt;static_cast、interpret_cast
+const_cast和dynamic_cast&lt;/p&gt;
+&lt;h2 id=&#34;c异常处理基础trythrowcatch&#34;&gt;C++异常处理基础：try、throw、catch&lt;/h2&gt;
+&lt;p&gt;意外异常(unexpected exception)
+动态内存管理的异常处理 new&lt;/p&gt;
+&lt;h1 id=&#34;w9-stl--&#34;&gt;w9. STL -&lt;/h1&gt;
+&lt;p&gt;质因数数目&lt;/p&gt;
+&lt;h2 id=&#34;container-adapter-容器适配器&#34;&gt;&lt;strong&gt;container adapter 容器适配器&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;(让已有的顺序容器以栈/队列的方式工作)&lt;/p&gt;
+&lt;p&gt;stack&lt;/p&gt;
+&lt;p&gt;queue&lt;/p&gt;
+&lt;p&gt;priority_queue&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;member function&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;push&lt;/p&gt;
+&lt;p&gt;top&lt;/p&gt;
+&lt;p&gt;pop&lt;/p&gt;
+&lt;p&gt;参考案例：github/ PKUC3/ 3.10.1.4.cpp&lt;/p&gt;
+&lt;h3 id=&#34;map-multimap&#34;&gt;map/ multimap&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;map&lt;/code&gt;&lt;/strong&gt; 容器中，关键字key是唯一的，值value可以重复。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;multimap&lt;/code&gt;&lt;/strong&gt; 容器中，关键字和值都可以重复。&lt;/p&gt;
+&lt;h3 id=&#34;set-multiset&#34;&gt;set/ multiset&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;set&lt;/code&gt;&lt;/strong&gt; 容器中，元素是唯一的，按其值自动排序，而非插入顺序。&lt;/p&gt;
+&lt;p&gt;添加新对象时会比较对象的大小，&lt;strong&gt;&lt;code&gt;set&lt;/code&gt;&lt;/strong&gt; 是一个基于红黑树实现的容器，它会自动将元素按照特定的顺序存储，通常是使用元素的 &lt;strong&gt;&lt;code&gt;&amp;lt;&lt;/code&gt;&lt;/strong&gt; 操作符来进行比较和排序。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;set&lt;/code&gt; 容器的迭代器支持双向迭代，可以使用++，- - 移动迭代器，但不支持随机访问，所以不能进行 i+1 的操作；&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>42 School - shell00/ C</title>
+      <link>https://atomx.cc/posts/edu/math-cs/42-shell00-c/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/42-shell00-c/</guid>
+      <description>&lt;h1 id=&#34;shell&#34;&gt;shell&lt;/h1&gt;
+&lt;p&gt;shebang line (&lt;strong&gt;&lt;code&gt;#!/bin/bash&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;to tell the system which interpreter to use&lt;/p&gt;
+&lt;h2 id=&#34;special-or-wired-file-name&#34;&gt;special or wired file name&lt;/h2&gt;
+&lt;p&gt;delimeter \ tab, to show the special or wired file name such as :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;% touch &lt;span class=&#34;s2&#34;&gt;&amp;#34;23\\?\$*&amp;#39;MaRViN&amp;#39;*&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$?&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;77&amp;amp;\\&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-rw-r--r--  &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; linxu  2024_heilbronn  &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;17&lt;/span&gt; 21:20 &lt;span class=&#34;se&#34;&gt;\?&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$*&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;MaRViN&amp;#39;&lt;/span&gt;*0&lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;% rm &lt;span class=&#34;se&#34;&gt;\\\?\$\*\&amp;#39;&lt;/span&gt;MaRViN&lt;span class=&#34;se&#34;&gt;\&amp;#39;\*&lt;/span&gt;0&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# input \ and then click tab, the terminal will show us  \\?\$\*\&amp;#39;MaRViN\&amp;#39;\*0\\ automatically, &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# for us to confirm it automatically.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;% ls -lRa *MaRV* &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; cat -e
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-rw-r--r--  &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; linxu  2024_heilbronn  &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; Jan &lt;span class=&#34;m&#34;&gt;17&lt;/span&gt; 21:51 &lt;span class=&#34;s2&#34;&gt;&amp;#34;\?&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$*&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;MaRViN*&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$?&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34;&lt;/span&gt;$&lt;span class=&#34;s2&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;# the file size 3, it is wrong, use echo and terminator % to end the input
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;% echo -n 42 &amp;gt; \&amp;#34;\\\?\$\*MaRViN\*\$\?\\\&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;% cat \&amp;#34;\\\?\$\*MaRViN\*\$\?\\\&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;42%
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;# The function of the % mark is to indicate that the prompt is on the same line as the output, 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;# because there is no linefeed character at the end of the output. This can help you distinguish 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;# between the output and the prompt, and avoid confusion. However, some shells may use different 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;# symbols or colors to indicate this situation.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;man&#34;&gt;man&lt;/h1&gt;
+&lt;p&gt;how to modify the file size, time, dates, link number, in terminal unix. how to use and read command manual.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PKUC1-w10-array</title>
+      <link>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc1-w10-array/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc1-w10-array/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/jisuanji-biancheng/lecture/a53He/shu-zu-de-zuo-yong-zhi-er&#34;&gt;array function&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&amp;lt;iostream&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&amp;lt;cmath&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/* 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;looking for prime within 100.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Sieve of Eratosthenes algorithm
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;100.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// outer loop for i[2,9]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// inner loop for sum[2,99]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// why = ?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// why == ?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;when &lt;code&gt;a[i] = {9, 15}&lt;/code&gt; , how could we calculate and remove it from the array a[n]?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PKUC1-w10-array</title>
+      <link>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc2/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc2/</guid>
+      <description>&lt;h1 id=&#34;const-vs-static&#34;&gt;const vs. static&lt;/h1&gt;
+&lt;p&gt;const 限制指针实参的功能&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;指针常量&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不能修改指针所指向的地址。在定义时必须立即初始化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;some_char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ptr 是一个指向 char 的常量指针
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sc&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 合法，修改了 ptr 所指向的 char 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;another_char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 错误，不能修改 ptr 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;常量指针：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不能修改指针所指向地址的内容，但可以改变指针所指向的地址。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ptr 是一个指向 char 的常量指针
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 与上一行等效
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sc&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 错误，不能修改 ptr 所指向的 char 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;another_char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 合法，可以改变 ptr 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;static 在函数内部或类中声明的静态变量，其生命周期跨越整个程序执行过程（在循环中多次执行，每次循环的初始值继承了上一次循环的值），且只初始化一次。&lt;/p&gt;
+&lt;h1 id=&#34;string-literal&#34;&gt;string literal&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// input arguments
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// wrong expression.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;cin&lt;/code&gt;&lt;/strong&gt; operator automatically skips any whitespace, including spaces and newlines. it’s illegal to use “ ” with cin, because it is string literal, cin could not hold string.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PKUC1-w10-array</title>
+      <link>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc1/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/pkuc1/</guid>
+      <description>&lt;h2 id=&#34;turing-machine&#34;&gt;Turing machine&lt;/h2&gt;
+&lt;p&gt;The ranking is in descending order of price and working speed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Register: carries operation data and results, as fast as a CPU&lt;/li&gt;
+&lt;li&gt;Cache: data buffer&lt;/li&gt;
+&lt;li&gt;Memory: the part that cannot be placed in the CPU&lt;/li&gt;
+&lt;li&gt;External memory (hard disk, USB flash drive)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C. Bohm &amp;amp; G. Jacopini, &amp;ldquo;Flow Diagrams, Turing Machines and Languages ​​with Only Two Formations Rules&amp;rdquo;, Communications of ACM, vol9(5) May 1966, pp 366-371.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Everything in the world is complicated, and there are only three kinds of logic expressed in programs:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[程序设计与算法]</title>
+      <link>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/readme/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/c&#43;&#43;pku/readme/</guid>
+      <description>&lt;p&gt;北京大学coursera &lt;a href=&#34;https://www.coursera.org/specializations/biancheng-suanfa&#34;&gt;程序设计与算法&lt;/a&gt; Specialization 专项课程。&lt;/p&gt;
+&lt;p&gt;练习题&lt;a href=&#34;https://github.com/Atomx3/Coding-practice/tree/main/C%2B%2BPKU&#34;&gt;Github 库&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;参考&lt;a href=&#34;https://github.com/chiuchiuuu/programming-and-algorithm&#34;&gt;GitHub - chiuchiuuu/programming-and-algorithm&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;课程名&#34;&gt;课程名&lt;/h2&gt;
+&lt;p&gt;以文件夹定义&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C1, 计算导论与C语言基础&lt;/li&gt;
+&lt;li&gt;C2, C程序设计进阶&lt;/li&gt;
+&lt;li&gt;C3, C++程序设计&lt;/li&gt;
+&lt;li&gt;C4, 算法基础&lt;/li&gt;
+&lt;li&gt;C5, 数据结构基础&lt;/li&gt;
+&lt;li&gt;C6, 高级数据结构与算法&lt;/li&gt;
+&lt;li&gt;C7, 程序开发项目实践&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;文件名&#34;&gt;文件名&lt;/h3&gt;
+&lt;p&gt;取名规则：例如 2.3.3.cpp&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.C程序设计进阶 (系列课程的第二课)&lt;/li&gt;
+&lt;li&gt;3.函数递归（该课第三周）&lt;/li&gt;
+&lt;li&gt;3.编程题＃4：扩号匹配问题（该周第四题）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不能保证全部代码都通过coursera或&lt;a href=&#34;http://pkuic.openjudge.cn/&#34;&gt;POJ&lt;/a&gt;的评价&lt;/p&gt;
+&lt;h2 id=&#34;debugging-case&#34;&gt;Debugging case：&lt;/h2&gt;
+&lt;p&gt;% c++ 3.9.1.cpp&lt;br&gt;
+3.9.1.cpp:83:9: warning: &amp;lsquo;auto&amp;rsquo; type specifier is a C++11 extension [-Wc++11-extensions]&lt;br&gt;
+for(auto p : v) {&lt;br&gt;
+^&lt;br&gt;
+3.9.1.cpp:83:16: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]&lt;br&gt;
+for(auto p : v) {&lt;br&gt;
+^&lt;br&gt;
+2 warnings generated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CS50</title>
+      <link>https://atomx.cc/posts/edu/math-cs/cs50/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/cs50/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://cs50.harvard.edu/x/2023/&#34;&gt;CS50x 2023 (harvard.edu)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://glowing-space-dollop-pjrj646rqwjh67jp.github.dev/?autoStart=true&amp;amp;folder=%2Fworkspaces%2F10704949&amp;amp;vscodeChannel=stable&#34;&gt;Codespace cs50&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;User Manual of C&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://manual.cs50.io/&#34;&gt;C standard library cs50&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;北美计算机四大本科课程设置：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;编程语言学&lt;/p&gt;
+&lt;p&gt;算法与数据结构&lt;/p&gt;
+&lt;p&gt;操作系统&lt;/p&gt;
+&lt;p&gt;计算机网络&lt;/p&gt;
+&lt;p&gt;数据库&lt;/p&gt;
+&lt;p&gt;分布式系统&lt;/p&gt;
+&lt;h3 id=&#34;spoiler-tag&#34;&gt;Spoiler tag&lt;/h3&gt;
+&lt;p&gt;&lt;spoiler&gt; problem code snippet posted should be posted with spoiler tag &lt;/spoiler&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pseudocode&#34;&gt;pseudocode?&lt;/h3&gt;
+&lt;p&gt;description  text of ideas&lt;/p&gt;
+&lt;h3 id=&#34;mathhfunctions&#34;&gt;&amp;lt;math.h&amp;gt;Functions&lt;/h3&gt;
+&lt;p&gt;Set $m/n = (z/q)^x$, m≥n≥2, z&amp;gt;q≥2, x≥0, all arguments are positive integers.&lt;/p&gt;
+&lt;p&gt;how to write an arithmetic function to get x value properly in c programming?&lt;/p&gt;
+&lt;p&gt;could it be like below?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>42 School</title>
+      <link>https://atomx.cc/posts/edu/math-cs/42-school/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/42-school/</guid>
+      <description>&lt;h1 id=&#34;4-weeks-piscine&#34;&gt;4 weeks Piscine&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://medium.com/@themichaelbrave/lessons-learned-after-a-month-of-code-at-42s-piscine-679afb17fb&#34;&gt;Piscine blog, how is the 42 school.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Prepare for the piscine &lt;a href=&#34;https://42berlin.de/faq/&#34;&gt;Ask Us - 42 Berlin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Korean guy hack the whole exams.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/voiddeveloper/Piscine&#34;&gt;https://github.com/voiddeveloper/Piscine&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ayoub0x1/C-Piscine-exam/tree/main&#34;&gt;GitHub - ayoub0x1/C-Piscine-exam: Get ready for your 1337/42 exams&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;basic-knowledge&#34;&gt;Basic knowledge&lt;/h2&gt;
+&lt;h3 id=&#34;shell-git-terminal-vim&#34;&gt;Shell, git, Terminal, Vim&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cd, pwd, ls, touch, mkdir, rm,&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cat&lt;/code&gt;、&lt;code&gt;head&lt;/code&gt;、&lt;code&gt;tail, less&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;redirections with chevrons &lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt; and pipes &lt;code&gt;|&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/specializations/oss-development-linux-git&#34;&gt;https://www.coursera.org/specializations/oss-development-linux-git&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.freeos.com/guides/lsst/&#34;&gt;Linux Shell Scripting Tutorial - A Beginner&amp;rsquo;s handbook (freeos.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;csh for coder&lt;/p&gt;
+&lt;p&gt;bash shell in Linux&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>IBM cybersecurity</title>
+      <link>https://atomx.cc/posts/edu/math-cs/ibm-cybersecurity/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/ibm-cybersecurity/</guid>
+      <description>&lt;h1 id=&#34;cybersecurity-compliance-framework--system-administrationhttpswwwcourseraorglearncybersecurity-compliance-framework-system-administration&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-compliance-framework-system-administration&#34;&gt;&lt;strong&gt;Cybersecurity Compliance Framework &amp;amp; System Administration&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;subject matter experts (SMEs)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.aicpa-cima.com/resources/article/soc-for-cybersecurity-information-for-organizations&#34;&gt;SOC&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act&#34;&gt;HIPAA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard&#34;&gt;PCI DSS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://d3c33hcgiwev3.cloudfront.net/pYi0ssqNEem1ZQ7C4qP0yA_3163d3f48b564ec78df54fe05d18cf9c_Compliance-Frameworks-and-Industry-Standards-Introduction-Summary.pdf?Expires=1698883200&amp;amp;Signature=EBlrNVf8uPwcsuPA81vOClK9ye90cA-QsGv8iAUQ7S1YFQjJn1xi62PAlc52ZAN9vtZHNVlvYfiEPIQ4zUxZqJp1lXch0sE9eEvCOsYs-iG2scmaYDOFAHhrUUnRRakAfD8m2bhApZ6MFHNEfMgS2dP~6U9b0uUhfBjrPOWFn9E_&amp;amp;Key-Pair-Id=APKAJLTNE6QMUY6HBC5A&#34;&gt;Compliance and Industry Standards Summary(ISO/SOC/PCI/HIPAA)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cisecurity.org/blog/v7-1-introduces-implementation-groups-cis-controls/&#34;&gt;Center for Internet Security (CIS) Critical Security Controls&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CIS Controls Implementation Group&lt;/p&gt;
+&lt;h1 id=&#34;cybersecurity-roles-processes--operating-system-securityhttpswwwcourseraorglearncybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;strong&gt;Cybersecurity Roles, Processes &amp;amp; Operating System Security&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/ITIL&#34;&gt;The Information Technology Infrastructure Library (ITIL)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.axelos.com/certifications/itil-service-management&#34;&gt;ITIL® 4: the framework for the management of IT-enabled services&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.axelos.com/certifications/itil-service-management/what-is-it-service-management&#34;&gt;how IT Service Management (ITSM) and ITIL are related.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Authentication and Access control&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3, (Token, list and log are not)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W4</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w4-assignment-0/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w4-assignment-0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantifier_%28logic%29&#34;&gt;Quantifier(logic)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;$∀$ , For All, Conjunction, ∧, all things
+$∃$, Exist, Disjunction, &lt;strong&gt;∨&lt;/strong&gt;, at least one&lt;/p&gt;
+&lt;p&gt;$∃x$[$A(x) ∧ B(x)$] ≠ $∃x$$A(x)$ ∧ $∃x$$B(x)$, False&lt;/p&gt;
+&lt;p&gt;There is a game player who is both an attacker and a defender.&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;There is a game player who is an attacker, and There is a game player(another one?) who is a defender.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;$∃x$[$A(x) ∨ B(x)$] =  $∃x$$A(x)$ &lt;strong&gt;∨&lt;/strong&gt; $∃x$$B(x)$&lt;/p&gt;
+&lt;p&gt;There is a game player who is an attacker or a defender.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W3 Assignment 5</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w3-assignment-5/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w3-assignment-5/</guid>
+      <description>&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the existence assertions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a. ($∃x$ ∈ ℕ)($x^3 = 27$ )&lt;/p&gt;
+&lt;p&gt;b. ($∃𝑛$ ∈ ℕ)(𝑛&amp;gt;10000)&lt;/p&gt;
+&lt;p&gt;c. natural number n is not a prime
+($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 &lt;strong&gt;∧&lt;/strong&gt; $m$&amp;gt;1 &lt;strong&gt;∧ $n=pm$&lt;/strong&gt;)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Express the ‘for all’ assertions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)
+¬($∃x$ ∈ $ℕ$)($x^3$ = 28)
+($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
+&lt;p&gt;($∀x$ ∈ ℕ)¬($x^3$ = 28)&lt;/p&gt;
+&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )
+c.  ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( ****$n=pq$) ****⇒&lt;strong&gt;$n=pq&lt;/strong&gt;n=pq$$p$=1 V &lt;strong&gt;$q=1$&lt;/strong&gt; )]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W3</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w3-assignment-0/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w3-assignment-0/</guid>
+      <description>&lt;p&gt;the most difficult lecture&lt;/p&gt;
+&lt;h1 id=&#34;analysis-of-language---quantifiers&#34;&gt;Analysis of language - quantifiers&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Irrational_number&#34;&gt;irrational&lt;/a&gt; numbers&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%80&#34;&gt;∀&lt;/a&gt; for all&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%83&#34;&gt;∃&lt;/a&gt; there exists&lt;/p&gt;
+&lt;p&gt;express an existence &lt;strong&gt;assertion&lt;/strong&gt;.
+a confident and forceful statement of fact or belief.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Combination of quantifiers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;there is no largest natural number.&lt;/p&gt;
+&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
+&lt;p&gt;(∃𝑛 ∈ ℕ)(∀𝑚∈ ℕ)(𝑛&amp;gt;𝑚), False&lt;/p&gt;
+&lt;p&gt;American Melanoma Foundation: “One American dies of Melanoma almost every hour.”&lt;/p&gt;
+&lt;p&gt;∃A∀H(A dies in hour H), False, misunderstanding: An American dies once every hour, ridiculous.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 Assignment 4</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w2-assignment-4/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w2-assignment-4/</guid>
+      <description>&lt;h1 id=&#34;1-building-truth-table-φ--ψ&#34;&gt;1. Building truth table φ ⇔ ψ&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;φ&lt;/th&gt;
+          &lt;th&gt;ψ&lt;/th&gt;
+          &lt;th&gt;φ ⇒ ψ&lt;/th&gt;
+          &lt;th&gt;ψ ⇒ φ&lt;/th&gt;
+          &lt;th&gt;φ ⇔ ψ&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;✔︎&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;✔︎&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;a. φ ⇔ ψ is true if φ and ψ are both true or both false
+(φ ⇒ ψ)=(ψ ⇒ φ) , (φ ⇒ ψ)∧(ψ ⇒ φ) = φ ⇔ ψ, φ = ψ&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 QUIZ</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w2-quiz/</link>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w2-quiz/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;
+&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;implication has a **truth part(**conditional &lt;strong&gt;)&lt;/strong&gt; and a causation part.&lt;/p&gt;
+&lt;p&gt;implication = conditional + causation&lt;/p&gt;
+&lt;p&gt;conditional means &lt;strong&gt;⇒&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;φ ⇒ ψ&lt;/strong&gt; is the truth part of “ φ  implies ψ ”.&lt;/p&gt;
+&lt;p&gt;φ is the antecedent&lt;/p&gt;
+&lt;p&gt;ψ is the consequent
+define the truth of φ⇒ψ in terms of the truth/falsity of φ and ψ.&lt;/p&gt;
+&lt;h2 id=&#34;equivalence-quiz&#34;&gt;&lt;strong&gt;Equivalence Quiz&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Which of the following &lt;strong&gt;conditions&lt;/strong&gt; is necessary and sufficient for &lt;strong&gt;the natural number $n$&lt;/strong&gt; &lt;strong&gt;to be multiple of 10&lt;/strong&gt; ?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W2 Assignment 3</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w2-assignment-3/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w2-assignment-3/</guid>
+      <description>&lt;h1 id=&#34;1-d-y-t&#34;&gt;1. D, Y, T&lt;/h1&gt;
+&lt;p&gt;a. T ⇒ [D ∧ Y]&lt;/p&gt;
+&lt;p&gt;b. D ⇒ ¬ Y&lt;/p&gt;
+&lt;p&gt;c. ¬ D ⇒  ¬ T&lt;/p&gt;
+&lt;p&gt;d. T ⇒  ¬ (D ∧ Y)&lt;/p&gt;
+&lt;p&gt;e. ¬ D ∧ Y ∧ T ,  T ⇒ [¬ D ∧ Y], following means “then or and”, they are all conjunctions relationship.&lt;/p&gt;
+&lt;p&gt;f. (T ∧ Y) ⇒ ¬ D , T ⇒ [Y ⇒ ¬ D]&lt;/p&gt;
+&lt;p&gt;g. T ⇒ [D ⇔ Y], T⇒ [(D ⇒Y) ∧ (Y⇒D)]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W1 Assignment 2</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w1-assignment-2/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w1-assignment-2/</guid>
+      <description>&lt;h1 id=&#34;1-simplify-the-symbolic-statements&#34;&gt;1. Simplify the symbolic statements.&lt;/h1&gt;
+&lt;p&gt;(b) (p≥7)∧(p&amp;lt;12), 7≤p&amp;lt;12&lt;/p&gt;
+&lt;p&gt;(c) (x&amp;gt;5)∧(x&amp;lt;7), 5&amp;lt;x&amp;lt;7&lt;/p&gt;
+&lt;p&gt;(d) (x&amp;lt;4)∧(x&amp;lt;6), x&amp;lt;4&lt;/p&gt;
+&lt;p&gt;(e) $(y&amp;lt;4)∧(y^2 &amp;lt;9), y^2&amp;lt;9$&lt;/p&gt;
+&lt;p&gt;(f) (x≥0)∧(x≤0), x=0&lt;/p&gt;
+&lt;h1 id=&#34;2-express-each-of-your-simplified-statements-from-question-1-in-natural-english&#34;&gt;2. Express each of your simplified statements from question 1 in natural English.&lt;/h1&gt;
+&lt;p&gt;(b) p is greater than or equal to 7 and less than 12.&lt;/p&gt;
+&lt;p&gt;(c) x is greater than 5, and less than 7.&lt;/p&gt;
+&lt;p&gt;(d) x is less than 4&lt;/p&gt;
+&lt;p&gt;(e) y squared is less than 9&lt;/p&gt;
+&lt;p&gt;(f) x is equal to 0&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W1 Assignment 1</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w1-assignment-1/</link>
+      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w1-assignment-1/</guid>
+      <description>&lt;h1 id=&#34;truth-table&#34;&gt;Truth table&lt;/h1&gt;
+&lt;p&gt;φ ∧ ψ = ψ ∧ φ&lt;/p&gt;
+&lt;p&gt;∧ conjunction 合取: anyone is false, φ ∧ ψ will be false&lt;/p&gt;
+&lt;p&gt;∨ disjunction 析取: anyone is truth, φ ∨ ψ will be truth.&lt;/p&gt;
+&lt;p&gt;∨ : Communism, Soviet Union, China, Socialism, anyone is truth, then it is truth, Big, resources absorbing power, Totalitarianism&lt;/p&gt;
+&lt;p&gt;∧ : Germany,&lt;/p&gt;
+&lt;h2 id=&#34;greek-alphabet---wikipediahttpsenwikipediaorgwikigreek_alphabet&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;φ: phi&lt;/p&gt;
+&lt;p&gt;ψ: psi&lt;/p&gt;
+&lt;p&gt;θ: Theta&lt;/p&gt;
+&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
+&lt;p&gt;True table game, triary logic&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking- Stanford</title>
+      <link>https://atomx.cc/posts/edu/mts/mathematical-thinking-stanford/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mathematical-thinking-stanford/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject&#34;&gt;Math symbols&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking&#34;&gt;Mathematical Thinking- Stanford&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking/resources/7qIB0&#34;&gt;About instructor&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;assignment--quiz&#34;&gt;Assignment &amp;amp; Quiz&lt;/h1&gt;
+&lt;p&gt;The course contents sub documents as below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MTS W8 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W8 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W7 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W6 Assignment 8&lt;/li&gt;
+&lt;li&gt;MTS W5 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W4 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W3 Assignment 5&lt;/li&gt;
+&lt;li&gt;MTS W3 Assignment 0&lt;/li&gt;
+&lt;li&gt;MTS W2 Assignment 4&lt;/li&gt;
+&lt;li&gt;MTS W2 Assignment 3&lt;/li&gt;
+&lt;li&gt;MTS W2 Quiz&lt;/li&gt;
+&lt;li&gt;MTS W1 Assignment 2&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W4 Assignment 6</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w4-assignment-6/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w4-assignment-6/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;¬ [$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;¬ [$∃x$A(x)]&lt;/p&gt;
+&lt;p&gt;if it is not the case that at least a x satisfies A(x),&lt;/p&gt;
+&lt;p&gt;then for all x are not not satisfy A(x),&lt;/p&gt;
+&lt;p&gt;so for all x, ¬A(x) is true.&lt;/p&gt;
+&lt;p&gt;$∀x$[¬A(x)]&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Prove false&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;There is an even prime bigger than 2&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;x are parts of natural number set $N$, Prime number P(x), Even number E(x)&lt;/p&gt;
+&lt;p&gt;$∃x$[E(x)P(x)∧(x&amp;gt;2)]&lt;/p&gt;
+&lt;p&gt;¬ {$∃x$[E(x)P(x)∧(x&amp;gt;2)]} is True&lt;/p&gt;
+&lt;p&gt;$∀x$[E(x)P(x) ⇒ (2≥ x)]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W5 Assignment 7</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w5-quiz/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w5-quiz/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Contrapositive  反證&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if φ ⇒ ψ , then ¬ψ ⇒ ¬φ&lt;/p&gt;
+&lt;p&gt;$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/p&gt;
+&lt;h1 id=&#34;assignment-7&#34;&gt;Assignment 7&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove or disprove the statement “All birds can fly.”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;birds b, fly birds are F(b)&lt;/p&gt;
+&lt;p&gt;Assume $∀b$ ⇒ F(b) True.&lt;/p&gt;
+&lt;p&gt;$∃o$, there are some birds, such as ostrich o, it can not fly.&lt;/p&gt;
+&lt;p&gt;$∀b$[$∃o$$(b=o)$ ⇒ ¬F(b)]&lt;/p&gt;
+&lt;p&gt;so not all birds could fly, $∀b$ ⇒ F(b) False.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Prove or disprove the claim (∀x, y ∈ R)[(x − y)2 &amp;gt; 0].
+Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W6 Assignment 8</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w6-assignment-8/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w6-assignment-8/</guid>
+      <description>&lt;p&gt;Induction: the inference of a general law from particular instances.&lt;/p&gt;
+&lt;p&gt;Axiom/ principle: generally acknowledged truth.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;to prove $∀n$ A$(n)$&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Method, principle of mathematical induction&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prove &lt;strong&gt;A$(1)$&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Dominoes:  $∀n$ [ A$(n)$ ⇒ A$(n+1)$] induction step&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Theorem: for any n, 1+2+3 …… + n = 1/2n(n+1)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if n = 1, both side equal to 1, then the identity is true.&lt;/p&gt;
+&lt;p&gt;Assume  A$(n)$ and deduce A$(n+1)$, the identity holds for all n&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1+2+3 …… + n+1 = 1/2(n+1)[(n+1)+1]&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W7</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w7-assignment-0/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w7-assignment-0/</guid>
+      <description>&lt;h1 id=&#34;number-theory&#34;&gt;number theory&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.britannica.com/science/number-theory&#34;&gt;Number theory | Definition, Topics, &amp;amp; History | Britannica&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;0 is not a natural number? it depends on the mathematical community, if they design the norm(standard) that 0 i a natural number, then it is.&lt;/p&gt;
+&lt;p&gt;but in a default condition, we normally set 0 is not natural number.&lt;/p&gt;
+&lt;h2 id=&#34;ba&#34;&gt;b|a&lt;/h2&gt;
+&lt;p&gt;Vertical bar sign in Discrete mathematics, means b divides a, b is a &lt;em&gt;factor&lt;/em&gt; of a.&lt;/p&gt;
+&lt;p&gt;division theory ?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Euclidean_division&#34;&gt;Euclidean division - Wikipedia&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W8 Assignment 10</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w8-assignment-10/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w8-assignment-10/</guid>
+      <description>&lt;p&gt;cognitive conception&lt;/p&gt;
+&lt;p&gt;completeness property 完整属性&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Upper_and_lower_bounds&#34;&gt;upper and lower bound&lt;/a&gt; 上界、下界&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Least-upper-bound_property&#34;&gt;least upper bound&lt;/a&gt; 最小上界 LUB&lt;/p&gt;
+&lt;p&gt;S&lt;a href=&#34;https://en.wikipedia.org/wiki/Set_%28mathematics%29&#34;&gt;et theory&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;subset relations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Natural numbers, Integers, Rational numbers, Real numbers&lt;/p&gt;
+&lt;p&gt;N ⊂ Z ⊂ Q ⊂ R&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://d3c33hcgiwev3.cloudfront.net/_1dc41c143a819b67c9704cc09941d38c_Supplement__Set_Theory_.pdf?Expires=1697241600&amp;amp;Signature=lfPfw5Vn7fiAaHasCEMQXvvrAJXuC0gXdHIGZQbE6xCRPvbJqZ0yqwjR5AJttYA~AFZP8xcRYp1xsDqJOy4bZIqgM4dn76VEDOpsG4JmtHK1ZnLSyRJDjFEibvQk1ux8H7Yzdhl0rj6Bd--vmOv3FLqz5ZCwlC-p3wGxvuAJdko_&amp;amp;Key-Pair-Id=APKAJLTNE6QMUY6HBC5A&#34;&gt;Elements of Set Theory&lt;/a&gt;(SUPPLEMENT, KEITH DEVLIN: Introduction to Mathematical Thinking)&lt;/p&gt;
+&lt;p&gt;empty set ∅&lt;/p&gt;
+&lt;p&gt;different from  &lt;strong&gt;Φ(phi)&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Phi&#34;&gt;the 21st letter of the Greek alphabet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;eg. &lt;strong&gt;Set A&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If $A(x)$ is some property, the set of all those x which satisfy $A(x)$ is denoted by {$x | A(x)$}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematical Thinking Stanford, W8 Quiz</title>
+      <link>https://atomx.cc/posts/edu/mts/mts-w8-quiz/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/mts/mts-w8-quiz/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;least upper bound&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A set A of reals can have at most one least upper bound.&lt;/p&gt;
+&lt;p&gt;if a is LUB, then a≤b&lt;/p&gt;
+&lt;p&gt;if b is LUB, then b≤a&lt;/p&gt;
+&lt;p&gt;if a, b are both two LUBs, then b=a,&lt;/p&gt;
+&lt;p&gt;such as {42} has the only element 42 as both an upper bound and a lower bound.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;lower bound&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;if a set A of reals has a lower bound, it has infinitely many lower bounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C programming practice resources</title>
+      <link>https://atomx.cc/posts/edu/math-cs/c-programming-practice-resources/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/c-programming-practice-resources/</guid>
+      <description>&lt;p&gt;C programming manual&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wangdoc.com/clang/&#34;&gt;中文：C 语言教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourceware.org/glibc/manual/&#34;&gt;gnu c library&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;c-programming-open-source-projects-suitable-for-beginners&#34;&gt;C programming open-source projects suitable for beginners:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.geeksforgeeks.org/c-projects/&#34;&gt;GeeksforGeeks&lt;/a&gt;: This site offers a variety of C projects with source code, categorized by skill level. Some beginner-friendly projects include Rock Paper Scissors, Hangman Game, and Simple Calculator.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/topics/c-projects&#34;&gt;GitHub Topics: C Projects&lt;/a&gt;: Explore various C projects on GitHub. You can find repositories specifically tagged for beginners.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.skyfilabs.com/blog/20-best-c-programming-projects-for-beginners&#34;&gt;Skyfi Labs&lt;/a&gt;: This site lists 20 C programming projects for beginners, with source code available on platforms like GitHub.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.codewithc.com/c-projects-with-source-code/&#34;&gt;Code with C&lt;/a&gt;: A collection of over 50 C/C++ projects with source code, including mini-projects, games, and applications.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;practice-platform&#34;&gt;Practice platform&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Programiz&lt;/strong&gt;
+&lt;a href=&#34;https://www.programiz.com/c-programming/&#34;&gt;https://www.programiz.com/c-programming/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Customize Hugo site with theme PaperMod</title>
+      <link>https://atomx.cc/posts/it/customize-hugo-site-with-theme-papermod/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/it/customize-hugo-site-with-theme-papermod/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-papermod/&#34;&gt;build Hugo site with theme PaperMod&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;check-the-structure-of-directory-and-files&#34;&gt;Check the structure of directory and files.&lt;/h1&gt;
+&lt;p&gt;in terminal zsh, command line &lt;code&gt;tree -L 2 --dirsfirst&lt;/code&gt; for 2 layers of directories.&lt;/p&gt;
+&lt;h1 id=&#34;configyaml-change&#34;&gt;Config.yaml change&lt;/h1&gt;
+&lt;h2 id=&#34;toc&#34;&gt;TOC&lt;/h2&gt;
+&lt;p&gt;change the table of content on the right side colum of webpage, or in the middle top.&lt;/p&gt;
+&lt;h2 id=&#34;global-config&#34;&gt;Global config&lt;/h2&gt;
+&lt;p&gt;it&amp;rsquo;s unnecessary to add too many repeated front matters.&lt;/p&gt;
+&lt;p&gt;such as &amp;ldquo;author, TOC &amp;quot; etc.&lt;/p&gt;
+&lt;h2 id=&#34;date-format-in-front-matter&#34;&gt;Date format in front matter&lt;/h2&gt;
+&lt;p&gt;When you build static webpage, there are error reports such as below.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>思维模型、系统、框架</title>
+      <link>https://atomx.cc/posts/edu/math-cs/thinking-models_systems-frameworks/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/thinking-models_systems-frameworks/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;信息知识模因&#34; loading=&#34;lazy&#34; src=&#34;https://www.gapingvoid.com/content/uploads/2019/03/data-information-knowledge-insight-wisdom-impact.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;更多图片检索&lt;a href=&#34;https://gapingvoid.us1.list-manage.com/track/click?u=028de8672d5f9a229f15e9edf&amp;amp;id=b532e1e1b8&amp;amp;e=bbb308db6c&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;从数据到影响力&#34;&gt;从数据到影响力&lt;/h1&gt;
+&lt;p&gt;演变阶段：数据→ 信息→ 知识→ 洞察力→ 智慧→ 影响力&lt;/p&gt;
+&lt;p&gt;如何将变革转化为运动？&lt;/p&gt;
+&lt;p&gt;数据：海量的信息片段，苍白空洞如垃圾；&lt;/p&gt;
+&lt;p&gt;信息：对客观事物描述更丰富的个体数据；&lt;/p&gt;
+&lt;p&gt;知识：描述复杂世界关系，将信息点连线；&lt;/p&gt;
+&lt;p&gt;洞察力：发现知识点之间可能存在的关联，需要眼光、智慧、内省力等品质；&lt;/p&gt;
+&lt;p&gt;智慧：找到实现知识点之间的连接路径和解决方案；&lt;/p&gt;
+&lt;p&gt;影响力 ：路径联通后，由此向空间全方位产生辐射影响力；&lt;/p&gt;
+&lt;p&gt;用&lt;strong&gt;Github&lt;/strong&gt;记录每一个数据data的已知或未知的确定性或不确定性（四种组合）的标记，数据将推演出最终的影响力impact。&lt;/p&gt;
+&lt;p&gt;从源头第1步记录碎片的元数据开始，推导出最后第5,6步的结果。为了明文加密，信息安全和隐私保护，抽象化的结果是，隐藏具体的人物，时间，地点，事件，数字等，这样就做出了通用的模型或框架。&lt;/p&gt;
+&lt;h2 id=&#34;认知层次httpszhuanlanzhihucomp67941177&#34;&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/67941177&#34;&gt;认知层次&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;dikw-模型&#34;&gt;&lt;strong&gt;DIKW 模型&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;知识管理&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/DIKW_pyramid&#34;&gt;Wiki：DIKW_pyramid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb&#34;&gt;Data Demystified — DIKW model&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.i-scoop.eu/big-data-action-value-context/dikw-model/&#34;&gt;The DIKW model for knowledge management and data value extraction&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;系统化工程的知识框架体系，结构模型思维，辅助决策。解决集体决策大脑缺失的问题，这样可以解释，独裁机构无法采用群众大脑的集体决策，而只能采纳一小群自然人团体的片面局部决策，因此导致集权组织人祸频发，所以他们一定要从人群中选一个王出来代表集体决策。&lt;/p&gt;
+&lt;p&gt;区块链的树状结构，和集体大脑思维一致，形成总体树干，项目管理上叫WBS。&lt;/p&gt;
+&lt;h1 id=&#34;理论模型&#34;&gt;理论模型&lt;/h1&gt;
+&lt;h2 id=&#34;分形学&#34;&gt;分形学&lt;/h2&gt;
+&lt;p&gt;局部和整体的形状特性是一样的，从局部可以推导整体的特征，也可以从整体看到局部的特征&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Fractal&#34;&gt;维基百科：分形&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/24318397&#34;&gt;知乎：分形简介&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/topic/19610593/intro&#34;&gt;知乎：分形&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;模因谜米meme&#34;&gt;模因/谜米（meme）&lt;/h2&gt;
+&lt;p&gt;The Selfish Gene《自私的基因》，作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。&lt;/p&gt;
+&lt;p&gt;品牌 = 核心的文化基因，可无限继承&lt;/p&gt;
+&lt;h2 id=&#34;model-thinking-思维模型httpswwwcourseraorglearnmodel-thinking&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/model-thinking&#34;&gt;Model Thinking 思维模型&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;几乎所有事情和社会现象都是可以用数学模型表达，甚至用简单的数学公式描述。&lt;/p&gt;
+&lt;p&gt;与该课程配套的仿真软件 - &lt;strong&gt;&lt;a href=&#34;https://ccl.northwestern.edu/netlogo/&#34;&gt;Netlogo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NetLogo 是一个用来对自然和社会现象进行仿真的可编程建模环境。它是由 Uri Wilensky 在1999 年发起的，由连接学习和计算机建模中心（CCL）负责持续开发。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

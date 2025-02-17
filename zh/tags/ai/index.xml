@@ -12,383 +12,125 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mathematical Thinking Stanford, W4</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-0/</link>
-      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-0/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantifier_%28logic%29&#34;&gt;Quantifier(logic)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;$∀$ , For All, Conjunction, ∧, all things
-$∃$, Exist, Disjunction, &lt;strong&gt;∨&lt;/strong&gt;, at least one&lt;/p&gt;
-&lt;p&gt;$∃x$[$A(x) ∧ B(x)$] ≠ $∃x$$A(x)$ ∧ $∃x$$B(x)$, False&lt;/p&gt;
-&lt;p&gt;There is a game player who is both an attacker and a defender.&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;There is a game player who is an attacker, and There is a game player(another one?) who is a defender.&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;$∃x$[$A(x) ∨ B(x)$] =  $∃x$$A(x)$ &lt;strong&gt;∨&lt;/strong&gt; $∃x$$B(x)$&lt;/p&gt;
-&lt;p&gt;There is a game player who is an attacker or a defender.&lt;/p&gt;</description>
+      <title>AI模型Token和各种字符的换算计量方法</title>
+      <link>https://atomx.cc/zh/posts/it/ai-token-count-with-characters/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/ai-token-count-with-characters/</guid>
+      <description>&lt;p&gt;AI模型中，Token和各种字符之间的数量兑换是如何计算的？&lt;/p&gt;
+&lt;p&gt;可以简述为基本为1:1的关系，一个token对应一个字符，包括中文、英文、或其他各种符号。&lt;/p&gt;
+&lt;p&gt;在不同的AI模型中，Token数量与中文简体字、英文字词、数学符号和各种键盘符号数量之间的兑换关系可以有所不同。Token 是自然语言处理模型中的一个基本单位，它可以是一个字符、一个单词或一个子词。以下是一些常见的兑换关系：&lt;/p&gt;
+&lt;h1 id=&#34;英文字词english-words&#34;&gt;英文字词（English Words）&lt;/h1&gt;
+&lt;p&gt;通常，一个简单的英文单词（如“cat”、“dog”）对应一个 Token。&lt;/p&gt;
+&lt;p&gt;复杂的单词或不常见的单词可能会分成多个 Token。&lt;/p&gt;
+&lt;h1 id=&#34;中文简体字chinese-simplified-characters&#34;&gt;中文简体字（Chinese Simplified Characters）&lt;/h1&gt;
+&lt;p&gt;一个汉字通常对应一个 Token，例如，“你好”会被分成两个 Token。&lt;/p&gt;
+&lt;p&gt;但是，如果使用的是基于字词的模型，一个词语（如“北京”）也可能被视为一个 Token。&lt;/p&gt;
+&lt;h1 id=&#34;数学符号mathematical-symbols&#34;&gt;数学符号（Mathematical Symbols）&lt;/h1&gt;
+&lt;p&gt;数学符号通常每个符号对应一个 Token。例如，“+”、“-”、“=”、“∫” 等。&lt;/p&gt;
+&lt;h1 id=&#34;各种键盘符号keyboard-symbols&#34;&gt;各种键盘符号（Keyboard Symbols）&lt;/h1&gt;
+&lt;p&gt;键盘符号（如标点符号、特殊字符）通常每个符号对应一个 Token。例如，“@”、“#”、“$”、“&amp;amp;” 等。&lt;/p&gt;
+&lt;h1 id=&#34;示例&#34;&gt;示例&lt;/h1&gt;
+&lt;p&gt;假设你有以下文本：&lt;/p&gt;
+&lt;p&gt;英文：“Hello, world!”&lt;/p&gt;
+&lt;p&gt;中文：“你好，世界！”&lt;/p&gt;
+&lt;p&gt;数学：“x = y + z”&lt;/p&gt;
+&lt;p&gt;键盘符号：“@#$%^&amp;amp;*()”&lt;/p&gt;
+&lt;p&gt;Token分解结果可能如下：&lt;/p&gt;
+&lt;p&gt;英文：“Hello, world!” -&amp;gt; [“Hello”, “,”, “world”, “!”] -&amp;gt; 4 Tokens&lt;/p&gt;
+&lt;p&gt;中文：“你好，世界！” -&amp;gt; [“你”, “好”, “，”, “世”, “界”, “！”] -&amp;gt; 6 Tokens&lt;/p&gt;
+&lt;p&gt;数学：“x = y + z” -&amp;gt; [“x”, “=”, “y”, “+”, “z”] -&amp;gt; 5 Tokens&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Mathematical Thinking Stanford, W3 Assignment 5</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-5/</link>
-      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-5/</guid>
-      <description>&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Express the existence assertions&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;a. ($∃x$ ∈ ℕ)($x^3 = 27$ )&lt;/p&gt;
-&lt;p&gt;b. ($∃𝑛$ ∈ ℕ)(𝑛&amp;gt;10000)&lt;/p&gt;
-&lt;p&gt;c. natural number n is not a prime
-($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 &lt;strong&gt;∧&lt;/strong&gt; $m$&amp;gt;1 &lt;strong&gt;∧ $n=pm$&lt;/strong&gt;)&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Express the ‘for all’ assertions&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)
-¬($∃x$ ∈ $ℕ$)($x^3$ = 28)
-($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
-&lt;p&gt;($∀x$ ∈ ℕ)¬($x^3$ = 28)&lt;/p&gt;
-&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )
-c.  ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( ****$n=pq$) ****⇒&lt;strong&gt;$n=pq&lt;/strong&gt;n=pq$$p$=1 V &lt;strong&gt;$q=1$&lt;/strong&gt; )]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W3</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-0/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w3-assignment-0/</guid>
-      <description>&lt;p&gt;the most difficult lecture&lt;/p&gt;
-&lt;h1 id=&#34;analysis-of-language---quantifiers&#34;&gt;Analysis of language - quantifiers&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Irrational_number&#34;&gt;irrational&lt;/a&gt; numbers&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%80&#34;&gt;∀&lt;/a&gt; for all&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E2%88%83&#34;&gt;∃&lt;/a&gt; there exists&lt;/p&gt;
-&lt;p&gt;express an existence &lt;strong&gt;assertion&lt;/strong&gt;.
-a confident and forceful statement of fact or belief.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Combination of quantifiers&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;there is no largest natural number.&lt;/p&gt;
-&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
-&lt;p&gt;(∃𝑛 ∈ ℕ)(∀𝑚∈ ℕ)(𝑛&amp;gt;𝑚), False&lt;/p&gt;
-&lt;p&gt;American Melanoma Foundation: “One American dies of Melanoma almost every hour.”&lt;/p&gt;
-&lt;p&gt;∃A∀H(A dies in hour H), False, misunderstanding: An American dies once every hour, ridiculous.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W2 Assignment 4</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-4/</link>
-      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-4/</guid>
-      <description>&lt;h1 id=&#34;1-building-truth-table-φ--ψ&#34;&gt;1. Building truth table φ ⇔ ψ&lt;/h1&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;φ&lt;/th&gt;
-          &lt;th&gt;ψ&lt;/th&gt;
-          &lt;th&gt;φ ⇒ ψ&lt;/th&gt;
-          &lt;th&gt;ψ ⇒ φ&lt;/th&gt;
-          &lt;th&gt;φ ⇔ ψ&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;✔︎&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;F&lt;/td&gt;
-          &lt;td&gt;F&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;F&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;F&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;F&lt;/td&gt;
-          &lt;td&gt;F&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;T&lt;/td&gt;
-          &lt;td&gt;✔︎&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;a. φ ⇔ ψ is true if φ and ψ are both true or both false
-(φ ⇒ ψ)=(ψ ⇒ φ) , (φ ⇒ ψ)∧(ψ ⇒ φ) = φ ⇔ ψ, φ = ψ&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W2 QUIZ</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-quiz/</link>
-      <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-quiz/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;
-&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;implication has a **truth part(**conditional &lt;strong&gt;)&lt;/strong&gt; and a causation part.&lt;/p&gt;
-&lt;p&gt;implication = conditional + causation&lt;/p&gt;
-&lt;p&gt;conditional means &lt;strong&gt;⇒&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;φ ⇒ ψ&lt;/strong&gt; is the truth part of “ φ  implies ψ ”.&lt;/p&gt;
-&lt;p&gt;φ is the antecedent&lt;/p&gt;
-&lt;p&gt;ψ is the consequent
-define the truth of φ⇒ψ in terms of the truth/falsity of φ and ψ.&lt;/p&gt;
-&lt;h2 id=&#34;equivalence-quiz&#34;&gt;&lt;strong&gt;Equivalence Quiz&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Which of the following &lt;strong&gt;conditions&lt;/strong&gt; is necessary and sufficient for &lt;strong&gt;the natural number $n$&lt;/strong&gt; &lt;strong&gt;to be multiple of 10&lt;/strong&gt; ?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W2 Assignment 3</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-3/</link>
-      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w2-assignment-3/</guid>
-      <description>&lt;h1 id=&#34;1-d-y-t&#34;&gt;1. D, Y, T&lt;/h1&gt;
-&lt;p&gt;a. T ⇒ [D ∧ Y]&lt;/p&gt;
-&lt;p&gt;b. D ⇒ ¬ Y&lt;/p&gt;
-&lt;p&gt;c. ¬ D ⇒  ¬ T&lt;/p&gt;
-&lt;p&gt;d. T ⇒  ¬ (D ∧ Y)&lt;/p&gt;
-&lt;p&gt;e. ¬ D ∧ Y ∧ T ,  T ⇒ [¬ D ∧ Y], following means “then or and”, they are all conjunctions relationship.&lt;/p&gt;
-&lt;p&gt;f. (T ∧ Y) ⇒ ¬ D , T ⇒ [Y ⇒ ¬ D]&lt;/p&gt;
-&lt;p&gt;g. T ⇒ [D ⇔ Y], T⇒ [(D ⇒Y) ∧ (Y⇒D)]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W1 Assignment 2</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-2/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-2/</guid>
-      <description>&lt;h1 id=&#34;1-simplify-the-symbolic-statements&#34;&gt;1. Simplify the symbolic statements.&lt;/h1&gt;
-&lt;p&gt;(b) (p≥7)∧(p&amp;lt;12), 7≤p&amp;lt;12&lt;/p&gt;
-&lt;p&gt;(c) (x&amp;gt;5)∧(x&amp;lt;7), 5&amp;lt;x&amp;lt;7&lt;/p&gt;
-&lt;p&gt;(d) (x&amp;lt;4)∧(x&amp;lt;6), x&amp;lt;4&lt;/p&gt;
-&lt;p&gt;(e) $(y&amp;lt;4)∧(y^2 &amp;lt;9), y^2&amp;lt;9$&lt;/p&gt;
-&lt;p&gt;(f) (x≥0)∧(x≤0), x=0&lt;/p&gt;
-&lt;h1 id=&#34;2-express-each-of-your-simplified-statements-from-question-1-in-natural-english&#34;&gt;2. Express each of your simplified statements from question 1 in natural English.&lt;/h1&gt;
-&lt;p&gt;(b) p is greater than or equal to 7 and less than 12.&lt;/p&gt;
-&lt;p&gt;(c) x is greater than 5, and less than 7.&lt;/p&gt;
-&lt;p&gt;(d) x is less than 4&lt;/p&gt;
-&lt;p&gt;(e) y squared is less than 9&lt;/p&gt;
-&lt;p&gt;(f) x is equal to 0&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W1 Assignment 1</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-1/</link>
-      <pubDate>Sun, 17 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w1-assignment-1/</guid>
-      <description>&lt;h1 id=&#34;truth-table&#34;&gt;Truth table&lt;/h1&gt;
-&lt;p&gt;φ ∧ ψ = ψ ∧ φ&lt;/p&gt;
-&lt;p&gt;∧ conjunction 合取: anyone is false, φ ∧ ψ will be false&lt;/p&gt;
-&lt;p&gt;∨ disjunction 析取: anyone is truth, φ ∨ ψ will be truth.&lt;/p&gt;
-&lt;p&gt;∨ : Communism, Soviet Union, China, Socialism, anyone is truth, then it is truth, Big, resources absorbing power, Totalitarianism&lt;/p&gt;
-&lt;p&gt;∧ : Germany,&lt;/p&gt;
-&lt;h2 id=&#34;greek-alphabet---wikipediahttpsenwikipediaorgwikigreek_alphabet&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;φ: phi&lt;/p&gt;
-&lt;p&gt;ψ: psi&lt;/p&gt;
-&lt;p&gt;θ: Theta&lt;/p&gt;
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;p&gt;True table game, triary logic&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking- Stanford</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mathematical-thinking-stanford/</link>
-      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mathematical-thinking-stanford/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject&#34;&gt;Math symbols&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking&#34;&gt;Mathematical Thinking- Stanford&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking/resources/7qIB0&#34;&gt;About instructor&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;assignment--quiz&#34;&gt;Assignment &amp;amp; Quiz&lt;/h1&gt;
-&lt;p&gt;The course contents sub documents as below:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MTS W8 Quiz&lt;/li&gt;
-&lt;li&gt;MTS W8 Assignment 0&lt;/li&gt;
-&lt;li&gt;MTS W7 Assignment 0&lt;/li&gt;
-&lt;li&gt;MTS W6 Assignment 8&lt;/li&gt;
-&lt;li&gt;MTS W5 Quiz&lt;/li&gt;
-&lt;li&gt;MTS W4 Assignment 0&lt;/li&gt;
-&lt;li&gt;MTS W3 Assignment 5&lt;/li&gt;
-&lt;li&gt;MTS W3 Assignment 0&lt;/li&gt;
-&lt;li&gt;MTS W2 Assignment 4&lt;/li&gt;
-&lt;li&gt;MTS W2 Assignment 3&lt;/li&gt;
-&lt;li&gt;MTS W2 Quiz&lt;/li&gt;
-&lt;li&gt;MTS W1 Assignment 2&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W4 Assignment 6</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-6/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w4-assignment-6/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;¬ [$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;¬ [$∃x$A(x)]&lt;/p&gt;
-&lt;p&gt;if it is not the case that at least a x satisfies A(x),&lt;/p&gt;
-&lt;p&gt;then for all x are not not satisfy A(x),&lt;/p&gt;
-&lt;p&gt;so for all x, ¬A(x) is true.&lt;/p&gt;
-&lt;p&gt;$∀x$[¬A(x)]&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Prove false&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;em&gt;There is an even prime bigger than 2&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;x are parts of natural number set $N$, Prime number P(x), Even number E(x)&lt;/p&gt;
-&lt;p&gt;$∃x$[E(x)P(x)∧(x&amp;gt;2)]&lt;/p&gt;
-&lt;p&gt;¬ {$∃x$[E(x)P(x)∧(x&amp;gt;2)]} is True&lt;/p&gt;
-&lt;p&gt;$∀x$[E(x)P(x) ⇒ (2≥ x)]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W5 Assignment 7</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w5-quiz/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w5-quiz/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Contrapositive  反證&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;if φ ⇒ ψ , then ¬ψ ⇒ ¬φ&lt;/p&gt;
-&lt;p&gt;$∃x$A(x)] = $∀x$[¬A(x)] ?&lt;/p&gt;
-&lt;h1 id=&#34;assignment-7&#34;&gt;Assignment 7&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;Prove or disprove the statement “All birds can fly.”&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;birds b, fly birds are F(b)&lt;/p&gt;
-&lt;p&gt;Assume $∀b$ ⇒ F(b) True.&lt;/p&gt;
-&lt;p&gt;$∃o$, there are some birds, such as ostrich o, it can not fly.&lt;/p&gt;
-&lt;p&gt;$∀b$[$∃o$$(b=o)$ ⇒ ¬F(b)]&lt;/p&gt;
-&lt;p&gt;so not all birds could fly, $∀b$ ⇒ F(b) False.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;Prove or disprove the claim (∀x, y ∈ R)[(x − y)2 &amp;gt; 0].
-Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W6 Assignment 8</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w6-assignment-8/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w6-assignment-8/</guid>
-      <description>&lt;p&gt;Induction: the inference of a general law from particular instances.&lt;/p&gt;
-&lt;p&gt;Axiom/ principle: generally acknowledged truth.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;to prove $∀n$ A$(n)$&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Method, principle of mathematical induction&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Prove &lt;strong&gt;A$(1)$&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Dominoes:  $∀n$ [ A$(n)$ ⇒ A$(n+1)$] induction step&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Theorem: for any n, 1+2+3 …… + n = 1/2n(n+1)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;if n = 1, both side equal to 1, then the identity is true.&lt;/p&gt;
-&lt;p&gt;Assume  A$(n)$ and deduce A$(n+1)$, the identity holds for all n&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1+2+3 …… + n+1 = 1/2(n+1)[(n+1)+1]&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W7</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w7-assignment-0/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w7-assignment-0/</guid>
-      <description>&lt;h1 id=&#34;number-theory&#34;&gt;number theory&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.britannica.com/science/number-theory&#34;&gt;Number theory | Definition, Topics, &amp;amp; History | Britannica&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;0 is not a natural number? it depends on the mathematical community, if they design the norm(standard) that 0 i a natural number, then it is.&lt;/p&gt;
-&lt;p&gt;but in a default condition, we normally set 0 is not natural number.&lt;/p&gt;
-&lt;h2 id=&#34;ba&#34;&gt;b|a&lt;/h2&gt;
-&lt;p&gt;Vertical bar sign in Discrete mathematics, means b divides a, b is a &lt;em&gt;factor&lt;/em&gt; of a.&lt;/p&gt;
-&lt;p&gt;division theory ?&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Euclidean_division&#34;&gt;Euclidean division - Wikipedia&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W8 Assignment 10</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w8-assignment-10/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w8-assignment-10/</guid>
-      <description>&lt;p&gt;cognitive conception&lt;/p&gt;
-&lt;p&gt;completeness property 完整属性&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Upper_and_lower_bounds&#34;&gt;upper and lower bound&lt;/a&gt; 上界、下界&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Least-upper-bound_property&#34;&gt;least upper bound&lt;/a&gt; 最小上界 LUB&lt;/p&gt;
-&lt;p&gt;S&lt;a href=&#34;https://en.wikipedia.org/wiki/Set_%28mathematics%29&#34;&gt;et theory&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;subset relations&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Natural numbers, Integers, Rational numbers, Real numbers&lt;/p&gt;
-&lt;p&gt;N ⊂ Z ⊂ Q ⊂ R&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://d3c33hcgiwev3.cloudfront.net/_1dc41c143a819b67c9704cc09941d38c_Supplement__Set_Theory_.pdf?Expires=1697241600&amp;amp;Signature=lfPfw5Vn7fiAaHasCEMQXvvrAJXuC0gXdHIGZQbE6xCRPvbJqZ0yqwjR5AJttYA~AFZP8xcRYp1xsDqJOy4bZIqgM4dn76VEDOpsG4JmtHK1ZnLSyRJDjFEibvQk1ux8H7Yzdhl0rj6Bd--vmOv3FLqz5ZCwlC-p3wGxvuAJdko_&amp;amp;Key-Pair-Id=APKAJLTNE6QMUY6HBC5A&#34;&gt;Elements of Set Theory&lt;/a&gt;(SUPPLEMENT, KEITH DEVLIN: Introduction to Mathematical Thinking)&lt;/p&gt;
-&lt;p&gt;empty set ∅&lt;/p&gt;
-&lt;p&gt;different from  &lt;strong&gt;Φ(phi)&lt;/strong&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Phi&#34;&gt;the 21st letter of the Greek alphabet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;eg. &lt;strong&gt;Set A&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If $A(x)$ is some property, the set of all those x which satisfy $A(x)$ is denoted by {$x | A(x)$}&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mathematical Thinking Stanford, W8 Quiz</title>
-      <link>https://atomx.cc/zh/posts/edu/mts/mts-w8-quiz/</link>
-      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/mts/mts-w8-quiz/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;least upper bound&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A set A of reals can have at most one least upper bound.&lt;/p&gt;
-&lt;p&gt;if a is LUB, then a≤b&lt;/p&gt;
-&lt;p&gt;if b is LUB, then b≤a&lt;/p&gt;
-&lt;p&gt;if a, b are both two LUBs, then b=a,&lt;/p&gt;
-&lt;p&gt;such as {42} has the only element 42 as both an upper bound and a lower bound.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;lower bound&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;if a set A of reals has a lower bound, it has infinitely many lower bounds.&lt;/p&gt;</description>
+      <title>配置 gcloud 环境变量</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud_env_vars/</link>
+      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/gcloud_env_vars/</guid>
+      <description>&lt;p&gt;本文件描述了几种配置python程序所需gcloud 环境变量的方法。&lt;/p&gt;
+&lt;h1 id=&#34;方案-2在-shell-启动文件中配置推荐用于本地开发&#34;&gt;方案 2：在 Shell 启动文件中配置（推荐用于本地开发）&lt;/h1&gt;
+&lt;p&gt;这种方法可以持久地为你的用户设置环境变量。每次打开新的终端时，这些变量都会被设置。&lt;/p&gt;
+&lt;p&gt;添加 export 命令: 在文件末尾，通常在其他 export 命令之后，添加你的环境变量配置:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bash (&lt;code&gt;.bashrc&lt;/code&gt; 或 &lt;code&gt;.bash_profile&lt;/code&gt;)：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GOOGLE_CLOUD_PROJECT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;your-project-id&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GOOGLE_CLOUD_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;your-region&amp;#34;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# 例如：europe-west3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GOOGLE_APPLICATION_CREDENTIALS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/path/to/your/credentials.json&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;编辑文件后，重新启动终端或使用 source 命令使更改生效：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;source ~/.bashrc  # 或 .bash_profile 或 .zshrc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;若项目运行于python .venv虚拟环境中，没有全局配置gcloud环境变量的需求，那么配置在虚拟环境中，通常在 venv/bin/activate。&lt;/p&gt;
+&lt;p&gt;请编辑激活activate脚本，增加以上bash中相同的export脚本。&lt;/p&gt;
+&lt;h1 id=&#34;方案-3使用-gcloud-的-application-default-登录便于使用默认的-gcloud-配置&#34;&gt;方案 3：使用 gcloud 的 application-default 登录（便于使用默认的 gcloud 配置）&lt;/h1&gt;
+&lt;p&gt;如果你已经使用 gcloud auth application-default login 配置了 gcloud ，其中包含你的项目和凭据，则你的脚本可以自动获取这些凭据。这很方便，尤其当你已经大量使用 gcloud CLI 时，因为它避免了显式设置环境变量。 然而，它不如方案 2 明确，并且需要确保你的默认项目设置正确。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcloud config &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; project your-project-id
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcloud auth application-default login
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后，在你的 Python 代码中，使用 google.auth.default() 获取凭据：&lt;/p&gt;</description>
     </item>
     <item>
       <title>高效社交</title>
       <link>https://atomx.cc/zh/posts/life/efficient-social-interaction/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/life/efficient-social-interaction/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;每天有无数人在网上为无意义的话题浪费大量时间聊天，同时为互联网公司贡献巨额利润。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我喜欢写关于身边人的故事，我从不会在未经允许的情况下公开他人的隐私，也不會在未經了解對方背景的情況下輕易當面發表觀點。&lt;/p&gt;
-&lt;p&gt;因為說真话可能会让一些人感到被冒犯，為了應對複雜的社交場景和思維頑固不化的人類，所以開發一款聊天機器人bot是非常有趣且有必要的。&lt;/p&gt;
-&lt;p&gt;我特別想要帮助周围的人，让世界变得更美好，有句古老的格言和谚语是这样说的：&lt;/p&gt;
+      <description>&lt;p&gt;每天有无数人在网上为无意义的话题浪费大量时间聊天，同时为互联网公司贡献巨额利润。&lt;/p&gt;
+&lt;p&gt;我喜欢写身边人和亲身经历的故事，我从不会在未经允许的情况下公开他人的隐私，也不会在未经了解对方背景的情况下轻易当面发表观点。&lt;/p&gt;
+&lt;p&gt;因为说真话可能会让一些人感到被冒犯，为了应对复杂的社交场景和思维顽固不化的人类，所以开发一款聊天机器人bot是非常有趣且有必要的。&lt;/p&gt;
+&lt;p&gt;我特别想要帮助周围的人，让世界变得更美好，有句古老的格言和谚语是这样说的：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;良药苦口利于病，忠言逆耳利于行&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;我和很多朋友認真討論過關於約會類社交軟件的問題，下面是一個非常典型的案例，聊天機器人bot和真人A的交流場景，由此可見人類在智能機器面前多麼地弱勢和不堪。&lt;/p&gt;
+&lt;p&gt;我和很多朋友认真讨论过关于约会类社交软件的问题，下面是一个非常典型的案例，聊天机器人bot和真人A的交流场景，由此可见人类在智能机器面前多么地弱势和不堪。&lt;/p&gt;
 &lt;h2 id=&#34;典型案例&#34;&gt;典型案例&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;有多少人在聊天軟件上浪费时间？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;**有多少人在聊天软件上浪费时间？ **&lt;/p&gt;
 &lt;p&gt;以下面一个日常常见的在线对话为例：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;网友A：嗨，很高兴认识你。&lt;/li&gt;
-&lt;li&gt;機器人bot：我希望我们可以交换博客和简历链接，以便更好地了解彼此。&lt;/li&gt;
+&lt;li&gt;机器人bot：我希望我们可以交换博客和简历链接，以便更好地了解彼此。&lt;/li&gt;
 &lt;li&gt;网友A：不，我没有写博客。&lt;/li&gt;
-&lt;li&gt;機器人bot：&lt;strong&gt;博客和简历可以节省你结交新朋友的时间，你可以在15分钟内最大程度地了解他们，包括他们重要的经历、教育背景、职业、兴趣、习惯和喜欢的话题，他们对世界的洞察力，人生观和价值观等等。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;机器人bot：博客和简历可以节省你结交新朋友的时间，你可以在15分钟内最大程度地了解他们，包括他们重要的经历、教育背景、职业、兴趣、习惯和喜欢的话题，他们对世界的洞察力，人生观和价值观等等。&lt;/li&gt;
 &lt;li&gt;网友A：也许吧，但我喜欢交流。我喜欢直接了解别人，直接和他们沟通。&lt;/li&gt;
-&lt;li&gt;機器人bot：是的，请了解一下近期的科技进步，&lt;strong&gt;未来会有更多的机器人和你对话，我很肯定，在你和某人见面之前，你可能会和一个人工智能机器人聊几个小时。&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;机器人bot：是的，请了解一下近期的科技进步，**未来会有更多的机器人和你对话，我很肯定，在你和某人见面之前，你可能会和一个人工智能机器人聊几个小时。 **&lt;/li&gt;
 &lt;li&gt;网友A：我并不否认你说的。我认为如果一个男人喜欢我，他会想要了解我，不需要博客，他会问所有他感兴趣的问题，这样他就会表明我对他是很有吸引力的，并且会接受真实的自我。我不想重塑自己。&lt;/li&gt;
-&lt;li&gt;機器人bot：&lt;strong&gt;如果有一百多个机器人和你聊天，你如何在其中找到你真正的人类爱人？你认为会是真的吗？会有人仅仅因为一些照片和约会网站上几句话的描述就爱上你吗？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;机器人bot：如果有一百多个机器人和你聊天，你如何在其中找到你真正的人类爱人？你认为会是真的吗？会有人仅仅因为一些照片和约会网站上几句话的描述就爱上你吗？&lt;/li&gt;
 &lt;li&gt;网友A：我会开始和这个人交流，如果他不想进行视频交流，那么一切都会很清楚。&lt;/li&gt;
-&lt;li&gt;機器人bot：你通过视频聊天来过滤垃圾信息很聪明，但是你可能已经在这个人身上浪费了很多小时，才走到这一步。&lt;/li&gt;
+&lt;li&gt;机器人bot：你通过视频聊天来过滤垃圾信息很聪明，但是你可能已经在这个人身上浪费了很多小时，才走到这一步。&lt;/li&gt;
 &lt;li&gt;网友A：我能理解你。你越深入了解，如果你想看看真正的我，你可以去我的Instagram。&lt;/li&gt;
-&lt;li&gt;機器人bot：我只是想帮助人们在这个时代生活得更好，避免诈骗和垃圾信息。特别是帮助女孩如何保护自己，节省时间和宝贵的生命。这是一项有意义的工作。&lt;/li&gt;
+&lt;li&gt;机器人bot：我只是想帮助人们在这个时代生活得更好，避免诈骗和垃圾信息。特别是帮助女孩如何保护自己，节省时间和宝贵的生命。这是一项有意义的工作。&lt;/li&gt;
 &lt;li&gt;网友A：好吧，因为我以为你喜欢我。&lt;/li&gt;
-&lt;li&gt;機器人bot：是的，当他们是陌生人的时候，我喜欢每个人，如果你和他们交朋友并走得更近，了解更多关于他们的坏脾气和习惯，那么你就会对他们失去兴趣，对吗？&lt;/li&gt;
-&lt;li&gt;网友A：这是Tinder，人们在这里绝对不是在找朋友。如果你不喜欢我，不把我当女孩看，那我觉得沟通没有意义。我不相信男女之间有纯友谊。你相信爱情吗？还是你打算一辈子单身？晚安。&lt;/li&gt;
-&lt;li&gt;機器人bot：嗨，早上好。是的，我不知道如何描述爱情和友谊之间的区别。&lt;/li&gt;
+&lt;li&gt;机器人bot：是的，当他们是陌生人的时候，我喜欢每个人，如果你和他们交朋友并走得更近，了解更多关于他们的坏脾气和习惯，那么你就会对他们失去兴趣，对吗？&lt;/li&gt;
+&lt;li&gt;网友A：这是Instagram，人们在这里绝对不是在找朋友。如果你不喜欢我，不把我当女孩看，那我觉得沟通没有意义。我不相信男女之间有纯友谊。你相信爱情吗？还是你打算一辈子单身？晚上好。&lt;/li&gt;
+&lt;li&gt;机器人bot：嗨，早上好。是的，我不知道如何描述爱情和友谊之间的区别。&lt;/li&gt;
 &lt;li&gt;网友A：一个模棱两可的回答，没有回答我的任何问题。&lt;/li&gt;
-&lt;li&gt;機器人bot：我认为我们的思维模式不同，我应该更理性一些。&lt;strong&gt;如果我不了解你，那我怎么能爱你呢？仅仅是因为你Instagram上那些夸张炫目的照片，肤浅和推销式的口号吗？&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;机器人bot：我认为我们的思维模式不同，我应该更理性一些。 如果我不了解你，那我怎么能爱你呢？仅仅是因为你Instagram上那些夸张炫目的照片，肤浅和推销式的口号吗？&lt;/li&gt;
 &lt;li&gt;网友A：我不是在说我自己，而是在说普遍情况。你从一开始就很理性。这里的关键是欲望。你想了解这个人吗？我不认为你可以提前了解一切。例如，我的生活是不可预测的，因此它很有趣。但看起来我试图说服你接受一些你不想或不接受的东西。&lt;/li&gt;
-&lt;li&gt;機器人bot：我不明白你的意思，抱歉。了解一个人的最佳方式是通过他们写作的有深度思考和足够丰富的文字。没有其他更好的方法了。我没有太多时间聊天，你可能不了解真实的互联网世界，什么是机器人和诈骗技术。再见，祝你好运。&lt;/li&gt;
+&lt;li&gt;机器人bot：我不明白你的意思，抱歉。了解一个人的最佳方式是通过他们写作的有深度思考和足够丰富的文字。没有其他更好的方法了。我没有太多时间聊天，你可能不了解真实的互联网世界，什么是机器人和诈骗技术。再见，祝你好运。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;機器人bot关闭了聊天框，再也不想和这种頭腦簡單的人類说话了，整个过程至少花费了大约 30 分钟。&lt;/p&gt;
+&lt;p&gt;机器人bot关闭了聊天框，再也不想和这种头脑简单的人类说话了，整个过程至少花费了大约 30 分钟。&lt;/p&gt;
 &lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
-&lt;p&gt;我退出了大部分社交媒体应用程序，那是一个个甜蜜陷阱、骗局或欺诈，没有人真的想在那里建立认真的关系。他们并不互相了解，但在合作、约会或见面之前，他们会浪费整整一天甚至几年的时间聊天，但最终却得到糟糕的结果或一无所获。&lt;/p&gt;
-&lt;p&gt;所以，我不接受低效率的社交方式，无论是线上还是线下，我只和那些主要展示其背景信息的人交流，形式可能是简历和博客。&lt;/p&gt;
+&lt;p&gt;我退出了大部分社交媒体应用程序，那是一个个陷阱、骗局或欺诈，没有人真的想在那里建立认真的关系。他们并不互相了解，但在合作、约会或见面之前，他们会浪费整整一天甚至几年的时间聊天，但最终却得到糟糕的结果或一无所获。&lt;/p&gt;
+&lt;p&gt;所以，我不接受低效率的社交方式，无论是线上还是线下，我只和那些愿意公开展示其背景信息的人交流，形式可能是简历和博客。&lt;/p&gt;
 &lt;p&gt;如果你知道如何写一份好的简历，那么你就会遇到对的人，并获得更好的机会，因为这是一种认真对待生活和事业的态度。&lt;/p&gt;</description>
     </item>
     <item>
       <title>思维模型、系统、框架</title>
-      <link>https://atomx.cc/zh/posts/it/thinking-models_systems-frameworks/</link>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/thinking-models_systems-frameworks/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/thinking-models_systems-frameworks/</guid>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/thinking-models_systems-frameworks/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;信息知识模因&#34; loading=&#34;lazy&#34; src=&#34;https://www.gapingvoid.com/content/uploads/2019/03/data-information-knowledge-insight-wisdom-impact.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;更多图片检索&lt;a href=&#34;https://gapingvoid.us1.list-manage.com/track/click?u=028de8672d5f9a229f15e9edf&amp;amp;id=b532e1e1b8&amp;amp;e=bbb308db6c&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;从数据到影响力&#34;&gt;从数据到影响力&lt;/h1&gt;
 &lt;p&gt;演变阶段：数据→ 信息→ 知识→ 洞察力→ 智慧→ 影响力&lt;/p&gt;
+&lt;p&gt;如何将变革转化为运动？&lt;/p&gt;
 &lt;p&gt;数据：海量的信息片段，苍白空洞如垃圾；&lt;/p&gt;
 &lt;p&gt;信息：对客观事物描述更丰富的个体数据；&lt;/p&gt;
 &lt;p&gt;知识：描述复杂世界关系，将信息点连线；&lt;/p&gt;
 &lt;p&gt;洞察力：发现知识点之间可能存在的关联，需要眼光、智慧、内省力等品质；&lt;/p&gt;
 &lt;p&gt;智慧：找到实现知识点之间的连接路径和解决方案；&lt;/p&gt;
 &lt;p&gt;影响力 ：路径联通后，由此向空间全方位产生辐射影响力；&lt;/p&gt;
-&lt;h2 id=&#34;from-data-to-impact&#34;&gt;From Data to Impact&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gapingvoid.com/blog/2019/03/05/want-to-know-how-to-turn-change-into-a-movement/&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Data, Information, Knowledge, Insight, Wisdom, Impact&lt;/p&gt;
-&lt;p&gt;how to turn change into a movement?&lt;/p&gt;
-&lt;p&gt;信息知识模因&lt;a href=&#34;https://gapingvoid.us1.list-manage.com/track/click?u=028de8672d5f9a229f15e9edf&amp;amp;id=b532e1e1b8&amp;amp;e=bbb308db6c&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;用&lt;strong&gt;github按钮&lt;/strong&gt;记录每一个data的已知或未知的确定性或不确定性（四种组合）的标记，data影响最后的impact。&lt;/p&gt;
+&lt;p&gt;用&lt;strong&gt;Github&lt;/strong&gt;记录每一个数据data的已知或未知的确定性或不确定性（四种组合）的标记，数据将推演出最终的影响力impact。&lt;/p&gt;
 &lt;p&gt;从源头第1步记录碎片的元数据开始，推导出最后第5,6步的结果。为了明文加密，信息安全和隐私保护，抽象化的结果是，隐藏具体的人物，时间，地点，事件，数字等，这样就做出了通用的模型或框架。&lt;/p&gt;
 &lt;h2 id=&#34;认知层次httpszhuanlanzhihucomp67941177&#34;&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/67941177&#34;&gt;认知层次&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 id=&#34;dikw-model&#34;&gt;&lt;strong&gt;DIKW Model&lt;/strong&gt;&lt;/h1&gt;
-&lt;p&gt;Knowledge management&lt;/p&gt;
+&lt;h2 id=&#34;dikw-模型&#34;&gt;&lt;strong&gt;DIKW 模型&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;知识管理&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/DIKW_pyramid&#34;&gt;Wiki：DIKW_pyramid&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb&#34;&gt;Data Demystified — DIKW model&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.i-scoop.eu/big-data-action-value-context/dikw-model/&#34;&gt;The DIKW model for knowledge management and data value extraction&lt;/a&gt;&lt;/p&gt;
@@ -400,15 +142,19 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Fractal&#34;&gt;维基百科：分形&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/24318397&#34;&gt;知乎：分形简介&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/topic/19610593/intro&#34;&gt;知乎：分形&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;品牌= 核心的基因无限继承&lt;/p&gt;
 &lt;h2 id=&#34;模因谜米meme&#34;&gt;模因/谜米（meme）&lt;/h2&gt;
-&lt;p&gt;The Selfish Gene《自私的基因》，作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。&lt;/p&gt;</description>
+&lt;p&gt;The Selfish Gene《自私的基因》，作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。&lt;/p&gt;
+&lt;p&gt;品牌 = 核心的文化基因，可无限继承&lt;/p&gt;
+&lt;h2 id=&#34;model-thinking-思维模型httpswwwcourseraorglearnmodel-thinking&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/model-thinking&#34;&gt;Model Thinking 思维模型&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;几乎所有事情和社会现象都是可以用数学模型表达，甚至用简单的数学公式描述。&lt;/p&gt;
+&lt;p&gt;与该课程配套的仿真软件 - &lt;strong&gt;&lt;a href=&#34;https://ccl.northwestern.edu/netlogo/&#34;&gt;Netlogo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NetLogo 是一个用来对自然和社会现象进行仿真的可编程建模环境。它是由 Uri Wilensky 在1999 年发起的，由连接学习和计算机建模中心（CCL）负责持续开发。&lt;/p&gt;</description>
     </item>
     <item>
       <title>web app开发框架</title>
-      <link>https://atomx.cc/zh/posts/it/web-app-framworks-for-developers/</link>
+      <link>https://atomx.cc/zh/posts/it/web-app-frameworks-for-developers/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/web-app-framworks-for-developers/</guid>
+      <guid>https://atomx.cc/zh/posts/it/web-app-frameworks-for-developers/</guid>
       <description>&lt;p&gt;适合于初級开发者的日常需求&lt;/p&gt;
 &lt;h1 id=&#34;优质web-app方案的关键因素&#34;&gt;优质web app方案的关键因素&lt;/h1&gt;
 &lt;p&gt;关键因素：&lt;/p&gt;
@@ -465,23 +211,30 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
     </item>
     <item>
       <title>IT 小工具</title>
-      <link>https://atomx.cc/zh/posts/it/it-tools/</link>
+      <link>https://atomx.cc/zh/posts/it/it-solutions/</link>
       <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/it-tools/</guid>
+      <guid>https://atomx.cc/zh/posts/it/it-solutions/</guid>
       <description>&lt;p&gt;经过很多不同用户试用后的测评推荐&lt;/p&gt;
-&lt;h2 id=&#34;图形处理&#34;&gt;图形处理&lt;/h2&gt;
+&lt;h1 id=&#34;翻译方案&#34;&gt;翻译方案&lt;/h1&gt;
+&lt;h2 id=&#34;谷歌翻译插件&#34;&gt;谷歌翻译插件&lt;/h2&gt;
+&lt;p&gt;参考 &lt;a href=&#34;https://vmegre.com/&#34;&gt;弗拉基米尔·梅格雷&lt;/a&gt;，由于缺乏对这个技术的研究，以下是我目前我的初步判断。&lt;/p&gt;
+&lt;p&gt;可能网页原文只有一种俄语版，在网页的语言列表上，通过调用谷歌的某个翻译插件，直接将网页翻译成对应的目标语言。要求联网才能调用谷歌翻译，有几个缺陷：因为是免费的谷歌服务，翻译质量并不高，而且搜索引擎不会抓取其他语言版本的网页，所以除了原文的俄语或英语，其他语言版本的内容在网络上搜不到。&lt;/p&gt;
+&lt;h2 id=&#34;调用api翻译&#34;&gt;调用API翻译&lt;/h2&gt;
+&lt;p&gt;也就是调用例如谷歌Google Vertex AI studio 中的 api，将源语言文件翻译成多种目标语言的文件，然后通过web app的网页发布，符合markdown或xml等格式的规范，对搜索引擎很友好，这是最佳方案，但是稍微更费时费力。&lt;/p&gt;
+&lt;h1 id=&#34;图形处理&#34;&gt;图形处理&lt;/h1&gt;
 &lt;p&gt;个人图片转换成卡通风格头像&lt;/p&gt;
-&lt;h3 id=&#34;传统ai&#34;&gt;传统ai&lt;/h3&gt;
+&lt;h2 id=&#34;传统ai&#34;&gt;传统ai&lt;/h2&gt;
 &lt;p&gt;可以看到生成的头像与真人偏差太大，以至于无法识别&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ailab.wondershare.com/app/general/features/image&#34;&gt;ailab.wondershare&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://imagetocartoon.com/&#34;&gt;imagetocartoon&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;最新ai&#34;&gt;最新ai&lt;/h3&gt;
+&lt;h2 id=&#34;最新ai&#34;&gt;最新ai&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.midjourney.com/&#34;&gt;midjourney&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://nwn.blogs.com/nwn/2022/11/nick-yee-avatar-midjourney.html&#34;&gt;nick-yee-avatar-midjourney&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;找机器人干活的口令格式，例如&lt;/p&gt;
 &lt;p&gt;/imagine &lt;image link&gt; fantasy-hunter-warrior&lt;/p&gt;
 &lt;p&gt;/imagine &lt;image link&gt; futuristic-cyberpunk-hacker&lt;/p&gt;
 &lt;p&gt;/imagine &lt;image link&gt; captain-america&lt;/p&gt;
+&lt;h1 id=&#34;其他&#34;&gt;其他&lt;/h1&gt;
 &lt;h2 id=&#34;批量删除yt的播放列表watch-later&#34;&gt;批量删除yt的播放列表watch later&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.alphr.com/delete-all-watch-later-videos-youtube/&#34;&gt;https://www.alphr.com/delete-all-watch-later-videos-youtube/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;yt限制了批量操作，需要一个小脚本在开发者模式下代替人手自动执行。注意：

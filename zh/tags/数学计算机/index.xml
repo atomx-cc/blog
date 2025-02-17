@@ -12,32 +12,58 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI模型Token和各种字符的换算计量方法</title>
+      <link>https://atomx.cc/zh/posts/it/ai-token-count-with-characters/</link>
+      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/ai-token-count-with-characters/</guid>
+      <description>&lt;p&gt;AI模型中，Token和各种字符之间的数量兑换是如何计算的？&lt;/p&gt;
+&lt;p&gt;可以简述为基本为1:1的关系，一个token对应一个字符，包括中文、英文、或其他各种符号。&lt;/p&gt;
+&lt;p&gt;在不同的AI模型中，Token数量与中文简体字、英文字词、数学符号和各种键盘符号数量之间的兑换关系可以有所不同。Token 是自然语言处理模型中的一个基本单位，它可以是一个字符、一个单词或一个子词。以下是一些常见的兑换关系：&lt;/p&gt;
+&lt;h1 id=&#34;英文字词english-words&#34;&gt;英文字词（English Words）&lt;/h1&gt;
+&lt;p&gt;通常，一个简单的英文单词（如“cat”、“dog”）对应一个 Token。&lt;/p&gt;
+&lt;p&gt;复杂的单词或不常见的单词可能会分成多个 Token。&lt;/p&gt;
+&lt;h1 id=&#34;中文简体字chinese-simplified-characters&#34;&gt;中文简体字（Chinese Simplified Characters）&lt;/h1&gt;
+&lt;p&gt;一个汉字通常对应一个 Token，例如，“你好”会被分成两个 Token。&lt;/p&gt;
+&lt;p&gt;但是，如果使用的是基于字词的模型，一个词语（如“北京”）也可能被视为一个 Token。&lt;/p&gt;
+&lt;h1 id=&#34;数学符号mathematical-symbols&#34;&gt;数学符号（Mathematical Symbols）&lt;/h1&gt;
+&lt;p&gt;数学符号通常每个符号对应一个 Token。例如，“+”、“-”、“=”、“∫” 等。&lt;/p&gt;
+&lt;h1 id=&#34;各种键盘符号keyboard-symbols&#34;&gt;各种键盘符号（Keyboard Symbols）&lt;/h1&gt;
+&lt;p&gt;键盘符号（如标点符号、特殊字符）通常每个符号对应一个 Token。例如，“@”、“#”、“$”、“&amp;amp;” 等。&lt;/p&gt;
+&lt;h1 id=&#34;示例&#34;&gt;示例&lt;/h1&gt;
+&lt;p&gt;假设你有以下文本：&lt;/p&gt;
+&lt;p&gt;英文：“Hello, world!”&lt;/p&gt;
+&lt;p&gt;中文：“你好，世界！”&lt;/p&gt;
+&lt;p&gt;数学：“x = y + z”&lt;/p&gt;
+&lt;p&gt;键盘符号：“@#$%^&amp;amp;*()”&lt;/p&gt;
+&lt;p&gt;Token分解结果可能如下：&lt;/p&gt;
+&lt;p&gt;英文：“Hello, world!” -&amp;gt; [“Hello”, “,”, “world”, “!”] -&amp;gt; 4 Tokens&lt;/p&gt;
+&lt;p&gt;中文：“你好，世界！” -&amp;gt; [“你”, “好”, “，”, “世”, “界”, “！”] -&amp;gt; 6 Tokens&lt;/p&gt;
+&lt;p&gt;数学：“x = y + z” -&amp;gt; [“x”, “=”, “y”, “+”, “z”] -&amp;gt; 5 Tokens&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>思维模型、系统、框架</title>
-      <link>https://atomx.cc/zh/posts/it/thinking-models_systems-frameworks/</link>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/thinking-models_systems-frameworks/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/thinking-models_systems-frameworks/</guid>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/thinking-models_systems-frameworks/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;信息知识模因&#34; loading=&#34;lazy&#34; src=&#34;https://www.gapingvoid.com/content/uploads/2019/03/data-information-knowledge-insight-wisdom-impact.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;更多图片检索&lt;a href=&#34;https://gapingvoid.us1.list-manage.com/track/click?u=028de8672d5f9a229f15e9edf&amp;amp;id=b532e1e1b8&amp;amp;e=bbb308db6c&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;从数据到影响力&#34;&gt;从数据到影响力&lt;/h1&gt;
 &lt;p&gt;演变阶段：数据→ 信息→ 知识→ 洞察力→ 智慧→ 影响力&lt;/p&gt;
+&lt;p&gt;如何将变革转化为运动？&lt;/p&gt;
 &lt;p&gt;数据：海量的信息片段，苍白空洞如垃圾；&lt;/p&gt;
 &lt;p&gt;信息：对客观事物描述更丰富的个体数据；&lt;/p&gt;
 &lt;p&gt;知识：描述复杂世界关系，将信息点连线；&lt;/p&gt;
 &lt;p&gt;洞察力：发现知识点之间可能存在的关联，需要眼光、智慧、内省力等品质；&lt;/p&gt;
 &lt;p&gt;智慧：找到实现知识点之间的连接路径和解决方案；&lt;/p&gt;
 &lt;p&gt;影响力 ：路径联通后，由此向空间全方位产生辐射影响力；&lt;/p&gt;
-&lt;h2 id=&#34;from-data-to-impact&#34;&gt;From Data to Impact&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gapingvoid.com/blog/2019/03/05/want-to-know-how-to-turn-change-into-a-movement/&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Data, Information, Knowledge, Insight, Wisdom, Impact&lt;/p&gt;
-&lt;p&gt;how to turn change into a movement?&lt;/p&gt;
-&lt;p&gt;信息知识模因&lt;a href=&#34;https://gapingvoid.us1.list-manage.com/track/click?u=028de8672d5f9a229f15e9edf&amp;amp;id=b532e1e1b8&amp;amp;e=bbb308db6c&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;用&lt;strong&gt;github按钮&lt;/strong&gt;记录每一个data的已知或未知的确定性或不确定性（四种组合）的标记，data影响最后的impact。&lt;/p&gt;
+&lt;p&gt;用&lt;strong&gt;Github&lt;/strong&gt;记录每一个数据data的已知或未知的确定性或不确定性（四种组合）的标记，数据将推演出最终的影响力impact。&lt;/p&gt;
 &lt;p&gt;从源头第1步记录碎片的元数据开始，推导出最后第5,6步的结果。为了明文加密，信息安全和隐私保护，抽象化的结果是，隐藏具体的人物，时间，地点，事件，数字等，这样就做出了通用的模型或框架。&lt;/p&gt;
 &lt;h2 id=&#34;认知层次httpszhuanlanzhihucomp67941177&#34;&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/67941177&#34;&gt;认知层次&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 id=&#34;dikw-model&#34;&gt;&lt;strong&gt;DIKW Model&lt;/strong&gt;&lt;/h1&gt;
-&lt;p&gt;Knowledge management&lt;/p&gt;
+&lt;h2 id=&#34;dikw-模型&#34;&gt;&lt;strong&gt;DIKW 模型&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;知识管理&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/DIKW_pyramid&#34;&gt;Wiki：DIKW_pyramid&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb&#34;&gt;Data Demystified — DIKW model&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.i-scoop.eu/big-data-action-value-context/dikw-model/&#34;&gt;The DIKW model for knowledge management and data value extraction&lt;/a&gt;&lt;/p&gt;
@@ -49,9 +75,13 @@
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Fractal&#34;&gt;维基百科：分形&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/24318397&#34;&gt;知乎：分形简介&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/topic/19610593/intro&#34;&gt;知乎：分形&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;品牌= 核心的基因无限继承&lt;/p&gt;
 &lt;h2 id=&#34;模因谜米meme&#34;&gt;模因/谜米（meme）&lt;/h2&gt;
-&lt;p&gt;The Selfish Gene《自私的基因》，作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。&lt;/p&gt;</description>
+&lt;p&gt;The Selfish Gene《自私的基因》，作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。&lt;/p&gt;
+&lt;p&gt;品牌 = 核心的文化基因，可无限继承&lt;/p&gt;
+&lt;h2 id=&#34;model-thinking-思维模型httpswwwcourseraorglearnmodel-thinking&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/model-thinking&#34;&gt;Model Thinking 思维模型&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;几乎所有事情和社会现象都是可以用数学模型表达，甚至用简单的数学公式描述。&lt;/p&gt;
+&lt;p&gt;与该课程配套的仿真软件 - &lt;strong&gt;&lt;a href=&#34;https://ccl.northwestern.edu/netlogo/&#34;&gt;Netlogo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NetLogo 是一个用来对自然和社会现象进行仿真的可编程建模环境。它是由 Uri Wilensky 在1999 年发起的，由连接学习和计算机建模中心（CCL）负责持续开发。&lt;/p&gt;</description>
     </item>
     <item>
       <title>PSMD管理体系设计和实施</title>
