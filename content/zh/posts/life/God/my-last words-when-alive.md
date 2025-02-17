@@ -3,11 +3,10 @@ title: "意外身故遗书"
 date: 2021-04-30
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Philosophy
-  - Immigration
+  - 移民/移居
+  - 心理/健康
 ---
 
 

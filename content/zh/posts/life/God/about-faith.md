@@ -3,11 +3,11 @@ title: "我如何看待宗教信仰？"
 date: 2022-09-16
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 我对中国传统文化和主流宗教感到很绝望，所以我会探索不同的宗教并作一些对比，希望能学到一些新东西。

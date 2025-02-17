@@ -3,11 +3,11 @@ title: "考虑人生大事，死亡哲学"
 date: 2023-07-12
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 

@@ -3,11 +3,11 @@ title: "纪念王靖涛：愿天堂没有抑郁"
 date: 2012-05-01
 description: 
 categories:
-  - Life
+  - 生活
+  - 旅行
 tags:
-  - Philosophy
-  - Immigration
-  - Travel
+  - 移民/移居
+  - 心理/健康
 ---
 
 

@@ -3,11 +3,11 @@ title: "Alpha course 基督啓發課"
 date: 2020-02-02
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 # Alpha course 觀後感

@@ -3,11 +3,11 @@ title: "纪念左耳朵耗子：让我们继续协作奋进"
 date: 2023-05-15
 description:
 categories:
-  - Life
-tags:
-  - Remote Jobs
+  - 生活
   - IT
-  - Immigration
+tags:
+  - 移民/移居
+  - 心理/健康
 ---
 
 

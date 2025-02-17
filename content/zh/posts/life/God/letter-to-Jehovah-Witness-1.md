@@ -3,11 +3,11 @@ title: "使用圣经学习外语"
 date: 2021-09-23
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 给耶和华见证人教会信徒的信 1

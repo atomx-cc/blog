@@ -12,7 +12,7 @@ tags:
   - Open Courses
 ---
 
-基于自然、食物、农业领域的创新设计。
+基于自然、食物、农业领域的教育项目创新设计。
 
 
 # 参考资料
@@ -48,7 +48,7 @@ tags:
 
 [干撒式发酵床养猪技术优势](https://www.jianshu.com/p/bd7afda12a09)
 
-[http://www.bjhxky.com/](http://www.bjhxky.com/)
+[干撒式发酵床技术](http://www.bjhxky.com/)
 
 # 教育体系
 
@@ -59,11 +59,10 @@ tags:
 [美国《新一代科学教育标准》对我国学前儿童科学教育的启示](http://www.age06.com/Age06Web3/Home/ImgFontDetail/49ab4486-9619-4994-93eb-44321c68ff12)
 
 
-
 [美国《新一代科学教育标准》科学与工程实践内容简介](http://old.pep.com.cn/czsw/jshzhx/grzhj/jcpzh/typ/jxyj/201403/t20140326_1191102.htm)
 
-## **自然教育**
 
+## **自然教育**
 
 [嘉道理农场暨植物园](https://www.kfbg.org/chi/index.aspx)
 

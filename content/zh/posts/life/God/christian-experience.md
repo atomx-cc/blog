@@ -3,11 +3,11 @@ title: "我的基督教经历"
 date: 2022-09-01
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 

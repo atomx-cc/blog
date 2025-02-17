@@ -3,11 +3,11 @@ title: "对神的理解，神长什么样？"
 date: 2022-02-02
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 给耶和华见证人教会信徒的信 3

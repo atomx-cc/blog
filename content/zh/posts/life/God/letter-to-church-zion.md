@@ -3,11 +3,11 @@ title: "给Z教会牧师和传道人的信"
 date: 2020-11-03
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 

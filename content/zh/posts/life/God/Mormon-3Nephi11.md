@@ -3,11 +3,11 @@ title: "摩爾門經 - 尼腓三书11"
 date: 2024-08-12
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 ## **36** 解读：

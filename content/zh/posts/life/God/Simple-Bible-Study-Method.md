@@ -3,11 +3,11 @@ title: "简易查经法"
 date: 2024-04-26
 description: 
 categories:
-  - Life
+  - 生活
 tags:
-  - God
-  - Faith
-  - Philosophy
+  - 
+  - 神/造物主
+  - 文化/哲学
 ---
 
 

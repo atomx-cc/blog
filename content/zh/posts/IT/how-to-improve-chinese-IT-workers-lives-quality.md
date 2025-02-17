@@ -6,7 +6,7 @@ categories:
   - 生活
   - IT
 tags:
-  - 健康
+  - 心理/健康
   - 创业者
   - 远程工作
 ---
@@ -15,7 +15,7 @@ tags:
 
 这或许是我的错觉或偏见，他们大多人有着屌丝一样的邋遢造型，在996没日没夜干活的间隙，迫不及待地补充路边摊的垃圾快餐，10几块钱一份（现在涨价了），或通过外卖送到门口，这群人面临很高的健康风险。这番话可能会招骂，我本意并非为了黑化这个群体，而是就事论事，找找解决方案。
 
-最近，我们的朋友左耳朵耗子心梗离世，正当壮年和事业高峰期，这些年也听到很多类似的案例，让我不得不重新考虑这个话题。
+最近，我们的朋友陈皓(左耳朵耗子)心梗离世，正当壮年和事业高峰期，这些年也听到很多类似的案例，让我不得不重新考虑这个话题。
 
 想起曾经在中国的同事们，程序员只要在互联网大厂稳定地待8-10年以上，基本人人都身家数百万至千万，有的人混到联合创始人或副总，随着资本收购和上市，吃一波股价的红利，身家过亿的人也不少，妥妥的中产以上的阶级，怎么会命运苦憋呢？
 
@@ -62,7 +62,7 @@ tags:
 
 ## 996.ICU 和内卷
 
-[https://github.com/996icu/996.ICU/blob/master/README_CN.md](https://github.com/996icu/996.ICU/blob/master/README_CN.md)
+[996.ICU](https://github.com/996icu/996.ICU/blob/master/README_CN.md)
 
 996.icu 话题风靡一时，主要关注的是超长工作时间和职业病，至今中国的《劳动法》对此没有形成强力执行的保护作用。
 
@@ -190,15 +190,15 @@ B. 都说“贫贱不能移”，我太穷了，刚毕业技术也不行，肯�
 
 节目参考：
 
-- Rework [https://37signals.com/podcast/](https://37signals.com/podcast/)；
-- 代码之外 [https://www.youtube.com/@BeyondCodeFM](https://www.youtube.com/@BeyondCodeFM) ；
+- [Rework](https://37signals.com/podcast/)；
+- [代码之外](https://www.youtube.com/@BeyondCodeFM) ；
     
 
 podcast创作平台，例如：
 
-[https://transistor.fm](https://transistor.fm/)
+[Transistor.fm](https://transistor.fm/)
 
-[https://dao.fm/](https://dao.fm/)
+[Dao.fm](https://dao.fm/)
 
 - 受访嘉宾的博客配文，通常由嘉宾自己写一篇，或者直接由录音节目转文字即可；
 - 如果受众主要是个人 to C ，那么重点就是采访程序员个人；
@@ -229,7 +229,7 @@ podcast创作平台，例如：
 
 如果是 to C 个人购买，看到一档喜欢的节目或某个产品，我们自己直接线上下单就好了，几秒钟或几分钟就完事；
 
-如果是 to B 企业购买，需要经过业务部门和财务部门多人开会和领导审批，这阻碍来产品销售的效率。
+如果是 to B 企业购买，需要经过业务部门和财务部门多人开会和领导审批，这阻碍了产品销售的效率。
 
 to B的受众相比太少，即使互联网企业和产品，也需要招聘销售代表；
 

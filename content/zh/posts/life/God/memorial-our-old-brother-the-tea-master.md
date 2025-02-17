@@ -3,11 +3,12 @@ title: "纪念王金勇：离去是新生的开始"
 date: 2021-08-12
 description: 
 categories:
-  - Life
+  - 生活
+  - 农业
 tags:
-  - God
-  - Organic Food
-  - Agriculture & Farm
+  - 心理/健康
+  - 农庄/园艺
+  - 有机食品
 ---
 
 

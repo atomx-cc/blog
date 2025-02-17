@@ -116,7 +116,7 @@ tags:
 - 英文：[2011.12 首届全球南方国家可持续发展论坛](https://our-global-u.org/oguorg/en/the-first-south-south-forum-on-sustainability/)
 
 
-**主办单位：**
+**合作机构：**
 
 - [香港岭南大学](https://commons.ln.edu.hk/);
 - [中国人民大学农业与农村发展学院](http://sarden.ruc.edu.cn/About/AboutUs/index.htm);
