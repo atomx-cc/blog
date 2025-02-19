@@ -1,13 +1,13 @@
 ---
 title: "2.2 商业框架：媒体内容（模板）- ×××品牌名"
 date: 2020-06-10
-description: 
+description:
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 
@@ -209,4 +209,3 @@ How 怎么样
 用于招募投资者，按照一般商业规范操作。
 
 ## 规章制度
-

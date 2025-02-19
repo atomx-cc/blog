@@ -3,12 +3,12 @@ title: "佳沛的水果保鲜科技"
 date: 2018-08-01
 description: 
 categories:
-  - Business
-  - Agriculture
+  - 商业
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature
+  - 有机食品
+  - 农庄/园艺
+  - 
 ---
 
 2018年，我为了做食品感官测评的技术应用市场调研，找到品控专家季老师交流，由于国内还很缺乏基础的科研应用的普及，做农业精品很不容易。

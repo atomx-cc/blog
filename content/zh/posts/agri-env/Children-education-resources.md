@@ -3,13 +3,13 @@ title: "儿童养育资源清单"
 date: 2018-12-03
 description: 
 categories:
-  - Education
+  - 教育
+  - 自然环境
 tags:
-  - Organic Food
-  - Farm
-  - Nature
-  - Children 
-  - Open Courses
+  -
+  - 农庄/园艺
+  - 有机食品
+  - 儿童
 ---
 
 基于自然、食物、农业领域的教育项目创新设计。

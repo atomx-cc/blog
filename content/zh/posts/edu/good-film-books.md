@@ -1,10 +1,18 @@
+---
+title: "图书/影片/学习资源推荐"
+date: 2000-08-04
+description:
+categories:
+  - 教育
+tags:
+  - 网络课程
+  -
+  -
+---
+
 
 在充斥着虚假盗版的媒体和视频平台上，有思想的精品内容比例较少，以下推荐一些为数不多可看的健康有益的内容。
 
-
-# 图书/影片/学习资源推荐
-
-Date: August 4, 2000
 
 盗版已经形成了网络常态，对全社会都没好处，整体环境已经毁坏了，很难出好片子。
 
@@ -30,7 +38,7 @@ Date: August 4, 2000
 
 - [CC讲坛](http://ccjt.tv/) 
 
-中国版的TED，CC讲坛是北京君和创新公益基金会创办的公益性讲坛，致力于传播促进人与自然、人与社会和人与人和谐的创新思想。 
+中国版的TED，CC讲坛是北京君和创新公益基金会创办的公益性讲坛，致力于传播促进人与自然、人与社会和人与人和谐的创新思想。
 
 - **环境系列：全球最佳纪录片 | 带你认识真实的世界（2020版）**
 
@@ -41,7 +49,7 @@ Date: August 4, 2000
 
 
 - [冲浪普拉斯](https://weibo.com/p/1005057339115129)
- 
+
 财经视频自媒体，爆这么多料，居然没有被屏蔽，还活得好好的，有实力。
 
 - [喜马拉雅](https://www.ximalaya.com/)
@@ -104,7 +112,6 @@ Megaease创始人左耳朵耗子推荐，DHH的系列图书作为团队和文化
 - 重来2：更为简单高效的远程工作方式 REWORK
 - 重来3：跳出疯狂的忙碌 REMOTE
 
-[douban](https://book.douban.com/author/1106787/) 
-[DHH](https://dhh.dk/#rework) 
+[douban](https://book.douban.com/author/1106787/)
+[DHH](https://dhh.dk/#rework)
 [37signal](https://37signals.com/books)
-

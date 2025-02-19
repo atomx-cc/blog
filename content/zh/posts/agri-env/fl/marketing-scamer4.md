@@ -1,6 +1,16 @@
-# 广告韭菜4: 《老大》
+---
+title: "广告韭菜4: 《老大》"
+date: 2014-07-04
+description: 
+categories:
+  - 农业
+  - 商业
+tags:
+  - 腐败/犯罪
+  - 互联网
+  - 市场营销
+---
 
-Date: July 4, 2014
 
 FL董事长著作《老大》在豆瓣上的链接：[https://book.douban.com/subject/3351351/](https://book.douban.com/subject/3351351/)
 

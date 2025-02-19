@@ -1,11 +1,10 @@
 ---
 title: "写给梁冬老师的信"
 date: 2020-10-28
-description: 
+description:
 categories:
   - 生活
 tags:
-  - 
   - 心理/健康
 ---
 
@@ -94,4 +93,3 @@ tags:
 您的忠实小粉丝，严洁，微信：halo9du
 
 附:
-

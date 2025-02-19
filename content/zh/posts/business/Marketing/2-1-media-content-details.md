@@ -1,13 +1,13 @@
 ---
 title: "2.1 商业框架：媒体内容（详解）"
 date: 2020-06-10
-description: 
+description:
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 
@@ -53,7 +53,7 @@ tags:
 
 品牌个性/属性的元素是构成品牌和媒体内容的基本素材和最小单位，可以将各种素材的结构组合，设计各种格式和类型的媒体文件，因此品牌设计体系是做媒体内容的先决条件，如此严谨按照科学规律循序渐进，小作坊可变成跨国巨头。
 
-详情参考 ‣ 
+详情参考 ‣
 
 # 媒体文件
 
@@ -451,4 +451,3 @@ NAS专用16T硬盘
 [https://amzn.to/2FZqMri](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkZzekdsV0hzNTJUZG12TzNzVER4SlNhRzJQd3xBQ3Jtc0tuczdYZnVVY1R4S0M4STJBTXctRlZ3clRTVFJoUkp3ZVd6aWtMUWU4Smk1LVJIaDVodzBhZlFaTzNKbVZJVjBneFgxeEdWZHN2NGRuUWJyQllBS1AyTHQtb3JqeEV2Z1hvV1FoOURyNHV6RUg3RGxuVQ&q=https%3A%2F%2Famzn.to%2F2FZqMri)
 
 自用VPS搭建SS以获得美国固定IP
-

@@ -3,13 +3,12 @@ title: "设计有机农庄"
 date: 2019-12-03
 description: 
 categories:
-  - Business
-  - Agriculture
+  - 自然环境
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature
-  - Children 
+  - 有机食品
+  - 农庄/园艺
+  - 儿童
 ---
 
 

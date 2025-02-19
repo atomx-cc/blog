@@ -3,12 +3,12 @@ title: "设计生活社区-乐创客-v0.0"
 date: 2020-02-23
 description: 
 categories:
-  - Business
-  - Life
+  - 商业
+  - 生活
 tags:
-  - Fraud & False
-  - Health
-  - House
+  - 腐败/犯罪
+  - 健康
+  - 房产
 ---
 
 市场越脏乱差，机会越大，从综合规模效益看，长租公寓依然很值得做，有巨大且稳定的刚需尚未满足，做创新的房产管理设计，将不合格的市场劣币给淘汰掉。

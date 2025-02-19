@@ -3,12 +3,12 @@ title: "体验消费与感官测评"
 date: 2018-02-23
 description: 
 categories:
-  - Agriculture
-  - Business
+  - 农业
+  - 商业
 tags:
-  - Organic Food
-  - Farm
-  - Nature 
+  - 有机食品
+  - 农庄/园艺
+  - 
 ---
 
 # **好吃才是王道**

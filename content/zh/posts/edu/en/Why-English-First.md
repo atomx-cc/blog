@@ -3,10 +3,11 @@ title: "为什么学英语优先？"
 date: 2021-08-07
 description:
 categories:
-  - Education
+  - 教育
 tags:
-  - Self-learning
-  - English
+  - 网络课程
+  - 英语
+  - 互联网
 ---
 
 **先简单解释，为什么？**

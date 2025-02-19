@@ -1,13 +1,13 @@
 ---
 title: "NGO项目问卷"
 date: 2019-11-03
-description: 
+description:
 categories:
-  - Business
+  - 生活
 tags:
-  - Agriculture & Farm
-  - Nature & Environment
-  - Organic Food
+  - NGO
+  - 自然环境
+  -
 ---
 
 我曾经申请过中国NGO的环境保护项目，其问卷上有些有趣的问题。

@@ -3,12 +3,12 @@ title: "欧盟的临期食品安全问题"
 date: 2023-10-01
 description: 
 categories:
-  - Agriculture
-  - Environment
+  - 自然环境
+  - 农业
 tags:
-  - Nature
-  - Organic Food
-  - Fraud & False
+  - 有机食品
+  - 农庄/园艺
+  - 腐败/犯罪
 ---
 
 公益组织缺乏员工培训，以环保和济困的目的，销售严重过期的食品，好心办坏事，将制造食品安全事件，并触犯欧盟食品安全法规。

@@ -3,14 +3,12 @@ title: "《全球最佳纪录片 | 带你认识真实的世界》"
 date: 2016-12-15
 description: 
 categories:
-  - Agriculture
-  - Education
+  - 自然环境
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature
-  - Children
-  - Environment
+  - 纪录片
+  - 农庄/园艺
+  - 儿童
 ---
 
 

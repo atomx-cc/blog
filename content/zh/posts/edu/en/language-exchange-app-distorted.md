@@ -3,11 +3,11 @@ title: "语言交换app的扭曲变形"
 date: 2021-06-14
 description:
 categories:
-  - Education
+  - 教育
 tags:
-  - Self-learning
-  - Social media
-  - Internet
+  - 网络课程
+  - 社交媒体
+  - 互联网
 ---
 
 我一个月前到达乌克兰基辅，准备学习当地语言，并安装了语言交换app，但是一段时间后让我很失望，卸载了！

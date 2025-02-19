@@ -1,13 +1,13 @@
 ---
 title: "1.6 商业框架：品牌营销的理论源头"
 date: 2020-06-08
-description: 
+description:
 categories:
-  - Business
+  - 商业
 tags:
-  - Social Media
-  - Marketing
-  - Internet
+  - 品牌
+  - 市场营销
+  - 传媒
 ---
 
 参考前文：[广告韭菜2: （FL）胡来的品牌农业首席顾问]()
@@ -29,7 +29,7 @@ tags:
 - [ ]  The origin of brands《品牌的起源》；
 - [ ]  Differentiate Or Die: Survival in Our Era of Killer Competition《与众不同》；
 - [ ]  REPOSITIONING: Marketing in an Era of Competition, Change and Crisis《重新定位》；
-  
+
 以上书籍的作者均为 Al Ries 艾·里斯和Jack Trout 杰克·特劳特
 
 # 文化基因- 谜米（meme）的理论

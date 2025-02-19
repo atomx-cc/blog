@@ -3,10 +3,10 @@ title: "怎样学外语？以英语为例"
 date: 2019-08-01
 description:
 categories:
-  - Education
+  - 教育
 tags:
-  - Self-learning
-  - English
+  - 网络课程
+  - 英语
 ---
 
 

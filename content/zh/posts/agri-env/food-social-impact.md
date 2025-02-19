@@ -3,12 +3,12 @@ title: "食物的社会影响力"
 date: 2018-04-15
 description: 
 categories:
-  - Agriculture
+  - 自然环境
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature
-  - Children
+  - 有机食品
+  - 农庄/园艺
+  - 儿童
 ---
 
 生鲜电商巨头 — 盒马鲜生正踩在新一波互联网投资热潮风口上，我与其运营部门主管开会，谈了下关于农产品和餐饮业的一些运营思路，她们可能太年轻了，似乎毫无反应或完全听不懂。

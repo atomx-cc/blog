@@ -3,12 +3,12 @@ title: "茶叶是社交产品"
 date: 2022-10-25
 description: 
 categories:
-  - Business
-  - Agriculture
+  - 自然环境
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature
+  - 有机食品
+  - 农庄/园艺
+  - 
 ---
 
 

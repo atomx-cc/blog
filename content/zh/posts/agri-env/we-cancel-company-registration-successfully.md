@@ -3,11 +3,12 @@ title: "我们终于成功注销了公司"
 date: 2019-10-23
 description: 
 categories:
-  - Business
+  - 
+  - 商业
 tags:
-  - Internet
-  - China
-  - Bureaucracy
+  - 腐败/犯罪
+  - 
+  - 
 ---
 
 最近和税务局的交流过程挺有意思，记录下来，值得大家好好琢磨一下。

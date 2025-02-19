@@ -4,7 +4,7 @@ date: 2017-09-17
 categories:
   - About
 tags:
-  - Introduction
+  - Intro
 ---
 
 I am a graduate in IT and E-commerce. My current industry knowledge and skills are mainly as follows:

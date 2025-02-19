@@ -3,11 +3,12 @@ title: "兄弟志明和我们在有机农业圈的经历"
 date: 2023-02-08
 description: 
 categories:
-  - Agriculture
+  - 自然环境
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature 
+  - 有机食品
+  - 农庄/园艺
+  - 儿童
 ---
 
 他是我遇见的中国大陆最优秀的年轻农民之一，应该还有其他人，但我认识的好农民不多。

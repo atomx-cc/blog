@@ -3,12 +3,12 @@ title: "餐饮方案:采购清单"
 date: 2015-02-23
 description: 
 categories:
-  - Agriculture
+  - 自然环境
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature
-  - Environment friendly
+  - 有机食品
+  - 农庄/园艺
+  - 市场营销
 ---
 
 一般日常消费和家庭聚餐的后勤保障方案

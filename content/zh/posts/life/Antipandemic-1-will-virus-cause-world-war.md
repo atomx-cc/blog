@@ -1,11 +1,10 @@
 ---
 title: "病毒可能触发热战吗？"
 date: 2020-10-28
-description: 
+description:
 categories:
   - 生活
 tags:
-  - 
   - 心理/健康
 ---
 

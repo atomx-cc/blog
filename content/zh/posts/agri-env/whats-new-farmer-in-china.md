@@ -3,12 +3,12 @@ title: "为什么有一种人叫“新农人”？"
 date: 2018-04-10
 description: 
 categories:
-  - Agriculture
-  - Business
+  - 商业
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Internet
+  - 有机食品
+  - 农庄/园艺
+  - 
 ---
 
 在农业、食品、餐饮业的电商和供应链行业混迹至今，8年过去了，我仍然不太理解，**新农人们到底“新”在哪儿？**

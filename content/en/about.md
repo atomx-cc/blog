@@ -3,13 +3,11 @@ author: "Atom.X"
 title: "About"
 date: 2017-09-16
 # url: /about/
-description: IT farmer, Remote worker, Evangelist, Priest
+description: IT farmer, Remote worker, Evangelist
 categories:
   - About
 tags:
   - Resume
-ShowToc: true
-TocOpen: true
 ---
 
 

@@ -3,11 +3,12 @@ title: "做厨子和农民也有好前途"
 date: 2023-02-08
 description: 
 categories:
-  - Agriculture
+  - 自然环境
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Nature 
+  - 有机食品
+  - 农庄/园艺
+  - 
 ---
 
 经常有人问我怎么进入有机农业、食品行业和环保组织的？简单回顾一下这个有趣的过程。
@@ -46,7 +47,7 @@ tags:
 [《面条之路》](https://www.themoviedb.org/tv/81198)，主持人是美籍華裔廚師、烹飪書籍作家及美食類電視節目主持人，[**譚榮輝**](https://zh.wikipedia.org/wiki/%E8%AD%9A%E6%A6%AE%E8%BC%9D)
 
 更多纪录片清单查看这里：
-[《全球最佳纪录片 | 带你认识真实的世界》](%E3%80%8A%E5%85%A8%E7%90%83%E6%9C%80%E4%BD%B3%E7%BA%AA%E5%BD%95%E7%89%87%20%E5%B8%A6%E4%BD%A0%E8%AE%A4%E8%AF%86%E7%9C%9F%E5%AE%9E%E7%9A%84%E4%B8%96%E7%95%8C%E3%80%8B%20caefc3159d354d139755828a8b3109e0.md)
+[《全球最佳纪录片 | 带你认识真实的世界》](recognize-the-real-world-from-the-best-documentary-films.md)
 
 补充
 

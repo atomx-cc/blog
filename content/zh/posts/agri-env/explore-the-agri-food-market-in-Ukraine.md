@@ -3,12 +3,12 @@ title: "乌克兰农业食品市场探索"
 date: 2021-10-03
 description: 
 categories:
-  - Agriculture
-  - Business
+  - 商业
+  - 农业
 tags:
-  - Organic Food
-  - Farm
-  - Marketing
+  - 乌克兰
+  - 农庄/园艺
+  - 市场营销
 ---
 
 

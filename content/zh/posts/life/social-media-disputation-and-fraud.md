@@ -1,12 +1,12 @@
 ---
-title: "北大附中学生围攻知名自媒体 - 哟哟鹿鸣"
+title: "愚蠢的脏话和纷争"
 date: 2017-02-23
-description: 
+description:
 categories:
   - 教育
 tags:
   - 社交媒体
-  - 
+  -
   - 文化/哲学
 ---
 
@@ -24,7 +24,7 @@ tags:
 
 截止到今天2019.10.14，我的微信朋友圈里有105个朋友关注鹿鸣，甚感欣慰，继续增加关注人数，似乎就能看到美丽新世界的光明未来。
 
-北大附中学生认为自己有理，也开了一个帖子集合众人之力怼鹿鸣：[北大附中实验学校事件中，我们说理了没？](https://www.yuque.com/pa/topics/555?from=singlemessage&isappinstalled=0) 
+北大附中学生认为自己有理，也开了一个帖子集合众人之力怼鹿鸣：[北大附中实验学校事件中，我们说理了没？](https://www.yuque.com/pa/topics/555?from=singlemessage&isappinstalled=0)
 
 有许多学生在鹿鸣公众号里反复要求上墙留言给网友观看，显示自以为的聪明教养和优越感，有没有讲理？已经通过网络公之于众，没法抵赖了。这个事件引发广泛的社会讨论，是非常好的教育问题案例。
 
@@ -58,9 +58,7 @@ tags:
 
 关于脏话，让我想起一些看过的影像和资料。
 
-# **电影《国王的演讲》**
-
-[https://zh.wikipedia.org/wiki/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%BC%94%E8%AE%B2](https://zh.wikipedia.org/wiki/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%BC%94%E8%AE%B2)
+# [电影《国王的演讲》](https://zh.wikipedia.org/wiki/%E5%9B%BD%E7%8E%8B%E7%9A%84%E6%BC%94%E8%AE%B2)
 
 讲述的是二战时期英国乔治六世国王治疗口吃的真实历史故事，因為片中的髒話片段，在美國列為R級，後來重剪版本在美國上映，而在台灣則被列為保護級。
 
@@ -90,7 +88,9 @@ tags:
 
 针对本片，一个豆瓣网友在影评里（[我们已经不能阻止人类变蠢了](https://github.com/lizi-in/blog/tree/4492b6b42187f1d0c6b3a7ace51d25267ae08c98/note/417896605/README.md) ）煞有介事地引用大量专业的科学论文并哀叹：
 
-科学论文证实人类性行为与智商的关系成反比 [http://www.gnxp.com/blog/2007/04/intercourse-and-intelligence.php](http://www.gnxp.com/blog/2007/04/intercourse-and-intelligence.php)科技越来越智能，人类却越来越蠢 [https://web.archive.org/web/20140823072015/http://jandan.net/2014/08/22/are-stupid.html](https://web.archive.org/web/20140823072015/http://jandan.net/2014/08/22/are-stupid.html)
+[科学论文证实人类性行为与智商的关系成反比](http://www.gnxp.com/blog/2007/04/intercourse-and-intelligence.php)
+
+[科技越来越智能，人类却越来越蠢](https://web.archive.org/web/20140823072015/http://jandan.net/2014/08/22/are-stupid.html)
 
 针对这种问题的解决方案有哪些？
 
@@ -121,4 +121,3 @@ tags:
 互联网社会，一切都不同了，可能一句不当言论，让全世界的人耻笑，
 
 北大附中事件就是典型案例，网友和学生的互动留言中有许多经典句子，在互联网上留下的印记将见证历史。这种规模的攻击，证实局部或整体社会在“脏话”方面的文明退步了，从关注“装修污染”问题，神奇地切换为呼吁“学校和社会教育”问题。
-

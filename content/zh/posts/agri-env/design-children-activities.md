@@ -3,12 +3,13 @@ title: "设计活动体系-儿童-v0.0"
 date: 2019-12-02
 description: 
 categories:
-  - Education
+  - 教育
+  - 自然环境
 tags:
-  - Organic Food
-  - Farm
-  - Nature
-  - Children 
+  -
+  - 农庄/园艺
+  - 有机食品
+  - 儿童
 ---
 
 除了技术体系以外，与相关专业组织合作开展其他类型活动，例如儿童活动。

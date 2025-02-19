@@ -1,12 +1,13 @@
 ---
 title: "申根商务签证邀请函"
 date: 2023-01-22
-description: 
+description:
 categories:
-  - Business
+  - 商业
 tags:
-  - Marketing
-  - Wealth
+  - 市场营销
+  - 创业者
+  -
 ---
 
 该文书模板适用于普通的商务公司和个人。
@@ -58,7 +59,6 @@ tags:
 
 [电话号码和电子邮件地址]
 
-[头衔和公司名称] FI（Convestec Gmbh/创始人学院）的董事兼创始人
+[头衔和公司名称] *** 创始人
 
 [公司盖章和代表人签名]
-
