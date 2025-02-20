@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IT</title>
       <link>https://atomx.cc/zh/categories/it/</link>
-      <pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/categories/it/</guid>
       <description></description>
     </item>
@@ -57,17 +57,10 @@
       <description></description>
     </item>
     <item>
-      <title>Agriculture</title>
-      <link>https://atomx.cc/zh/categories/agriculture/</link>
+      <title>农业</title>
+      <link>https://atomx.cc/zh/categories/%E5%86%9C%E4%B8%9A/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/agriculture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Environment</title>
-      <link>https://atomx.cc/zh/categories/environment/</link>
-      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/environment/</guid>
+      <guid>https://atomx.cc/zh/categories/%E5%86%9C%E4%B8%9A/</guid>
       <description></description>
     </item>
     <item>
@@ -78,45 +71,10 @@
       <description></description>
     </item>
     <item>
-      <title>Business</title>
-      <link>https://atomx.cc/zh/categories/business/</link>
-      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/business/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>政治正确</title>
       <link>https://atomx.cc/zh/categories/%E6%94%BF%E6%B2%BB%E6%AD%A3%E7%A1%AE/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/categories/%E6%94%BF%E6%B2%BB%E6%AD%A3%E7%A1%AE/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>农业</title>
-      <link>https://atomx.cc/zh/categories/%E5%86%9C%E4%B8%9A/</link>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/%E5%86%9C%E4%B8%9A/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Education</title>
-      <link>https://atomx.cc/zh/categories/education/</link>
-      <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/education/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Life</title>
-      <link>https://atomx.cc/zh/categories/life/</link>
-      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Politics</title>
-      <link>https://atomx.cc/zh/categories/politics/</link>
-      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/categories/politics/</guid>
       <description></description>
     </item>
   </channel>

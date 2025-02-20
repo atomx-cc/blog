@@ -56,16 +56,6 @@
   </url><url>
     <loc>https://atomx.cc/tags/internet/</loc>
     <lastmod>2024-03-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/internet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/tags/internet/"
-                />
   </url><url>
     <loc>https://atomx.cc/categories/it/</loc>
     <lastmod>2024-03-12T00:00:00+00:00</lastmod>
@@ -261,29 +251,9 @@
   </url><url>
     <loc>https://atomx.cc/tags/marketing/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/marketing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/tags/marketing/"
-                />
   </url><url>
     <loc>https://atomx.cc/tags/social-media/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/social-media/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/tags/social-media/"
-                />
   </url><url>
     <loc>https://atomx.cc/posts/about/faq-personal-atom/</loc>
     <lastmod>2021-12-04T00:00:00+00:00</lastmod>
@@ -415,9 +385,6 @@
                 href="https://atomx.cc/posts/about/education-training/"
                 />
   </url><url>
-    <loc>https://atomx.cc/tags/introduction/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://atomx.cc/about/</loc>
     <lastmod>2017-09-16T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -464,16 +431,6 @@
   </url><url>
     <loc>https://atomx.cc/categories/business/</loc>
     <lastmod>2017-02-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/business/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/categories/business/"
-                />
   </url><url>
     <loc>https://atomx.cc/posts/about/cases-business/</loc>
     <lastmod>2017-02-03T00:00:00+00:00</lastmod>
