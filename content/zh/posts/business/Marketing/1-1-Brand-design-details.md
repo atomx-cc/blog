@@ -1,5 +1,5 @@
 ---
-title: "商业框架：品牌设计- 企业形象识别（详解）"
+title: "1.1 商业框架：品牌设计- 企业形象识别（详解）"
 date: 2020-06-08
 description: 
 categories:
@@ -18,10 +18,10 @@ tags:
 
 四个关键要素：
 
-- Differentiation. 差异是否有竞争者？与他们的差别？或填补了一个市场空白。
-- Relevance. 关联成为网络基础设施，像水、电、道路一样重要。与不同行业之间是否有关联？让尽可能多的人成为利益相关者 Industry(Environment, Aircraft, Ship, Agriculture, Biology, Food, etc.)
-- Coherence.一致创建可信度，品牌必须言行一致，以及企业形象识别保持一致性。
-- Esteem. 尊重，名誉来自企业社会责任Corporate Social Responsiblity
+- Differentiation. 差异是否有竞争者？与他们的差别？或填补了一个市场空白；
+- Relevance. 关联成为网络基础设施，像水、电、道路一样重要。与不同行业之间是否有关联？让尽可能多的人成为利益相关者 Industry(Environment, Aircraft, Ship, Agriculture, Biology, Food, etc.)；
+- Coherence.一致创建可信度，品牌必须言行一致，以及企业形象识别保持一致性；
+- Esteem. 尊重，名誉来自企业社会责任Corporate Social Responsiblity；
 
 如果企业没有专业的**品牌－传媒－营销 Brand-Media-Marketing(BMM)**部门，也没有委托代理去设计和实施，在初步阶段，依据 **BMM**基本概念的体系框架，创始人团队需要积**BMM** 素材，至少应能回复以下原则性的四类核心题目的问卷。
 
@@ -51,7 +51,7 @@ tags:
 
 [天图资本冯卫东的定位之道.pdf](https://quip.com/-/blob/PFAAAAwaiyU/CeP_Du4XYgjr8Dz5o8fwiA?name=%E5%A4%A9%E5%9B%BE%E8%B5%84%E6%9C%AC%E5%86%AF%E5%8D%AB%E4%B8%9C%E7%9A%84%E5%AE%9A%E4%BD%8D%E4%B9%8B%E9%81%93.pdf&s=moyKAbIoWarI)
 
-顾客价值=产品价值(内在价值+外在价值)+品牌价值(保障价值+彰显价值)
+顾客价值 = 产品价值(内在价值+外在价值) + 品牌价值(保障价值+彰显价值)
 
 **定位声明**
 

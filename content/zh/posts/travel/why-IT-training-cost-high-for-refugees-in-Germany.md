@@ -7,7 +7,7 @@ categories:
   - IT
 tags:
   - 德国
-  - 工作
+  - 远程工作
   - 网络课程
 ---
 

@@ -7,15 +7,14 @@ categories:
 tags:
   - 
   - 神/造物主
-  - 文化/哲学
+  - 
 ---
 
 
 ## 4.12
 
-Melchizedek 麦基洗德- 公義的王
 
-[https://en.wikipedia.org/wiki/Melchizedek](https://en.wikipedia.org/wiki/Melchizedek)
+[Melchizedek 麦基洗德- 公義的王](https://en.wikipedia.org/wiki/Melchizedek)
 
 耶和華（英語：Jehovah，又作Yehovah 或 Yehowah）
 
@@ -63,7 +62,7 @@ Melchizedek 麦基洗德- 公義的王
 
 常言道：人生不如意事，十有八九，没有美满的事。
 
-有朋友说：不吃辣，嘴不开心，吃辣，菊花不开心，总有一块不开心，神啊，求你赐我智慧，怎么才能调和好这尚未统一的身体呢。
+有朋友说：不吃辣，嘴不开心，吃辣，菊花不开心，总有一块不开心，神啊，求你赐智慧，怎么才能调和好这尚未统一的身体呢。
 
 **祷告事项：**
 

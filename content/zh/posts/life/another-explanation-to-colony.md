@@ -4,10 +4,11 @@ date: 2024-05-26
 description: 
 categories:
   - 教育
+  - 政治正确
 tags:
   - 历史
-  - 文化/哲学
-  - 政治正确
+  - 
+  
 ---
 
 观看[柴静纪录片频道](http://www.youtube.com/@chaijing2023)，关于政治正确、殖民地、伪历史。

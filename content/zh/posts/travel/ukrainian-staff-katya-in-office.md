@@ -5,10 +5,11 @@ description:
 categories:
   - 教育
   - 商业
+  - 政治正确
 tags:
   - 乌克兰
   - 移民/移居
-  - 政治正确
+  
 ---
 
 

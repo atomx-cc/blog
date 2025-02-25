@@ -5,9 +5,9 @@ description:
 categories:
   - IT
 tags:
-  - Math & CS
+  - 互联网
+  - 数学&计算机
   - AI
-  - Remote Jobs
 ---
 
 
