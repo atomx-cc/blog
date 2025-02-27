@@ -12,8 +12,38 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何配置AI模型做文本翻译？</title>
+      <link>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</guid>
+      <description>&lt;p&gt;我们将使用AI模型做多语种的翻译，以 &lt;a href=&#34;https://console.cloud.google.com/vertex-ai/studio/translation&#34;&gt;Google Vertex AI - Translation - Gemini 1.5 pro&lt;/a&gt; 为例。&lt;/p&gt;
+&lt;p&gt;需要配置几个关键参数。&lt;/p&gt;
+&lt;h1 id=&#34;output-token-limit&#34;&gt;Output token limit&lt;/h1&gt;
+&lt;p&gt;输出token令牌限制决定了单次提示的最大文本输出量。一个token大约相当于四个字符。 目前模型的api调取费用非常低，百万token才不到1美元，若中文和各种字符与token兑换比例为1:1，把输入和输出都计费，百万字的文章翻译也不到10美元，普通人可能一年也用不完百万token，超级划算。&lt;/p&gt;
+&lt;p&gt;参考前文：&lt;a href=&#34;../../../zh/posts/it/ai-token-count-with-characters/&#34;&gt;AI模型Token和各种字符的换算计量方法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;当然这是以开发者的身份的成本计算，如果普通人不会配置云计算平台并调取api，选择使用前端图形化的对话窗口，每个月大约10-20美元的基本订阅费用，普通用户的ai使用成本比开发者高了数十乃至数千倍。&lt;/p&gt;
+&lt;p&gt;所以这里，我们把参数设置到最大，允许输入输出最长的文章。&lt;/p&gt;
+&lt;p&gt;如果每天调取api的量很大，需要节约成本，那么需要精细估算，平均文章的字符数，配置参数相对合适，能节约成本。因为参数配置越大，某些模型的成本越高，即使实际输入输出量没有达到最大token限制。&lt;/p&gt;
+&lt;h1 id=&#34;temperature&#34;&gt;Temperature&lt;/h1&gt;
+&lt;p&gt;temperature 的工作原理：&lt;/p&gt;
+&lt;p&gt;temperature 参数通过调整模型预测的概率分布来影响词汇的选择。具体来说，它会影响每个词汇的概率值。&lt;/p&gt;
+&lt;p&gt;较高的 temperature 值（例如 0.7-1.0）： 会使概率分布更加平坦，这意味着所有可能的词汇的概率都更加接近。这会增加模型选择不太可能出现的词汇的可能性，从而生成更随机、更具创造性的文本。 缺点是，也更容易出现不准确或不合适的词汇。&lt;/p&gt;
+&lt;p&gt;较低的 temperature 值（例如 0.1-0.4）： 会使概率分布更加陡峭，这意味着概率最高的词汇的概率会更加突出。这会降低模型选择不太可能出现的词汇的可能性，从而生成更保守、更可预测的文本。 优点是，翻译结果更准确，更不容易出现错误。&lt;/p&gt;
+&lt;p&gt;temperature = 0.0： 模型将始终选择概率最高的词汇。这会生成非常确定性和可预测的文本，但缺乏创造性。 通常不建议设置为 0，因为可能会导致模型陷入重复循环。&lt;/p&gt;
+&lt;h1 id=&#34;top-p&#34;&gt;top-p&lt;/h1&gt;
+&lt;p&gt;top-p值改变了模型选择输出词的方式。模型会按照概率从高到低选择词，直到词概率之和等于 top-p 值。例如，如果词 A、B 和 C 的概率分别为 0.3、0.2 和 0.1，并且 top-p 值为 0.5，则模型将使用温度参数在 A 或 B 中选择一个作为下一个词。&lt;/p&gt;
+&lt;p&gt;Top-p 的工作原理：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;概率排序： 模型会预测所有可能的下一个词（token）并为其分配一个概率。&lt;/li&gt;
+&lt;li&gt;概率累加： 模型按照概率从高到低的顺序累加这些概率值。&lt;/li&gt;
+&lt;li&gt;截止点： 当累加的概率值达到或超过你设置的 top-p 值时，累加停止。&lt;/li&gt;
+&lt;li&gt;词汇选择： 模型从已累加的词汇中随机选择一个作为下一个生成的词。选择的概率与该词汇的原始概率成正比。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;top-p 参数的作用：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI辅助编程 - Deepseek</title>
       <link>https://atomx.cc/zh/posts/it/deepseek/</link>
@@ -322,6 +352,65 @@
 &lt;p&gt;将出现另一种完全翻转的境况，必然不会是今天这种结局。&lt;/p&gt;
 &lt;p&gt;如果 ……&lt;/p&gt;
 &lt;p&gt;如果追溯更早，我们算是阿里校友，偶然听过耗子的名字，但在职时并没有交叉点，没准在某个食堂楼道或内网里碰到过。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用AI辅助修复旧照片</title>
+      <link>https://atomx.cc/zh/posts/it/gemini-repair-old-photos/</link>
+      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/gemini-repair-old-photos/</guid>
+      <description>&lt;p&gt;为了修复老照片，哪一款AI模型最强大？&lt;/p&gt;
+&lt;p&gt;Google、Microsoft、OpenAI等各大厂商的AI都是通用的大模型，虽然其本身并没有一个&lt;strong&gt;专门&lt;/strong&gt;用于修复旧照片的功能，但它具备一些能力，可以结合其他工具和技术，来辅助完成修复旧照片的任务。&lt;/p&gt;
+&lt;h1 id=&#34;以google-gemini-为例&#34;&gt;以Google Gemini 为例&lt;/h1&gt;
+&lt;h2 id=&#34;gemini-可以辅助的部分&#34;&gt;&lt;strong&gt;Gemini 可以辅助的部分：&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;图像描述和分析:&lt;/strong&gt; Gemini 可以对旧照片进行图像描述，识别照片中的问题，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;这张照片拍摄于 1950 年代，图像泛黄，有明显的划痕和污渍，人物面部细节模糊。&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;照片曝光过度，细节丢失严重，需要调整对比度和亮度。&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;照片背景模糊，主体人物清晰，但边缘有噪点。&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;这些描述可以帮助你更好地了解照片的问题，并制定修复策略。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;文本提示生成:&lt;/strong&gt; Gemini 可以根据照片的描述，生成更有效的文本提示词，用于图像修复工具（如 &lt;a href=&#34;https://www.diffus.me&#34;&gt;Stable Diffusion&lt;/a&gt;、&lt;a href=&#34;https://www.midjourney.com/&#34;&gt;Midjourney&lt;/a&gt; 等）。  例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;照片描述: &amp;ldquo;一张黑白旧照片，人物面部模糊，有轻微划痕。&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Gemini 生成提示词: &amp;ldquo;修复黑白照片，清晰人脸，去除轻微划痕，增强细节，高分辨率。&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;更好的提示词可以提高图像修复工具的修复质量。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://stability.ai/stable-image&#34;&gt;Stability.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Stability-AI/generative-models&#34;&gt;Github repo: Stability.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;信息检索:&lt;/strong&gt;  Gemini 可以用来搜索和学习图像修复相关的技术和教程，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;搜索 &amp;ldquo;使用 Photoshop 修复旧照片教程&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;搜索 &amp;ldquo;AI 图像修复工具测评&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;搜索 &amp;ldquo;老照片修复算法&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;创意灵感:&lt;/strong&gt;  Gemini 可以提供一些修复的创意灵感，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果照片缺失部分，Gemini 可以根据照片内容提供可能的场景补充建议。&lt;/li&gt;
+&lt;li&gt;如果照片颜色褪色，Gemini 可以提供颜色还原的参考方案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;需要配合使用的工具和技术&#34;&gt;&lt;strong&gt;需要配合使用的工具和技术：&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;图像处理软件 (Photoshop, GIMP):&lt;/strong&gt;  手动修复照片的工具，可以进行色彩校正、修复划痕、去除污渍等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI 图像修复工具 (GFPGAN, Real-ESRGAN, Remini):&lt;/strong&gt;  利用人工智能技术自动修复照片，可以增强图像分辨率、锐化边缘、还原人脸细节等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;图像增强算法:&lt;/strong&gt;  例如双三次插值、 Lanczos 插值等，可以提升图像分辨率。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;颜色还原技术:&lt;/strong&gt;  例如使用参考图像或自动色彩校正算法，还原照片的色彩。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;strong&gt;总结：&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Gemini 并非一个“开箱即用”的老照片修复工具，但它可以作为你的助手，帮助你更好地分析照片、生成有效的提示词、学习修复技术、并提供创意灵感。 通过将 Gemini 与其他图像处理工具和技术结合使用，你可以更有效地修复旧照片，恢复它们昔日的风采。&lt;/p&gt;</description>
     </item>
     <item>
       <title>配置 gcloud 环境变量</title>
@@ -846,8 +935,7 @@ not limited to, differences in race, gender, sexual orientation, gender identity
 &lt;p&gt;框架的功能类似于基础设施，与具体的软件应用无关，但是提供并实现最为基础的软件架构和体系。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC%E8%80%85&#34;&gt;软件开发者&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;通常依据特定的框架实现更为复杂的运用和业务逻辑。这样的软件应用可以在支持同一种框架的软件系统中运行。&lt;/p&gt;
-&lt;p&gt;Tips：&lt;/p&gt;
-&lt;p&gt;由于没有开放互联网，不能使用更新的服务器镜像并获取高级版本的编程框架，国内软件版本相较落后，这是先天条件决定的，如果决定做国际业务，请考虑用国际网络资源。&lt;/p&gt;
+&lt;p&gt;Tips：若没有开放互联网，不能使用更新的服务器镜像并获取高级版本的编程框架，国内软件版本相较落后，这是先天条件决定的，如果决定做国际业务，请考虑用国际网络资源。&lt;/p&gt;
 &lt;p&gt;软件框架和编程语言的主流类型选择如下。&lt;/p&gt;
 &lt;h2 id=&#34;media-framework-媒体平台&#34;&gt;Media framework 媒体平台&lt;/h2&gt;
 &lt;p&gt;Most simple way&lt;/p&gt;
