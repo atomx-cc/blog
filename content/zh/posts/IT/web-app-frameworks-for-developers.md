@@ -90,9 +90,7 @@ AAA (Authentication, Authorization, Account) 原则，不同的角色（开发�
 
 通常依据特定的框架实现更为复杂的运用和业务逻辑。这样的软件应用可以在支持同一种框架的软件系统中运行。
 
-Tips：
-
-由于没有开放互联网，不能使用更新的服务器镜像并获取高级版本的编程框架，国内软件版本相较落后，这是先天条件决定的，如果决定做国际业务，请考虑用国际网络资源。
+Tips：若没有开放互联网，不能使用更新的服务器镜像并获取高级版本的编程框架，国内软件版本相较落后，这是先天条件决定的，如果决定做国际业务，请考虑用国际网络资源。
 
 软件框架和编程语言的主流类型选择如下。
 
@@ -180,7 +178,6 @@ Today I create short URL by bitly, I don't use private domain, although I have a
 
 之前的博客，懒得搬家了，就保留在原地。gitbook也好用，但是还没有notion这么灵活。
 
-[https://atom-x.gitbook.io/li-blog/](https://atom-x.gitbook.io/li-blog/)
 
 ## Edu framework 教育平台
 
