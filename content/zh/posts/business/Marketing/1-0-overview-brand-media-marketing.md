@@ -51,7 +51,7 @@ tags:
 
 ## 品牌
 
-品牌是一个名称、术语、设计、符号或任何其他特征，定义企业形象，在消费群体心中建立企业、产品或服务的“个性化”特征。
+品牌是一个名称、术语、设计、符号或任何其他特征，定义企业形象，在消费群体心中建立企业、产品或服务的“个性化”特征，并用于将一个卖方的商品或服务与其他卖方的商品或服务区分开来。
 
 [Wiki: 品牌](https://zh.wikipedia.org/wiki/%E5%93%81%E7%89%8C)
 
@@ -85,6 +85,7 @@ tags:
 [wiki：廣告](https://zh.wikipedia.org/wiki/%E5%BB%A3%E5%91%8A)
 
 广告就是付费的媒体宣传（Paid Media)，提高知名度的宣传机会，广告是品牌策划简单的视觉体现，广告的目的是对特定消费群体进行品牌宣传；
+
 广告宣传针对你所提供的内容，市场宣传则针对客户需要的内容，两者的区别是关注的重点不同；
 
 ### **传播**
@@ -92,6 +93,9 @@ tags:
 也叫沟通（来自拉丁语 communicare，意为“分享”或“与之相关”）是“对自我与他人、私人与公共,以及内心思想和外部世界之间分歧的明显回答。
 
 [wiki：传播](https://en.wikipedia.org/wiki/Communication)
+
+[传播](https://www.etymonline.com/word/communication)
+
 
 ### 公关
 
@@ -115,7 +119,6 @@ tags:
 
 <aside>
 ✍🏼 提示：在写营销框架的时候，我发现一个特别现象，几乎用不上问卷来提问，大量的自动化工具、AI出现，人工越来越少，从词性上分析，动词更多，而品牌和传媒更多名词，也就是表面在市场销售阶段的工作就是执行精准的动作。
-
 </aside>
 
 ### 运营
@@ -134,12 +137,14 @@ tags:
 
 市场包括公关和广告的功能，还包含其他的方面，比如事件、赞助、展会、产品促销、搜索引擎营销或者搜索引擎优化等等。
 
-### **销售**
+### 销售
 
 导致销售商品和服务的所有活动。直接与潜在客户合作，加强公司的解决方案的价值，为将潜在客户转化为直接客户。
 
+[wiki: 销售](https://en.wikipedia.org/wiki/sales)
 
-# **品牌、媒体、营销的三者关系**
+
+# 品牌、媒体、营销的三者关系
 
 品牌、广告、公关和市场的功能有差异，必须由相关的专业人员来执行操作，必须协调一致，联合利用才能达到企业的总体目标。广告、品牌和公关都属于市场的子集。
 
@@ -157,9 +162,22 @@ tags:
 
 **以战争比喻**
 
-品牌是**目标**，市场是**策略**，广告和公关属于**技巧**，**策略**通过**技巧**实现**目标**
+- 品牌是**目标**，
 
-品牌是战略，营销是战术
+- 营销是**策略**，是宏观的战略，其中具体包括广告和公关
+
+广告和公关属于**技巧**，是具体的战术
+
+- 传媒是**武力**，其中具体包括传播和媒体
+
+传播是**军事行动**，是具体的动作和行为；
+
+媒体是**武器**，是传播触发的内容（物质、硬炮弹、火力），和更高级的（精神思想、软炮弹）
+
+
+
+**策略**通过**技巧**实现**目标**
+
 
 **以人体比喻**
 
@@ -194,6 +212,12 @@ Marketing can be a great way to get a customer’s attention, but branding is a 
 传媒：面向客户、潜在受众；
 
 营销：面向客户；
+
+
+- 品牌塑造是战略性地塑造公众对您的业务以及您所销售的任何产品的看法的过程。
+- 营销是通过市场调查了解目标客户、了解他们的问题并向他们展示您的产品如何帮助他们解决其中一个或多个问题的过程。
+- 广告是一种营销策略，需要您付费给第三方，以便在一定时间内为您的企业展示广告。
+- 如果您刚刚开始建立业务，请从品牌开始。您的品牌是您作为企业所做的一切的核心。它将直接影响您营销和做广告的方式和原因。
 
 [品牌和营销是什么关系？](https://www.zhihu.com/question/480630310/answer/2077471563)
 
@@ -309,9 +333,5 @@ Marketing can be a great way to get a customer’s attention, but branding is a 
 
 [品牌、营销、广告，三者的区别是什么？](https://www.eq-international.com/blog/branding-marketing-advertising-differences-versus-strategy-info)
 
-- 品牌塑造是战略性地塑造公众对您的业务以及您所销售的任何产品的看法的过程。
-- 营销是通过市场调查了解目标客户、了解他们的问题并向他们展示您的产品如何帮助他们解决其中一个或多个问题的过程。
-- 广告是一种营销策略，需要您付费给第三方，以便在一定时间内为您的企业展示广告。
-- 如果您刚刚开始建立业务，请从品牌开始。您的品牌是您作为企业所做的一切的核心。它将直接影响您营销和做广告的方式和原因。
 
 ![秩序关系图3：品牌、传媒、营销](https://lh3.googleusercontent.com/pw/AP1GczN5OLvt7jXLZjOVUz1ph57N1Qapja1_CoBKTn0vQ1vK40DSA_fkVsSpHs_DTDYyaGfCmcULQjpjb0QagWN9zE3wYbM-4APlddHpJsyOdVIfkEtc1AMXiTQBB04Zg-mtFQrzLseNRRFxqUCcwGh96ZcK-LFlbyGj0kb363ir8Khy5RisnBshnu2xoUXaJpdb_EBTCX6HMcupqi_RPN9Rubi9V5-mGzlN4EtDmAEawpyhNf1kdvixpTnPpFvNKhGgcUrBYnGTpluUltvrMfeHzLaXc7yRKrR-a1ZG7kKWXFsHKcfRllB7mBmGeZMUiRf6_ufoY1DElVcmaxG8AfwdLRCDuLa8OAsLiIBgRDKo_k1L-miVJM2OKSLLGWzqu6P7xBsKJVdNdjFSBU5o5ZfB1tyg2uW9mWDJK2gifgYLEFbLaj53i7X0hTBwwmhNhvQhKOVKScRsVEMO6dod8yHX-wfpejHBPGa9Z9akObH2LL6KvmJ2q4taMXL92_iBCFUIwaQIwCNowtF5VtZArvUfCqRcWWLoWC8mb3tv3gbShxAZn7WFRM5LjuNJhdT5U8aGlztuWy51_O8VcsKL5Dd0roj8JfiZLnj1S75O8CpEuFtMlmYtvR1WObDEjUk_e6m7yPYYbgPOqZgWF-RJUU84eEAT_cdvA2taXXjglFHkSO6WBDhk9ZNEAlg7WuxG5NpGftMLb-LqzKX6e54Rky8U2MgjNLe9XIK-j820_ZBs2dyYT0qXm6oibeCMOEBiYGdQe1ejJ_2KrzS7_LPJnjYR5pdw0AdgHtnt7VQYDhg2M6nuDN1LSRb1xIWNEKJ9GujzemE4Qo90uAmAuqOppVX4j1iR99SbSaZeGJfjMVCvl-yZQIcBXTEOjB5ymGG9ibZQfo1ylDAjU4oyJViPqJiBdCbOSNiMGvyUoRsbC0mNdtbvEb0FUuT9lPl1qg=w960-h720-s-no?authuser=1)
