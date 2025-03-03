@@ -39,4 +39,4 @@ echo "Deployment complete!"
 
 # test local webpage
 # hugo serve -D
-# http://localhost:1313/hugo-paper/# http://localhost:1313/hugo-paper/
+# http://localhost:1313/hugo-paper/

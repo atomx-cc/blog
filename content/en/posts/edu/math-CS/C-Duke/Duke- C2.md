@@ -1,10 +1,17 @@
-# Duke- C2
+---
+title: "Writing, Running, and Fixing Code in C"
+date: 2023-11-21
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: November 21, 2023
 
-**Writing, Running, and Fixing Code in C**
+Original Course link: [Writing, Running, and Fixing Code in C](https://www.coursera.org/learn/writing-running-fixing-code)
 
-[https://www.coursera.org/learn/writing-running-fixing-code/](https://www.coursera.org/learn/writing-running-fixing-code/)
 
 **Assignment**
 
@@ -132,3 +139,5 @@ return (a > b) ? a : b;
 
 [https://www.gnu.org/software/make/manual/](https://www.gnu.org/software/make/manual/)
 
+
+[Fancier make Options](https://www.coursera.org/learn/writing-running-fixing-code/supplement/kTFif/fancier-make-options)

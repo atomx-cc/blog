@@ -1,6 +1,6 @@
 ---
 title: "经典音乐"
-date: 2019-08-09
+date: 2023-11-20
 description:
 categories:
   - 
@@ -14,9 +14,7 @@ tags:
 
 # Music - Bach
 
-Date: November 20, 2023
-
-由于三体中叶文洁提到巴赫，遂找来感受一下。
+由于小说《三体》中的叶文洁提到巴赫，遂找来经典音乐，感受一下。
 
 [Johann Sebastian Bach - Wikipedia](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach)
 

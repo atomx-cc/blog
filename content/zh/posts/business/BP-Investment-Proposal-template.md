@@ -5,7 +5,7 @@ description:
 categories:
   - 商业
 tags:
-  - 市场营销
+  - 营销
   - 创业者
   - 
 ---

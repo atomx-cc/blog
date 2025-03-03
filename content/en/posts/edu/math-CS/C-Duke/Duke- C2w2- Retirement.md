@@ -1,8 +1,16 @@
-# Duke- C2w2- Retirement
+---
+title: "Retirement"
+date: 2023-11-30
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: November 30, 2023
 
-**"retirement savings" calculator**
+Week 2, "retirement savings" calculator
 
 [Assignment 07_retirement](https://www.coursera.org/learn/writing-running-fixing-code/programming/HPpRY/assignment-07-retirement)
 
@@ -206,3 +214,4 @@ else {}
 < Age  27 month  3 you have $17362.79
 < Age  27 month  4 you have $18427.90
 because the program jump over the condition1, and compute from else.
+```

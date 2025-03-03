@@ -1,6 +1,20 @@
-# Duke- C3w1- Read pointer1
+---
+title: "Pointers, Arrays, and Recursion"
+date: 2023-12-10
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: December 10, 2023
+
+Original Course link: [Pointers, Arrays, and Recursion](https://www.coursera.org/learn/pointers-arrays-recursion)
+
+
+Week 1, Read pointer 1
+
 
 **C pointer**
 
@@ -71,3 +85,4 @@ dereference the arrow?
 
 `(**q*)*.x = q->x*`
 
+`*(*(*(*q).r).s).t. = q->r->s->t*`

@@ -1,6 +1,15 @@
-# Duke- C2w2- Squares
+---
+title: "Rectangle"
+date: 2023-11-24
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: November 24, 2023
+Week 2, Squares
 
 [**Assignment 05_squares**](https://www.coursera.org/learn/writing-running-fixing-code/programming/1wa3P/assignment-05-squares/submission)
 
@@ -124,3 +133,4 @@ if we include printf in a curely bracket  `{printf("\n");}`
 
 if we change code as `if ((x> x_offset && x< x_offset + siz)`
 
+then what will happen?

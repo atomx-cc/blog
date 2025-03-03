@@ -1,6 +1,15 @@
-# Duke- C2w3- Testing
+---
+title: "Programming Testing"
+date: 2023-12-03
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: December 3, 2023
+Week 3
 
 statement coverage
 
@@ -72,3 +81,4 @@ flush:  5 cards of the same suit.
 
 straight flush: five cards which are both a flush (all the same suit) and a straight (all sequentially ordered).
 
+`assert()`？

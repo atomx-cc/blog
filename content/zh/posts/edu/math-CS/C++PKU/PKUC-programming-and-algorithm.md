@@ -1,23 +1,25 @@
 ---
-title: "[程序设计与算法]"
+title: "公开课《程序设计与算法》"
 date: 2023-12-01
 categories:
   - IT
 tags:
-  - Internet
-  - Math & CS
+  - 互联网
+  - 数学&计算机
   - AI
 ---
 
+课程笔记
 
 北京大学coursera [程序设计与算法](https://www.coursera.org/specializations/biancheng-suanfa) Specialization 专项课程。
 
 练习题[Github 库](https://github.com/Atomx3/Coding-practice/tree/main/C%2B%2BPKU)
 
-参考[GitHub - chiuchiuuu/programming-and-algorithm](https://github.com/chiuchiuuu/programming-and-algorithm)
+作业参考[GitHub - chiuchiuuu/programming-and-algorithm](https://github.com/chiuchiuuu/programming-and-algorithm)
 
 
 ## 课程名
+
 以文件夹定义
 
 - C1, 计算导论与C语言基础

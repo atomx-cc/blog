@@ -1,10 +1,18 @@
-# Data Scientest
+---
+title: "Data Scientest"
+date: 2023-09-07
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: September 7, 2023
 
-Email: hi@atomx.cc
+This is the answer to the questionnaire to Open course [Data Scientest](https://courses.datascientest.com)
 
-[Data Scientist - [EN] (classmarker.com)](https://www.classmarker.com/online-test/start/user-info/?quiz=p9n63db77890ba81)
+Original questionnaire: [Data Scientist - [EN]](https://www.classmarker.com/online-test/start/user-info/?quiz=p9n63db77890ba81)
 
 ### Describe your academic / professional background to date.
 
@@ -18,13 +26,13 @@ Diploma of Collegial Studies (DCS)/ Post-secondary education / Associate Degree,
 
 5 sentence minimum
 
-in the past 10+ years, I have been working in the environmental, agriculture and food supply chain sectors for both e-commerce and non profit organisations in Asia, it's interesting to research the data.
+in the past 10+ years, I have been working in the environmental, agriculture and food supply chain sectors for both e-commerce and non profit organizations in Asia, it's interesting to research the data.
 
 ### What were your professional goals after training?
 
 I used to lead a data analysis project for environmental NGOs and think tank, to research the status of China vs. the world in  meat production and consumption.
 
-China Meat Atlas [https://meatatlas.github.io/](https://meatatlas.github.io/)
+[China Meat Atlas](https://meatatlas.github.io/)
 
 I co-worked with data scientist, but this project stoped during the great pandemic, I hope to restart it again by myself independently. 
 

@@ -1,14 +1,16 @@
 ---
-title: "PKUC1-w10-array"
+title: "数列 Array"
 date: 2023-12-28
 categories:
   - IT
 tags:
-  - Internet
-  - Math & CS
+  - 互联网
+  - 数学&计算机
   - AI
 ---
 
+
+Week 10
 
 [array function](https://www.coursera.org/learn/jisuanji-biancheng/lecture/a53He/shu-zu-de-zuo-yong-zhi-er) 
 

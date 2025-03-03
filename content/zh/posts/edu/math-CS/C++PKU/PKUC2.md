@@ -1,14 +1,15 @@
 ---
-title: "PKUC1-w10-array"
+title: "C程序设计进阶"
 date: 2023-12-14
 categories:
   - IT
 tags:
-  - Internet
-  - Math & CS
+  - 互联网
+  - 数学&计算机
   - AI
 ---
 
+原课程链接：[C程序设计进阶](https://www.coursera.org/learn/c-chengxu-sheji/)
 
 # const vs. static
 

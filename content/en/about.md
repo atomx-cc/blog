@@ -1,5 +1,4 @@
 ---
-author: "Atom.X"
 title: "About"
 date: 2017-09-16
 # url: /about/

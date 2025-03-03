@@ -1,8 +1,14 @@
-# IBM Data Science
+---
+title: "IBM Data Science"
+date: 2019-09-02
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: September 2, 2019
-
-Sep 2, 2019
 
 [IBM Data Science Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
 
@@ -10,7 +16,7 @@ Sep 2, 2019
 
 - [What is Data Science?](https://www.coursera.org/learn/what-is-datascience/lecture/kIuf0?t=142)
     
-    bigdatauniversity.com 
+bigdatauniversity.com 
     
 - [Advice for New Data Scientists](https://www.coursera.org/learn/what-is-datascience/lecture/tVi7S?t=157)
 
@@ -22,15 +28,6 @@ Exercise: Identifying objects in images with IBM Watson
 
 IBM cloud 
 
-42259ca124fed0bfd927f3a143e6046f
-
-[atom.x@megaease.com](mailto:atom.x@megaease.com)
-
-atom x
-Mykhaila Hrushevskoho Street, 5А
-kyiv, 01008
-Ukraine
-+380971677418
 
 # W2
 

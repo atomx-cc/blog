@@ -1,83 +1,80 @@
-# 学习数学和编程的充分理由
+---
+title: "Compelling Reasons to Learn Math and Programming"
+date: 2023-01-23
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: January 23, 2023
+Individual strength is limited. Large-scale collaboration can propel civilization and intelligence to new heights. This includes collaborations between humans, humans and animals, humans and machines, and all possible combinations of these entities (humans, machines, animals, plants, microorganisms). Collaboration requires language for communication, even amongst animals.
 
-Jan 23, 2023
+Here are a few languages worth learning:
 
-因为个体的力量是有限的，大规模的群体协作，可以将文明和智慧推到更高水平，这些协作包括人和人、人和动物、人和机器等，以及所有这些主体（人、机器、动物、植物、微生物）之间的各种排列组合的协作关系。协作需要沟通的语言，即使动物之间也有沟通方式。
+* **English:** As the most prosperous and civilized human community on Earth in the 20th and 21st centuries, English serves as the primary natural language for daily communication and collaboration.
+* **Programming:** For precise collaboration with large-scale machine clusters and a select few highly intelligent individuals.
+* **Mathematics:** The foundation of machine language and other scientific technologies.
 
-以下几种语言值得学习：
+# Human Natural Language - Ambiguity and Deception
 
-- 英语：为了向目前的20-21世纪地球上最繁盛和文明的人类族群学习，将英文作为日常交流和协作的主要自然语言；
+There are countless human natural languages, each vastly different. The saying "dialects change every 100 miles" holds true; even within 50 kilometers, human language mutates, with variations in pronunciation, grammar, semantics, and expression. Why is this so, given that natural language is innate? Only God can explain.
 
-- 编程：为了和大规模的机器集群，以及少数高智商人类的精准协作；
+However, even within the same social organization, such as a company, under the same natural language and cultural background, communication between humans inevitably suffers from many shortcomings. This hinders mutual understanding and effective collaboration, let alone communication and collaboration with people from other worlds and countries.
 
-- 数学：数学是机器语言和其他科学技术的基础；
+Common problems include:
 
+A. **Misunderstandings, misinterpretations, and misinformation, whether intentional or unintentional.**
+B. **In intentional (malicious) cases, the other party in the communication may exhibit a series of complex emotions, extremely variable and chaotic thinking expressions, deception, cheating, lying, etc., making the situation even worse.**
 
+It is clear that human natural language must first address the issue of precise expression to ensure:
 
-# 人类自然语言- 模糊和欺诈
+A. **Normal communication and collaboration under normal (intentional or unintentional) circumstances.**
+B. **In inevitable (malicious) situations, identify the other party's fraudulent intentions and behaviors as quickly as possible to minimize losses.**
 
-人类之间的自然语言有太多种类，千差万别，所谓“百里不同音”，相距不过50公里的地方，人类的语言就发生变异了，可能语音、语法、语义、表达方式都产生某种程度的偏差，自然语言是天生的，为什么会这样？只有上帝能解释。
+Professionals can communicate more precisely using human natural language, such as lawyers, accountants, and other highly educated professionals. Law is a social science, while the others are mostly in science and engineering.
 
-然而，在同一个社会组织里，例如公司内部，即使处于同一种自然语言和文化背景下，人类之间的沟通依然不可避免很多的弊病，导致不能相互理解，更不能良好协作，更何况和另外一个世界和国家的人沟通协作呢？
+However, we have seen too many highly educated professionals in the humanities and social sciences who still lack logical thinking and express themselves irrationally. This may be due to the relatively backward social background I am in.
 
-常见的问题包括：
+The level of civilization varies among different groups. Currently, English-speaking countries are the most powerful, occupying the top 20 globally, excluding overseas colonies in Africa, Latin America, etc., belonging to the Commonwealth.
 
-A. 在有意或无意的情况下，相互之间误解、词不达意、虚假信息等；
+Since communication and collaboration with humans are inevitable, it is best to choose the language of the most powerful and civilized group - English - as the preferred human natural language.
 
-B. 在有意（恶意）的情况下，沟通的对方有系列复杂的情绪，极其多变、混乱的思维表达、欺诈、作弊撒谎等，则情况将更为糟糕。
+# Machine Language - Precise Enough
 
-很明显人类自然语言，首先要解决表达精准的问题，可确保：
+Compared to human natural language, machine language is more precise. If we follow the operating rules and the specifications of the machine's language instructions, the machine can operate properly and collaborate efficiently with humans. Otherwise, giving the machine ambiguous instructions (language) will, at best, prevent it from booting up and working correctly, and at worst, result in damage to the machine and harm to humans.
 
-A. 在正常（有意或无意）情况下，可正常沟通和协作。
+No matter how much humans change, machines always strictly adhere to their inherent language rules.
 
-B. 在不可避免的（恶意）情况下，尽可能最快地识别对方的欺诈意图和行为，及时止损；
+Machines represented by clocks and steam engines ushered in an unprecedented era of productivity in the industrial age. All these scientific and technological developments have culminated in today's computers.
 
-专业人士用人类自然语言能更精准沟通，例如律师、会计师，其他受过高等教育的专业人士大多也能做到。律师属于社科专业，其他大多都属于理科工程专业。
+The working language of computers is called programming, which is the basis for us to communicate and collaborate well with computers. Then, computers form a vast cloud computing cluster, and almost every other type of machine (non-computer) can now embed (micro) computing units, resulting in the Internet of Things (IoT). Large-scale collaboration between humans and machines reaches a higher level, and communication and collaboration between intelligent machines emerge. The world has undergone rapid changes in this era.
 
-但是我们见过太多受过高等教育的（文化艺术）社科专业人士，一样谈话没有理智，逻辑思维颠倒，可能是我所处的相对落后的社会背景所致。
+Programming, the computer language, encompasses all machine languages. This is why we need to learn programming.
 
-不同族群的文明程度有差异，目前英语作为母语的国家最强大，占据全球top20榜首，这不包括英联邦的非洲和拉美等海外殖民地。
+# Mathematical Language - The Foundation of Machine Language and the Laws of the Universe
 
-既然和人类沟通协作不可避免，那就尽量选择最强大和文明的族群的语言 -- 英语，作为首选的人类自然语言。
+Mathematics and logic underpin even subjects like law, philosophy, music, and other literary and artistic disciplines. Computer programming languages require a strong foundation in mathematics.
 
-# 机器语言- 足够精确
+Mathematical symbols, formulas, theorems, equations, functions, etc., are universal language symbols throughout history and are highly internationalized. We often see Arabic numerals, Roman, Greek, and Latin characters, etc.
 
-相较于人类自然语言，机器语言是更精准的，如果我们遵守操作守则，按照机器的语言指令规范做，那么机器就能良好运转，与人类很高效率地良好协作，否则，给机器模糊的指令（语言），轻则不能正常开机工作，重则机毁人亡。
+Mathematics = Erudition
 
-人类无论怎么多变，机器始终严格遵守其固有的语言规则。
+Communication using mathematical symbols is the fundamental language of all science, technology, engineering, and mathematics (STEM) fields. Mathematicians are more globalized than programmers.
 
-以钟表和蒸汽机为代表的机器开启了工业时代史无前例的巨大生产力，所有这一切的科学技术发展到今天的极致代表是计算机。
+How many programming languages are there? Hundreds, too many.
 
-计算机的工作语言称为程序，这是我们要和计算机良好沟通协作的基础，然后计算机之间组成庞大的云计算集群cloud computing，，几乎每台其他类（非计算机）的机器上都已经可以嵌入（微型）计算单元，因此产生万物联网IoT，人类和机器之间的大规模协作达到更高的水平，并产生智能机器和机器之间的沟通协作，这个时代的世界万物产生了极速的变化。
+Mathematical symbols are much less numerous and more concise than programming languages.
 
-而一切机器语言的集大成者在计算机语言 - 程序，这是我们要学编程的原因。
+Therefore, this is a compelling reason for us to learn mathematics well.
 
-# 数学语言- 机器语言基础和宇宙规律
+# Other Species' Languages - Mostly Esoteric
 
-包括法律、哲学、音乐等文学艺术类的科目，其背后的基础也都有数学和逻辑，而计算机编程语言则更是需要数学基础。
+This includes the languages of animals, plants, or other spiritual species. Based on the scientific requirement of repeatable and verifiable evidence, limited papers have shown minimal progress in understanding other species' languages. This field remains largely unexplored for humans.
 
-数学符号、公式、定理、方程、函数等等，是贯通古今的语言符号，高度国际化，我们常见的有：阿拉伯数字、罗马、希腊和拉丁字符等等。
+However, many people claim to have mastered the language of communicating with all things in the universe, often farmers, religious (cult) figures, practitioners of traditional Chinese medicine, those who practice witchcraft, and extraordinary individuals who communicate with spirits. From the perspective of modern scientific education standards, these groups are mostly illiterate and fall outside the scope of this discussion.
 
-数学 = 博学
+Concerning sensitive topics like religion, it is advisable to consult the opinions of major mainstream religions. After all, religion combined with science and education may be more credible. According to university curriculum standards, is there any skills training on "communicating with ghosts and gods"?
 
-使用数学符号沟通，是一切理工和科学技术类专业的基础语言，数学家相比较程序员更全球化。
-
-程序语言有多少种？上百种，太多了。
-
-而数学符号相比较程序语言少很多，更精简。
-
-所以，这是我们要学好数学的充分理由。
-
-
-# 其他物种语言 - 基本属于神棍江湖
-
-这包括动物、植物、或其他灵异物种的语言，按照科学可反复实证的要求，一些有限的论文显示了在其他物种语言方面的极其有限的进展，所以这个领域对于人类目前依然属于较大的空白。
-
-倒是在民间有大量的人宣称已经掌握了与天地万物沟通的语言，常见的是农民、宗教（邪教）人士、中医、掌握巫术、与灵异沟通的非常人，按照现代科学教育的标准看，这类群体大多都是文盲，不在此讨论范围。
-
-涉及宗教等敏感话题，当然听听最主流各大宗教的意见，毕竟宗教与科教结合在一起，可信度要更高一些，按照大学课程标准传授知识，不知道是否有“与鬼神沟通”的技能培训？
-
-所以对于其他物种语言的探索，目前属于神棍江湖，暂时不在我们的考虑范围。
-
+Therefore, exploring other species' languages currently belongs to the realm of charlatans and is not within our current consideration.

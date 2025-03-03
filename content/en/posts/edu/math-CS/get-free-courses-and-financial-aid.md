@@ -1,12 +1,21 @@
-# How can we get free courses
+---
+title: "How can we get free courses"
+date: 2023-08-23
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: August 23, 2023
+There are many free open courses online, you have to pay for some of them, but there are financial aid options.
 
-take [coursera.org](http://coursera.org) as example.
+Take [coursera.org](http://coursera.org) as example.
 
 # Why Financial aid
 
-In the past few years, due to the Corona virus, I fleet away from China, and created agriculture business in Ukraine, then had to leave for Europe, now I am an asylum seeker, studying and looking for a new survival opportunities.
+In the past few years, due to the Corona virus, I fleet away from home country, and created agriculture business in Ukraine, then had to leave for Europe, now I am an asylum seeker, studying and looking for a new survival opportunities.
 
 In the past many years, I only focused on my work and was not interested in politics and wars, until the corona virus, my basic survival was threatened, as a common people, there are too much things that I don't know.
 

@@ -1,6 +1,17 @@
-# Duke- C3w1- Read pointer2
+---
+title: "Pointers, Arrays, and Recursion"
+date: 2023-12-11
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: December 11, 2023
+
+Week 2, Read pointer 2
+
 
 ```c
 #include <stdio.h>
@@ -62,3 +73,4 @@ why `return temp + temp2 = 12+80?`the values change of below variables don’t a
 
 `*z += 3;
 **s -= 8;
+**r -= 19;`

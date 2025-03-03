@@ -1,6 +1,17 @@
-# Duke- C4
+---
+title: "Interacting with the System and Managing Memory"
+date: 2024-08-23
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: August 23, 2024
+
+Original Course link: [Interacting with the System and Managing Memory](https://www.coursera.org/learn/interacting-system-managing-memory)
+
 
 # Module 2: Dynamic allocation
 
@@ -205,3 +216,7 @@ analogies for each of the options in the context of programming:
 4. **Chapter**: A **module** or a **class**. Just as a chapter is a section of a book that covers a particular topic, a module or class is a section of a program that encapsulates related functions and data.
 5. **Book**: The **entire program or software application**. Just as a book is a complete work composed of chapters, a program is a complete application composed of modules and functions.
 
+These analogies help illustrate how different components of a program relate to elements of writing.
+
+# Module 4
+## Monte Carlo simulation

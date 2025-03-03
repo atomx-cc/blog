@@ -1,6 +1,15 @@
-# Duke- C2w2- Rectangle
+---
+title: "Rectangle"
+date: 2023-11-26
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: November 26, 2023
+Week 2, Rectangle
 
 [Assignment 06_rect](https://www.coursera.org/learn/writing-running-fixing-code/programming/uxVzJ/assignment-06-rect)
 
@@ -329,3 +338,4 @@ intersection(r3,r4): (0,7) to (0,9)
 1. a **> 0 ∧ b = 0**
 2. a **= 0 ∧ b > 0**
 
+= (a ≥0 ∨ b≥0)

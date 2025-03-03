@@ -25,8 +25,7 @@ C programming manual
 
 ## Practice platform
 
-**Programiz**
-[https://www.programiz.com/c-programming/](https://www.programiz.com/c-programming/)
+[Programiz](https://www.programiz.com/c-programming/)
 
 
 [basic W3C course](https://www.w3schools.com/c/)
@@ -39,11 +38,8 @@ C programming manual
 
 the answers to the exercises in K&R's The C Programming Language 2nd edition.
 
-[https://github.com/fsaadatmand/The-C-Programming-Language](https://github.com/fsaadatmand/The-C-Programming-Language)
+[Embedded Systems Programming Course](https://github.com/QuantumLeaps/modern-embedded-programming-course)
 
-**Embedded Systems Programming Course**
-
-[https://github.com/QuantumLeaps/modern-embedded-programming-course](https://github.com/QuantumLeaps/modern-embedded-programming-course)
 
 ## Reference reading
 

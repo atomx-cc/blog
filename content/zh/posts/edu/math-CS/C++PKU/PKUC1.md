@@ -1,13 +1,15 @@
 ---
-title: "PKUC1-w10-array"
+title: "计算导论与C语言基础"
 date: 2023-12-13
 categories:
   - IT
 tags:
-  - Internet
-  - Math & CS
+  - 互联网
+  - 数学&计算机
   - AI
 ---
+
+原课程链接：[计算导论与C语言基础](https://www.coursera.org/learn/jisuanji-biancheng/)
 
 
 ## Turing machine
@@ -42,11 +44,11 @@ More than 30 basic operation symbols;
 
 ## **Data type change during the calculation.**
 
-char, short [**→](https://www.bing.com/ck/a?!&&p=fd5e590412ad8ce6JmltdHM9MTcwMzIwMzIwMCZpZ3VpZD0xZmJiNTk2MS0wODJkLTY3ZTItMTJhNS00YmI5MDk0MDY2NzQmaW5zaWQ9NTIzMw&ptn=3&ver=2&hsh=3&fclid=1fbb5961-082d-67e2-12a5-4bb909406674&psq=%e5%90%91%e5%8f%b3%e7%ae%ad%e5%a4%b4&u=a1aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTIlODYlOTIvNzg0NjQ3MQ&ntb=1)** int
+char, short → int
 
-int [→](https://www.bing.com/ck/a?!&&p=fd5e590412ad8ce6JmltdHM9MTcwMzIwMzIwMCZpZ3VpZD0xZmJiNTk2MS0wODJkLTY3ZTItMTJhNS00YmI5MDk0MDY2NzQmaW5zaWQ9NTIzMw&ptn=3&ver=2&hsh=3&fclid=1fbb5961-082d-67e2-12a5-4bb909406674&psq=%e5%90%91%e5%8f%b3%e7%ae%ad%e5%a4%b4&u=a1aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTIlODYlOTIvNzg0NjQ3MQ&ntb=1) unsigned [→](https://www.bing.com/ck/a?!&&p=fd5e590412ad8ce6JmltdHM9MTcwMzIwMzIwMCZpZ3VpZD0xZmJiNTk2MS0wODJkLTY3ZTItMTJhNS00YmI5MDk0MDY2NzQmaW5zaWQ9NTIzMw&ptn=3&ver=2&hsh=3&fclid=1fbb5961-082d-67e2-12a5-4bb909406674&psq=%e5%90%91%e5%8f%b3%e7%ae%ad%e5%a4%b4&u=a1aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTIlODYlOTIvNzg0NjQ3MQ&ntb=1) long [→](https://www.bing.com/ck/a?!&&p=fd5e590412ad8ce6JmltdHM9MTcwMzIwMzIwMCZpZ3VpZD0xZmJiNTk2MS0wODJkLTY3ZTItMTJhNS00YmI5MDk0MDY2NzQmaW5zaWQ9NTIzMw&ptn=3&ver=2&hsh=3&fclid=1fbb5961-082d-67e2-12a5-4bb909406674&psq=%e5%90%91%e5%8f%b3%e7%ae%ad%e5%a4%b4&u=a1aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTIlODYlOTIvNzg0NjQ3MQ&ntb=1) double
+int → unsigned → long → double
 
-float [→](https://www.bing.com/ck/a?!&&p=fd5e590412ad8ce6JmltdHM9MTcwMzIwMzIwMCZpZ3VpZD0xZmJiNTk2MS0wODJkLTY3ZTItMTJhNS00YmI5MDk0MDY2NzQmaW5zaWQ9NTIzMw&ptn=3&ver=2&hsh=3&fclid=1fbb5961-082d-67e2-12a5-4bb909406674&psq=%e5%90%91%e5%8f%b3%e7%ae%ad%e5%a4%b4&u=a1aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTIlODYlOTIvNzg0NjQ3MQ&ntb=1) double
+float → double
 
 all will be changed to double if there is a double type data in the expression.
 
@@ -60,7 +62,7 @@ it could be used for variables but not expression such as below
 
 -i, ++i, i++ all are an expressions, they could not be used for increment operation ++ or - - again.
 
- [more complicated increment operation](https://www.coursera.org/learn/jisuanji-biancheng/lecture/39QkH/zi-zeng-zi-jian-yun-suan) 
+[more complicated increment operation](https://www.coursera.org/learn/jisuanji-biancheng/lecture/39QkH/zi-zeng-zi-jian-yun-suan) 
 
 when debugging , you will find the order of operations on breakpoint step by step in specific compiler.
 

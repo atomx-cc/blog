@@ -1,8 +1,15 @@
-# Russian - English language exchange
+---
+title: "Russian - English language exchange"
+date: 2023-10-22
+description: 
+categories:
+    - обучать
+tags:
+    - язык
+    - Россия
+    - Литература
+---
 
-Date: October 22, 2023
-
-**Russian - English language exchange**
 
 I work for agriculture industry with the e-commerce technology, like sporting and chatting, and will go to work and travel in Russia far east, anybody want to exchange language for Russian - English here? 
 
@@ -14,7 +21,7 @@ I love the topics about politics, sociality, IT etc.
 
 Мне нравятся темы о политике, социальности, информационных технологиях и многом другом.
 
-# Practice in Tandem
+# Practice
 
 Привет, мы можем поговорить по-русски и по-английски?
 

@@ -1,6 +1,17 @@
-# Duke- C2w1- CountStars
+---
+title: "CountStars"
+date: 2023-11-21
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: November 22, 2023
+
+Week 1, CountStars
+
 
 ## print stars
 
@@ -76,3 +87,5 @@ make: *** [<builtin>: math2] Error 1
 
 The error is due to the compiler not being able to find a declaration for the function `printTriangle` before it’s used. In C, we need to declare functions before we use them. This can be done by providing a function prototype before the function call, or by defining the function entirely. 
 
+
+that’s why, we usually put main box at the end of program, otherwise, we have to define and declare the function in `<stdio.h>` or so at the beginning.

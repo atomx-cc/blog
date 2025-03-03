@@ -1,13 +1,15 @@
 ---
-title: "[程序设计与算法]"
+title: "C++程序设计"
 date: 2024-03-12
 categories:
   - IT
 tags:
-  - Internet
-  - Math & CS
+  - 互联网
+  - 数学&计算机
   - AI
 ---
+
+原课程链接：[C++程序设计](https://www.coursera.org/learn/cpp-chengxu-sheji/)
 
 [cplusplus.com](https://cplusplus.com/)
 
@@ -148,11 +150,11 @@ binary_search, include, lower_bound, upper_bound, equal_range
 
 **容器：**可容纳各种数据类型的通用数据结构,是类模板；
 
-1)顺序容器
+1) 顺序容器
 vector, deque, list
-2)关联容器
+2) 关联容器
 set, multiset, map, multimap
-3)容器适配器
+3) 容器适配器
 stack, queue, priority_queue
 
 **迭代器：**可用于依次存取容器中元素，类似于指针；

@@ -1,6 +1,16 @@
-# Duke- C1w2- Reading code
+---
+title: "Reading code"
+date: 2023-11-15
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: November 15, 2023
+
+Week 2
 
 **Quiz**
 
@@ -102,3 +112,4 @@ a is 2, b is 5
 | a= | 2 | 2 | 2 | 3 |  |
 | b= | 6 | 6 | 5 | 3 |  |
 | x= | 0 | 1 | 2 | 3 |  |
+| answer= | 2 | 6 | 10 | 13 | return answer=13 |

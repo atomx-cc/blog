@@ -3,6 +3,7 @@ title: "西伯利亚森林奇幻游记《阿纳斯塔夏》"
 date: 2021-06-30
 description: 
 categories:
+  - 生活
   - 旅行
 tags:
   - 图书

@@ -20,7 +20,7 @@ subject matter experts (SMEs)
 
 [PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)
 
-[Compliance and Industry Standards Summary(ISO/SOC/PCI/HIPAA)](https://d3c33hcgiwev3.cloudfront.net/pYi0ssqNEem1ZQ7C4qP0yA_3163d3f48b564ec78df54fe05d18cf9c_Compliance-Frameworks-and-Industry-Standards-Introduction-Summary.pdf?Expires=1698883200&Signature=EBlrNVf8uPwcsuPA81vOClK9ye90cA-QsGv8iAUQ7S1YFQjJn1xi62PAlc52ZAN9vtZHNVlvYfiEPIQ4zUxZqJp1lXch0sE9eEvCOsYs-iG2scmaYDOFAHhrUUnRRakAfD8m2bhApZ6MFHNEfMgS2dP~6U9b0uUhfBjrPOWFn9E_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+[Compliance and Industry Standards Summary(ISO/SOC/PCI/HIPAA)](https://sprinto.com/blog/compliance-standards/)
 
 [Center for Internet Security (CIS) Critical Security Controls](https://www.cisecurity.org/blog/v7-1-introduces-implementation-groups-cis-controls/)
 
@@ -38,7 +38,7 @@ CIS Controls Implementation Group
 
 3, (Token, list and log are not)
 
-，4，
+4，
 
 7(authentication, identification, are not)
 

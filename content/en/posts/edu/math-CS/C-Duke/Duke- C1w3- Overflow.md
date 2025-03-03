@@ -1,8 +1,16 @@
-# Duke- C1w3- Overflow
+---
+title: "Overflow"
+date: 2023-11-18
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: December 13, 2023
 
-[https://www.coursera.org/learn/programming-fundamentals/](https://www.coursera.org/learn/programming-fundamentals/home/welcome)
+Week 3
 
 [How to calculate binary, decimal, hexadecimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html)
 
@@ -285,3 +293,4 @@ yes, let's count how many digit of the number before decimal point?
 
 …… 
 
+the same process as the 2.1 part above.

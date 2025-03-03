@@ -1,8 +1,19 @@
-# Duke- C1
+---
+title: "Programming Fundamentals"
+date: 2023-11-12
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
 
-Date: November 12, 2023
 
-# W2
+Original Course link: [Programming Fundamentals](https://www.coursera.org/learn/programming-fundamentals)
+
+
+# Week 2
 
 [lvalue, rvalue](https://www.geeksforgeeks.org/lvalue-and-rvalue-in-c-language/)
 
@@ -14,7 +25,7 @@ erroneous code
 
 **for loop** = syntactic sugar, it allows you to write more compact code for counting, a common programming idiom(behavior, custom).  
 
-### What does **f(5)** evaluate to?
+## What does **f(5)** evaluate to?
 
 ```c
 int f (int n) {
@@ -33,7 +44,7 @@ int f (int n) {
 
 Hint: dividing integers results in an integer answer. eg. 9/4 = 2, 5/2=2 (四舍五入rounding 3 is wrong)
 
-### **Conditional Statements**
+## **Conditional Statements**
 
 for switch, if we execute case 3, then do we have to execute default case? because there is no break after case 3?
 
@@ -55,7 +66,7 @@ return y;
 
 No, we jump out of the switch execution curly brace to next step return y. default is only for the no-matching case condition. 
 
-### What is the output for **f(-1, 4)**?
+## What is the output for **f(-1, 4)**?
 
 ```c
 void f (int x, int y) {
@@ -76,7 +87,7 @@ void f (int x, int y) {
 
 print out 3 times result on the screen.
 
-# W1
+# Week 1
 
 ## Quiz - algorithm practice
 
@@ -307,3 +318,4 @@ I still don't understand what's the meaning of 3N+1 exclusive, actually the i ra
 
 btw, we must unify the expression and identifier, if we write multiply as **x = -N*N**, then **2i** shoud be changed as **2* i** .
 
+I also misunderstand **update x** meaning, so that **x= x+2i -1** when **count i,** actually it is easy to get the meaning, but i forgot it yesterday that I made a mistake .

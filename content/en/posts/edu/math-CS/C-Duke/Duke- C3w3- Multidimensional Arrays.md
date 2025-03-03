@@ -1,4 +1,16 @@
-# Duke- C3w3- Multidimensional Arrays
+---
+title: "Multidimensional Arrays"
+date: 2023-12-12
+categories:
+  - IT
+tags:
+  - Internet
+  - Math & CS
+  - AI
+---
+
+
+Week 3, Multidimensional Arrays
 
 Incompatible Representations
 C语言中多维数组中不兼容表示
@@ -31,3 +43,4 @@ int main() {
 
 	return 0;
 }
+```
