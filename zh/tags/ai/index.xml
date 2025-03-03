@@ -12,8 +12,39 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI图文处理</title>
+      <link>https://atomx.cc/zh/posts/it/ai-image/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/ai-image/</guid>
+      <description>&lt;p&gt;写prompt，通过AI 生成网站需要的各种图片。&lt;/p&gt;
+&lt;p&gt;包括以下类别图片。&lt;/p&gt;
+&lt;h1 id=&#34;左耳朵耗子&#34;&gt;左耳朵耗子&lt;/h1&gt;
+&lt;p&gt;将耗子的图片融入到以下各种场景中&lt;/p&gt;
+&lt;h2 id=&#34;园艺和农场&#34;&gt;园艺和农场&lt;/h2&gt;
+&lt;p&gt;用于 landing page 登陆页面，关于园艺和农场的主题网站&lt;/p&gt;
+&lt;p&gt;牧场、儿童、老人、动物、阳光、草地、果蔬、牧场、欢乐、轻松&lt;/p&gt;
+&lt;h2 id=&#34;互联网计算机和ai&#34;&gt;互联网、计算机和AI&lt;/h2&gt;
+&lt;h2 id=&#34;自动化机器人&#34;&gt;自动化、机器人&lt;/h2&gt;
+&lt;p&gt;无人机&lt;/p&gt;
+&lt;p&gt;波士顿动力&lt;/p&gt;
+&lt;p&gt;汽车制造工厂机器人&lt;/p&gt;
+&lt;p&gt;农场机器人，挤奶、剪羊毛、清理粪便、&lt;/p&gt;
+&lt;p&gt;摘葡萄、摘水果、播种&lt;/p&gt;
+&lt;p&gt;参考 &lt;a href=&#34;https://www.youtube.com/@birchpunk&#34;&gt;RUSSIAN CYBERPUNK FARM // РУССКАЯ КИБЕРДЕРЕВНЯ&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;大数据&#34;&gt;大数据&lt;/h2&gt;
+&lt;p&gt;股票交易大屏幕&lt;/p&gt;
+&lt;p&gt;双11交易数据&lt;/p&gt;
+&lt;h2 id=&#34;卫星飞船&#34;&gt;卫星、飞船&lt;/h2&gt;
+&lt;p&gt;参考三体&lt;/p&gt;
+&lt;p&gt;巨型天线&lt;/p&gt;
+&lt;h2 id=&#34;修复老照片&#34;&gt;修复老照片&lt;/h2&gt;
+&lt;h2 id=&#34;图片生成文本&#34;&gt;图片生成文本&lt;/h2&gt;
+&lt;p&gt;从图片上 OCR识别&lt;/p&gt;
+&lt;p&gt;应用例如，家谱图片转文字、数据库存储、文言文翻译中文简体&lt;/p&gt;</description>
+    </item>
     <item>
       <title>如何配置AI模型做文本翻译？</title>
       <link>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</link>
@@ -96,6 +127,195 @@
 &lt;p&gt;英文：“Hello, world!” -&amp;gt; [“Hello”, “,”, “world”, “!”] -&amp;gt; 4 Tokens&lt;/p&gt;
 &lt;p&gt;中文：“你好，世界！” -&amp;gt; [“你”, “好”, “，”, “世”, “界”, “！”] -&amp;gt; 6 Tokens&lt;/p&gt;
 &lt;p&gt;数学：“x = y + z” -&amp;gt; [“x”, “=”, “y”, “+”, “z”] -&amp;gt; 5 Tokens&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C&#43;&#43;程序设计</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc3/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc3/</guid>
+      <description>&lt;p&gt;原课程链接：&lt;a href=&#34;https://www.coursera.org/learn/cpp-chengxu-sheji/&#34;&gt;C++程序设计&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cplusplus.com/&#34;&gt;cplusplus.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;教材《新标准 c++程序设计》 郭炜, 清华大学&lt;/p&gt;
+&lt;h1 id=&#34;w11-c11-新特性&#34;&gt;w11. C++11 新特性&lt;/h1&gt;
+&lt;p&gt;auto 自动变量类型&lt;/p&gt;
+&lt;p&gt;decltype 关键字，求表达式类型&lt;/p&gt;
+&lt;p&gt;shared_ptr 智能指针&lt;/p&gt;
+&lt;p&gt;nullptr 空指针&lt;/p&gt;
+&lt;p&gt;基于范围的for循环&lt;/p&gt;
+&lt;p&gt;右值引用和move语义&lt;/p&gt;
+&lt;p&gt;unordered_map 无序容器(哈希表)&lt;/p&gt;
+&lt;p&gt;regex 正则表达式&lt;/p&gt;
+&lt;p&gt;Lambda 表达式&lt;/p&gt;
+&lt;h2 id=&#34;强制类型转换&#34;&gt;强制类型转换&lt;/h2&gt;
+&lt;p&gt;static_cast、interpret_cast
+const_cast和dynamic_cast&lt;/p&gt;
+&lt;h2 id=&#34;c异常处理基础trythrowcatch&#34;&gt;C++异常处理基础：try、throw、catch&lt;/h2&gt;
+&lt;p&gt;意外异常(unexpected exception)
+动态内存管理的异常处理 new&lt;/p&gt;
+&lt;h1 id=&#34;w9-stl--&#34;&gt;w9. STL -&lt;/h1&gt;
+&lt;p&gt;质因数数目&lt;/p&gt;
+&lt;h2 id=&#34;container-adapter-容器适配器&#34;&gt;&lt;strong&gt;container adapter 容器适配器&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;(让已有的顺序容器以栈/队列的方式工作)&lt;/p&gt;
+&lt;p&gt;stack&lt;/p&gt;
+&lt;p&gt;queue&lt;/p&gt;
+&lt;p&gt;priority_queue&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;member function&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;push&lt;/p&gt;
+&lt;p&gt;top&lt;/p&gt;
+&lt;p&gt;pop&lt;/p&gt;
+&lt;p&gt;参考案例：github/ PKUC3/ 3.10.1.4.cpp&lt;/p&gt;
+&lt;h3 id=&#34;map-multimap&#34;&gt;map/ multimap&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;map&lt;/code&gt;&lt;/strong&gt; 容器中，关键字key是唯一的，值value可以重复。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;multimap&lt;/code&gt;&lt;/strong&gt; 容器中，关键字和值都可以重复。&lt;/p&gt;
+&lt;h3 id=&#34;set-multiset&#34;&gt;set/ multiset&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;set&lt;/code&gt;&lt;/strong&gt; 容器中，元素是唯一的，按其值自动排序，而非插入顺序。&lt;/p&gt;
+&lt;p&gt;添加新对象时会比较对象的大小，&lt;strong&gt;&lt;code&gt;set&lt;/code&gt;&lt;/strong&gt; 是一个基于红黑树实现的容器，它会自动将元素按照特定的顺序存储，通常是使用元素的 &lt;strong&gt;&lt;code&gt;&amp;lt;&lt;/code&gt;&lt;/strong&gt; 操作符来进行比较和排序。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;set&lt;/code&gt; 容器的迭代器支持双向迭代，可以使用++，- - 移动迭代器，但不支持随机访问，所以不能进行 i+1 的操作；&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数列 Array</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2-w10-array/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2-w10-array/</guid>
+      <description>&lt;p&gt;Week 10&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/jisuanji-biancheng/lecture/a53He/shu-zu-de-zuo-yong-zhi-er&#34;&gt;array function&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&amp;lt;iostream&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&amp;lt;cmath&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;/* 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;looking for prime within 100.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;Sieve of Eratosthenes algorithm
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cm&#34;&gt;*/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;100.0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// outer loop for i[2,9]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// inner loop for sum[2,99]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// why = ?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;==&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// why == ?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;when &lt;code&gt;a[i] = {9, 15}&lt;/code&gt; , how could we calculate and remove it from the array a[n]?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C程序设计进阶</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2/</guid>
+      <description>&lt;p&gt;原课程链接：&lt;a href=&#34;https://www.coursera.org/learn/c-chengxu-sheji/&#34;&gt;C程序设计进阶&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;const-vs-static&#34;&gt;const vs. static&lt;/h1&gt;
+&lt;p&gt;const 限制指针实参的功能&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;指针常量&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不能修改指针所指向的地址。在定义时必须立即初始化。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;some_char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ptr 是一个指向 char 的常量指针
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sc&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 合法，修改了 ptr 所指向的 char 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;another_char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 错误，不能修改 ptr 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;常量指针：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;不能修改指针所指向地址的内容，但可以改变指针所指向的地址。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// ptr 是一个指向 char 的常量指针
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;char&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;const&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 与上一行等效
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sc&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 错误，不能修改 ptr 所指向的 char 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ptr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;another_char&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 合法，可以改变 ptr 的值
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;static 在函数内部或类中声明的静态变量，其生命周期跨越整个程序执行过程（在循环中多次执行，每次循环的初始值继承了上一次循环的值），且只初始化一次。&lt;/p&gt;
+&lt;h1 id=&#34;string-literal&#34;&gt;string literal&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// input arguments
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;m&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// wrong expression.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;code&gt;cin&lt;/code&gt;&lt;/strong&gt; operator automatically skips any whitespace, including spaces and newlines. it’s illegal to use “ ” with cin, because it is string literal, cin could not hold string.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>计算导论与C语言基础</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc1/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc1/</guid>
+      <description>&lt;p&gt;原课程链接：&lt;a href=&#34;https://www.coursera.org/learn/jisuanji-biancheng/&#34;&gt;计算导论与C语言基础&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;turing-machine&#34;&gt;Turing machine&lt;/h2&gt;
+&lt;p&gt;The ranking is in descending order of price and working speed&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Register: carries operation data and results, as fast as a CPU&lt;/li&gt;
+&lt;li&gt;Cache: data buffer&lt;/li&gt;
+&lt;li&gt;Memory: the part that cannot be placed in the CPU&lt;/li&gt;
+&lt;li&gt;External memory (hard disk, USB flash drive)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C. Bohm &amp;amp; G. Jacopini, &amp;ldquo;Flow Diagrams, Turing Machines and Languages ​​with Only Two Formations Rules&amp;rdquo;, Communications of ACM, vol9(5) May 1966, pp 366-371.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Everything in the world is complicated, and there are only three kinds of logic expressed in programs:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>公开课《程序设计与算法》</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc-programming-and-algorithm/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc-programming-and-algorithm/</guid>
+      <description>&lt;p&gt;课程笔记&lt;/p&gt;
+&lt;p&gt;北京大学coursera &lt;a href=&#34;https://www.coursera.org/specializations/biancheng-suanfa&#34;&gt;程序设计与算法&lt;/a&gt; Specialization 专项课程。&lt;/p&gt;
+&lt;p&gt;练习题&lt;a href=&#34;https://github.com/Atomx3/Coding-practice/tree/main/C%2B%2BPKU&#34;&gt;Github 库&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作业参考&lt;a href=&#34;https://github.com/chiuchiuuu/programming-and-algorithm&#34;&gt;GitHub - chiuchiuuu/programming-and-algorithm&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;课程名&#34;&gt;课程名&lt;/h2&gt;
+&lt;p&gt;以文件夹定义&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C1, 计算导论与C语言基础&lt;/li&gt;
+&lt;li&gt;C2, C程序设计进阶&lt;/li&gt;
+&lt;li&gt;C3, C++程序设计&lt;/li&gt;
+&lt;li&gt;C4, 算法基础&lt;/li&gt;
+&lt;li&gt;C5, 数据结构基础&lt;/li&gt;
+&lt;li&gt;C6, 高级数据结构与算法&lt;/li&gt;
+&lt;li&gt;C7, 程序开发项目实践&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;文件名&#34;&gt;文件名&lt;/h3&gt;
+&lt;p&gt;取名规则：例如 2.3.3.cpp&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2.C程序设计进阶 (系列课程的第二课)&lt;/li&gt;
+&lt;li&gt;3.函数递归（该课第三周）&lt;/li&gt;
+&lt;li&gt;3.编程题＃4：扩号匹配问题（该周第四题）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;不能保证全部代码都通过coursera或&lt;a href=&#34;http://pkuic.openjudge.cn/&#34;&gt;POJ&lt;/a&gt;的评价&lt;/p&gt;
+&lt;h2 id=&#34;debugging-case&#34;&gt;Debugging case：&lt;/h2&gt;
+&lt;p&gt;% c++ 3.9.1.cpp&lt;br&gt;
+3.9.1.cpp:83:9: warning: &amp;lsquo;auto&amp;rsquo; type specifier is a C++11 extension [-Wc++11-extensions]&lt;br&gt;
+for(auto p : v) {&lt;br&gt;
+^&lt;br&gt;
+3.9.1.cpp:83:16: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]&lt;br&gt;
+for(auto p : v) {&lt;br&gt;
+^&lt;br&gt;
+2 warnings generated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>用AI辅助修复旧照片</title>

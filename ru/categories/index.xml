@@ -12,28 +12,6 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>ru</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/ru/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Syntax</title>
-      <link>https://atomx.cc/ru/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/ru/categories/syntax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Themes</title>
-      <link>https://atomx.cc/ru/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/ru/categories/themes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://atomx.cc/ru/categories/about/</link>
-      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/ru/categories/about/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

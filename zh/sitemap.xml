@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://atomx.cc/zh/tags/ai/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="https://atomx.cc/zh/tags/ai/"
                 />
   </url><url>
+    <loc>https://atomx.cc/zh/posts/it/ai-image/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://atomx.cc/zh/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,7 +37,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/categories/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -52,7 +55,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/categories/it/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -65,16 +68,11 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/posts/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -83,7 +81,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/tags/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -101,33 +99,13 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/tags/%E4%BA%92%E8%81%94%E7%BD%91/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/"
-                />
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</loc>
     <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2025-02-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/"
-                />
   </url><url>
     <loc>https://atomx.cc/zh/posts/it/deepseek/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
@@ -204,6 +182,9 @@
     <loc>https://atomx.cc/zh/posts/life/god/simple-bible-study-method/</loc>
     <lastmod>2024-04-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc3/</loc>
+    <lastmod>2024-03-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://atomx.cc/zh/posts/life/culture-impact-and-identity1/</loc>
     <lastmod>2024-02-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -215,6 +196,24 @@
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2-w10-array/</loc>
+    <lastmod>2023-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc1/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc-programming-and-algorithm/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/classical-musics/</loc>
+    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <lastmod>2023-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E8%85%90%E8%B4%A5/%E7%8A%AF%E7%BD%AA/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
@@ -264,7 +263,7 @@
     <loc>https://atomx.cc/zh/posts/business/bp-investment-proposal-template/</loc>
     <lastmod>2023-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/tags/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80/</loc>
+    <loc>https://atomx.cc/zh/tags/%E8%90%A5%E9%94%80/</loc>
     <lastmod>2023-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93/</loc>
@@ -318,6 +317,9 @@
     <lastmod>2022-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E5%BE%B7%E5%9B%BD/</loc>
+    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/tags/%E8%85%90%E8%B4%A5%E7%8A%AF%E7%BD%AA/</loc>
     <lastmod>2022-11-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/travel/why-it-training-cost-high-for-refugees-in-germany/</loc>
@@ -381,14 +383,11 @@
     <loc>https://atomx.cc/zh/posts/life/god/letter-to-jehovah-witness-3/</loc>
     <lastmod>2022-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/tags/%E5%A4%A7%E5%AD%A6/</loc>
-    <lastmod>2022-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/zh/tags/%E7%95%99%E5%AD%A6/</loc>
-    <lastmod>2022-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://atomx.cc/zh/posts/travel/buy-diploma-of-ukraine-university/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/tags/%E5%A4%A7%E5%AD%A6/</loc>
+    <lastmod>2022-01-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/travel/ukraine-education-situation/</loc>
     <lastmod>2022-01-19T00:00:00+00:00</lastmod>
@@ -600,13 +599,7 @@
     <loc>https://atomx.cc/zh/posts/agri-env/about-agriculture-plus-internet/</loc>
     <lastmod>2019-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/posts/edu/classical-musics/</loc>
-    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://atomx.cc/zh/posts/edu/my-learning-path/</loc>
-    <lastmod>2019-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/zh/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/edu/en/how-to-learn-english/</loc>
@@ -677,11 +670,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/about/"
                 />
     <xhtml:link
                 rel="alternate"

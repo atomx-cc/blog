@@ -2,23 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-installation/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-features/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-faq/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-icons/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/papermod/papermod-variables/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://atomx.cc/ru/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -35,38 +19,41 @@
                 href="https://atomx.cc/ru/"
                 />
   </url><url>
-    <loc>https://atomx.cc/ru/tags/docs/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/series/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>https://atomx.cc/ru/archives/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://atomx.cc/posts/"
+                href="https://atomx.cc/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://atomx.cc/zh/posts/"
+                href="https://atomx.cc/zh/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://atomx.cc/ru/posts/"
+                href="https://atomx.cc/ru/archives/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/ru/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://atomx.cc/ru/categories/"
                 />
   </url><url>
     <loc>https://atomx.cc/ru/series/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -84,7 +71,6 @@
                 />
   </url><url>
     <loc>https://atomx.cc/ru/tags/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -99,148 +85,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://atomx.cc/ru/tags/"
-                />
-  </url><url>
-    <loc>https://atomx.cc/ru/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/categories/"
-                />
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/code/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/code_syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/gist/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/posts/ool/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/categories/about/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/categories/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/categories/about/"
-                />
-  </url><url>
-    <loc>https://atomx.cc/ru/tags/resume/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/tags/resume/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/tags/resume/"
-                />
-  </url><url>
-    <loc>https://atomx.cc/ru/education-training/</loc>
-    <lastmod>2017-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/about/</loc>
-    <lastmod>2017-09-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/about/"
-                />
-  </url><url>
-    <loc>https://atomx.cc/ru/cases-social-works/</loc>
-    <lastmod>2017-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/cases-business/</loc>
-    <lastmod>2017-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/ru/archives/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/archives/"
                 />
   </url><url>
     <loc>https://atomx.cc/ru/search/</loc>

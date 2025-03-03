@@ -12,27 +12,48 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://atomx.cc/tags/ai/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Internet</title>
       <link>https://atomx.cc/tags/internet/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/internet/</guid>
       <description></description>
     </item>
     <item>
       <title>Math &amp; CS</title>
       <link>https://atomx.cc/tags/math--cs/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/math--cs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Литература</title>
+      <link>https://atomx.cc/tags/%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Россия</title>
+      <link>https://atomx.cc/tags/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Язык</title>
+      <link>https://atomx.cc/tags/%D1%8F%D0%B7%D1%8B%D0%BA/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/%D1%8F%D0%B7%D1%8B%D0%BA/</guid>
       <description></description>
     </item>
     <item>
@@ -61,20 +82,6 @@
       <link>https://atomx.cc/tags/social-media/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/social-media/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>互联网</title>
-      <link>https://atomx.cc/tags/%E4%BA%92%E8%81%94%E7%BD%91/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/%E4%BA%92%E8%81%94%E7%BD%91/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>数学&amp;计算机</title>
-      <link>https://atomx.cc/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
       <description></description>
     </item>
     <item>
