@@ -803,22 +803,22 @@ $∃$, Exist, Disjunction, &lt;strong&gt;∨&lt;/strong&gt;, at least one&lt;/p&
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/mts/mts-w3-assignment-5/</guid>
       <description>&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Express the existence assertions&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;p&gt;a. ($∃x$ ∈ ℕ)($x^3 = 27$ )&lt;/p&gt;
 &lt;p&gt;b. ($∃𝑛$ ∈ ℕ)(𝑛&amp;gt;10000)&lt;/p&gt;
-&lt;p&gt;c. natural number n is not a prime
-($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 &lt;strong&gt;∧&lt;/strong&gt; $m$&amp;gt;1 &lt;strong&gt;∧ $n=pm$&lt;/strong&gt;)&lt;/p&gt;
-&lt;ol&gt;
+&lt;p&gt;c. natural number n is not a prime&lt;/p&gt;
+&lt;p&gt;($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 ∧ $m$&amp;gt;1 ∧ $n=pm$)&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Express the ‘for all’ assertions&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)
-¬($∃x$ ∈ $ℕ$)($x^3$ = 28)
-($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)&lt;/p&gt;
+&lt;p&gt;¬($∃x$ ∈ $ℕ$)($x^3$ = 28)&lt;/p&gt;
+&lt;p&gt;($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
 &lt;p&gt;($∀x$ ∈ ℕ)¬($x^3$ = 28)&lt;/p&gt;
-&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )
-c.  ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( ****$n=pq$) ****⇒&lt;strong&gt;$n=pq&lt;/strong&gt;n=pq$$p$=1 V &lt;strong&gt;$q=1$&lt;/strong&gt; )]&lt;/p&gt;</description>
+&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )&lt;/p&gt;
+&lt;p&gt;c. ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( $n=pq$) ⇒ ($p=1$ V $q=1$)]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mathematical Thinking Stanford, W3</title>
@@ -894,9 +894,9 @@ a confident and forceful statement of fact or belief.&lt;/p&gt;
       <link>https://atomx.cc/posts/edu/mts/mts-w2-quiz/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/mts/mts-w2-quiz/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;
-&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;implication has a **truth part(**conditional &lt;strong&gt;)&lt;/strong&gt; and a causation part.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;implication has a truth part(conditional) and a causation part.&lt;/p&gt;
 &lt;p&gt;implication = conditional + causation&lt;/p&gt;
 &lt;p&gt;conditional means &lt;strong&gt;⇒&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;φ ⇒ ψ&lt;/strong&gt; is the truth part of “ φ  implies ψ ”.&lt;/p&gt;

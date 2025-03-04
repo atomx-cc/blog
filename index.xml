@@ -855,22 +855,22 @@ $∃$, Exist, Disjunction, &lt;strong&gt;∨&lt;/strong&gt;, at least one&lt;/p&
       <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/mts/mts-w3-assignment-5/</guid>
       <description>&lt;p&gt;(∀𝑚∈ ℕ)(∃𝑛 ∈ ℕ)(𝑛&amp;gt;𝑚), True&lt;/p&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Express the existence assertions&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;p&gt;a. ($∃x$ ∈ ℕ)($x^3 = 27$ )&lt;/p&gt;
 &lt;p&gt;b. ($∃𝑛$ ∈ ℕ)(𝑛&amp;gt;10000)&lt;/p&gt;
-&lt;p&gt;c. natural number n is not a prime
-($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 &lt;strong&gt;∧&lt;/strong&gt; $m$&amp;gt;1 &lt;strong&gt;∧ $n=pm$&lt;/strong&gt;)&lt;/p&gt;
-&lt;ol&gt;
+&lt;p&gt;c. natural number n is not a prime&lt;/p&gt;
+&lt;p&gt;($∃p$ ∈ ℕ)($∃m$ ∈ ℕ)($p$&amp;gt;1 ∧ $m$&amp;gt;1 ∧ $n=pm$)&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Express the ‘for all’ assertions&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)
-¬($∃x$ ∈ $ℕ$)($x^3$ = 28)
-($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
+&lt;/ul&gt;
+&lt;p&gt;a. ($∀x$ ∉ ℕ)($x^3$ = 28)&lt;/p&gt;
+&lt;p&gt;¬($∃x$ ∈ $ℕ$)($x^3$ = 28)&lt;/p&gt;
+&lt;p&gt;($∀x$ ∈ ℕ)($x^3$ ≠ 28)&lt;/p&gt;
 &lt;p&gt;($∀x$ ∈ ℕ)¬($x^3$ = 28)&lt;/p&gt;
-&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )
-c.  ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( ****$n=pq$) ****⇒&lt;strong&gt;$n=pq&lt;/strong&gt;n=pq$$p$=1 V &lt;strong&gt;$q=1$&lt;/strong&gt; )]&lt;/p&gt;</description>
+&lt;p&gt;b. ($∀n$ ∈ ℕ)($n&amp;gt;0$ )&lt;/p&gt;
+&lt;p&gt;c. ($∀p$ ∈ ℕ)($∀q$ ∈ ℕ)[( $n=pq$) ⇒ ($p=1$ V $q=1$)]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mathematical Thinking Stanford, W3</title>
@@ -946,9 +946,9 @@ a confident and forceful statement of fact or belief.&lt;/p&gt;
       <link>https://atomx.cc/posts/edu/mts/mts-w2-quiz/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/mts/mts-w2-quiz/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;
-&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;implication has a **truth part(**conditional &lt;strong&gt;)&lt;/strong&gt; and a causation part.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/&#34;&gt;Math Foundation of computing, Stanford university.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf&#34;&gt;Preliminary Course Notes - Keith Schwarz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;implication has a truth part(conditional) and a causation part.&lt;/p&gt;
 &lt;p&gt;implication = conditional + causation&lt;/p&gt;
 &lt;p&gt;conditional means &lt;strong&gt;⇒&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;φ ⇒ ψ&lt;/strong&gt; is the truth part of “ φ  implies ψ ”.&lt;/p&gt;
@@ -1229,17 +1229,48 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
       <link>https://atomx.cc/posts/it/customize-hugo-site-with-theme-papermod/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/it/customize-hugo-site-with-theme-papermod/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-papermod/&#34;&gt;build Hugo site with theme PaperMod&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;check-the-structure-of-directory-and-files&#34;&gt;Check the structure of directory and files.&lt;/h1&gt;
-&lt;p&gt;in terminal zsh, command line &lt;code&gt;tree -L 2 --dirsfirst&lt;/code&gt; for 2 layers of directories.&lt;/p&gt;
-&lt;h1 id=&#34;configyaml-change&#34;&gt;Config.yaml change&lt;/h1&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-papermod/&#34;&gt;Build Hugo site with theme PaperMod&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;special-functions-and-extensions&#34;&gt;Special Functions and Extensions&lt;/h1&gt;
+&lt;h2 id=&#34;math-typesetting&#34;&gt;Math Typesetting&lt;/h2&gt;
+&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries - &lt;a href=&#34;https://katex.org&#34;&gt;KaTeX&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;create the math partial file:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;touch layouts/partials/math.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;add below content to math.html&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;defer&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;onload&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;renderMathInElement(document.body);&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addEventListener&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;DOMContentLoaded&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;renderMathInElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;delimiters&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;$$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;right&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;$$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;right&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;$&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;\\(&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;right&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;\\)&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;left&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;\\[&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;right&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;\\]&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nx&#34;&gt;throwOnError&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;script&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Customize the extend_head.html:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cp themes/PaperMode/layouts/partials/extend_head.html layouts/partials/extend_head.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;insert below content to extend_head.html&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ if or .Params.math .Site.Params.math }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ partial &amp;#34;math.html&amp;#34; . }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ end }}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Enable math rendering by adding this to your config.yaml&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;math&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Enable math globally&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;configyaml-change&#34;&gt;Config.yaml change&lt;/h1&gt;
 &lt;h2 id=&#34;toc&#34;&gt;TOC&lt;/h2&gt;
-&lt;p&gt;change the table of content on the right side colum of webpage, or in the middle top.&lt;/p&gt;
-&lt;h2 id=&#34;global-config&#34;&gt;Global config&lt;/h2&gt;
-&lt;p&gt;it&amp;rsquo;s unnecessary to add too many repeated front matters.&lt;/p&gt;
-&lt;p&gt;such as &amp;ldquo;author, TOC &amp;quot; etc.&lt;/p&gt;
-&lt;h2 id=&#34;date-format-in-front-matter&#34;&gt;Date format in front matter&lt;/h2&gt;
-&lt;p&gt;When you build static webpage, there are error reports such as below.&lt;/p&gt;</description>
+&lt;p&gt;change the table of content on the right side colum of webpage, or in the middle top.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Helpx Guest Questionnaire</title>
