@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://atomx-cc.github.io/blog/sitemap.xml
