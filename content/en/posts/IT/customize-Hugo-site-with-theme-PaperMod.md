@@ -14,6 +14,14 @@ tags:
 [build Hugo site with theme PaperMod](https://themes.gohugo.io/themes/hugo-papermod/)
 
 
+## Math Typesetting
+
+Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries - [KaTeX](https://katex.org)
+
+
+
+
+
 # Check the structure of directory and files.
 
 in terminal zsh, command line ``tree -L 2 --dirsfirst`` for 2 layers of directories.

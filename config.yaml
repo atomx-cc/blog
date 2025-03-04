@@ -206,6 +206,7 @@ outputs:
     - JSON
 
 params:
+  math: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: Theme PaperMod

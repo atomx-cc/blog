@@ -11,9 +11,10 @@ tags:
 
 
 [Math Foundation of computing, Stanford university.](https://web.stanford.edu/class/archive/cs/cs103/cs103.1126/) 
+
 [Preliminary Course Notes - Keith Schwarz](http://web.stanford.edu/class/archive/cs/cs103/cs103.1126/notes/Mathematical%20Foundations%20of%20Computing.pdf)
 
-implication has a **truth part(**conditional **)** and a causation part.
+implication has a truth part(conditional) and a causation part.
 
 implication = conditional + causation
 
@@ -247,14 +248,14 @@ P, Q, R
 
 φ, ψ, θ
 
-| φ  | ψ | θ | ψ∧θ | **φ⇒(ψ∧θ)** | **¬**(φ ⇒ ψ) | **¬(**φ ⇒ θ) | **¬(φ ⇒ ψ) V ¬(φ ⇒ θ)** |
+| φ  | ψ | θ | ψ∧θ | φ⇒(ψ∧θ) | ¬(φ⇒ψ) | ¬(φ⇒θ) | ¬(φ⇒ψ) V ¬(φ⇒θ) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | T | T | T | T | F | F | F |
 | T | F | F | F | F | T | T | T |
 | F | T | F | F | T | F | F | F |
 | F | F | T | F | T | F | F | F |
 
-| φ  | ψ | θ | ψ**⇒**θ | **φ⇒(ψ⇒θ)** | φ**∧**ψ | **(φ∧ψ)⇒θ** |
+| φ  | ψ | θ | ψ ⇒ θ | **φ⇒(ψ⇒θ)** | φ ∧ ψ | **(φ∧ψ)⇒θ** |
 | --- | --- | --- | --- | --- | --- | --- |
 | T | T | T | T | T | T | **T** |
 | T | F | F | T | T | F | **T** |
