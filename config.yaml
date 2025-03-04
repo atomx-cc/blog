@@ -124,9 +124,9 @@ languages:
           - name: "博客"
             url: posts/
           - name: "商业案例"
-            url: cases-business/
+            url: posts/about/cases-business/
           - name: "社会活动"  
-            url: cases-social-works/
+            url: posts/about/cases-social-works/
             
       homeInfoParams:
           Title: "欢迎来访!"

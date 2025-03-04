@@ -3,6 +3,7 @@ title: "教育培训"
 date: 2017-09-17
 categories:
   - 关于
+  - 教育
 tags:
   - 简介
 ---

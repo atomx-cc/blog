@@ -42,16 +42,19 @@ a. ($∀x$)($∃y$) $L(x,y)$, where $L(x,y)$ denotes “$x$ love $y$”
 
 b. ($∀x$) [Tall$(x)$ V Short$(x)$]
 
-c. [($∀x$) Tall$(x)$] V [($∀x)$ Short$(x)$]
+c. [($∀x$) Tall$(x)$] V [($∀x$) Short$(x)$]
 
 d. ($∀n$)[¬ At-home$(n)$]
+
 ($¬∃n$)[At-home$(n)$]
 
 e. if  John comes, all the women will leave.
+
 Come$(John)$  ⇒ $∀x$[Woman$(x)$ ⇒Leave$(x)$]
 
 f. if a man comes, all the women will leave.
-($∃x$)[Man$(x)$ **∧** Comes$(x)$] ⇒ ($∀x$)[Woman$(x)$⇒Leave$(x)$]
+
+[($∃x$)[Man$(x)$ ∧ Comes$(x)$] ⇒ ($∀y$)[Woman$(y)$ ⇒ Leave$(y)$]]
 
 - Express quantifiers
 
@@ -104,7 +107,8 @@ e. ($∃x$∈C)[¬D(x) **∧** M(x)]
 
 - You can find a rational number between any two unequal real number.
 
-$∀x$ $∀y${(x<y) ⇒$∃z$ $∃z$ $Q(z)$ **∧**(x<z<y)]}
+$∀x$ $∀y$ {[(x<y) ⇒ $∃z$($Q(z)$ ∧ (x<z<y))]}
+
 
 - Abraham Lincoln : “You may fool all the people some of the time, you can even fool some of the people all of the time, but you cannot fool all of the people all the time.”
 
@@ -114,7 +118,7 @@ F$(p,t)$ = You may fool people p, at time t.
 
 ($∃t$$∀p$ ∧ $∃p$$∀t$ ∧ ¬$∀t$$∀p$)F$(p,t)$ ? is it a right solution?
 
-$∃t$$∀p$F$(p,t)$  ∧ $∃p$$∀t$F$(p,t)$  ∧ ¬$∀t$$∀p$)F$(p,t)$ 
+$∃t$$∀p$F$(p,t)$ ∧ $∃p$$∀t$F$(p,t)$ ∧ ¬$∀t$$∀p$F$(p,t)$
 
 **Something =** $∃$
 
