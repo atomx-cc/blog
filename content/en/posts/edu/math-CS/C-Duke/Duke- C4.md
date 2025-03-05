@@ -219,4 +219,5 @@ analogies for each of the options in the context of programming:
 These analogies help illustrate how different components of a program relate to elements of writing.
 
 # Module 4
+
 ## Monte Carlo simulation

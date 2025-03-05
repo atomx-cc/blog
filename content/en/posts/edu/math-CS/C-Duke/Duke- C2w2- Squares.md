@@ -1,5 +1,5 @@
 ---
-title: "Rectangle"
+title: "Squares"
 date: 2023-11-24
 categories:
   - IT

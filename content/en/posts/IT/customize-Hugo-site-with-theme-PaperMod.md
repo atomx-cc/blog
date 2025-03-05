@@ -109,7 +109,7 @@ for convenience, prepare script `deploy.sh`, one click and complete all automati
 
 ## Option 2, from Github Action
 
-If you know how to write workflow, Please share your solution.
+Workflow is better solution, execute the program automatically in remote repo.
 
 
 # Finding Emoji Icons
