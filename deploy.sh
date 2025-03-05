@@ -11,17 +11,18 @@ git add .
 git commit -m "Update content" || true
 git push origin "$CURRENT_BRANCH"
 
-# Remove existing worktree if exists
-git worktree remove -f public 2>/dev/null || true
-
-# Add gh-pages worktree
-git worktree add -B gh-pages public origin/gh-pages
+# 如果 public 已经是 worktree，则直接复用；否则创建 worktree
+if git worktree list | grep -q " public$"; then
+    echo "Worktree public already exists, reusing it."
+else
+    git worktree add -B gh-pages public origin/gh-pages
+fi
 
 # Save CNAME file
 cp public/CNAME CNAME.tmp || true
 
 # Build static files directly into the worktree
-hugo --minify --buildDrafts
+hugo --minify
 
 
 # Restore CNAME file
