@@ -18,8 +18,8 @@ else
     git worktree add -B gh-pages public origin/gh-pages
 fi
 
-# Save CNAME file
-cp public/CNAME CNAME.tmp || true
+# # Save CNAME file
+# cp public/CNAME CNAME.tmp || true
 
 # Build static files directly into the worktree
 hugo --minify
