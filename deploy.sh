@@ -11,7 +11,8 @@ git add .
 git commit -m "Update content" || true
 git push origin "$CURRENT_BRANCH"
 
-# # 如果 public 已经是 worktree，则直接复用；否则创建 worktree
+# # 如果 public 已经是 worktree，则直接复用；否则创建 worktree，这个命令似乎不管用
+# # 总是导致错误 “fatal: 'gh-pages' is already checked out at './public'”
 # if git worktree list | grep -q " public$"; then
 #     echo "Worktree public already exists, reusing it."
 # else
@@ -35,7 +36,7 @@ hugo --minify
 
 # Restore CNAME file
 # cp CNAME.tmp public/CNAME || true
-# rm CNAME.tmp
+
 
 # Commit and push gh-pages
 cd public
