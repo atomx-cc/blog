@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Resume on Atom.X</title>
+    <link>https://atomx.cc/tags/resume/</link>
+    <description>Recent content in Resume on Atom.X</description>
+    <image>
+      <title>Atom.X</title>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>en</language>
+    <copyright>Atom.X</copyright>
+    <lastBuildDate>Sat, 16 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://atomx.cc/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://atomx.cc/about/</link>
+      <pubDate>Sat, 16 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/about/</guid>
+      <description>IT farmer, Remote worker, Evangelist</description>
+    </item>
+  </channel>
+</rss>
