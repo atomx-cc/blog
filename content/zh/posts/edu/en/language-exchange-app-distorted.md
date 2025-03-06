@@ -50,7 +50,7 @@ tags:
 > 我的目标：我希望通过雅思认真考试并获得7分，能够流利地说英语，这里不是交友约会的社交场所。
 > 我的话题：环境、人类学、宇宙学、农业食品、政治、体育、健康等。
 
-[https://app.tandem.net/members/atom9125120](https://app.tandem.net/members/atom9125120)
+[Tandem - Atom](https://app.tandem.net/members/atom9125120)
 
 # 我为何退出语言交换app
 
@@ -67,7 +67,6 @@ Tandem类似于一个社交网络App，当我第一次登录Tandem社区时，�
 但他们中的大部分人只是打个招呼，然后一生只出现一次，我有理由怀疑这是互联网公司的营销策略，通过机器人向人们批量打招呼，为了促销会员订阅量。
 
 有一个女孩在她的Tandem个人资料中这样写道：
-
 > 我婚姻幸福，所以如果你想一起学习语言以外的东西，请不要写信或关注我 :)
 
 Tandem正处于这种尴尬境地，既不像是语言学习App，也不像是约会App。这家app公司的OKR应该是如何让人们更多地做语言交换。但很多人并没有按照这个目标去交流语言学习，而是通过它寻找闲聊的人，约会或别有目的，这似乎也不是Tandem的错，用户行为已经失控了。
@@ -79,9 +78,23 @@ Tandem正处于这种尴尬境地，既不像是语言学习App，也不像是�
 **更专业的App**
 
 我建议进行认真的语言学习，这是值得付费的。
-[https://www.lingoda.com/](https://www.lingoda.com/,%5D(https://www.lingoda.com/en/p/home-new/))
-[https://www.rosettastone.eu/](https://www.rosettastone.eu/)
 
+[Lingoda](https://www.lingoda.com/)
+
+[Rosettastone](https://www.rosettastone.eu/)
+
+# 高效的学习方式 - 写博客
+
+我发现线上和线下的语言交流俱乐部和App状况都不好，我对语言交换伙伴如是说：
+
+我们总是忙于日常生活和工作，所以对很多人来说，线下见面和交谈并不容易。所以我建议一种聪明的方法 - 写博客。
+
+为什么要写博客？
+
+1.  为了高效的社交：在15分钟内更好地了解彼此，提前过滤你喜欢或不喜欢的人和话题，节省你宝贵的时间和生命能量。
+2.  为了英语学习：练习雅思考试中最难的部分，在高质量的对话前准备话题。
+
+不要每天重复回答别人的愚蠢问题，对吧？告诉他们：请看我的博客和简历，它回答得更好，你还有其他好问题吗？
 
 # **为什么要推广日语？**
 
@@ -91,7 +104,7 @@ Tandem正处于这种尴尬境地，既不像是语言学习App，也不像是�
 
 当我犹豫不决，不知道偏爱哪种语言时。我的语言交换伙伴也几乎处于相同的境地。
 
-索菲亚想学习韩语，并且对东亚感兴趣。简短交谈后，她决定考虑2个月，最终偏爱哪一种。
+索菲亚想学习韩语，并且对东亚感兴趣。我推荐她学日语，简短交谈后，她决定考虑2个月，最终偏爱哪一种。
 
 我更了解东亚，主要包括日本、韩国和中国。**如果有人对东亚感兴趣，我肯定会推荐日本。**
 
@@ -101,13 +114,13 @@ Tandem正处于这种尴尬境地，既不像是语言学习App，也不像是�
 
 许多人喜欢学习日语，因为著名的日本动画电影和美味的食物。我喜欢宫崎骏动画电影中的所有人物。
 
-[https://en.wikipedia.org/wiki/Hayao_Miyazaki](https://en.wikipedia.org/wiki/Hayao_Miyazaki)
+[Wiki/Hayao_Miyazaki](https://en.wikipedia.org/wiki/Hayao_Miyazaki)
 
 在发展中国家有许多盗版视频拷贝，他们很穷，买不起正版。这里有一个试用版：
 
-[https://ice.startmovie.site/movie/tt0096283/icc.html](https://ice.startmovie.site/movie/tt0096283/icc.html)
+[盗版视频](https://ice.startmovie.site/movie/tt0096283/icc.html)
 
-[https://thesmartlocal.com/japan/japanese-anime-movies/](https://thesmartlocal.com/japan/japanese-anime-movies/)
+[Japanese anime movies](https://thesmartlocal.com/japan/japanese-anime-movies/)
 
 坦率地说，日本的特殊文化从小就深深地影响了我，只有日本动画电影具备这种极强的感染力。
 
@@ -116,12 +129,12 @@ Tandem正处于这种尴尬境地，既不像是语言学习App，也不像是�
 - 日本更加开放，他们向全世界学习，相比较而言，中国很保守和老旧；
 - 日本在科技方面是现代和先进的，是亚洲最强大和最发达的国家；
 - 日本可能是世界前10名的国家之一；
-- 日本是唯一一个列入七国集团的国家 [https://en.wikipedia.org/wiki/Group_of_Seven](https://en.wikipedia.org/wiki/Group_of_Seven)；
+- 日本是唯一一个列入[七国集团](https://en.wikipedia.org/wiki/Group_of_Seven)的国家；
 - 日本是第一个被列入经合组织的亚洲国家；
 
-日本的国土主要是岛屿，面积不够大，所以日本人移民到全世界，日本护照可以免签进入130多个国家，真的是高价值的护照。所以对太多人来说，移民到日本并不容易，但欢迎大家去那里旅行和学习。
+日本的国土主要是岛屿，面积不够大，所以日本人移民到全世界，日本护照可以免签进入130多个国家，真的是高价值的护照。所以对太多人来说，移民到日本并不容易，但欢我们去日本旅行和学习是受欢迎的。
 
-# 下一代会更好
+# 东欧的英语普及不足
 
 让我们回到英语的话题。
 
@@ -145,7 +158,7 @@ Tandem正处于这种尴尬境地，既不像是语言学习App，也不像是�
 
 我意识到过去3个月我在乌克兰的英文口语能力下降了，甚至比在中国还差，也许因为大部分本地人的英文发音都很糟糕，这就是为什么我想在App中寻找语言交换伙伴的原因。
 
-**孩子是未來的希望**
+## 孩子是未來的希望
 
 仅仅一次例外，在某个清晨我住的旅馆里，遇到一个能说一口地道英式英语发音的小女孩，当时我在公共厨房做饭，她问了我很多问题。
 
