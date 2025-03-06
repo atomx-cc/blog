@@ -12,8 +12,114 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Command lines practice for Branch Management</title>
+      <link>https://atomx.cc/posts/it/git-cml/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/it/git-cml/</guid>
+      <description>&lt;p&gt;Project name: Test-Jekyll-MM-Gem-based.github.io&lt;/p&gt;
+&lt;p&gt;Quoted from: &lt;a href=&#34;https://github.com/mmistakes/minimal-mistakes&#34;&gt;Github Jekyll minimal-mistakes&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This Jekyll project uses a branch management strategy that separates concerns into dedicated branches:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;theme&lt;/code&gt; Branch&lt;/strong&gt;: Contains theme-related files (layouts, includes, assets, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;posts&lt;/code&gt; Branch&lt;/strong&gt;: Contains content-related files (posts, pages, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;main&lt;/code&gt; Branch&lt;/strong&gt;: The primary branch for merging and running the project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;branch-creation-and-management&#34;&gt;Branch Creation and Management&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash:commands.sh&#34; data-lang=&#34;bash:commands.sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create and switch to the &amp;#39;theme&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b theme
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Remove content directories from the &amp;#39;theme&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rm -r _posts _pages README.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove content directories from theme branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Merge .gitignore from main into theme&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge main -- .gitignore
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update .gitignore in theme branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Switch back to the main branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create and switch to the &amp;#39;posts&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b posts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Remove theme directories from the &amp;#39;posts&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rm -r _layouts _includes assets Gemfile Gemfile.lock index.html
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove theme directories from posts branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Merge .gitignore from main into posts&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge main -- .gitignore
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update .gitignore in posts branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Switch to the &amp;#39;main&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Merge the &amp;#39;theme&amp;#39; branch into &amp;#39;main&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge theme
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Resolve any conflicts, then stage and commit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Merge theme branch into main&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Merge the &amp;#39;posts&amp;#39; branch into &amp;#39;main&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge posts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Resolve any conflicts, then stage and commit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Merge posts branch into main&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Push the &amp;#39;main&amp;#39; branch to the remote repository named &amp;#39;origin&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Clean up generated directories and update .gitignore&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Switch to the &amp;#39;posts&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout posts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf _site/ .sass-cache/ .jekyll-cache/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .gitignore
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Add .gitignore to posts branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Switch to the &amp;#39;theme&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout theme
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf _site/ .sass-cache/ .jekyll-cache/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .gitignore
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Add .gitignore to theme branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Ensure .gitignore consistency across all branches&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout theme
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge main -- .gitignore
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update .gitignore in theme branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout posts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge main -- .gitignore
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Update .gitignore in posts branch&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Check repository status, including ignored files&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git status --ignored
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Remove generated directories from git tracking (if necessary)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rm -r --cached _site .sass-cache .jekyll-cache
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Remove generated directories from Git tracking&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Verify ignored status&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git status --ignored
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Only execute the following commands in the &amp;#39;main&amp;#39; branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jekyll build
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jekyll serve
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# force copy from theme branch when in main branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge -X theirs theme
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# force copy, another option&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout theme -- multilple_file_name_with_space
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     <item>
       <title>Interacting with the System and Managing Memory</title>
       <link>https://atomx.cc/posts/edu/math-cs/c-duke/duke--c4/</link>
@@ -1225,6 +1331,16 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
 &lt;p&gt;Freeform, chat,&lt;/p&gt;</description>
     </item>
     <item>
+      <title>BP/ Investment Proposal[Company Name]-template</title>
+      <link>https://atomx.cc/posts/business/bp-investment-proposal-template/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/business/bp-investment-proposal-template/</guid>
+      <description>&lt;p&gt;Subject: Investment Proposal - [Your Company Name]&lt;/p&gt;
+&lt;p&gt;Dear [Investor Name],&lt;/p&gt;
+&lt;p&gt;I hope this email finds you well. I am writing to introduce [Your Company Name], a [company&amp;rsquo;s field or sector] company that has been making waves in the industry.&lt;/p&gt;
+&lt;p&gt;As a next step, I would like to share with you our investment deck, which provides a comprehensive overview of our business model, financial projections, and future plans. Our team has worked hard to put together a compelling proposal, and I am confident that it will provide you with a good understanding of our company and what sets us apart from the competition.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Customize Hugo site with theme PaperMod</title>
       <link>https://atomx.cc/posts/it/customize-hugo-site-with-theme-papermod/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
@@ -1324,6 +1440,59 @@ p54&lt;/p&gt;</description>
 &lt;p&gt;There are countless human natural languages, each vastly different. The saying &amp;ldquo;dialects change every 100 miles&amp;rdquo; holds true; even within 50 kilometers, human language mutates, with variations in pronunciation, grammar, semantics, and expression. Why is this so, given that natural language is innate? Only God can explain.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Invitation letter for business Schengen visa - template</title>
+      <link>https://atomx.cc/posts/business/invitation-letter-for-business-schengen-visa-template/</link>
+      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/business/invitation-letter-for-business-schengen-visa-template/</guid>
+      <description>&lt;p&gt;Date: January 22, 2023&lt;/p&gt;
+&lt;p&gt;To:&lt;/p&gt;
+&lt;p&gt;[Embassy Name]&lt;/p&gt;
+&lt;p&gt;[Embassy Address]&lt;/p&gt;
+&lt;p&gt;[Embassy Phone number]&lt;/p&gt;
+&lt;p&gt;Re: Invitation letter for&lt;/p&gt;
+&lt;p&gt;[Applicant’s name 1] with Passport No. ___________.&lt;/p&gt;
+&lt;p&gt;[Applicant’s name 2] with Passport No. ___________.&lt;/p&gt;
+&lt;p&gt;Respected Madam/Sir,&lt;/p&gt;
+&lt;p&gt;[Inviting company’s name] We are currently registering at [Berlin, Germany], and writing this letter to support the business visa application of [Applicant’s name].&lt;/p&gt;
+&lt;p&gt;[background and titles] the applicants are the founders of  [Applicant’s company name]., a cloud computing company in China, they are planning a startup of Europe, We provide talented and high-skilled entrepreneurs with mentoring services in incubators and venture capital.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mathematics basics</title>
+      <link>https://atomx.cc/posts/edu/math-cs/mathematics-basics/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/mathematics-basics/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Why math ?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I have severe tinnitus, Similar to what it would be like when I&amp;rsquo;m standing on a giant generator machine running at full capacity, sharp and piercing.&lt;/p&gt;
+&lt;p&gt;it can only be relieved by deep sleep and concentration, especially when I&amp;rsquo;m engrossed in math and computer programming and I can&amp;rsquo;t feel the annoying noise in my ears.&lt;/p&gt;
+&lt;h1 id=&#34;writing-mathematics-symbols&#34;&gt;Writing Mathematics symbols&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.office.com/&#34;&gt;Microsoft 365 Office&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Word - insert - formula&lt;/p&gt;
+&lt;h2 id=&#34;basic-concepts&#34;&gt;basic concepts&lt;/h2&gt;
+&lt;p&gt;We should assess skills and knowledge in the following areas:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Computer science basics</title>
+      <link>https://atomx.cc/posts/edu/math-cs/cs-basics/</link>
+      <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/math-cs/cs-basics/</guid>
+      <description>&lt;h1 id=&#34;cs-self-study-guidehttpscsdiywiki&#34;&gt;&lt;a href=&#34;https://csdiy.wiki/&#34;&gt;CS Self-study Guide&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/PKUFlyingPig/cs-self-learning&#34;&gt;Github repo: CS self-learning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cooshell blog: &lt;a href=&#34;https://coolshell.cn/articles/4990.html&#34;&gt;Programmer&amp;rsquo;s Technology Leveling Guide&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;basic-concepts&#34;&gt;basic concepts&lt;/h2&gt;
+&lt;p&gt;Unix/Linux Shell, Vim, Git, SQL, Python, bash,&lt;/p&gt;
+&lt;p&gt;MAC terminal, command line, Unix Shell&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html#//apple_ref/doc/uid/TP40004268-CH271-BBCBEAJD&#34;&gt;Shell Scripting Primer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/&#34;&gt;The Mac Terminal Commands Cheat Sheet&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;git-basicshttpsjuejinimpost5ae072906fb9a07a9e4ce596&#34;&gt;&lt;a href=&#34;https://juejin.im/post/5ae072906fb9a07a9e4ce596&#34;&gt;Git basics&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.github.com/zh/pull-requests&#34;&gt;Github pull request&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Python 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cn, &lt;a href=&#34;http://do1.dr-chuck.com/pythonlearn/ZH_cn/pythonlearn.pdf&#34;&gt;Python for Everybody  Exploring Data In Python3 New Edition&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;En, &lt;a href=&#34;https://www.py4e.com/html3/&#34;&gt;Python for Everybody&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.greenteapress.com/thinkpython/thinkCSpy/&#34;&gt;Think Python: How to Think like a Computer Scientist&lt;/a&gt;&amp;quot; by&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://allendowney.com/&#34;&gt;Allen B. Downey&lt;/a&gt; &amp;ldquo;Think Python&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How to write a resume?</title>
       <link>https://atomx.cc/posts/about/how-to-write-resume/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
@@ -1386,6 +1555,34 @@ p54&lt;/p&gt;</description>
       <description>Proust Questionnaire</description>
     </item>
     <item>
+      <title>English Level test</title>
+      <link>https://atomx.cc/posts/edu/en/english-level-test/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/en/english-level-test/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cambridgeenglish.org/exams-and-tests/cefr/&#34;&gt;CEFR English level standard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;please focus on the target, it&amp;rsquo;s the entry-level to university&lt;/p&gt;
+&lt;p&gt;IELTS 7  = C1&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.efset.org/english-score/?lang=en&#34;&gt;English levels&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;EF SET- English test, get to know your English level in 50 minutes: &lt;a href=&#34;https://www.efset.cn/ef-set-50&#34;&gt;Our 2 skill English test&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;british-council---online-english-level-testhttpslearnenglishbritishcouncilorgenglish-levelsonline-english-level-test&#34;&gt;&lt;a href=&#34;https://learnenglish.britishcouncil.org/english-levels/online-english-level-test&#34;&gt;British Council - Online English level test&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://learnenglish.britishcouncil.org/english-levels/b2-upper-intermediate&#34;&gt;B2 Upper intermediate&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;pearson-english-testsptehttpswwwpearsonptecom&#34;&gt;&lt;a href=&#34;https://www.pearsonpte.com/&#34;&gt;Pearson English Tests(PTE)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It is said The first completely computer-based English test&lt;/p&gt;
+&lt;p&gt;135 minutes，250 usd，offline test center&lt;/p&gt;
+&lt;h2 id=&#34;international-business-management-instituteibmhttpswwwibm-institutecomlanguage-tests&#34;&gt;&lt;a href=&#34;https://www.ibm-institute.com/language-tests/&#34;&gt;International Business Management Institute(IBM)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Language Tests and Certificates Fast. Trusted. Online.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The basic skill of English</title>
+      <link>https://atomx.cc/posts/edu/en/english-basic-skills/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/edu/en/english-basic-skills/</guid>
+      <description>&lt;h1 id=&#34;long-term-practice---the-basic-skill-of-english&#34;&gt;Long term practice - The basic skill of English&lt;/h1&gt;
+&lt;h2 id=&#34;pronunciation&#34;&gt;&lt;strong&gt;Pronunciation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Why start from pronunciation?&lt;/p&gt;
+&lt;p&gt;pronunciation is the basic skill, is the first of all, most important core essence for language study. you pay 1 hour on this basic skill practice, it&amp;rsquo;s more valuable than 3 hours you pay on grammar and vocabulary. so please forget to memory grammar, vocabulary, and complicated compound sentences in the first stage when you are studying langue.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Personal Summary</title>
       <link>https://atomx.cc/posts/about/summary-atom/</link>
       <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
@@ -1414,6 +1611,17 @@ p54&lt;/p&gt;</description>
 &lt;li&gt;&lt;strong&gt;Influence:&lt;/strong&gt; After the paths are connected, it radiates influence in all directions.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Use &lt;strong&gt;GitHub&lt;/strong&gt; to record the known or unknown certainty or uncertainty (four combinations) of each data point, and the data will deduce the final impact.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Non-profit project questionnaire</title>
+      <link>https://atomx.cc/posts/about/interview-list-of-npo/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/posts/about/interview-list-of-npo/</guid>
+      <description>&lt;p&gt;I used to apply for the environment project of NGO in China, they send an interview list with good questions, such as:&lt;/p&gt;
+&lt;h1 id=&#34;where-did-you-hear-about-this-project-opportunity&#34;&gt;Where did you hear about this project opportunity?&lt;/h1&gt;
+&lt;p&gt;I have collected many news sources related to environment, animals, and plant products.&lt;/p&gt;
+&lt;h1 id=&#34;why-are-you-interested-in-this-project&#34;&gt;Why are you interested in this project?&lt;/h1&gt;
+&lt;p&gt;I have been engaged in environmental protection, agricultural products, and food e-commerce for the past 10 years. I have been deeply exploring environmental, animal, and health issues behind food. I am very familiar with these discourses and have taken many open classes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IBM Data Science</title>

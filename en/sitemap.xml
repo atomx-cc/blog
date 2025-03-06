@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://atomx.cc/tags/ai/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/categories/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -34,7 +34,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -51,14 +51,11 @@
                 href="https://atomx.cc/"
                 />
   </url><url>
-    <loc>https://atomx.cc/posts/edu/math-cs/c-duke/duke--c4/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/tags/internet/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <loc>https://atomx.cc/posts/it/git-cml/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/categories/it/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -71,10 +68,10 @@
                 />
   </url><url>
     <loc>https://atomx.cc/tags/math--cs/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/posts/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -86,8 +83,11 @@
                 href="https://atomx.cc/posts/"
                 />
   </url><url>
+    <loc>https://atomx.cc/tags/remote-jobs/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://atomx.cc/tags/</loc>
-    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -103,6 +103,12 @@
                 hreflang="en"
                 href="https://atomx.cc/tags/"
                 />
+  </url><url>
+    <loc>https://atomx.cc/posts/edu/math-cs/c-duke/duke--c4/</loc>
+    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/tags/internet/</loc>
+    <lastmod>2024-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/tags/%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
@@ -233,8 +239,27 @@
     <loc>https://atomx.cc/posts/it/generative-ai-learning-path/</loc>
     <lastmod>2023-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/tags/remote-jobs/</loc>
-    <lastmod>2023-02-24T00:00:00+00:00</lastmod>
+    <loc>https://atomx.cc/posts/business/bp-investment-proposal-template/</loc>
+    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/business/bp-investment-proposal-template/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/business/bp-investment-proposal-template/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/categories/business/</loc>
+    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/tags/entrepreneurs/</loc>
+    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/tags/marketing/</loc>
+    <lastmod>2023-02-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/posts/it/customize-hugo-site-with-theme-papermod/</loc>
     <lastmod>2023-02-05T00:00:00+00:00</lastmod>
@@ -274,6 +299,25 @@
                 href="https://atomx.cc/posts/edu/math-cs/why-should-learn-math-and-cs/"
                 />
   </url><url>
+    <loc>https://atomx.cc/posts/business/invitation-letter-for-business-schengen-visa-template/</loc>
+    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/business/invitation-letter-for-business-schengen-visa-template/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/business/invitation-letter-for-business-schengen-visa-template/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/posts/edu/math-cs/mathematics-basics/</loc>
+    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/posts/edu/math-cs/cs-basics/</loc>
+    <lastmod>2022-11-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://atomx.cc/posts/about/how-to-write-resume/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -286,9 +330,6 @@
                 hreflang="en"
                 href="https://atomx.cc/posts/about/how-to-write-resume/"
                 />
-  </url><url>
-    <loc>https://atomx.cc/tags/marketing/</loc>
-    <lastmod>2022-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/tags/social-media/</loc>
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
@@ -345,6 +386,41 @@
                 href="https://atomx.cc/posts/about/proust-questionnaire/"
                 />
   </url><url>
+    <loc>https://atomx.cc/categories/education/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/tags/english/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/posts/edu/en/english-level-test/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/edu/en/english-level-test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/edu/en/english-level-test/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/tags/online-courses/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/posts/edu/en/english-basic-skills/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/edu/en/english-basic-skills/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/edu/en/english-basic-skills/"
+                />
+  </url><url>
     <loc>https://atomx.cc/posts/about/summary-atom/</loc>
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -369,6 +445,38 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/edu/math-cs/thinking-models_systems-frameworks/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/categories/environment/</loc>
+    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/categories/life/</loc>
+    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/posts/about/interview-list-of-npo/</loc>
+    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/about/interview-list-of-npo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/about/interview-list-of-npo/"
+                />
+  </url><url>
+    <loc>https://atomx.cc/tags/npo/</loc>
+    <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/tags/npo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/tags/npo/"
                 />
   </url><url>
     <loc>https://atomx.cc/posts/edu/math-cs/ibm-data-science/</loc>
@@ -428,9 +536,6 @@
                 hreflang="en"
                 href="https://atomx.cc/posts/about/cases-social-works/"
                 />
-  </url><url>
-    <loc>https://atomx.cc/categories/business/</loc>
-    <lastmod>2017-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/posts/about/cases-business/</loc>
     <lastmod>2017-02-03T00:00:00+00:00</lastmod>

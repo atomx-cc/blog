@@ -12,13 +12,27 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://atomx.cc/tags/ai/</link>
-      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math &amp; CS</title>
+      <link>https://atomx.cc/tags/math--cs/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/math--cs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remote Jobs</title>
+      <link>https://atomx.cc/tags/remote-jobs/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/remote-jobs/</guid>
       <description></description>
     </item>
     <item>
@@ -26,13 +40,6 @@
       <link>https://atomx.cc/tags/internet/</link>
       <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/internet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Math &amp; CS</title>
-      <link>https://atomx.cc/tags/math--cs/</link>
-      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/math--cs/</guid>
       <description></description>
     </item>
     <item>
@@ -57,10 +64,17 @@
       <description></description>
     </item>
     <item>
-      <title>Remote Jobs</title>
-      <link>https://atomx.cc/tags/remote-jobs/</link>
-      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/remote-jobs/</guid>
+      <title>Entrepreneurs</title>
+      <link>https://atomx.cc/tags/entrepreneurs/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/entrepreneurs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marketing</title>
+      <link>https://atomx.cc/tags/marketing/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/marketing/</guid>
       <description></description>
     </item>
     <item>
@@ -71,17 +85,31 @@
       <description></description>
     </item>
     <item>
-      <title>Marketing</title>
-      <link>https://atomx.cc/tags/marketing/</link>
-      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/tags/marketing/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Social Media</title>
       <link>https://atomx.cc/tags/social-media/</link>
       <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/tags/social-media/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>English</title>
+      <link>https://atomx.cc/tags/english/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/english/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online Courses</title>
+      <link>https://atomx.cc/tags/online-courses/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/online-courses/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NPO</title>
+      <link>https://atomx.cc/tags/npo/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/tags/npo/</guid>
       <description></description>
     </item>
     <item>

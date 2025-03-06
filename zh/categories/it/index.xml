@@ -46,34 +46,11 @@
 &lt;p&gt;应用例如，家谱图片转文字、数据库存储、文言文翻译中文简体&lt;/p&gt;</description>
     </item>
     <item>
-      <title>如何配置AI模型做文本翻译？</title>
+      <title>配置 Gemini 翻译参数指南</title>
       <link>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</guid>
-      <description>&lt;p&gt;我们将使用AI模型做多语种的翻译，以 &lt;a href=&#34;https://console.cloud.google.com/vertex-ai/studio/translation&#34;&gt;Google Vertex AI - Translation - Gemini 1.5 pro&lt;/a&gt; 为例。&lt;/p&gt;
-&lt;p&gt;需要配置几个关键参数。&lt;/p&gt;
-&lt;h1 id=&#34;output-token-limit&#34;&gt;Output token limit&lt;/h1&gt;
-&lt;p&gt;输出token令牌限制决定了单次提示的最大文本输出量。一个token大约相当于四个字符。 目前模型的api调取费用非常低，百万token才不到1美元，若中文和各种字符与token兑换比例为1:1，把输入和输出都计费，百万字的文章翻译也不到10美元，普通人可能一年也用不完百万token，超级划算。&lt;/p&gt;
-&lt;p&gt;参考前文：&lt;a href=&#34;../../../zh/posts/it/ai-token-count-with-characters/&#34;&gt;AI模型Token和各种字符的换算计量方法&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;当然这是以开发者的身份的成本计算，如果普通人不会配置云计算平台并调取api，选择使用前端图形化的对话窗口，每个月大约10-20美元的基本订阅费用，普通用户的ai使用成本比开发者高了数十乃至数千倍。&lt;/p&gt;
-&lt;p&gt;所以这里，我们把参数设置到最大，允许输入输出最长的文章。&lt;/p&gt;
-&lt;p&gt;如果每天调取api的量很大，需要节约成本，那么需要精细估算，平均文章的字符数，配置参数相对合适，能节约成本。因为参数配置越大，某些模型的成本越高，即使实际输入输出量没有达到最大token限制。&lt;/p&gt;
-&lt;h1 id=&#34;temperature&#34;&gt;Temperature&lt;/h1&gt;
-&lt;p&gt;temperature 的工作原理：&lt;/p&gt;
-&lt;p&gt;temperature 参数通过调整模型预测的概率分布来影响词汇的选择。具体来说，它会影响每个词汇的概率值。&lt;/p&gt;
-&lt;p&gt;较高的 temperature 值（例如 0.7-1.0）： 会使概率分布更加平坦，这意味着所有可能的词汇的概率都更加接近。这会增加模型选择不太可能出现的词汇的可能性，从而生成更随机、更具创造性的文本。 缺点是，也更容易出现不准确或不合适的词汇。&lt;/p&gt;
-&lt;p&gt;较低的 temperature 值（例如 0.1-0.4）： 会使概率分布更加陡峭，这意味着概率最高的词汇的概率会更加突出。这会降低模型选择不太可能出现的词汇的可能性，从而生成更保守、更可预测的文本。 优点是，翻译结果更准确，更不容易出现错误。&lt;/p&gt;
-&lt;p&gt;temperature = 0.0： 模型将始终选择概率最高的词汇。这会生成非常确定性和可预测的文本，但缺乏创造性。 通常不建议设置为 0，因为可能会导致模型陷入重复循环。&lt;/p&gt;
-&lt;h1 id=&#34;top-p&#34;&gt;top-p&lt;/h1&gt;
-&lt;p&gt;top-p值改变了模型选择输出词的方式。模型会按照概率从高到低选择词，直到词概率之和等于 top-p 值。例如，如果词 A、B 和 C 的概率分别为 0.3、0.2 和 0.1，并且 top-p 值为 0.5，则模型将使用温度参数在 A 或 B 中选择一个作为下一个词。&lt;/p&gt;
-&lt;p&gt;Top-p 的工作原理：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;概率排序： 模型会预测所有可能的下一个词（token）并为其分配一个概率。&lt;/li&gt;
-&lt;li&gt;概率累加： 模型按照概率从高到低的顺序累加这些概率值。&lt;/li&gt;
-&lt;li&gt;截止点： 当累加的概率值达到或超过你设置的 top-p 值时，累加停止。&lt;/li&gt;
-&lt;li&gt;词汇选择： 模型从已累加的词汇中随机选择一个作为下一个生成的词。选择的概率与该词汇的原始概率成正比。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;top-p 参数的作用：&lt;/p&gt;</description>
+      <description>深入解析 temperature 和 top-p 参数对 AI 翻译质量的影响</description>
     </item>
     <item>
       <title>AI辅助编程 - Deepseek</title>
@@ -426,6 +403,84 @@ for(auto p : v) {&lt;br&gt;
 &lt;p&gt;如果&lt;a href=&#34;http://guoyu.mirror.xyz&#34;&gt;郭宇&lt;/a&gt;在字节的时候，天天通过打游戏和刷肥皂剧减压，而不是到日本泡温泉和旅行，他会保住财富和享受今天的美好生活吗？&lt;/p&gt;</description>
     </item>
     <item>
+      <title>做一个技术之外的自媒体</title>
+      <link>https://atomx.cc/zh/posts/it/social-media-beyond-code/</link>
+      <pubDate>Mon, 29 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/social-media-beyond-code/</guid>
+      <description>&lt;p&gt;承接上一篇文章《如何改善程序员的生命质量？》的话题，由于我们的朋友和事业伙伴左耳朵耗子突然离世，引发我们很多人的讨论，其实不必要看具体的数据了，我们周围朋友圈类似的事故报道每年都有。&lt;/p&gt;
+&lt;p&gt;也由于耗子的博客写得不错，给他带来不少流量，也支撑了他的事业，他也总是建议我多写并分享，于是我考虑再三，觉得或许可以开一个介于技术和商业之间的自媒体。&lt;/p&gt;
+&lt;h2 id=&#34;为什么做技术媒体&#34;&gt;为什么做技术媒体&lt;/h2&gt;
+&lt;p&gt;因为技术圈子比较封闭，想要突破行业壁垒不容易，例如2012-2015年“互联网+农业”曾经火了一把，但是您听说过多少成功的创业产品案例？&lt;/p&gt;
+&lt;p&gt;不同专业的人在一起合作挺难的，通过资本和饭碗把人强行绑在一起，其实很勉为其难，越来越多的人其实“不想看在钱的份上为难自己”。&lt;/p&gt;
+&lt;p&gt;而相同专业的人在一起更容易交流，但跨界才可能出现创新和突破，怎么跨界呢？唯有不谈技术和代码，谈点生活和其他方面才能凝聚不同专业的人。&lt;/p&gt;
+&lt;p&gt;此外，为了实现某种专业的技术产品营销，于是通过社交媒体做不同专业的人之间的连接，成了一条可行的路径。&lt;/p&gt;
+&lt;p&gt;不同于大多数的技术类专业媒体对产品报道更多，差异化的缝隙市场，应该关注人，那么侧重点是对人的报道，忽略其技术产品方面的具体内容细节，因为对于智力产品而言，人是最重要的资产。&lt;/p&gt;
+&lt;p&gt;如果人的关注度上升后，可推很多收费的产品或广告，可扩展性很强：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;技术开发者社区；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;移民移居的中介和咨询服务；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;创业合伙人、人力资源招募、婚恋交友；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;为什么to B的媒体比to C 更难收费？因为企业决策过程漫长且流程复杂。&lt;/p&gt;
+&lt;p&gt;如果是 to C 个人购买，看到一档喜欢的节目或某个产品，我们自己直接线上下单就好了，几秒钟或几分钟就完事；&lt;/p&gt;
+&lt;p&gt;如果是 to B 企业购买，需要经过业务部门和财务部门多人开会和领导审批，这阻碍了产品销售的效率。&lt;/p&gt;
+&lt;p&gt;to B的受众相比太少，即使互联网企业和产品，也需要招聘销售代表；&lt;/p&gt;
+&lt;p&gt;to C 的受众体量极其巨大，大多情况下不需要招聘销售人员；&lt;/p&gt;
+&lt;h1 id=&#34;技术之外&#34;&gt;技术之外&lt;/h1&gt;
+&lt;p&gt;采访一些海外的程序员，或让他们写一篇自己的生活质量转变的心路历程，这可能是有看点的，能吸引不少关注，把很多人吸引出来，移民移居到新的环境，换一种活法，这才是终极的解决之道，靠他们自己与大环境对抗是不现实的。&lt;/p&gt;
+&lt;p&gt;日有所思夜有所梦，我经常有“想什么来什么”的奇遇，很巧youtube推荐我看“beyond code 代码之外”这档节目，虽然我不是程序员，但我大多数时间在互联网圈工作，我的周围一直都有程序员。&lt;/p&gt;
+&lt;p&gt;可能技术圈子小且话题门槛高吧，订阅量不如李子柒，最近科技媒体Pingwest 记者Rebbeca 和我谈到我们共同的朋友耳朵耗子，我们也说过工作（代码）之外话题的节目很有必要，希望借此改善很多中国程序员（互联网从业者）的苦憋生活，经常听到“996过劳死”的案例，人生不应该只有代码和虚拟空间。&lt;/p&gt;
+&lt;h2 id=&#34;采访提纲&#34;&gt;采访提纲&lt;/h2&gt;
+&lt;p&gt;于是我站在媒体的角度，设想如何采访程序员或类似工作者，话题例如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;请简单介绍一下自己 &amp;lt; 500字；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;姓名、主要经历、职业履历、教育背景、家庭背景。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;为什么要移居海外？&amp;lt; 500字；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在国内遇到什么问题？为何促成这一转变？列举一些案例的经历和感想。&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;对现在海外的工作和生活满意吗？&amp;lt; 500字；&lt;/p&gt;
+&lt;p&gt;对比以前在国内有什么不一样？&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;能给国内同行一些好的建议吗？&amp;lt; 500字；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;回答网友的一些疑惑或提问&amp;lt; 1000字；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A. 已经在国内成家了，拖家带口不太可能再背井离乡地移民移居了；&lt;/p&gt;
+&lt;p&gt;B. 都说“贫贱不能移”，我太穷了，刚毕业技术也不行，肯定是出不来的；&lt;/p&gt;
+&lt;h2 id=&#34;营销和采访筹划&#34;&gt;营销和采访筹划&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Podcast：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;主持人采访嘉宾的录音，初期不需要录像，节省剪辑时间和维护成本。&lt;/p&gt;
+&lt;p&gt;节目参考：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://37signals.com/podcast/&#34;&gt;Rework&lt;/a&gt;；&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@BeyondCodeFM&#34;&gt;代码之外&lt;/a&gt; ；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;podcast创作平台，例如：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://transistor.fm/&#34;&gt;Transistor.fm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dao.fm/&#34;&gt;Dao.fm&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;受访嘉宾的博客配文，通常由嘉宾自己写一篇，或者直接由录音节目转文字即可；&lt;/li&gt;
+&lt;li&gt;如果受众主要是个人 to C ，那么重点就是采访程序员个人；&lt;/li&gt;
+&lt;li&gt;如果受众主要是企业 to B，那么重点就是采访企业创始人和高管；&lt;/li&gt;
+&lt;li&gt;衍生的垂直行业分类，还可以采访医生、其他各种工程师等容易做技术移民移居的职业群体；&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>如何改善程序员的生命质量？</title>
       <link>https://atomx.cc/zh/posts/it/how-to-improve-chinese-it-workers-lives-quality/</link>
       <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
@@ -492,24 +547,21 @@ for(auto p : v) {&lt;br&gt;
 &lt;p&gt;绝对不像是我周围遇到的那些程序员，无论普通员工还是老板，人人都觉得很苦憋，中国式的悲情。&lt;/p&gt;
 &lt;p&gt;当然资本依然控制着市场，决定着大多数人的命运，甚至还有人信了“DS深层政府”阴谋论。&lt;/p&gt;
 &lt;p&gt;相比较而言，在海外的这些程序员的生活是令人向往的，生命质量更丰满、全面和开放，以及更多掌握自己命运的机会，没有沦为完全的“工具人”角色，这才像个人生。&lt;/p&gt;
-&lt;h1 id=&#34;如何解决问题&#34;&gt;如何解决问题？&lt;/h1&gt;
+&lt;h3 id=&#34;程序员的形象被媒体娱乐化&#34;&gt;程序员的形象被媒体娱乐化&lt;/h3&gt;
 &lt;p&gt;由于很多程序员性格自闭，他们也许适合做计算机系统架构师，但不一定适合做人生的架构师，尽管他们消息灵通，也不乏远见和眼界，但他们不一定会在家庭和人生的重大事务上做出正确和有利的决策。&lt;/p&gt;
 &lt;p&gt;反正程序员只要专心写代码，好好赚钱就可以，带领家庭发展方向的领导职责可能要落到配偶或父母身上。例如：家务管理、移民或移居、投资、孩子教育等重大的家庭责任方面。&lt;/p&gt;
 &lt;p&gt;依靠配偶和直系亲属，任何其他人都不能替代，如果有一个幸福美满的家庭，那么他们就是幸运的，不但能干到70岁退休以后，成为真正骨灰级的程序员，而且身体健康和生活满意度会很高。&lt;/p&gt;
 &lt;p&gt;我们遇到不少人虽然掌握翻墙技能，在网络上和同行吵架，辩论和打打嘴炮还可以，现实世界中的行动力却不一定能与嘴上功夫匹配。而不少家属却完全生活在信息茧房或平行宇宙中，眼界见识与普通人无异，这也让他们普遍心态上很着急，因为在家庭氛围中缺乏信息堆成交流的亲人，这相比其他不会上外网的普通人增加了更多的生活焦虑和烦恼。&lt;/p&gt;
 &lt;p&gt;某种程度而言，程序员的社会形象被媒体过分神话或娱乐化，其实他们大多生活在虚拟的电脑屏幕的两维空间中，唯一的长板是造币能力较强，其他方面与常人无异。&lt;/p&gt;
-&lt;h2 id=&#34;最后总结&#34;&gt;最后总结&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;瘟疫封控的心理摧残&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;左耳朵耗子没有打过疫苗，没有倒在三年残酷的瘟疫封控中，病毒的生理伤害并不可怕，可怕的是这三年极其憋屈的情绪状态，对人心理的折磨摧残，程序员最大的爱好就是不停在社交媒体上讲自己的日常琐碎，苦闷无处排泄，生活在虚拟网络空间的人，这是最适宜的压力排遣方式，耗子的社交账号充分体现了这种程序员特征。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;创业过猛的健康损耗&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;计算机记录了耗子等创业者每天上机的时间，铁证如山，生理健康的损耗，最直接的结果就是心梗，这是行业常发疾病，过劳死也是职业病。&lt;/p&gt;
-&lt;p&gt;耗子还算是比较幸运的，他有非常好的亲情家庭氛围，以及很多拥护他的同行网友们，他不孤单，所以他能有所成就，遗憾的是最终没能战胜时间魔王对生命踩下急刹车。&lt;/p&gt;</description>
+&lt;h2 id=&#34;如何解决问题&#34;&gt;如何解决问题？&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/zijie0/HumanSystemOptimization&#34;&gt;健康学习到150岁 - 人体系统调优不完全指南 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Human System Optimization 人体系统优化，这篇标题很宏大，比较全面地通过现代科学讲解，作者是一个很懂科学养生的程序员。&lt;/p&gt;</description>
     </item>
     <item>
       <title>纪念左耳朵耗子：让我们继续协作奋进</title>
-      <link>https://atomx.cc/zh/posts/life/god/memorial-our-best-friend-chen-hao/</link>
+      <link>https://atomx.cc/zh/posts/god/memorial-our-best-friend-chen-hao/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/life/god/memorial-our-best-friend-chen-hao/</guid>
+      <guid>https://atomx.cc/zh/posts/god/memorial-our-best-friend-chen-hao/</guid>
       <description>&lt;p&gt;今天周一早上起来，我照例先查看工作群，我闻到一丝异常信息，MegaEase网页变灰黑色，很快确证了事故。。。&lt;/p&gt;
 &lt;p&gt;一时脑子有点懵，意识有点恍惚，不知道做什么，穿衣跑出去，到附近的教堂，一个人安静地做个祈祷，我想和皓哥继续经常对话，如同过去几年。&lt;/p&gt;
 &lt;p&gt;然后回来查看网络上，已经有很多网友在分享关于他的故事，他影响了很多人，也包括我。&lt;/p&gt;
@@ -1073,13 +1125,13 @@ not limited to, differences in race, gender, sexual orientation, gender identity
 &lt;p&gt;更多图片检索&lt;a href=&#34;https://gapingvoid.us1.list-manage.com/track/click?u=028de8672d5f9a229f15e9edf&amp;amp;id=b532e1e1b8&amp;amp;e=bbb308db6c&#34;&gt;information-knowledge meme&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;从数据到影响力&#34;&gt;从数据到影响力&lt;/h1&gt;
 &lt;p&gt;演变阶段：数据→ 信息→ 知识→ 洞察力→ 智慧→ 影响力&lt;/p&gt;
-&lt;p&gt;如何将变革转化为运动？&lt;/p&gt;
+&lt;p&gt;如何将变革转化为动能？&lt;/p&gt;
 &lt;p&gt;数据：海量的信息片段，苍白空洞如垃圾；&lt;/p&gt;
 &lt;p&gt;信息：对客观事物描述更丰富的个体数据；&lt;/p&gt;
 &lt;p&gt;知识：描述复杂世界关系，将信息点连线；&lt;/p&gt;
 &lt;p&gt;洞察力：发现知识点之间可能存在的关联，需要眼光、智慧、内省力等品质；&lt;/p&gt;
 &lt;p&gt;智慧：找到实现知识点之间的连接路径和解决方案；&lt;/p&gt;
-&lt;p&gt;影响力 ：路径联通后，由此向空间全方位产生辐射影响力；&lt;/p&gt;
+&lt;p&gt;影响力：路径联通后，由此向空间全方位产生辐射影响力；&lt;/p&gt;
 &lt;p&gt;用&lt;strong&gt;Github&lt;/strong&gt;记录每一个数据data的已知或未知的确定性或不确定性（四种组合）的标记，数据将推演出最终的影响力impact。&lt;/p&gt;
 &lt;p&gt;从源头第1步记录碎片的元数据开始，推导出最后第5,6步的结果。为了明文加密，信息安全和隐私保护，抽象化的结果是，隐藏具体的人物，时间，地点，事件，数字等，这样就做出了通用的模型或框架。&lt;/p&gt;
 &lt;h2 id=&#34;认知层次httpszhuanlanzhihucomp67941177&#34;&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/67941177&#34;&gt;认知层次&lt;/a&gt;&lt;/h2&gt;
@@ -1088,7 +1140,8 @@ not limited to, differences in race, gender, sexual orientation, gender identity
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/DIKW_pyramid&#34;&gt;Wiki：DIKW_pyramid&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://towardsdatascience.com/rootstrap-dikw-model-32cef9ae6dfb&#34;&gt;Data Demystified — DIKW model&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.i-scoop.eu/big-data-action-value-context/dikw-model/&#34;&gt;The DIKW model for knowledge management and data value extraction&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;系统化工程的知识框架体系，结构模型思维，辅助决策。解决集体决策大脑缺失的问题，这样可以解释，独裁机构无法采用群众大脑的集体决策，而只能采纳一小群自然人团体的片面局部决策，因此导致集权组织人祸频发，所以他们一定要从人群中选一个王出来代表集体决策。&lt;/p&gt;
+&lt;p&gt;系统化工程的知识框架体系，结构模型思维，辅助决策。解决集体决策大脑缺失的问题，这样可以解释，中心化（集权制）无法采用群众大脑的集体决策，而只能采纳一小群自然人团体的片面局部决策，因此导致集权组织人祸频发，所以他们一定要从人群中选一个王出来代表集体决策。&lt;/p&gt;
+&lt;p&gt;但中心化有一个极大的优势 - 超高的效率和资源配置能力，这是分布式所不具备的。&lt;/p&gt;
 &lt;p&gt;区块链的树状结构，和集体大脑思维一致，形成总体树干，项目管理上叫WBS。&lt;/p&gt;
 &lt;h1 id=&#34;理论模型&#34;&gt;理论模型&lt;/h1&gt;
 &lt;h2 id=&#34;分形学&#34;&gt;分形学&lt;/h2&gt;
