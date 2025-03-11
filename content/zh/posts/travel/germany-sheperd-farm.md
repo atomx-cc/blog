@@ -5,7 +5,7 @@ description:
 categories:
   - 自然环境
 tags:
-  - 农庄/园艺
+  - 园艺农庄
   - 有机食品
   - 远程工作
 ---

@@ -71,9 +71,11 @@ tags:
 
 [学习如何学习：强大的心里工具帮助掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
 
-[编程和算法](https://www.coursera.org/specializations/biancheng-suanfa)
+[北京大学- C++编程和算法](https://www.coursera.org/specializations/biancheng-suanfa)
 
-[数学思考入门](https://www.coursera.org/learn/mathematical-thinking/)
+[斯坦福大学- 数学思考入门](https://www.coursera.org/learn/mathematical-thinking/)
+
+[杜克大学- C语言专项课](https://www.coursera.org/specializations/c-programming)
 
 [IBM 网络安全分析](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
 

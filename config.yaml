@@ -38,16 +38,26 @@ languages:
           name: About
           url: /about/
           weight: 1
-
+        - identifier: values 
+          name: "Values"
+          url: posts/about/values/  
+          weight: 2
+        - identifier: social
+          name: "Social works"
+          url: posts/about/cases-social-works/
+          weight: 3
+        - identifier: business
+          name: "Business"
+          url: posts/about/cases-business/
+          weight: 4
         - identifier: archives
           name: Archive
           url: /archives/
-          weight: 3
-        
+          weight: 5
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 5
+          weight: 6
 
         - identifier: categories
           name: Categories
@@ -106,8 +116,6 @@ languages:
           name: 酷壳众创
           url: https://coolshell.in/zh/
           weight: 10
-
-       
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
@@ -121,12 +129,12 @@ languages:
         # imageHeight: 120
         subtitle: "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应"
         buttons:
-          - name: "博客"
-            url: posts/
-          - name: "商业案例"
-            url: posts/about/cases-business/
+          - name: "价值观"
+            url: posts/about/values/
           - name: "社会活动"  
             url: posts/about/cases-social-works/
+          - name: "商业案例"
+            url: posts/about/cases-business/
             
       homeInfoParams:
           Title: "欢迎来访!"
@@ -256,13 +264,17 @@ params:
     title: PaperMod
     imageUrl: "#"
     imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    # buttons:
-      # - name: Archives
-      #   url: archives
-      # - name: Tags
-      #   url: tags
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+        - name: "Blog"
+          url: posts/
+        - name: "Business Cases" 
+          url: posts/about/cases-business/
+        - name: "Social Works"
+          url: posts/about/cases-social-works/
+        - name: "Values"
+          url: posts/about/values/  
 
   homeInfoParams:
     Title: 👋 Welcome !  
@@ -278,6 +290,7 @@ params:
       - Load balancing;
 
       - Multi-Site High Availability(Active-Active across multiple locations);
+    
 
   socialIcons:
     - name: Telegram

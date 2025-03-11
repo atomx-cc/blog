@@ -11,7 +11,7 @@ tags:
 ---
 
 
-I used to apply for the environment project of NGO in China, they send an interview list with good questions, such as:
+I used to apply for the environment project of NPO in China, they send an interview list with good questions, such as:
 
 
 # Where did you hear about this project opportunity?

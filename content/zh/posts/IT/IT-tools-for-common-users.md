@@ -1,7 +1,7 @@
 ---
 title: "工作/学习/休闲的软件工具库"
 date: 2019-01-13
-description: 
+description:
 categories:
   - IT
 tags:
@@ -13,12 +13,18 @@ tags:
 适合于普通用户的日常需求
 
 # AI
-更新：2024-10-1，近年来AI爆发，取代了很多传统的互联网服务商，所以过去多年这个网页中所列的很多工具可能将被淘汰，可选的AI很多，例如
+更新：2024-10-1，近年来AI爆发，取代了很多传统的互联网服务商，所以过去多年这个网页中所列的很多工具可能将被淘汰，可选的AI服务商很多，例如
 
 - Google, Vertex AI studio;
 - Microsoft, Copilot;
-- Anthropic, Claud;
-- OpenAI, ChatGPT;
+- [Anthropic](https://www.anthropic.com/), [Claud](https://claude.ai/)
+- [OpenAI](https://openai.com), [ChatGPT](https://chatgpt.com/);
+
+## AI工具集
+
+- [AI工具集 - 成都](https://ai-bot.cn/)
+- [AI工具集 - 海外](https://easywithai.com/)
+
 
 
 # 珍惜资源，增强技能，提升认知
@@ -68,7 +74,7 @@ coursera是我第一个用的，也是最常用的平台，其他两个我用得
 科普讲座 [TED](http://www.ted.com/)
 
 [PechaKucha](https://www.pechakucha.com/)
-‌小TED，遵循 20秒/张 x 20张的演讲格式，起源于日本已经传播至全世界数百万参与者。 
+‌小TED，遵循 20秒/张 x 20张的演讲格式，起源于日本已经传播至全世界数百万参与者。
 
 [CC讲坛演讲指南| 如何做好一场有趣有思想的演讲](https://mp.weixin.qq.com/s/jom6MiYWYqMDtNHtoQRsQg)
 
@@ -92,7 +98,7 @@ coursera是我第一个用的，也是最常用的平台，其他两个我用得
 ## 操作系统
 
 本篇所列的软件都有可以在 win10 和 MacOS 上使用，为了工作便捷选自己熟悉的系统比较好；
-  
+
 - 个人建议尽可能使用苹果，和Linux操作系统，我试过 Manjaro 版本，听说软件库很多，但是由于操作不方便，我还是放弃了，选用了Ubuntu，感觉非常棒，社区支持多，用户能找到教程也多；
 
 ‌
@@ -135,7 +141,7 @@ coursera是我第一个用的，也是最常用的平台，其他两个我用得
 
 按推荐重要程序排序，默认隐私保护，不保存任何浏览记录，除非你更改配置；
 
-首选 [https://www.startpage.com/](https://www.startpage.com/) 
+首选 [https://www.startpage.com/](https://www.startpage.com/)
 
 其次 **Duckduckgo**
 
@@ -192,7 +198,7 @@ coursera是我第一个用的，也是最常用的平台，其他两个我用得
 
 **Quip** [**https://quip.com/**](https://quip.com/) **，**我们最早做字幕组的时候用过的，数十人的团队，分布在10多个国家地区，从未见过面，一样很好滴完成高效率高质量的任务，无需境外网络环境；
 
-[Shimo](https://shimo.im/desktop)，国产软件在国外用起来不方便，一款轻便、简洁的在线协作文档工具，PC端和移动端全覆盖，支持多人同时对文档编辑和评论，让你与他人轻松完成协作撰稿、方案讨论、会议记录和资料 ... 
+[Shimo](https://shimo.im/desktop)，国产软件在国外用起来不方便，一款轻便、简洁的在线协作文档工具，PC端和移动端全覆盖，支持多人同时对文档编辑和评论，让你与他人轻松完成协作撰稿、方案讨论、会议记录和资料 ...
 
 [**Wetransfer**](https://wetransfer.com/)临时存储分享大型文件外链；
 
@@ -203,6 +209,8 @@ coursera是我第一个用的，也是最常用的平台，其他两个我用得
 [**Nextcloud**](https://nextcloud.com/) 开源免费的私有云存储网盘项目，快速便捷搭建一套属于自己或团队的云同步网盘，从而实现跨平台跨设备文件同步、共享、版本控制、团队协作等功能。
 
 [**Wayback Machine**](https://archive.org/)用于保存网页的档案，类似搜索引擎的快照，如果静态页面被删除，以后还能找到。
+
+[Anna的档案](https://annas-archive.org/)，据称是人类历史上最大的完全开放的图书馆，所有的代码和数据都是完全开源的。
 
 
 ## 图片共享
@@ -272,6 +280,6 @@ YouTube，**后台 video studio 非常适合字幕编辑的在线协作**，无�
 
 ## 线上/线下活动召集
 
-[Whova](https://whova.com/)，会议多效率低成本高，从发送会议邀请信，注册付费，日程安排，分发资料，签到登记，社交群组，名片管理，流程管理，酒店/餐饮预订，报销凭证，全过程专业app。每个会议服务费1000$。 
+[Whova](https://whova.com/)，会议多效率低成本高，从发送会议邀请信，注册付费，日程安排，分发资料，签到登记，社交群组，名片管理，流程管理，酒店/餐饮预订，报销凭证，全过程专业app。每个会议服务费1000$。
 
-[活动行](https://www.huodongxing.com/)，主要用于活动报名等活动前端服务，功能可以和Whova互补。 
+[活动行](https://www.huodongxing.com/)，主要用于活动报名等活动前端服务，功能可以和Whova互补。

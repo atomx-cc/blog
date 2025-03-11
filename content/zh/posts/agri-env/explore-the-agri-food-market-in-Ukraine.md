@@ -7,7 +7,7 @@ categories:
   - 农业
 tags:
   - 乌克兰
-  - 农庄/园艺
+  - 园艺农庄
   - 营销
 ---
 
@@ -16,7 +16,7 @@ tags:
 
 The head offices of the large agro-industrial company in Khmelnytskyi 地区的大型农业公司
 
-[https://china.mfa.gov.ua/storage/app/sites/20/2020/%D0%A2%D0%95%D0%9C%202020/invest%20pasports%20oct%202020/khmelnytskii-invest-passport-eng.pdf](https://china.mfa.gov.ua/storage/app/sites/20/2020/%D0%A2%D0%95%D0%9C%202020/invest%20pasports%20oct%202020/khmelnytskii-invest-passport-eng.pdf)
+[Khmelnytskyi Investment Profile](https://china.mfa.gov.ua/storage/app/sites/20/2020/%D0%A2%D0%95%D0%9C%202020/invest%20pasports%20oct%202020/khmelnytskii-invest-passport-eng.pdf)
 
 Svarog West Group
 
