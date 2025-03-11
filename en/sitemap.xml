@@ -550,6 +550,19 @@
                 href="https://atomx.cc/posts/about/cases-business/"
                 />
   </url><url>
+    <loc>https://atomx.cc/posts/about/values/</loc>
+    <lastmod>2000-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/about/values/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/about/values/"
+                />
+  </url><url>
     <loc>https://atomx.cc/archives/</loc>
     <xhtml:link
                 rel="alternate"

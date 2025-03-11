@@ -12,8 +12,48 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI代理和工具</title>
+      <link>https://atomx.cc/zh/posts/it/ai-agent-tools/</link>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/ai-agent-tools/</guid>
+      <description>&lt;h1 id=&#34;项目需求&#34;&gt;项目需求&lt;/h1&gt;
+&lt;p&gt;最近我在整理过去的历史档案，有超过100篇文章需要添加到hugo的文档库中，每篇都要加一个类似如下的头信息front matter：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;AI代理和工具&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2025-03-09&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;categories&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;IT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;tags&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;互联网&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;数学&amp;amp;计算机&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;AI&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每个文件都是个性化的“标题、日期”，甚至“分类、标签”和排序“weight:”也不同。&lt;/p&gt;
+&lt;p&gt;这么多文章一个个手动，我觉着一下子就懒癌发作了，但是我又特别对这些文章感兴趣并想分享出来。我突然灵机一动想到的，或许可以试一下AI代理。&lt;/p&gt;
+&lt;h1 id=&#34;解决方案&#34;&gt;解决方案：&lt;/h1&gt;
+&lt;p&gt;批量处理工具：有一些工具可以帮助你批量处理文件并添加或修改文件中的特定部分。例如，Python 中的 frontmatter 库可以帮助你处理 Markdown 文件的头信息。结合 glob 库，你可以一次性处理多个文件。&lt;/p&gt;
+&lt;p&gt;定制化脚本：你可以编写一个简单的脚本，读取每篇文章的标题、日期、分类、标签等信息，然后生成符合 Hugo 规范的头信息。使用 Python 和 YAML 库，可以轻松实现这一点。&lt;/p&gt;
+&lt;p&gt;AutoGPT 或类似工具：你可以探索使用 AutoGPT 或其他 AI 代理工具，它们可以帮助你自动化处理这些任务。你可以提供特定的任务描述和示例，然后 AI 代理会按照你的要求生成代码或执行任务。&lt;/p&gt;
+&lt;h1 id=&#34;ai代理&#34;&gt;AI代理&lt;/h1&gt;
+&lt;p&gt;也就是模拟人的手，去批量操作，告诉它规则就好了，这么简单的任务应该轻松松就干完了。&lt;/p&gt;
+&lt;p&gt;查看了一下，有以下这些选择：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://manus.im/&#34;&gt;Manus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://claude.ai/&#34;&gt;Claud&lt;/a&gt;, &lt;a href=&#34;https://docs.anthropic.com/en/docs/agents-and-tools/computer-use&#34;&gt;&lt;strong&gt;computer use&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://agpt.co/&#34;&gt;AutoGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lovable.dev/&#34;&gt;Lovable&lt;/a&gt;, &lt;a href=&#34;https://github.com/AntonOsika/gpt-engineer&#34;&gt;Github - Anton Osika&lt;/a&gt;, &lt;a href=&#34;https://chatgpt.com/g/g-WwXQO67cv-gpt-engineer&#34;&gt;GPT Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前国产的Manus很火爆，刚刚在前几天发布了，但是处于测试阶段，需要获得邀请码才能试用；&lt;/p&gt;
+&lt;p&gt;而Anthropic大厂computer use 似乎也是测试状态，需要开发者的终端工作环境中才能用，所以也不算是成熟的产品。&lt;/p&gt;
+&lt;p&gt;而GPT Engineer 主要用来写代码的，非用于日常通用的任务。&lt;/p&gt;
+&lt;p&gt;所以，就只剩下AutoGPT可以试用一下，&lt;/p&gt;
+&lt;h1 id=&#34;体验报告---autogpt&#34;&gt;体验报告 - AutoGPT&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>AI图文处理</title>
       <link>https://atomx.cc/zh/posts/it/ai-image/</link>
@@ -110,9 +150,8 @@
       <link>https://atomx.cc/zh/posts/travel/ukraine-refugee-vitali/</link>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/travel/ukraine-refugee-vitali/</guid>
-      <description>&lt;p&gt;这个胖子活出了乌克兰人的精气神，从他身上我们能看到欧洲人的一切优点。&lt;/p&gt;
-&lt;h1 id=&#34;混乱的邻居&#34;&gt;混乱的邻居&lt;/h1&gt;
-&lt;p&gt;我的邻居Vitali Pasichnuk 来自乌克兰，是一个高大的胖子，他的体重是我的两倍，大腹便便可能接近100公斤，身高超过我15厘米，达到了180厘米以上。&lt;/p&gt;
+      <description>&lt;p&gt;我的邻居Vitali Pasichnuk 来自乌克兰，他活出了乌克兰人的精气神，从他身上我们能看到欧洲人的一切优点。&lt;/p&gt;
+&lt;p&gt;这个大腹便便的胖子，体重是我的两倍，可能接近100公斤，身高超过我15厘米。&lt;/p&gt;
 &lt;p&gt;我不理解的是，他本来是一个高大强壮的人，但因为生活状况混乱，完全违反科学和卫生习惯，这给他带来灾难，他常常处于腹泻或病痛中。&lt;/p&gt;
 &lt;h1 id=&#34;基本症状&#34;&gt;基本症状&lt;/h1&gt;
 &lt;p&gt;他几乎每天夜里发出各种声音，有时大声咳嗽、有时呕吐、时常吐痰。他的肚子一直都不舒服，他时常捂着肚子，从喉咙里发出病人的痛苦呻吟。&lt;/p&gt;
@@ -168,11 +207,12 @@
 &lt;p&gt;我不确定具体他吃了什么药物，可能是毒品，他的症状与毒品使用者非常类似，他一定是长期处于中毒状态，无论是食物中毒，或使用了违禁药物。&lt;/p&gt;
 &lt;p&gt;当然，他们也是烟草和大麻的重度消费者，这也导致其咳嗽和呕吐等症状。&lt;/p&gt;
 &lt;p&gt;当然，我们正常人无法理解使用毒品的行为，这些原本强壮健康的人为何会热衷于把自己身体搞垮？&lt;/p&gt;
-&lt;h2 id=&#34;好心办坏事的公益组织&#34;&gt;好心办坏事的公益组织&lt;/h2&gt;
+&lt;h1 id=&#34;好心办坏事的公益组织&#34;&gt;好心办坏事的公益组织&lt;/h1&gt;
 &lt;p&gt;首选我们需要理解的是，公益组织的帮扶对象是那些弱势者，之所以成为弱势，大多数原因并非身体病症或残疾，而是脑残，也就是他们不会照料自己的人生，即使给他们再多的帮助，他们的生活依然一团糟糕，不是物质生活条件缺乏，而是因为他们的基础教育和培训、生活方式和习惯、心理和行为出了严重的问题。&lt;/p&gt;
 &lt;p&gt;如果人们的生活处于一种无秩序或混乱状态，那么他们不可能好好学习或工作，也就形成恶性循环，导致更贫穷和疾病缠身，一个家庭只要经过一代人这种弱势状态，那么接下来3代人都无法摆脱贫穷和弱势的处境，家庭是社会的细胞，犹如癌症扩散到全身，当家庭、社区、城镇、全社会大范围充满很大比例这种弱势者，这个国家必然衰弱贫穷落后，他们必定需要一个强有力的国王或统治者，才能维持基本社会秩序。&lt;/p&gt;
 &lt;p&gt;所以公益组织的首要任务不是发放救济物资，据我了解，大多数都是浪费的，我们更需要做的是通过生活训练，来帮助这些弱势群体重新过上正常人的生活。&lt;/p&gt;
-&lt;p&gt;欧美流行的“食品银行”销售或赠送临期食品，这本是善举，对于社会、环境和人的教育都有很重大价值，但是这种价值仅仅让中产或知识分子阶层受惠，因为他们本来就生活秩序正常，但这也是他们无所谓的，因为经济能力允许他们可以消费任何高价值东西，完全可以不必吃临期食品，他们能吃下去，不是因为身体需求，而是精神需求，他们要变得更“低碳、环保、节能、简约、生态”。&lt;/p&gt;</description>
+&lt;p&gt;欧美流行的“食品银行”销售或赠送临期食品，这本是善举，对于社会、环境和人的教育都有很重大价值，但是这种价值仅仅让中产或知识分子阶层受惠，因为他们本来就生活秩序正常，但这也是他们无所谓的，因为经济能力允许他们可以消费任何高价值东西，完全可以不必吃临期食品，他们能吃下去，不是因为身体需求，而是精神需求，他们要变得更“低碳、环保、节能、简约、生态”。&lt;/p&gt;
+&lt;p&gt;而对于部分难民或社会弱势群体而言，临期食品确实是救命口粮，但同时也能要了他们的命，因为这些群体缺乏基本的生活常识，或生活自理能力，他们无法辨别物质的材料性质，也不会合理储存或加工食品材料、甚至不会正确食用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>IT管理和培训</title>
@@ -3016,7 +3056,7 @@ for(auto p : v) {&lt;br&gt;
       <guid>https://atomx.cc/zh/posts/agri-env/explore-the-agri-food-market-in-ukraine/</guid>
       <description>&lt;h1 id=&#34;乌克兰食品和农业大型企业&#34;&gt;乌克兰食品和农业大型企业&lt;/h1&gt;
 &lt;p&gt;The head offices of the large agro-industrial company in Khmelnytskyi 地区的大型农业公司&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://china.mfa.gov.ua/storage/app/sites/20/2020/%D0%A2%D0%95%D0%9C%202020/invest%20pasports%20oct%202020/khmelnytskii-invest-passport-eng.pdf&#34;&gt;https://china.mfa.gov.ua/storage/app/sites/20/2020/%D0%A2%D0%95%D0%9C%202020/invest%20pasports%20oct%202020/khmelnytskii-invest-passport-eng.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://china.mfa.gov.ua/storage/app/sites/20/2020/%D0%A2%D0%95%D0%9C%202020/invest%20pasports%20oct%202020/khmelnytskii-invest-passport-eng.pdf&#34;&gt;Khmelnytskyi Investment Profile&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Svarog West Group&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://svarog-agro.com/en/home&#34;&gt;svarog-agro.com/en/home&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Dubovo - agro LLC&lt;/p&gt;
@@ -3048,9 +3088,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;a href=&#34;http://iamfood.pp.ua/&#34;&gt;iamfood&lt;/a&gt;
 &lt;a href=&#34;https://goo.gl/maps/u7AGGQivy8heN5RZ7&#34;&gt;谷歌地图&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在没有充足光照的冬天，芽苗菜和叶类菜还可以生长，但是瓜果类就不太可能了。&lt;/p&gt;
-&lt;p&gt;樱桃农场- 别墅建造商，也喜欢用农场概念&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://evrodim.com/cherry-little-farm&#34;&gt;http://evrodim.com/cherry-little-farm&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://goo.gl/maps/Xig3uj2wrJtPoUg7A&#34;&gt;https://goo.gl/maps/Xig3uj2wrJtPoUg7A&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;樱桃农场- 别墅建造商，也喜欢用农场概念&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用圣经学习外语</title>
@@ -5128,12 +5166,17 @@ not limited to, differences in race, gender, sexual orientation, gender identity
       <guid>https://atomx.cc/zh/posts/it/it-tools-for-common-users/</guid>
       <description>&lt;p&gt;适合于普通用户的日常需求&lt;/p&gt;
 &lt;h1 id=&#34;ai&#34;&gt;AI&lt;/h1&gt;
-&lt;p&gt;更新：2024-10-1，近年来AI爆发，取代了很多传统的互联网服务商，所以过去多年这个网页中所列的很多工具可能将被淘汰，可选的AI很多，例如&lt;/p&gt;
+&lt;p&gt;更新：2024-10-1，近年来AI爆发，取代了很多传统的互联网服务商，所以过去多年这个网页中所列的很多工具可能将被淘汰，可选的AI服务商很多，例如&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Google, Vertex AI studio;&lt;/li&gt;
 &lt;li&gt;Microsoft, Copilot;&lt;/li&gt;
-&lt;li&gt;Anthropic, Claud;&lt;/li&gt;
-&lt;li&gt;OpenAI, ChatGPT;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anthropic.com/&#34;&gt;Anthropic&lt;/a&gt;, &lt;a href=&#34;https://claude.ai/&#34;&gt;Claud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://chatgpt.com/&#34;&gt;ChatGPT&lt;/a&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai工具集&#34;&gt;AI工具集&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai-bot.cn/&#34;&gt;AI工具集 - 成都&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://easywithai.com/&#34;&gt;AI工具集 - 海外&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;珍惜资源增强技能提升认知&#34;&gt;珍惜资源，增强技能，提升认知&lt;/h1&gt;
 &lt;p&gt;只要稍稍用心维护，被认为落后过时的电子产品还是可以继续发挥正常功能作用的，不少对技术有追求的IT从业者，不用最新版本的硬件，经常喜欢用已经落后了1-2代以上的二手产品，自己拼一拼攒一下就继续用，不仅仅是便宜，重要的是珍惜资源不浪费，我们看待硬件就像一个个有机生命体，这也符合极客三观。&lt;/p&gt;
@@ -5174,11 +5217,7 @@ not limited to, differences in race, gender, sexual orientation, gender identity
 &lt;ul&gt;
 &lt;li&gt;个人建议尽可能使用苹果，和Linux操作系统，我试过 Manjaro 版本，听说软件库很多，但是由于操作不方便，我还是放弃了，选用了Ubuntu，感觉非常棒，社区支持多，用户能找到教程也多；&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;‌&lt;/p&gt;
-&lt;h2 id=&#34;私服&#34;&gt;私服&lt;/h2&gt;
-&lt;p&gt;私有云，NAS，软路由，交换机，VPN，家庭影音娱乐的综合解决方案，高效专业团队应该有一套自己的这种装备，有待补充；&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freenas.org/&#34;&gt;NAS&lt;/a&gt;；&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/support/nas_selector&#34;&gt;群晖&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;‌&lt;/p&gt;</description>
     </item>
     <item>
       <title>儿童养育资源清单</title>
@@ -6226,8 +6265,7 @@ XS：崔就是一个大SB，我站在方这一边 ……\&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/internet-history&#34;&gt;互联网历史、技术和安全&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.coursera.org/professional-certificates/google-it-support?&#34;&gt;Google IT 技术支持&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/learning-how-to-learn&#34;&gt;学习如何学习：强大的心里工具帮助掌握难题&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/specializations/biancheng-suanfa&#34;&gt;编程和算法&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/mathematical-thinking/&#34;&gt;数学思考入门&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://www.coursera.org/specializations/biancheng-suanfa&#34;&gt;北京大学- C++编程和算法&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>关于Atom</title>
@@ -6890,7 +6928,7 @@ HR沈X特别希望我不要闹事早点消失，催着短短3天之内赶紧办�
 &lt;p&gt;公司：&lt;a href=&#34;http://megaease.com&#34;&gt;MegaEase Cloud&lt;/a&gt;、&lt;a href=&#34;https://coolshell.in/&#34;&gt;酷壳众创&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;项目概述：&lt;/strong&gt;
 与&lt;a href=&#34;https://coolshell.cn/&#34;&gt;陈皓 - 左耳朵耗子&lt;/a&gt;筹备欧洲&lt;a href=&#34;http://megaease.com&#34;&gt;MegaEase Cloud&lt;/a&gt;云计算公司，探索海外市场代理业务，已递交商业计划到投资孵化器并通过审查，办理商务申根签证过程中，由于合伙人和创始人陈皓突发意外去世，原计划暂搁置。。。&lt;/p&gt;
-&lt;p&gt;受嘱托继续写博客，运营&lt;a href=&#34;https://coolshell.in/&#34;&gt;酷壳众创&lt;/a&gt;，探索海外市场，服务远程工作的创业者，以及中欧之间的技术和商贸文化交流。&lt;/p&gt;
+&lt;p&gt;受嘱托继续写博客，运营&lt;a href=&#34;https://coolshell.in/&#34;&gt;酷壳众创&lt;/a&gt;，探索海外市场，服务远程工作的创业者，以及中欧之间的技术、商贸和文化交流。&lt;/p&gt;
 &lt;h2 id=&#34;乌克兰有机农场&#34;&gt;乌克兰有机农场&lt;/h2&gt;
 &lt;p&gt;时间：2020 -&lt;/p&gt;
 &lt;p&gt;地点：乌克兰. 基辅、波塔瓦&lt;/p&gt;
@@ -7645,6 +7683,39 @@ HR沈X特别希望我不要闹事早点消失，催着短短3天之内赶紧办�
 &lt;p&gt;&lt;strong&gt;出炉&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;经常看到这样的报道“新一届选美大赛名单出炉”，也就是“新鲜的美女出炉”，这群女人经过选美后就成了烤鸭吗？果然是，选美的都不喜欢穿衣服，如同烤鸭被拔了毛，美女们满面红光喜气洋洋，也像那烤得金黄发亮酥脆的烤鸭表皮，揭开皮，里面全是油腻，正好满足中年油腻男的需求。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;量产&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>世界观、人生观、价值观</title>
+      <link>https://atomx.cc/zh/posts/about/values/</link>
+      <pubDate>Thu, 14 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/about/values/</guid>
+      <description>&lt;p&gt;欢迎列举不同民族文化背景的更多类似的成语典故、歇后语、名句！&lt;/p&gt;
+&lt;p&gt;以下为古代和现代中文语境中，我喜欢常分享的三观（世界观、人生观、价值观），通常用于描述两种截然不同的生活态度。&lt;/p&gt;
+&lt;h1 id=&#34;积极和主动的&#34;&gt;积极和主动的&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;君子必慎其所居，择邻而居(Jūn zǐ bì shèn qí suǒ jū, zé lín ér jū.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解释：环境能够影响人的气质和身体，所以有追求的人一定要慎重选择居住的地方，选择好的邻居和环境。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;近朱者赤，近墨者黑(Jìn zhū zhě chì, jìn mò zhě hēi.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解释：靠近朱砂的人会被染成红色，靠近墨水的人会被染成黑色，形容生活环境（好或坏）对人的影响很大，慎重选择朋友、邻居和合作伙伴。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不改进，毋宁死！(Bù gǎi jìn, wú nìng sǐ!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解释：人必须一种强烈的追求进步和不断改进的决心，如果不能改进和进步，就宁愿死去，对自我提升和追求卓越的坚定信念。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;没有改进的人生不值得过！(Méi yǒu gǎi jìn de rén shēng bù zhí dé guò!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解释：如果我们不追求改进和提升，生活就会缺乏意义和激情。在各个方面不断挑战自我，追求卓越。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;穷则独善其身，富则达济天下！(Qióng zé dú shàn qí shēn, fù zé dá jì tiān xià!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解释：当我们处于贫困状态时，应当修身养性，自我完善；而当我们有能力和资源时，应当帮助他人，造福社会。人在不同境遇下的不同责任，在困境中保持自我修养，而在富足时积极回馈社会。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先天下之忧而忧，后天下之乐而乐！(Xiān tiān xià zhī yōu ér yōu, hòu tiān xià zhī lè ér lè!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解释：必须高度的社会责任感和奉献精神，始终把社会和他人的问题当作自己的问题，只要社会还存在不公义，我们就应该不停歇地奋斗至死。&lt;/p&gt;</description>
     </item>
     <item>
       <title>图书/影片/学习资源推荐</title>

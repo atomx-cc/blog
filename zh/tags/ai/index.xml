@@ -12,8 +12,48 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI代理和工具</title>
+      <link>https://atomx.cc/zh/posts/it/ai-agent-tools/</link>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/ai-agent-tools/</guid>
+      <description>&lt;h1 id=&#34;项目需求&#34;&gt;项目需求&lt;/h1&gt;
+&lt;p&gt;最近我在整理过去的历史档案，有超过100篇文章需要添加到hugo的文档库中，每篇都要加一个类似如下的头信息front matter：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;AI代理和工具&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2025-03-09&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;categories&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;IT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;tags&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;互联网&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;数学&amp;amp;计算机&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;AI&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;weight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;每个文件都是个性化的“标题、日期”，甚至“分类、标签”和排序“weight:”也不同。&lt;/p&gt;
+&lt;p&gt;这么多文章一个个手动，我觉着一下子就懒癌发作了，但是我又特别对这些文章感兴趣并想分享出来。我突然灵机一动想到的，或许可以试一下AI代理。&lt;/p&gt;
+&lt;h1 id=&#34;解决方案&#34;&gt;解决方案：&lt;/h1&gt;
+&lt;p&gt;批量处理工具：有一些工具可以帮助你批量处理文件并添加或修改文件中的特定部分。例如，Python 中的 frontmatter 库可以帮助你处理 Markdown 文件的头信息。结合 glob 库，你可以一次性处理多个文件。&lt;/p&gt;
+&lt;p&gt;定制化脚本：你可以编写一个简单的脚本，读取每篇文章的标题、日期、分类、标签等信息，然后生成符合 Hugo 规范的头信息。使用 Python 和 YAML 库，可以轻松实现这一点。&lt;/p&gt;
+&lt;p&gt;AutoGPT 或类似工具：你可以探索使用 AutoGPT 或其他 AI 代理工具，它们可以帮助你自动化处理这些任务。你可以提供特定的任务描述和示例，然后 AI 代理会按照你的要求生成代码或执行任务。&lt;/p&gt;
+&lt;h1 id=&#34;ai代理&#34;&gt;AI代理&lt;/h1&gt;
+&lt;p&gt;也就是模拟人的手，去批量操作，告诉它规则就好了，这么简单的任务应该轻松松就干完了。&lt;/p&gt;
+&lt;p&gt;查看了一下，有以下这些选择：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://manus.im/&#34;&gt;Manus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://claude.ai/&#34;&gt;Claud&lt;/a&gt;, &lt;a href=&#34;https://docs.anthropic.com/en/docs/agents-and-tools/computer-use&#34;&gt;&lt;strong&gt;computer use&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://agpt.co/&#34;&gt;AutoGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lovable.dev/&#34;&gt;Lovable&lt;/a&gt;, &lt;a href=&#34;https://github.com/AntonOsika/gpt-engineer&#34;&gt;Github - Anton Osika&lt;/a&gt;, &lt;a href=&#34;https://chatgpt.com/g/g-WwXQO67cv-gpt-engineer&#34;&gt;GPT Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;目前国产的Manus很火爆，刚刚在前几天发布了，但是处于测试阶段，需要获得邀请码才能试用；&lt;/p&gt;
+&lt;p&gt;而Anthropic大厂computer use 似乎也是测试状态，需要开发者的终端工作环境中才能用，所以也不算是成熟的产品。&lt;/p&gt;
+&lt;p&gt;而GPT Engineer 主要用来写代码的，非用于日常通用的任务。&lt;/p&gt;
+&lt;p&gt;所以，就只剩下AutoGPT可以试用一下，&lt;/p&gt;
+&lt;h1 id=&#34;体验报告---autogpt&#34;&gt;体验报告 - AutoGPT&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>AI图文处理</title>
       <link>https://atomx.cc/zh/posts/it/ai-image/</link>
@@ -611,12 +651,17 @@ for(auto p : v) {&lt;br&gt;
       <guid>https://atomx.cc/zh/posts/it/it-tools-for-common-users/</guid>
       <description>&lt;p&gt;适合于普通用户的日常需求&lt;/p&gt;
 &lt;h1 id=&#34;ai&#34;&gt;AI&lt;/h1&gt;
-&lt;p&gt;更新：2024-10-1，近年来AI爆发，取代了很多传统的互联网服务商，所以过去多年这个网页中所列的很多工具可能将被淘汰，可选的AI很多，例如&lt;/p&gt;
+&lt;p&gt;更新：2024-10-1，近年来AI爆发，取代了很多传统的互联网服务商，所以过去多年这个网页中所列的很多工具可能将被淘汰，可选的AI服务商很多，例如&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Google, Vertex AI studio;&lt;/li&gt;
 &lt;li&gt;Microsoft, Copilot;&lt;/li&gt;
-&lt;li&gt;Anthropic, Claud;&lt;/li&gt;
-&lt;li&gt;OpenAI, ChatGPT;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.anthropic.com/&#34;&gt;Anthropic&lt;/a&gt;, &lt;a href=&#34;https://claude.ai/&#34;&gt;Claud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt;, &lt;a href=&#34;https://chatgpt.com/&#34;&gt;ChatGPT&lt;/a&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ai工具集&#34;&gt;AI工具集&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ai-bot.cn/&#34;&gt;AI工具集 - 成都&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://easywithai.com/&#34;&gt;AI工具集 - 海外&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;珍惜资源增强技能提升认知&#34;&gt;珍惜资源，增强技能，提升认知&lt;/h1&gt;
 &lt;p&gt;只要稍稍用心维护，被认为落后过时的电子产品还是可以继续发挥正常功能作用的，不少对技术有追求的IT从业者，不用最新版本的硬件，经常喜欢用已经落后了1-2代以上的二手产品，自己拼一拼攒一下就继续用，不仅仅是便宜，重要的是珍惜资源不浪费，我们看待硬件就像一个个有机生命体，这也符合极客三观。&lt;/p&gt;
@@ -657,11 +702,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;个人建议尽可能使用苹果，和Linux操作系统，我试过 Manjaro 版本，听说软件库很多，但是由于操作不方便，我还是放弃了，选用了Ubuntu，感觉非常棒，社区支持多，用户能找到教程也多；&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;‌&lt;/p&gt;
-&lt;h2 id=&#34;私服&#34;&gt;私服&lt;/h2&gt;
-&lt;p&gt;私有云，NAS，软路由，交换机，VPN，家庭影音娱乐的综合解决方案，高效专业团队应该有一套自己的这种装备，有待补充；&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.freenas.org/&#34;&gt;NAS&lt;/a&gt;；&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.synology.com/zh-cn/support/nas_selector&#34;&gt;群晖&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;‌&lt;/p&gt;</description>
     </item>
     <item>
       <title>PSMD管理体系设计和实施</title>
