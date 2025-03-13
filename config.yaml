@@ -190,7 +190,7 @@ languages:
           weight: 9
 
         - identifier: Coolshell
-          name: Coolshell Crowdsourcing
+          name: Coolshell.in
           url: https://coolshell.in/nl/
           weight: 10
     
