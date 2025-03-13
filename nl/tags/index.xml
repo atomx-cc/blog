@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Atom.X</title>
+    <link>https://atomx.cc/nl/tags/</link>
+    <description>Recent content in Tags on Atom.X</description>
+    <image>
+      <title>Atom.X</title>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>nl</language>
+    <copyright>Atom.X</copyright>
+    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://atomx.cc/nl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV</title>
+      <link>https://atomx.cc/nl/tags/cv/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/nl/tags/cv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sociale Media</title>
+      <link>https://atomx.cc/nl/tags/sociale-media/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/nl/tags/sociale-media/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NPO</title>
+      <link>https://atomx.cc/nl/tags/npo/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/nl/tags/npo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

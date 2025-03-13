@@ -27,8 +27,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/"
+                hreflang="nl"
+                href="https://atomx.cc/nl/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -45,8 +45,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/categories/"
+                hreflang="nl"
+                href="https://atomx.cc/nl/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -76,6 +76,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/"
                 />
@@ -89,8 +94,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/tags/"
+                hreflang="nl"
+                href="https://atomx.cc/nl/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -297,6 +302,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/questionnaire-of-helpx-guest/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/questionnaire-of-helpx-guest/"
                 />
@@ -396,6 +406,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/how-to-write-resume/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/how-to-write-resume/"
                 />
@@ -433,6 +448,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/faq-personal-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/faq-personal-atom/"
                 />
@@ -443,6 +463,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/faq-personal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/faq-personal/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -459,6 +484,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/proust-questionnaire/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/proust-questionnaire/"
                 />
@@ -469,6 +499,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/proust-questionnaire-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/proust-questionnaire-atom/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -565,6 +600,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/summary-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/summary-atom/"
                 />
@@ -636,6 +676,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/tags/npo/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/tags/npo/"
                 />
@@ -646,6 +691,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/interview-list-of-npo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/interview-list-of-npo/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -686,6 +736,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/daily-to-do-list/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/daily-to-do-list/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -747,6 +802,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/education-training/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/education-training/"
                 />
@@ -757,6 +817,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -809,6 +874,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/cases-social-works/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/cases-social-works/"
                 />
@@ -819,6 +889,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/cases-business/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/cases-business/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -883,6 +958,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="nl"
+                href="https://atomx.cc/nl/posts/about/values/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/values/"
                 />
@@ -898,8 +978,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/archives/"
+                hreflang="nl"
+                href="https://atomx.cc/nl/archives/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -915,8 +995,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/series/"
+                hreflang="nl"
+                href="https://atomx.cc/nl/series/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -932,8 +1012,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://atomx.cc/ru/search/"
+                hreflang="nl"
+                href="https://atomx.cc/nl/search/"
                 />
     <xhtml:link
                 rel="alternate"
