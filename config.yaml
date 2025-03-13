@@ -279,8 +279,14 @@ outputs:
 params:
   math: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: "Atom.X - An Passionate Software Developer and IT worker"
+  keywords: 
+    - Cloud Computing
+    - High Availability,
+    - Load Balancing
+    - Disaster Recovery
+    - Multi-Site High Availability
+  author: "Atom.X"
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
@@ -297,7 +303,6 @@ params:
   ShowPageNums: true
 
   # Global default front matter
-  author: "Atom.X"
   ShowToc: true
   TocOpen: true
   # TOC position configuration
