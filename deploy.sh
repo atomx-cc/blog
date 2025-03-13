@@ -46,6 +46,8 @@ git push origin gh-pages
 cd ..
 
 echo "Deployment complete!"
+# if the git push can not be success, wait for a while and try again
+# or cd public and run the git push command manually.
 
 # test local webpage
 # hugo serve -D

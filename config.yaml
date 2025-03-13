@@ -150,60 +150,123 @@ languages:
             - Load balancing;
 
             - Multi-Site High Availability(Active-Active across multiple locations), several live places in urban and rural areas;
-          
-          
-  ru:
-    languageName: "Pусский"
-    contentDir: content/ru
-    weight: 3
-    title: "Атом.X"
+  
+  nl:
+    languageName: "Nederlands"
+    contentDir: content/nl
+    #languagedirection: ltr
+    weight: 2
+    title: Atom.X
     taxonomies:
       category: categories
       tag: tags
       series: series
+
     menu:
       main:
         - identifier: about
-          name: "обо мне"
+          name: "Over"
           url: about/
-          weight: 1      
+          weight: 1
+
         - identifier: archives
-          name: "Архив"
+          name: "Archief"
           url: archives/
           weight: 3
+        
         - identifier: tags
-          name: "Теги"
+          name: "Tags"
           url: tags/
           weight: 5
+        
         - identifier: categories
-          name: "Категории"
+          name: "Categorieën"
           url: categories/
           weight: 8
+        
         - identifier: search
-          name: "Поиск"
+          name: "Zoeken"
           url: search/
           weight: 9
+
         - identifier: Coolshell
-          name: Coolshell.in
-          url: https://coolshell.in/ru/
+          name: Coolshell Crowdsourcing
+          url: https://coolshell.in/nl/
           weight: 10
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
-      languageAltTitle: Rусский
+      languageAltTitle: "Nederlands"
       profileMode:
         enabled: true
-        title: PaperMod
+        title: "Welkom!"
         imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
         imageTitle: ProfileMode image
         # imageWidth: 120
         # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+        subtitle: "☄️ Hoge concurrentie - Hoge beschikbaarheid | ☁️ Multi-site failover | 🌙 Load balancing | ⚡️ Snelle respons | 📱 Adaptief"
         buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+          - name: "Waarden"
+            url: posts/about/values/
+          - name: "Maatschappelijke activiteiten"  
+            url: posts/about/cases-social-works/
+          - name: "Zakelijke cases"
+            url: posts/about/cases-business/
+          - name: "Onderwijs en training"
+            url: posts/about/education-training/
+          
+  # ru:
+  #   languageName: "Pусский"
+  #   contentDir: content/ru
+  #   weight: 3
+  #   title: "Атом.X"
+  #   taxonomies:
+  #     category: categories
+  #     tag: tags
+  #     series: series
+  #   menu:
+  #     main:
+  #       - identifier: about
+  #         name: "обо мне"
+  #         url: about/
+  #         weight: 1      
+  #       - identifier: archives
+  #         name: "Архив"
+  #         url: archives/
+  #         weight: 3
+  #       - identifier: tags
+  #         name: "Теги"
+  #         url: tags/
+  #         weight: 5
+  #       - identifier: categories
+  #         name: "Категории"
+  #         url: categories/
+  #         weight: 8
+  #       - identifier: search
+  #         name: "Поиск"
+  #         url: search/
+  #         weight: 9
+  #       - identifier: Coolshell
+  #         name: Coolshell.in
+  #         url: https://coolshell.in/ru/
+  #         weight: 10
+    
+  #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
+  #   params:
+  #     languageAltTitle: Rусский
+  #     profileMode:
+  #       enabled: true
+  #       title: PaperMod
+  #       imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+  #       imageTitle: ProfileMode image
+  #       # imageWidth: 120
+  #       # imageHeight: 120
+  #       subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+  #       buttons:
+  #         - name: Blog
+  #           url: posts
+  #         - name: Profile Mode
+  #           url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
   
 
