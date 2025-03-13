@@ -35,5 +35,4 @@ In recent years, with the pandemics and war, I have often felt a strong sense of
 
 Looking for business partners: Create shared offices and living spaces with garden and farm for remote working partners, develop software and online businesses that are beneficial to society.
 
-
-[Photo: Sailing on the Rhine in April 2022]
+<center><img src="/images/atom-s.jpg" width="500" alt="Photo: Sailing on the Rhine in April 2022"></center>

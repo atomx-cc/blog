@@ -1,5 +1,5 @@
 ---
-title: "Opleiding"
+title: "Onderwijs en Opleiding"
 date: 2017-09-17
 categories:
   - Over

@@ -33,6 +33,4 @@ Met het uitbreken van de pandemie en de oorlog heb ik de laatste jaren een gevoe
 
 Ik ben op zoek naar zakenpartners om te onderzoeken hoe we in verschillende culturele en natuurlijke omgevingen op alle continenten gedeelde werk- en leefruimtes met tuinbouwbedrijven kunnen creëren. Deze ruimtes kunnen worden gebruikt door partners die op afstand werken en samenwerken aan de ontwikkeling van maatschappelijk relevante software en onlinebedrijven, om zo bij te dragen aan een betere toekomst.
 
-![Foto: Varen op de Rijn, april 2022](https://photos.app.goo.gl/VzoKUN6gN31x79258)
-
-
+<center><img src="/images/atom-s.jpg" width="500" alt="Foto: Varen op de Rijn, april 2022"></center>
