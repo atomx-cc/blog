@@ -12,8 +12,369 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>模型配置探索和调试</title>
+      <link>https://atomx.cc/zh/posts/it/model-configuration-debug/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/model-configuration-debug/</guid>
+      <description>&lt;p&gt;我们想调用 Cloud Translation API ，使用预训练的Translation LLM 模型，可以直接用于翻译，如何配置参数 MODEL_NAME ？&lt;/p&gt;
+&lt;h1 id=&#34;模型名称和地点&#34;&gt;模型名称和地点？&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;google.cloud&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;translate_v3&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;translate&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;google.oauth2&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;service_account&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# --- Configuration ---&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;PROJECT_ID&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;environ&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;GOOGLE_CLOUD_PROJECT&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;LOCATION&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;global&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;CREDENTIALS_PATH&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;environ&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;GOOGLE_APPLICATION_CREDENTIALS&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;MODEL_NAME&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; ?? &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;找遍了Cloud Translation API 的相关说明文档，其中确实有LLM模型，但没有看到模型在程序中的名称定义，也不清楚服务地点，这有些诡异；&lt;/p&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://cloud.google.com/vertex-ai/generative-ai/docs/translate/translate-text?#translation_llm&#34;&gt;Generative AI - 翻译文字&lt;/a&gt;中，确实能找到一个定义是&lt;code&gt;general/translation-llm&lt;/code&gt;，使用 Vertex AI Endpoint调用，这就复杂了，而且endpoint 价格挺贵的。&lt;/p&gt;
+&lt;p&gt;然后进入 &lt;a href=&#34;https://console.cloud.google.com/vertex-ai/studio/translation&#34;&gt;Vertex ai studio - translation - translation LLM&lt;/a&gt;，找到模型的&lt;code&gt;Get code&lt;/code&gt;，发现&lt;code&gt;adaptive_mt_translate()&lt;/code&gt;，它是关于自适应机器翻译，如何使用 Google Cloud Translation API 的 Adaptive Machine Translation (Adaptive MT) 功能，这确实涉及到使用自定义数据集训练模型，这又变复杂了，所以这条路径也是错的。&lt;/p&gt;
+&lt;h1 id=&#34;listmodels&#34;&gt;ListModels&lt;/h1&gt;
+&lt;p&gt;然后我们写了一个小程序&lt;code&gt;output-api-model.py&lt;/code&gt;，用来检测一下到底可以用什么，实现以下功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;尝试在多个区域（global, us-central1, europe-west4, asia-northeast1）检查 Translation API 的可用性&lt;/li&gt;
+&lt;li&gt;列出每个区域支持的语言数量&lt;/li&gt;
+&lt;li&gt;列出每个区域可用的自定义翻译模型&lt;/li&gt;
+&lt;li&gt;测试默认翻译模型的可用性&lt;/li&gt;
+&lt;li&gt;特别测试 LLM 翻译模型 (general/translation-llm) 的可用性&lt;/li&gt;
+&lt;li&gt;测试基础翻译模型 (general/base) 的可用性&lt;/li&gt;
+&lt;li&gt;如果 Translation API 不可用，尝试检查 Vertex AI 的翻译能力&lt;/li&gt;
+&lt;li&gt;提供一个汇总，列出所有可用的翻译模型和 API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使用Translation API的ListModels方法，列出当前的google cloud 环境变量中，我们实际可用的模型和 API，程序会尝试实际调用这些 API 和模型，以确认它们是否真正可用。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Cloud Translation API LLM 翻译工具解析</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-llm/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api-llm/</guid>
+      <description>&lt;p&gt;这是一个基于Google Cloud Translation API的自动化翻译工具，专为批量处理文档而设计。该工具能够智能识别文件语言，仅翻译需要翻译的内容，并且保留原始文档的格式和结构。它特别适合需要维护多语言文档库的团队和个人。&lt;/p&gt;
+&lt;p&gt;搜索本人的Github库 - &lt;code&gt;Gcloud-translation-api-llm.py&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;核心功能&#34;&gt;核心功能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;智能语言检测&lt;/strong&gt;：使用&lt;code&gt;langdetect&lt;/code&gt;库自动识别文档实际语言&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;选择性翻译&lt;/strong&gt;：仅翻译非目标语言的文档，避免重复处理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;格式保留&lt;/strong&gt;：在翻译过程中保持原始文档的所有格式元素&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多种文件支持&lt;/strong&gt;：支持Markdown、YAML、纯文本等多种文件格式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动重试机制&lt;/strong&gt;：处理API限制和临时错误，确保翻译任务完成&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高效处理&lt;/strong&gt;：通过预处理和智能跳过，优化翻译流程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;技术架构&#34;&gt;技术架构&lt;/h2&gt;
+&lt;h3 id=&#34;配置模块&#34;&gt;配置模块&lt;/h3&gt;
+&lt;p&gt;工具通过环境变量和预设常量进行配置，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Cloud项目信息&lt;/li&gt;
+&lt;li&gt;翻译语言设置（源语言和目标语言）&lt;/li&gt;
+&lt;li&gt;API访问凭证&lt;/li&gt;
+&lt;li&gt;翻译模型选择&lt;/li&gt;
+&lt;li&gt;目标目录设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;语言处理模块&#34;&gt;语言处理模块&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;detect_language()&lt;/code&gt;: 检测文本语言&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;preprocess_file_type()&lt;/code&gt;: 预处理文件内容，移除格式符号以便准确检测语言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;翻译核心模块&#34;&gt;翻译核心模块&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;translate_text_with_llm()&lt;/code&gt;: 使用Google Cloud Translation API进行实际翻译&lt;/li&gt;
+&lt;li&gt;实现了API调用频率限制和自动重试机制&lt;/li&gt;
+&lt;li&gt;处理翻译请求的构建和发送&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;文件处理模块&#34;&gt;文件处理模块&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;get_file_type()&lt;/code&gt;: 识别文件类型&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;is_already_translated()&lt;/code&gt;: 判断文件是否需要翻译&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;process_files()&lt;/code&gt;: 处理目录中的所有文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;工作流程&#34;&gt;工作流程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;初始化&lt;/strong&gt;：验证环境变量，初始化Google Cloud客户端&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文件遍历&lt;/strong&gt;：递归遍历目标目录中的所有文件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;语言检测&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;读取文件内容&lt;/li&gt;
+&lt;li&gt;预处理内容以移除格式元素&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;langdetect&lt;/code&gt;检测实际语言&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;翻译决策&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;如果文件已经是目标语言，则跳过&lt;/li&gt;
+&lt;li&gt;否则，将文件内容发送给翻译API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;保存结果&lt;/strong&gt;：将翻译后的内容写回原文件，保留原始格式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;优势特点&#34;&gt;优势特点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;精确的语言检测&lt;/strong&gt;：通过预处理移除格式元素，确保语言检测的准确性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高效的资源利用&lt;/strong&gt;：只翻译必要的文件，避免重复处理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;格式完整保留&lt;/strong&gt;：翻译过程不会破坏文档的原始格式和结构&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可靠的错误处理&lt;/strong&gt;：完善的日志记录和错误重试机制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;易于扩展&lt;/strong&gt;：模块化设计使其易于添加新功能或支持新文件类型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;设置与使用&#34;&gt;设置与使用&lt;/h2&gt;
+&lt;h3 id=&#34;环境设置&#34;&gt;环境设置&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;确保已安装必要的Python库：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install google-cloud-translate langdetect pyyaml ratelimit
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;设置Google Cloud环境变量：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI相关概念定义、区别和关系</title>
+      <link>https://atomx.cc/zh/posts/it/ai-concepts/</link>
+      <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/ai-concepts/</guid>
+      <description>&lt;p&gt;这些与AI相关的术语在，各自有着不同的涵义和应用领域。以下是它们的关系与区别：&lt;/p&gt;
+&lt;h3 id=&#34;1-人工智能-ai&#34;&gt;1. &lt;strong&gt;人工智能 (AI)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;概念&lt;/strong&gt;：人工智能是一个广义的术语，指的是任何能够模拟人类智能的技术或系统。&lt;br&gt;
+&lt;strong&gt;应用&lt;/strong&gt;：包括图像识别、语音识别、自动驾驶、推荐系统等。&lt;/p&gt;
+&lt;p&gt;AI 是其他三个概念(LLM, AGI, GAI)的母体或大框架。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;2-大模型语言-large-language-models-llms&#34;&gt;2. &lt;strong&gt;大模型语言 (Large Language Models, LLMs)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;概念&lt;/strong&gt;：大模型语言是人工智能的一个子领域，专注于处理人类语言。它通常通过海量数据训练，拥有数以亿计或甚至千亿计的参数，用以理解、生成和翻译自然语言。&lt;br&gt;
+&lt;strong&gt;例子&lt;/strong&gt;：像 OpenAI 的 GPT 和 Google 的 Gemini 系列模型就是典型的LLM。&lt;br&gt;
+&lt;strong&gt;应用&lt;/strong&gt;：可用于对话生成、内容撰写、代码生成等。&lt;/p&gt;
+&lt;p&gt;LLMs 是生成式人工智能的技术基础之一。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;3-生成式人工智能-generative-ai&#34;&gt;3. &lt;strong&gt;生成式人工智能 (Generative AI)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;概念&lt;/strong&gt;：生成式 AI 是一种专注于“创造”的人工智能，能够生成文本、图像、音频、代码等内容。&lt;br&gt;
+&lt;strong&gt;应用&lt;/strong&gt;：文本生成（如文章、对话）、图像生成（如插画、设计）、音乐创作、甚至影视特效。&lt;br&gt;
+&lt;strong&gt;例子&lt;/strong&gt;：GPT 系列、DALL·E、Stable Diffusion。&lt;/p&gt;
+&lt;p&gt;生成式 AI 常常依赖于大语言模型或类似的生成模型。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;4-通用人工智能-artificial-general-intelligence-agi&#34;&gt;4. &lt;strong&gt;通用人工智能 (Artificial General Intelligence, AGI)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;概念&lt;/strong&gt;：AGI 是人工智能的终极目标，指能够像人类一样在任意任务上表现出智能的系统。它不受特定领域限制，具备学习、推理和理解的能力。&lt;br&gt;
+&lt;strong&gt;状态&lt;/strong&gt;：目前 AGI 尚未实现，但许多研究者和公司（如 OpenAI 和 DeepMind）都致力于这一方向。&lt;/p&gt;
+&lt;p&gt;通用人工智能是人工智能的未来愿景，与当前的 AI 技术还有一定距离。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;总结&#34;&gt;总结&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;人工智能&lt;/strong&gt; 是总括性概念，涵盖了 LLMs、生成式 AI 和 AGI 等分支。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;大模型语言&lt;/strong&gt; 是一种特化工具，主要聚焦于语言处理。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生成式人工智能&lt;/strong&gt; 是一种应用技术，强调创造性输出。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通用人工智能&lt;/strong&gt; 是更高层次的目标，旨在实现跨领域的全面智能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;人工智能领域还有许多相关的重要概念，它们丰富了这个生态系统。以下是几个常见的相关概念及其含义：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google AI模型的使用方式和适用场景</title>
+      <link>https://atomx.cc/zh/posts/it/ai-model-usage-scenarios/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/ai-model-usage-scenarios/</guid>
+      <description>&lt;p&gt;当我们使用模型, 例如Google Gemini 1.5 Pro，它有多种使用方式，适用场景有所不同：&lt;/p&gt;
+&lt;h1 id=&#34;1-vertex-ai-studio&#34;&gt;&lt;strong&gt;1. Vertex AI Studio：&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适用场景：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;主要面向开发者和企业用户，用于构建和部署生成式 AI 应用。&lt;/li&gt;
+&lt;li&gt;提供丰富的工具和 API，支持模型微调、部署和管理。&lt;/li&gt;
+&lt;li&gt;适合需要高度定制化和集成到现有工作流程的用户。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用方式：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;通过 &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI Studio&lt;/a&gt; 的控制台界面进行交互。&lt;/li&gt;
+&lt;li&gt;通过 Vertex AI 的 API 进行编程调用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;优点：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;强大的定制化能力。&lt;/li&gt;
+&lt;li&gt;与 &lt;a href=&#34;cloud.google.com&#34;&gt;Google Cloud&lt;/a&gt; 生态系统的深度集成。&lt;/li&gt;
+&lt;li&gt;适合商业应用和大规模部署。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺点：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;需要一定的技术基础。&lt;/li&gt;
+&lt;li&gt;是付费服务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;2-gemini官网&#34;&gt;&lt;strong&gt;2. Gemini官网：&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适用场景：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;面向普通用户，提供简单易用的交互界面。&lt;/li&gt;
+&lt;li&gt;适合日常使用，如信息查询、内容生成、创意启发等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用方式：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;访问 &lt;a href=&#34;https://gemini.google.com&#34;&gt;Gemini官网&lt;/a&gt;，直接在对话框中进行交互。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;优点：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;简单易用，无需编程基础。&lt;/li&gt;
+&lt;li&gt;适合快速体验和日常使用。&lt;/li&gt;
+&lt;li&gt;目前一部分功能免费使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺点：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;定制化能力有限。&lt;/li&gt;
+&lt;li&gt;不适合大规模部署和商业应用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;3-通过程序调用-api&#34;&gt;&lt;strong&gt;3. 通过程序调用 API：&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适用场景：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;面向开发者，需要将 Gemini 1.5 Pro 集成到自己的应用程序或系统中。&lt;/li&gt;
+&lt;li&gt;适合需要高度灵活性和定制化的用户。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用方式：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;通过 Google Cloud 的 Gemini API，使用编程语言（如 Python、Java 等）进行调用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;优点：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;高度灵活性和定制化。&lt;/li&gt;
+&lt;li&gt;可以集成到任何应用程序或系统中。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺点：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;需要一定的编程基础。&lt;/li&gt;
+&lt;li&gt;需要处理 API 调用和数据处理等技术细节。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何选择模型版本？ - 编程和数学</title>
+      <link>https://atomx.cc/zh/posts/it/choose-model-versions/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/choose-model-versions/</guid>
+      <description>&lt;p&gt;当我决定使用Google 的AI，我需要辅助解决编程和数学问题的模型，找到以下可能最适合需求的模型：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Gemini 1.5 Pro：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;优势：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Gemini 1.5 Pro 在复杂推理、逻辑和编码方面表现出色。&lt;/li&gt;
+&lt;li&gt;它拥有强大的上下文窗口，能够处理大量的代码和数学公式。&lt;/li&gt;
+&lt;li&gt;非常适合解决复杂的编程问题、算法设计和数学证明。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适用场景：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;复杂的算法和数据结构问题。&lt;/li&gt;
+&lt;li&gt;数学证明和符号计算。&lt;/li&gt;
+&lt;li&gt;代码调试和优化。&lt;/li&gt;
+&lt;li&gt;软件架构设计。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用方式：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;通过 Vertex AI Studio 访问 Gemini 1.5 Pro。&lt;/li&gt;
+&lt;li&gt;通过 Google Cloud 的 Gemini API 进行编程调用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Gemini 2.0 Flash：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;优势：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Gemini 2.0 Flash 专注于提供快速、高效的响应。&lt;/li&gt;
+&lt;li&gt;它在处理日常编程和数学问题时，能够提供快速的解决方案。&lt;/li&gt;
+&lt;li&gt;适合需要快速迭代和原型设计的场景。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适用场景：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;快速的代码片段生成。&lt;/li&gt;
+&lt;li&gt;简单的数学计算。&lt;/li&gt;
+&lt;li&gt;日常编程问题解答。&lt;/li&gt;
+&lt;li&gt;快速原型设计。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用方式：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gemini.google.com/&#34;&gt;Gemini官网&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;Vertex AI Studio。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;选择建议：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果您需要解决复杂的编程和数学问题，或者需要处理大量的代码和数据，Gemini 1.5 Pro 是更好的选择。&lt;/li&gt;
+&lt;li&gt;如果您需要快速的解决方案和高效的响应，或者需要进行快速原型设计，Gemini 2.0 Flash 更适合。&lt;/li&gt;
+&lt;li&gt;您也可以根据实际使用情况，对比两个版本的输出结果，来选择更合适自己使用的版本。&lt;/li&gt;
+&lt;li&gt;如果您是开发人员，那么通过Vertex AI Studio 平台，或者API调用，会更有利于您的工作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;额外提示：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google AI 翻译模型 - Cloud Translation API</title>
+      <link>https://atomx.cc/zh/posts/it/cloud-translation-api/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/cloud-translation-api/</guid>
+      <description>&lt;p&gt;**翻译模型选择和使用建议 (针对批量网页文章翻译)**参考&lt;a href=&#34;https://cloud.google.com/translate&#34;&gt;Translation AI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com&#34;&gt;Cloud Translation API&lt;/a&gt; 使用 Google 的神经机器翻译技术， Google 预训练的自定义模型或翻译专用大型语言模型 (LLM) 通过 API 动态翻译文本。&lt;/p&gt;
+&lt;p&gt;它有基础版和高级版，两者都提供快速和动态翻译，但高级版提供自定义功能，例如特定领域的翻译、格式化文档翻译和批量翻译。&lt;/p&gt;
+&lt;p&gt;每月发送到 API 处理的前 500,000 个字符（基础版和高级版合计）是免费的（不适用于 LLM）。&lt;/p&gt;
+&lt;h1 id=&#34;几种翻译模型&#34;&gt;几种翻译模型&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NMT (神经机器翻译) 模型:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;translate_v2&lt;/code&gt;:&lt;/strong&gt;  早期版本的 NMT 模型，&lt;strong&gt;现已弃用，不建议使用&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;translate_v3&lt;/code&gt;:&lt;/strong&gt; 目前推荐使用的 NMT 模型，提供更高的翻译质量、更多语言支持和更丰富的功能。可以直接通过 Cloud Translation API 调用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Translation LLM (大型语言模型):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是 Google 基于大型语言模型技术的翻译模型，能够更好地理解上下文和生成更流畅自然的译文。尤其适合处理博客文章等复杂文本。&lt;/p&gt;
+&lt;p&gt;可以通过两种方式调用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vertex AI SDK 的 &lt;code&gt;aiplatform.TranslationModel&lt;/code&gt; 接口 (推荐，更简洁):&lt;/strong&gt;  更易于与其他 Vertex AI 服务集成。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Translation API 的 &lt;code&gt;translate_v3&lt;/code&gt; (更灵活，可控性更强):&lt;/strong&gt;  可以直接调用，提供更多参数控制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;推荐translation-llm-模型&#34;&gt;推荐Translation LLM 模型&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;理由如下：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;更高的翻译质量：&lt;/strong&gt; Translation LLM 在处理博客文章等复杂文本时表现更出色，因为它在理解上下文和生成流畅译文方面更胜一筹。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更好的格式保留：&lt;/strong&gt; 结合 &lt;code&gt;mime_type: text/html&lt;/code&gt; 设置，Translation LLM 和 &lt;code&gt;translate_v3&lt;/code&gt; 都能够更好地保留 Markdown 格式。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;更强大的功能：&lt;/strong&gt; Translation LLM 和 &lt;code&gt;translate_v3&lt;/code&gt; 都支持词汇表等功能，可以帮助您更好地控制翻译结果。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;vertex-ai-sdk-调用-translation-llm&#34;&gt;Vertex AI SDK 调用 Translation LLM&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;安装 Vertex AI SDK:&lt;/strong&gt;  &lt;code&gt;pip install google-cloud-aiplatform&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google AI 翻译模型 - Vertex AI Studio - Translation</title>
+      <link>https://atomx.cc/zh/posts/it/vertex-ai-studio-translation/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/vertex-ai-studio-translation/</guid>
+      <description>&lt;p&gt;Google 人工智能服务平台有&lt;a href=&#34;https://aistudio.google.com/&#34;&gt;Google AI Studio&lt;/a&gt;, &lt;a href=&#34;https://ai.google/&#34;&gt;Google AI&lt;/a&gt;, &lt;a href=&#34;https://labs.google/&#34;&gt;Google labs&lt;/a&gt;等。由于各家平台上的模型系列太多了，必须根据任务选择最适合的模型。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;博客网站的文章翻译，选择哪个模型比较好？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们找到了Google Cloud &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI Studio - Translation&lt;/a&gt;，其专业的翻译模型的种类多样，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NMT (modal used for translation modality)&lt;/li&gt;
+&lt;li&gt;Translation LLM (modal used for translation modality)&lt;/li&gt;
+&lt;li&gt;gemini-2.0-flash-001 (next generation gemini flash, super speed, multimodal generation, 1M token context window)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当我们写了一个程序调用以上模型，可能看到类似如下的报错。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;% python translation-llm.py 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2025-03-17 17:48:30,421 - ERROR - Translation API error: &lt;span class=&#34;m&#34;&gt;400&lt;/span&gt; Cloud AutoML API has not been used in project 1***0 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/automl.googleapis.com/overview?project&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1***0 &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt; retry. If you enabled this API recently, &lt;span class=&#34;nb&#34;&gt;wait&lt;/span&gt; a few minutes &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; the action to propagate to our systems and retry.&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; The model projects/1***0/locations/us-central1/models/TRL*** is not found or is deleted.&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;codes&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;SERVICE_NOT_ACTIVATED &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;3&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, NOT_FOUND &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;5&lt;span class=&#34;o&#34;&gt;)]&lt;/span&gt;. 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2025-03-17 17:48:30,421 - ERROR - Translation failed &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; ~/sandbox/de/about.md after attempts.  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;翻译失败，为何它要调用的 Cloud AutoML API ？这才发现 Vertex AI 是一个机器学习 (ML) 平台，用于训练和部署 ML 模型和 AI 应用程序。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI代理和工具</title>
       <link>https://atomx.cc/zh/posts/it/ai-agent-tools/</link>
@@ -55,38 +416,7 @@
 &lt;h1 id=&#34;体验报告---autogpt&#34;&gt;体验报告 - AutoGPT&lt;/h1&gt;</description>
     </item>
     <item>
-      <title>AI图文处理</title>
-      <link>https://atomx.cc/zh/posts/it/ai-image/</link>
-      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/ai-image/</guid>
-      <description>&lt;p&gt;写prompt，通过AI 生成网站需要的各种图片。&lt;/p&gt;
-&lt;p&gt;包括以下类别图片。&lt;/p&gt;
-&lt;h1 id=&#34;左耳朵耗子&#34;&gt;左耳朵耗子&lt;/h1&gt;
-&lt;p&gt;将耗子的图片融入到以下各种场景中&lt;/p&gt;
-&lt;h2 id=&#34;园艺和农场&#34;&gt;园艺和农场&lt;/h2&gt;
-&lt;p&gt;用于 landing page 登陆页面，关于园艺和农场的主题网站&lt;/p&gt;
-&lt;p&gt;牧场、儿童、老人、动物、阳光、草地、果蔬、牧场、欢乐、轻松&lt;/p&gt;
-&lt;h2 id=&#34;互联网计算机和ai&#34;&gt;互联网、计算机和AI&lt;/h2&gt;
-&lt;h2 id=&#34;自动化机器人&#34;&gt;自动化、机器人&lt;/h2&gt;
-&lt;p&gt;无人机&lt;/p&gt;
-&lt;p&gt;波士顿动力&lt;/p&gt;
-&lt;p&gt;汽车制造工厂机器人&lt;/p&gt;
-&lt;p&gt;农场机器人，挤奶、剪羊毛、清理粪便、&lt;/p&gt;
-&lt;p&gt;摘葡萄、摘水果、播种&lt;/p&gt;
-&lt;p&gt;参考 &lt;a href=&#34;https://www.youtube.com/@birchpunk&#34;&gt;RUSSIAN CYBERPUNK FARM // РУССКАЯ КИБЕРДЕРЕВНЯ&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;大数据&#34;&gt;大数据&lt;/h2&gt;
-&lt;p&gt;股票交易大屏幕&lt;/p&gt;
-&lt;p&gt;双11交易数据&lt;/p&gt;
-&lt;h2 id=&#34;卫星飞船&#34;&gt;卫星、飞船&lt;/h2&gt;
-&lt;p&gt;参考三体&lt;/p&gt;
-&lt;p&gt;巨型天线&lt;/p&gt;
-&lt;h2 id=&#34;修复老照片&#34;&gt;修复老照片&lt;/h2&gt;
-&lt;h2 id=&#34;图片生成文本&#34;&gt;图片生成文本&lt;/h2&gt;
-&lt;p&gt;从图片上 OCR识别&lt;/p&gt;
-&lt;p&gt;应用例如，家谱图片转文字、数据库存储、文言文翻译中文简体&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>配置 Gemini 翻译参数指南</title>
+      <title>Google AI 翻译模型 - 配置Gemini参数</title>
       <link>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</guid>
@@ -2944,7 +3274,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;p&gt;我和很多朋友认真讨论过关于约会类社交软件的问题，下面是一个非常典型的案例，聊天机器人bot和真人A的交流场景，由此可见人类在智能机器面前多么地弱势和不堪。&lt;/p&gt;
 &lt;h2 id=&#34;典型案例&#34;&gt;典型案例&lt;/h2&gt;
 &lt;p&gt;**有多少人在聊天软件上浪费时间？ **&lt;/p&gt;
-&lt;p&gt;以下面一个日常常见的在线对话为例：&lt;/p&gt;
+&lt;p&gt;一个常见的在线约会对话，以下面为例：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;网友A：嗨，很高兴认识你。&lt;/li&gt;
 &lt;li&gt;机器人bot：我希望我们可以交换博客和简历链接，以便更好地了解彼此。&lt;/li&gt;
@@ -2953,7 +3283,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;li&gt;网友A：也许吧，但我喜欢交流。我喜欢直接了解别人，直接和他们沟通。&lt;/li&gt;
 &lt;li&gt;机器人bot：是的，请了解一下近期的科技进步，**未来会有更多的机器人和你对话，我很肯定，在你和某人见面之前，你可能会和一个人工智能机器人聊几个小时。 **&lt;/li&gt;
 &lt;li&gt;网友A：我并不否认你说的。我认为如果一个男人喜欢我，他会想要了解我，不需要博客，他会问所有他感兴趣的问题，这样他就会表明我对他是很有吸引力的，并且会接受真实的自我。我不想重塑自己。&lt;/li&gt;
-&lt;li&gt;机器人bot：如果有一百多个机器人和你聊天，你如何在其中找到你真正的人类爱人？你认为会是真的吗？会有人仅仅因为一些照片和约会网站上几句话的描述就爱上你吗？&lt;/li&gt;
+&lt;li&gt;机器人bot：如果有一百多个机器人和你聊天，你如何在其中找到你真正的人类真爱？你认为会是真的吗？会有人仅仅因为一些照片和约会网站上几句话的描述就爱上你吗？&lt;/li&gt;
 &lt;li&gt;网友A：我会开始和这个人交流，如果他不想进行视频交流，那么一切都会很清楚。&lt;/li&gt;
 &lt;li&gt;机器人bot：你通过视频聊天来过滤垃圾信息很聪明，但是你可能已经在这个人身上浪费了很多小时，才走到这一步。&lt;/li&gt;
 &lt;li&gt;网友A：我能理解你。你越深入了解，如果你想看看真正的我，你可以去我的Instagram。&lt;/li&gt;

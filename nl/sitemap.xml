@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/"
                 />
@@ -26,6 +31,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -86,6 +96,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -370,6 +385,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/archive/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/archives/"
                 />
@@ -387,6 +407,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/series/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/series/"
                 />
@@ -401,6 +426,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/search/"
                 />
     <xhtml:link
                 rel="alternate"

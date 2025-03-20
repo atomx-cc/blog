@@ -9,6 +9,11 @@
   </sitemap>
   
   <sitemap>
+    <loc>https://atomx.cc/de/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
     <loc>https://atomx.cc/nl/sitemap.xml</loc>
     
       <lastmod>2023-02-03T00:00:00+00:00</lastmod>
@@ -18,7 +23,7 @@
   <sitemap>
     <loc>https://atomx.cc/zh/sitemap.xml</loc>
     
-      <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+      <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     
   </sitemap>
   

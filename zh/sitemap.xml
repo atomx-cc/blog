@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://atomx.cc/zh/tags/ai/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,15 +15,17 @@
                 href="https://atomx.cc/zh/tags/ai/"
                 />
   </url><url>
-    <loc>https://atomx.cc/zh/posts/it/ai-agent-tools/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://atomx.cc/zh/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -37,11 +39,16 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/categories/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -55,7 +62,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/categories/it/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -68,7 +75,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/posts/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -86,11 +93,16 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/tags/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -104,13 +116,34 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/it/model-configuration-debug/</loc>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/posts/it/ai-image/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
+    <loc>https://atomx.cc/zh/posts/it/gcloud-translation-api-llm/</loc>
+    <lastmod>2025-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/it/ai-concepts/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/it/ai-model-usage-scenarios/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/it/choose-model-versions/</loc>
+    <lastmod>2025-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/it/cloud-translation-api/</loc>
+    <lastmod>2025-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/it/vertex-ai-studio-translation/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/it/ai-agent-tools/</loc>
+    <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/it/how-to-configurate-gemini-for-translation/</loc>
     <lastmod>2025-02-26T00:00:00+00:00</lastmod>
@@ -978,6 +1011,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/archive/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/archives/"
                 />
@@ -995,6 +1033,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/series/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/series/"
                 />
@@ -1009,6 +1052,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/search/"
                 />
     <xhtml:link
                 rel="alternate"
