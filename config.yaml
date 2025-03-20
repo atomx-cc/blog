@@ -71,14 +71,14 @@ languages:
        
         - identifier: Coolshell
           name: Coolshell.in
-          url: https://coolshell.in/
+          url: https://house.coolshell.in/
           weight: 10
 
   zh:
     languageName: "简体中文"
     contentDir: content/zh
     #languagedirection: ltr
-    weight: 2
+    weight: 10
     title: Atom.X
     taxonomies:
       category: categories
@@ -114,7 +114,7 @@ languages:
 
         - identifier: Coolshell
           name: 酷壳众创
-          url: https://coolshell.in/zh/
+          url: https://house.coolshell.in/zh/
           weight: 10
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
@@ -155,7 +155,7 @@ languages:
     languageName: "Nederlands"
     contentDir: content/nl
     #languagedirection: ltr
-    weight: 2
+    weight: 3
     title: Atom.X
     taxonomies:
       category: categories
@@ -191,7 +191,7 @@ languages:
 
         - identifier: Coolshell
           name: Coolshell.in
-          url: https://coolshell.in/nl/
+          url: https://house.coolshell.in/nl/
           weight: 10
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
@@ -214,7 +214,69 @@ languages:
             url: posts/about/cases-business/
           - name: "Onderwijs en training"
             url: posts/about/education-training/
-          
+
+  de:
+    languageName: "Deutsch"
+    contentDir: content/de
+    weight: 2
+    title: Atom.X
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+
+    menu:
+      main:
+        - identifier: about
+          name: "Über"
+          url: about/
+          weight: 1
+
+        - identifier: archives
+          name: "Archiv"
+          url: archives/
+          weight: 3
+        
+        - identifier: tags
+          name: "Tags"
+          url: tags/
+          weight: 5
+        
+        - identifier: categories
+          name: "Kategorien"
+          url: categories/
+          weight: 8
+        
+        - identifier: search
+          name: "Suche"
+          url: search/
+          weight: 9
+
+        - identifier: Coolshell
+          name: Coolshell
+          url: https://house.coolshell.in/de/
+          weight: 10
+
+    params:
+      languageAltTitle: "Deutsch"
+      profileMode:
+        enabled: true
+        title: "Willkommen!"
+        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageTitle: Profilbild
+        # imageWidth: 120
+        # imageHeight: 120
+        subtitle: "☄️ Hohe Parallelität - Hohe Verfügbarkeit | ☁️ Geografisch verteilte Aktiv-Aktiv-Architektur | 🌙 Lastausgleich | ⚡️ Schnelle Reaktionszeit | 📱 Adaptiv"
+        buttons:
+          - name: "Werte"
+            url: posts/about/values/
+          - name: "Soziale Aktivitäten"  
+            url: posts/about/cases-social-works/
+          - name: "Geschäftsfälle"
+            url: posts/about/cases-business/
+          - name: "Ausbildung"
+            url: posts/about/education-training/
+                        
   # ru:
   #   languageName: "Pусский"
   #   contentDir: content/ru
@@ -282,7 +344,7 @@ params:
   description: "Atom.X - An Passionate Software Developer and IT worker"
   keywords: 
     - Cloud Computing
-    - High Availability,
+    - High Availability
     - Load Balancing
     - Disaster Recovery
     - Multi-Site High Availability

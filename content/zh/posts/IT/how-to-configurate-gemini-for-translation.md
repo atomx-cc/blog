@@ -1,5 +1,5 @@
 ---
-title: "配置 Gemini 翻译参数指南"
+title: "Google AI 翻译模型 - 配置Gemini参数"
 date: 2025-02-26
 description: "深入解析 temperature 和 top-p 参数对 AI 翻译质量的影响"
 categories:
