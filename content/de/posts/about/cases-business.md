@@ -11,7 +11,6 @@ tags:
 
 Meine Haupttätigkeitsbereiche umfassen Geschäftsfälle in den Bereichen Internet- und E-Commerce-Betrieb, Lieferketten für frische landwirtschaftliche Produkte, Landwirtschaft und Gastronomie.
 
-
 ## Cloud Computing und Programmierer-Blog
 
 Zeitraum: 2022 -
