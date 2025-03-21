@@ -1,6 +1,6 @@
 ---
 title: "Aus- und Weiterbildung"
-date: 17.09.2017
+date: 2017-09-17
 categories:
   - Über
   - Bildung

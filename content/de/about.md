@@ -1,6 +1,6 @@
 ---
 title: "Über Atom"
-date: 16.09.2017
+date: 2017-09-16
 description: Bauer, IT-ler, Evangelist
 categories:
   - Über
