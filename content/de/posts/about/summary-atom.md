@@ -1,6 +1,6 @@
 ---
 title: "Persönliche Zusammenfassung"
-date: 2020-14-12
+date: 2020-12-14
 categories:
   - Über
 tags:
