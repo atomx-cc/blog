@@ -60,6 +60,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/questionnaire-of-helpx-guest/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/questionnaire-of-helpx-guest/"
                 />
@@ -78,6 +83,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -122,6 +132,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/how-to-write-resume/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/how-to-write-resume/"
                 />
@@ -143,6 +158,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/faq-personal-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/faq-personal-atom/"
                 />
@@ -161,6 +181,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/proust-questionnaire-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/proust-questionnaire-atom/"
                 />
@@ -176,6 +201,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/summary-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/summary-atom/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -203,6 +233,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/tags/npo/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/tags/npo/"
                 />
@@ -218,6 +253,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/interview-list-of-npo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/interview-list-of-npo/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -239,6 +279,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/daily-to-do-list/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/daily-to-do-list/"
                 />
@@ -254,6 +299,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/education-training/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/education-training/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -278,6 +328,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/about/"
                 />
@@ -299,6 +354,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/cases-business/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/cases-business/"
                 />
@@ -314,6 +374,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/values/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/values/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -334,6 +399,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/cases-social-works/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/cases-social-works/"
                 />
@@ -351,6 +421,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/faq-personal/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="https://atomx.cc/zh/posts/about/faq-personal/"
                 />
@@ -365,6 +440,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://atomx.cc/posts/about/proust-questionnaire/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/proust-questionnaire/"
                 />
     <xhtml:link
                 rel="alternate"

@@ -12,6 +12,56 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>de</language>
     <copyright>Atom.X</copyright>
+    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vorstellung</title>
+      <link>https://atomx.cc/de/tags/vorstellung/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/tags/vorstellung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Soziale Medien</title>
+      <link>https://atomx.cc/de/tags/soziale-medien/</link>
+      <pubDate>Thu, 03 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/tags/soziale-medien/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Einführung</title>
+      <link>https://atomx.cc/de/tags/einf%C3%BChrung/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/tags/einf%C3%BChrung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NPO</title>
+      <link>https://atomx.cc/de/tags/npo/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/tags/npo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kurzprofil</title>
+      <link>https://atomx.cc/de/tags/kurzprofil/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/tags/kurzprofil/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kurzvorstellung</title>
+      <link>https://atomx.cc/de/tags/kurzvorstellung/</link>
+      <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/tags/kurzvorstellung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lebenslauf</title>
+      <link>https://atomx.cc/de/tags/lebenslauf/</link>
+      <pubDate>Thu, 14 Dec 2000 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/tags/lebenslauf/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -49,6 +49,45 @@
 &lt;p&gt;仅面向朋友圈，2025年限额招收20人，1千欧元/人/年，接收现金、银行转账、等各种网络付款方式。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>命名实体的翻译规则</title>
+      <link>https://atomx.cc/zh/posts/it/named-entities-translation/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/named-entities-translation/</guid>
+      <description>&lt;p&gt;为了便于非母语者的理解，在翻译实践中，需要设置命名实体的特别规则。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;命名实体：主要包括专有名词或名称，例如组织名称、名人、名言、著名地名、图书（圣经、经典）、电影名称、中文成语典故、歇後語和寓言短语等；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;翻译规则&#34;&gt;翻译规则&lt;/h1&gt;
+&lt;p&gt;源语言是原文，目标语言是被翻译的译文。&lt;/p&gt;
+&lt;h2 id=&#34;普通命名实体&#34;&gt;普通命名实体：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;应该保留一份原文、罗马拼音，一份对应翻译的目标语言。&lt;/li&gt;
+&lt;li&gt;译文结构：原文、罗马拼音和译文并列，“original_text (Chinese_pinyin/Romanization) translated_text”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;案例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中文地名、人名和图书：成都、李子柒、《道德经》&lt;/li&gt;
+&lt;li&gt;英文译文：成都 (Chéngdū)Chengdu、李子柒 (Lǐ Zǐqī)Ziqi Li、《道德经》(Dào Dé Jīng)Tao Te Ching.&amp;ldquo;The Classic of the Way and Virtue&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我们大多数时候，只会做简单的普通命名实体翻译，不会解释太多。&lt;/p&gt;
+&lt;h2 id=&#34;特别命名实体&#34;&gt;特别命名实体&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;对于中文成语典故、歇後語和寓言短语，则还需要增加额外的解释，因为太简单的成语，总是需要更多语言做解释，才可能让其他母语者看懂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;案例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中文成语：狐假虎威&lt;/li&gt;
+&lt;li&gt;英文译文：狐假虎威 (hú jiǎ hǔ wēi）The fox exploits the tiger&amp;rsquo;s might。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explanation: &amp;ldquo;Feigning authority through association with power.&amp;rdquo;, &amp;ldquo;Using borrowed prestige to one&amp;rsquo;s advantage.&amp;rdquo;, &amp;ldquo;borrowing power from another&amp;rdquo;, or &amp;ldquo;riding on the coattails of someone powerful&amp;rdquo;.&lt;/p&gt;
+&lt;h1 id=&#34;提示词prompt&#34;&gt;提示词prompt&lt;/h1&gt;
+&lt;p&gt;请将以下内容从{source_lang}翻译成{target_lang}。这是{file_type}文件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键要求：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;严格保留源文件格式：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>年终总结2023</title>
       <link>https://atomx.cc/zh/posts/life/self-summary-2023/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>

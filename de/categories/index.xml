@@ -12,6 +12,49 @@
     <generator>Hugo -- 0.141.0</generator>
     <language>de</language>
     <copyright>Atom.X</copyright>
+    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Über</title>
+      <link>https://atomx.cc/de/categories/%C3%BCber/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/categories/%C3%BCber/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Über Mich</title>
+      <link>https://atomx.cc/de/categories/%C3%BCber-mich/</link>
+      <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/categories/%C3%BCber-mich/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leben</title>
+      <link>https://atomx.cc/de/categories/leben/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/categories/leben/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Natur</title>
+      <link>https://atomx.cc/de/categories/natur/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/categories/natur/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bildung</title>
+      <link>https://atomx.cc/de/categories/bildung/</link>
+      <pubDate>Sun, 17 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/categories/bildung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geschäft</title>
+      <link>https://atomx.cc/de/categories/gesch%C3%A4ft/</link>
+      <pubDate>Fri, 03 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/categories/gesch%C3%A4ft/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -15,11 +15,11 @@
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>模型配置探索和调试</title>
-      <link>https://atomx.cc/zh/posts/it/model-configuration-debug/</link>
+      <title>Cloud Translation API 模型配置和调试</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-model-config-debug/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/model-configuration-debug/</guid>
-      <description>&lt;p&gt;我们想调用 Cloud Translation API ，使用预训练的Translation LLM 模型，可以直接用于翻译，如何配置参数 MODEL_NAME ？&lt;/p&gt;
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api-model-config-debug/</guid>
+      <description>&lt;p&gt;我们想调用 Cloud Translation API ，使用预训练的Translation LLM 模型，可以直接用于翻译，如何配置参数 MODEL_NAME 和 LOCATION等？&lt;/p&gt;
 &lt;h1 id=&#34;模型名称和地点&#34;&gt;模型名称和地点？&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;google.cloud&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;translate_v3&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;translate&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;google.oauth2&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;service_account&lt;/span&gt;
@@ -29,7 +29,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;LOCATION&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;global&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;CREDENTIALS_PATH&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;environ&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;GOOGLE_APPLICATION_CREDENTIALS&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;MODEL_NAME&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; ?? &amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;找遍了Cloud Translation API 的相关说明文档，其中确实有LLM模型，但没有看到模型在程序中的名称定义，也不清楚服务地点，这有些诡异；&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;找遍了Cloud Translation API 的相关说明文档，其中确实有LLM模型，但没有看到LLM模型在程序中的名称定义，也不清楚其服务地点，这有些诡异；&lt;/p&gt;
 &lt;p&gt;在 &lt;a href=&#34;https://cloud.google.com/vertex-ai/generative-ai/docs/translate/translate-text?#translation_llm&#34;&gt;Generative AI - 翻译文字&lt;/a&gt;中，确实能找到一个定义是&lt;code&gt;general/translation-llm&lt;/code&gt;，使用 Vertex AI Endpoint调用，这就复杂了，而且endpoint 价格挺贵的。&lt;/p&gt;
 &lt;p&gt;然后进入 &lt;a href=&#34;https://console.cloud.google.com/vertex-ai/studio/translation&#34;&gt;Vertex ai studio - translation - translation LLM&lt;/a&gt;，找到模型的&lt;code&gt;Get code&lt;/code&gt;，发现&lt;code&gt;adaptive_mt_translate()&lt;/code&gt;，它是关于自适应机器翻译，如何使用 Google Cloud Translation API 的 Adaptive Machine Translation (Adaptive MT) 功能，这确实涉及到使用自定义数据集训练模型，这又变复杂了，所以这条路径也是错的。&lt;/p&gt;
 &lt;h1 id=&#34;listmodels&#34;&gt;ListModels&lt;/h1&gt;
@@ -44,15 +44,15 @@
 &lt;li&gt;如果 Translation API 不可用，尝试检查 Vertex AI 的翻译能力&lt;/li&gt;
 &lt;li&gt;提供一个汇总，列出所有可用的翻译模型和 API&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;使用Translation API的ListModels方法，列出当前的google cloud 环境变量中，我们实际可用的模型和 API，程序会尝试实际调用这些 API 和模型，以确认它们是否真正可用。&lt;/p&gt;</description>
+&lt;p&gt;使用Translation API的ListModels方法，根据当前的google cloud 环境变量中，列出我们实际可用的模型和 API，程序会尝试实际调用这些 API 和模型，以确认它们是否真正可用。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Google Cloud Translation API LLM 翻译工具解析</title>
-      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-llm/</link>
+      <title>Google Cloud Translation API 翻译工具解析</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-tools/</link>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api-llm/</guid>
-      <description>&lt;p&gt;这是一个基于Google Cloud Translation API的自动化翻译工具，专为批量处理文档而设计。该工具能够智能识别文件语言，仅翻译需要翻译的内容，并且保留原始文档的格式和结构。它特别适合需要维护多语言文档库的团队和个人。&lt;/p&gt;
-&lt;p&gt;搜索本人的Github库 - &lt;code&gt;Gcloud-translation-api-llm.py&lt;/code&gt;&lt;/p&gt;
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api-tools/</guid>
+      <description>&lt;p&gt;这是一个基于Google Cloud Translation API的翻译工具，专为批量处理文档而设计。该工具能够智能识别文件语言，仅翻译需要翻译的内容，并且保留原始文档的格式和结构。它特别适合需要维护多语言文档库的团队和个人。&lt;/p&gt;
+&lt;p&gt;搜索本人的Github库 - &lt;code&gt;Gcloud-translation-api.py&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;核心功能&#34;&gt;核心功能&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;智能语言检测&lt;/strong&gt;：使用&lt;code&gt;langdetect&lt;/code&gt;库自动识别文档实际语言&lt;/li&gt;
@@ -317,11 +317,11 @@
 &lt;p&gt;&lt;strong&gt;额外提示：&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Google AI 翻译模型 - Cloud Translation API</title>
-      <link>https://atomx.cc/zh/posts/it/cloud-translation-api/</link>
+      <title>Google AI 翻译模型选择和使用建议</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-ai-model/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/cloud-translation-api/</guid>
-      <description>&lt;p&gt;**翻译模型选择和使用建议 (针对批量网页文章翻译)**参考&lt;a href=&#34;https://cloud.google.com/translate&#34;&gt;Translation AI&lt;/a&gt;&lt;/p&gt;
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-ai-model/</guid>
+      <description>&lt;p&gt;针对批量网页文章翻译，参考说明文档&lt;a href=&#34;https://cloud.google.com/translate&#34;&gt;Translation AI&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com&#34;&gt;Cloud Translation API&lt;/a&gt; 使用 Google 的神经机器翻译技术， Google 预训练的自定义模型或翻译专用大型语言模型 (LLM) 通过 API 动态翻译文本。&lt;/p&gt;
 &lt;p&gt;它有基础版和高级版，两者都提供快速和动态翻译，但高级版提供自定义功能，例如特定领域的翻译、格式化文档翻译和批量翻译。&lt;/p&gt;
 &lt;p&gt;每月发送到 API 处理的前 500,000 个字符（基础版和高级版合计）是免费的（不适用于 LLM）。&lt;/p&gt;
@@ -474,6 +474,112 @@
 &lt;p&gt;英文：“Hello, world!” -&amp;gt; [“Hello”, “,”, “world”, “!”] -&amp;gt; 4 Tokens&lt;/p&gt;
 &lt;p&gt;中文：“你好，世界！” -&amp;gt; [“你”, “好”, “，”, “世”, “界”, “！”] -&amp;gt; 6 Tokens&lt;/p&gt;
 &lt;p&gt;数学：“x = y + z” -&amp;gt; [“x”, “=”, “y”, “+”, “z”] -&amp;gt; 5 Tokens&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>翻译项目需求概述</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-ai/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-ai/</guid>
+      <description>&lt;p&gt;适用于多语言版本的博客或网页文档翻译&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;开发程序语言：python，给程序逐行写英文注释；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;API：Google Cloud Translation API，使用高级翻译模型；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;备注：此前尝试调用 Google Translation API 的NMT基础模型，可能它不识别文档格式的语法标记，导致被翻译后的文件格式混乱。为了避免这种情况，需要使用更先进的翻译模型，能够理解和保留文档格式；&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;源语言：此为源文件内容的人类自然语言版本（语言标签），程序应能自动识别源语言类别，也可在程序中定义默认源语言；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;语言标签： Translation API 的多语种翻译功能使用 BCP 47 语言标签作为输入和输出的语言标识符，主要组成部分是ISO 639 标准中的语言代码，和ISO 3166 标准中的地区代码，例如 zh-TW 台湾正体、zh-CN 中文简体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;目标语言：把源文件内容翻译成我们想要的其他人类自然语言版本，文件的目录名称定义了目标语言，例如目录名 en 英文，de 德文。目录名并不一定与语言标签完全一致，例如目录zhs中文简体（语言标签 zh-CN ），en英文（不区分en-US美国英语 和 en-GB英国英语）；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;源文件目录中可能有多级子目录、子文件等等，程序应该能识别并逐个检索并完成全部文件的翻译；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;全部的目标语言目录及其文件结构与源语言目录保持一致，文件名也都是一样的，仅仅是目录名（en，de，zhs）不同。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本项目处理多语言版本的博客文件，在目标语言目录中持续有新的源语言文件，程序应跳过已经翻译成目标语言的文件，仅仅翻译新的源语言文件。例如en目录中大部分都是英文版本内容的文件，但是持续有源语言zh-TW的文件被添加进去，每次运行程序将其批量翻译成目标语言en。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;程序会直接将翻译后的内容覆盖到目标语言目录中对应的源语言文件中，而不需要从源语言目录中复制文件到目标语言目录中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;文件格式&#34;&gt;文件格式&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;源文件格式：根据文件名后缀判断文件格式，如.md, .yaml, .xml等等。例如文件名以.md结尾，filename.md，属于markdown格式；&lt;/li&gt;
+&lt;li&gt;多格式并存：可能需要同时处理多种混合格式的文件，但是为了提高效率，我们尽可能每次只处理同一种格式文件；&lt;/li&gt;
+&lt;li&gt;自动检测文件格式：确保翻译模型能理解不同格式的语法标记，根据格式类型选择相应的处理方案，能保留源文件格式，这是最重要的翻译模型能力；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;特别注意事项&#34;&gt;特别注意事项&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;文件格式的语法标记是不可翻译的，例如md文件中带有markdown格式标记，必须保留翻译后的文件与源文件相同的格式；&lt;/li&gt;
+&lt;li&gt;引用圣经、名言、人名、地名、图书、电影名称、汉语成语和寓言等应该保留一份原文的源语言，同时一份对应翻译的目标语言；&lt;/li&gt;
+&lt;li&gt;文件目录名、文件名不要翻译，因为作为最终网页url的一部分，应始终保持其英文语言版本；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;问题&#34;&gt;问题&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;本项目所选用的翻译模型能有效识别并保留源文件的格式（例如markdown，YAML等待）吗？
+若翻译模型能识别大部分的文件格式标记，那么我们就没必要采用复杂的文件格式解析库，因为我们翻译后的文件依然保留原文件的格式标记，所以仅仅是翻译了有必要翻译的文本内容。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;翻译模型能识别出哪些文本是待翻译的内容？哪些部分引用的文本应该保持原文不翻译呢？例如我们把英文圣经和经典句子翻译成中文，那么应该保留一份原文，同时翻译一份中文对照。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;c++也能做本项目开发，但相比较python而言，更复杂；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;调用 Translation API 并选用高级模型，是否需要先设置endpoint，并在Google Cloud控制台中进行特殊配置？如何简单高效地调用API，提供配置和调用的最佳实践。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>命名实体的翻译规则</title>
+      <link>https://atomx.cc/zh/posts/it/named-entities-translation/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/it/named-entities-translation/</guid>
+      <description>&lt;p&gt;为了便于非母语者的理解，在翻译实践中，需要设置命名实体的特别规则。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;命名实体：主要包括专有名词或名称，例如组织名称、名人、名言、著名地名、图书（圣经、经典）、电影名称、中文成语典故、歇後語和寓言短语等；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;翻译规则&#34;&gt;翻译规则&lt;/h1&gt;
+&lt;p&gt;源语言是原文，目标语言是被翻译的译文。&lt;/p&gt;
+&lt;h2 id=&#34;普通命名实体&#34;&gt;普通命名实体：&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;应该保留一份原文、罗马拼音，一份对应翻译的目标语言。&lt;/li&gt;
+&lt;li&gt;译文结构：原文、罗马拼音和译文并列，“original_text (Chinese_pinyin/Romanization) translated_text”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;案例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中文地名、人名和图书：成都、李子柒、《道德经》&lt;/li&gt;
+&lt;li&gt;英文译文：成都 (Chéngdū)Chengdu、李子柒 (Lǐ Zǐqī)Ziqi Li、《道德经》(Dào Dé Jīng)Tao Te Ching.&amp;ldquo;The Classic of the Way and Virtue&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我们大多数时候，只会做简单的普通命名实体翻译，不会解释太多。&lt;/p&gt;
+&lt;h2 id=&#34;特别命名实体&#34;&gt;特别命名实体&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;对于中文成语典故、歇後語和寓言短语，则还需要增加额外的解释，因为太简单的成语，总是需要更多语言做解释，才可能让其他母语者看懂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;案例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中文成语：狐假虎威&lt;/li&gt;
+&lt;li&gt;英文译文：狐假虎威 (hú jiǎ hǔ wēi）The fox exploits the tiger&amp;rsquo;s might。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Explanation: &amp;ldquo;Feigning authority through association with power.&amp;rdquo;, &amp;ldquo;Using borrowed prestige to one&amp;rsquo;s advantage.&amp;rdquo;, &amp;ldquo;borrowing power from another&amp;rdquo;, or &amp;ldquo;riding on the coattails of someone powerful&amp;rdquo;.&lt;/p&gt;
+&lt;h1 id=&#34;提示词prompt&#34;&gt;提示词prompt&lt;/h1&gt;
+&lt;p&gt;请将以下内容从{source_lang}翻译成{target_lang}。这是{file_type}文件。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键要求：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;严格保留源文件格式：&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>C&#43;&#43;程序设计</title>

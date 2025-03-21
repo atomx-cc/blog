@@ -84,6 +84,11 @@
     <lastmod>2025-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/"
                 />
@@ -291,6 +296,11 @@
     <lastmod>2023-02-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/questionnaire-of-helpx-guest/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/questionnaire-of-helpx-guest/"
                 />
@@ -347,6 +357,11 @@
     <lastmod>2022-02-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/how-to-write-resume/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/how-to-write-resume/"
                 />
@@ -368,6 +383,11 @@
     <lastmod>2021-12-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/faq-personal-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/faq-personal-atom/"
                 />
@@ -384,6 +404,11 @@
   </url><url>
     <loc>https://atomx.cc/posts/about/faq-personal/</loc>
     <lastmod>2021-12-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/faq-personal/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
@@ -404,6 +429,11 @@
     <lastmod>2021-10-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/proust-questionnaire-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/proust-questionnaire-atom/"
                 />
@@ -420,6 +450,11 @@
   </url><url>
     <loc>https://atomx.cc/posts/about/proust-questionnaire/</loc>
     <lastmod>2021-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/proust-questionnaire/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
@@ -475,6 +510,11 @@
     <lastmod>2020-12-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/summary-atom/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/summary-atom/"
                 />
@@ -512,6 +552,11 @@
     <lastmod>2019-11-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/interview-list-of-npo/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/interview-list-of-npo/"
                 />
@@ -528,6 +573,11 @@
   </url><url>
     <loc>https://atomx.cc/tags/npo/</loc>
     <lastmod>2019-11-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/tags/npo/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
@@ -551,6 +601,11 @@
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/daily-to-do-list/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/daily-to-do-list/"
                 />
@@ -569,6 +624,11 @@
     <lastmod>2017-09-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/education-training/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/education-training/"
                 />
@@ -585,6 +645,11 @@
   </url><url>
     <loc>https://atomx.cc/about/</loc>
     <lastmod>2017-09-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/about/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
@@ -608,6 +673,11 @@
     <lastmod>2017-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/cases-social-works/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/cases-social-works/"
                 />
@@ -626,6 +696,11 @@
     <lastmod>2017-02-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/cases-business/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="nl"
                 href="https://atomx.cc/nl/posts/about/cases-business/"
                 />
@@ -642,6 +717,11 @@
   </url><url>
     <loc>https://atomx.cc/posts/about/values/</loc>
     <lastmod>2000-12-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://atomx.cc/de/posts/about/values/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"

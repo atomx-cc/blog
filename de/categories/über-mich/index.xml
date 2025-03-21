@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Über Mich on Atom.X</title>
+    <link>https://atomx.cc/de/categories/%C3%BCber-mich/</link>
+    <description>Recent content in Über Mich on Atom.X</description>
+    <image>
+      <title>Atom.X</title>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>de</language>
+    <copyright>Atom.X</copyright>
+    <lastBuildDate>Sat, 04 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://atomx.cc/de/categories/%C3%BCber-mich/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Persönlicher FAQ-Fragebogen</title>
+      <link>https://atomx.cc/de/posts/about/faq-personal-atom/</link>
+      <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/de/posts/about/faq-personal-atom/</guid>
+      <description>&lt;p&gt;Dies ist Atoms [persönlicher FAQ-Fragebogen]&lt;/p&gt;
+&lt;h3 id=&#34;lieblingsfilm&#34;&gt;Lieblingsfilm?&lt;/h3&gt;
+&lt;p&gt;Viele, zum Beispiel „Forrest Gump“ und „3 Idiots“.  Ich schaue aber normalerweise nicht so oft Filme.&lt;/p&gt;
+&lt;p&gt;Mein Lieblingsgenre sind Umwelt-Dokumentationen, wie z.B. die BBC-Serie „Blue Planet“ usw.&lt;/p&gt;
+&lt;p&gt;Diese hoch bewerteten Filme haben mich tiefgreifend beeinflusst, meine Weltanschauung verändert und mich dazu gebracht, Technologie, modernes Leben und die Macht der Industrie neu zu überdenken, weshalb ich in die Landwirtschaft gewechselt bin.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Food,_Inc&#34;&gt;Food, Inc. (2008)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Home_%5C%282009_film%5C%29&#34;&gt;Home (2009)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
