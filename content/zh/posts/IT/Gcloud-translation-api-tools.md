@@ -1,5 +1,5 @@
 ---
-title: "Google Cloud Translation API LLM 翻译工具解析"
+title: "Google Cloud Translation API 翻译工具解析"
 date: 2025-03-18
 description:
 categories:
@@ -11,9 +11,9 @@ tags:
 ---
 
 
-这是一个基于Google Cloud Translation API的自动化翻译工具，专为批量处理文档而设计。该工具能够智能识别文件语言，仅翻译需要翻译的内容，并且保留原始文档的格式和结构。它特别适合需要维护多语言文档库的团队和个人。
+这是一个基于Google Cloud Translation API的翻译工具，专为批量处理文档而设计。该工具能够智能识别文件语言，仅翻译需要翻译的内容，并且保留原始文档的格式和结构。它特别适合需要维护多语言文档库的团队和个人。
 
-搜索本人的Github库 - `Gcloud-translation-api-llm.py`
+搜索本人的Github库 - `Gcloud-translation-api.py`
 
 ## 核心功能
 

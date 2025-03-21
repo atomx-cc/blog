@@ -1,5 +1,5 @@
 ---
-title: "模型配置探索和调试"
+title: "Cloud Translation API 模型配置和调试"
 date: 2025-03-19
 description:
 categories:
@@ -10,7 +10,7 @@ tags:
   - AI
 ---
 
-我们想调用 Cloud Translation API ，使用预训练的Translation LLM 模型，可以直接用于翻译，如何配置参数 MODEL_NAME ？
+我们想调用 Cloud Translation API ，使用预训练的Translation LLM 模型，可以直接用于翻译，如何配置参数 MODEL_NAME 和 LOCATION等？
 
 # 模型名称和地点？
 
@@ -25,7 +25,7 @@ CREDENTIALS_PATH = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
 MODEL_NAME = " ?? "
 ```
 
-找遍了Cloud Translation API 的相关说明文档，其中确实有LLM模型，但没有看到模型在程序中的名称定义，也不清楚服务地点，这有些诡异；
+找遍了Cloud Translation API 的相关说明文档，其中确实有LLM模型，但没有看到LLM模型在程序中的名称定义，也不清楚其服务地点，这有些诡异；
 
 在 [Generative AI - 翻译文字](https://cloud.google.com/vertex-ai/generative-ai/docs/translate/translate-text?#translation_llm)中，确实能找到一个定义是`general/translation-llm`，使用 Vertex AI Endpoint调用，这就复杂了，而且endpoint 价格挺贵的。
 
@@ -44,7 +44,7 @@ MODEL_NAME = " ?? "
 - 如果 Translation API 不可用，尝试检查 Vertex AI 的翻译能力
 - 提供一个汇总，列出所有可用的翻译模型和 API
 
-使用Translation API的ListModels方法，列出当前的google cloud 环境变量中，我们实际可用的模型和 API，程序会尝试实际调用这些 API 和模型，以确认它们是否真正可用。
+使用Translation API的ListModels方法，根据当前的google cloud 环境变量中，列出我们实际可用的模型和 API，程序会尝试实际调用这些 API 和模型，以确认它们是否真正可用。
 
 然后输出结果如下：
 

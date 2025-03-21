@@ -47,7 +47,7 @@ cd ..
 
 echo "Deployment complete!"
 # if the git push can not be success, wait for a while and try again
-# or cd public and run the git push command manually.
+# or cd public and run `git push` command manually, it does work soon.
 
 # test local webpage
 # hugo serve -D

@@ -1,5 +1,5 @@
 ---
-title: "Google AI 翻译模型 - Cloud Translation API"
+title: "Google AI 翻译模型选择和使用建议"
 date: 2025-03-11
 description:
 categories:
@@ -10,7 +10,7 @@ tags:
   - AI
 ---
 
-**翻译模型选择和使用建议 (针对批量网页文章翻译)**参考[Translation AI](https://cloud.google.com/translate)
+针对批量网页文章翻译，参考说明文档[Translation AI](https://cloud.google.com/translate)
 
 [Cloud Translation API](https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com) 使用 Google 的神经机器翻译技术， Google 预训练的自定义模型或翻译专用大型语言模型 (LLM) 通过 API 动态翻译文本。
 
@@ -54,7 +54,7 @@ tags:
 
 4.  **使用词汇表 (可选):** 如果需要控制特定术语或短语的翻译，可以使用 Translation API 的词汇表功能创建自定义词汇表。
 
-# 备选方案 (直接使用 Cloud Translation API 的 `translate_v3`)
+# 直接使用 Cloud Translation API 的 `translate_v3`
 
 如果您需要更细粒度的控制或希望避免使用 Vertex AI SDK，可以直接使用 `translate_v3` 调用 Translation LLM 或 NMT 模型。  请参考 Cloud Translation API 的文档：[Translating text (Advanced)- v3](https://cloud.google.com/translate/docs/advanced/translating-text-v3)
 
