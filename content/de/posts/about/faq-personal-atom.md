@@ -1,13 +1,13 @@
 ---
-title: "Persönlicher FAQ-Fragebogen"
+title: "Persönlicher FAQ - Fragebogen"
 date: 2021-12-04
 categories:
-  - Über mich
+  - Über
 tags:
   - Vorstellung
 ---
 
-Dies ist Atoms [persönlicher FAQ-Fragebogen]
+Dies ist Atoms [persönlicher FAQ - Fragebogen]
 
 
 ### Lieblingsfilm?

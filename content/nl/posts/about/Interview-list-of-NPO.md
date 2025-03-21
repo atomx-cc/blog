@@ -3,7 +3,7 @@ title: "Vragenlijst non-profit project"
 date: 2019-11-03
 description:
 categories:
-  - Leven
+  - Over
   - Natuur
 tags:
   - NPO
