@@ -1,9 +1,9 @@
 ---
-titel: "Persoonlijke FAQ-vragenlijst - Sjabloon"
-datum: 2021-12-04
-categorieën:
+title: "Persoonlijke FAQ-vragenlijst - Sjabloon"
+date: 2021-12-04
+categories:
   - Over
-trefwoorden:
+tags:
   - CV
 ---
 

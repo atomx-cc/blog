@@ -10,12 +10,9 @@ tags:
   - AI
 ---
 
-
-Google 人工智能服务平台有[Google AI Studio](https://aistudio.google.com/), [Google AI](https://ai.google/), [Google labs](https://labs.google/)等。由于各家平台上的模型系列太多了，必须根据任务选择最适合的模型。
-
 **博客网站的文章翻译，选择哪个模型比较好？**
 
-我们找到了Google Cloud [Vertex AI Studio - Translation](https://cloud.google.com/vertex-ai)，其专业的翻译模型的种类多样，例如：
+我们测试一下Google Cloud [Vertex AI Studio - Translation](https://cloud.google.com/vertex-ai)，其专业的翻译模型的种类多样，例如：
 - NMT (modal used for translation modality)
 - Translation LLM (modal used for translation modality)
 - gemini-2.0-flash-001 (next generation gemini flash, super speed, multimodal generation, 1M token context window)

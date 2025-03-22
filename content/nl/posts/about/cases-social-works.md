@@ -1,9 +1,9 @@
 ---
-titel: "Sociale activiteiten"
-datum: 2017-02-04
-categorieën:
+title: "Sociale activiteiten"
+date: 2017-02-04
+categories:
   - Over
-trefwoorden:
+tags:
   - CV
 ---
 

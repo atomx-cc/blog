@@ -1,5 +1,5 @@
 ---
-title: "Cloud Translation API 模型配置和调试"
+title: "Cloud Translation API 配置和调试"
 date: 2025-03-19
 description:
 categories:
@@ -69,15 +69,15 @@ Base translation model is available: general/base in us-central1
 
 Base translation model is available: general/base in global
 
-==========================================================================
+==================================================================
 SUMMARY:
 Available Translation Models: us-central1:default, us-central1:general/translation-llm, us-central1:general/base, global:general/base
-==========================================================================
+==================================================================
 ```
 
 这表明 general/translation-llm 模型仅在 us-central1 位置可用，难怪了，此前配置europe-west，或global都行不通，我以为global能自动给我找到距离最近的服务器，或者直接下单到我的位置europe-west，这都是因为环保人士总想着能源效率。
 
-但是实际结果表明，Google这貌似新出的产品，也没有全球布局，还留在老家呢。
+但是实际结果表明，可能这些模型是Google 2024年11月出的新产品，没有全球布局，还留在老家呢。
 
 # Google Cloud Translation API 模型说明
 
@@ -128,43 +128,4 @@ Available Translation Models: us-central1:default, us-central1:general/translati
 4. **特定语言对**: 某些模型在特定语言对上可能表现更好
 
 最准确的信息应参考 Google Cloud 的官方文档，因为这些服务和模型会不断更新和改进。
-
-
-# debug
-
-还有一堆问题，主要是关于原文件格式保存。
-
-该翻译工具由Gemini 2.0 Flash 初步打造，但是无法解决原文件格式丢失、跳过不必要翻译的目标语言文件、以及误判文件和字符的语言类型诸多问题。经过5个回合而无法完成debug，始终处于一种死循环中，解决一个问题，又陷入另外一个缺陷的境地。
-
-此外，还尝试用NMT模型，它将文件的格式全部丢失，翻译后的全部字符缩成一团。。。
-
-然后将该程序递交给[SourceGraph](https://sourcegraph.com) CODY，内置免费的编程辅助引擎[Anthropic](https://anthropic.com/)[Claude](https://claude.ai/)，只经过2个回合，一次修改，搞定了Gemini 遗留的难题。
-
-经过1个月的实测经验，截止2025年3月中旬，Google尚未上线超越CODY的编程辅助模型，Google做得很大，可能细分市场方面还未介入，也或许早已有非常好的相关产品，但是我们若陷入Google的庞大产品迷魂阵和复杂的使用方法中。
-
-
-## bug 案例
-
-在frontmatter中的 categories: 和 tags: 下方的中横线 - 缺少一个tab的缩进，frontmatter 和首个大标题中间缺少一个空行。
-
-```md
----
-title: "Translation Solution"
-date: 2025-02-16
-description: Cultivate good habits and improve the quality of life!
-categories:
-- IT
-
-tags:
-- Internet
-- Mathematics & Computers
-- AI
----
-# How to understand the chaos of human society?
-
-Processing file
-
-```
-
-
 

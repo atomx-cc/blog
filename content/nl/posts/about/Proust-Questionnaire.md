@@ -1,10 +1,10 @@
 ---
-titel: "Proust-vragenlijst - sjabloon"
-datum: 2021-10-06
-beschrijving: Proust-vragenlijst
-categorieën:
+title: "Proust-vragenlijst - sjabloon"
+date: 2021-10-06
+description: 
+categories:
   - Over
-trefwoorden:
+tags:
   - CV
 ---
 

@@ -211,7 +211,7 @@ Refer to the farm-to-table model of CSA Community Supported Agriculture, based o
 Formulate investment promotion rules, user service agreements, quality certification, product selection standards, and origin evaluation systems. Based on user and data growth performance goals, use timelines and progress management tools to solve supply chain service guarantee issues in actual application scenarios, involving cross-departmental collaboration in business operations, technology research and development, and marketing.
 
 
-## IT Operation and Maintenance and Translation
+## IT Operation and Translation
 
 **Time:** November 2004 - October 2009
 

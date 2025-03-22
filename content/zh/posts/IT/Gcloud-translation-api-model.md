@@ -1,5 +1,5 @@
 ---
-title: "Google AI 翻译模型选择和使用建议"
+title: "Google 翻译模型选择和使用建议"
 date: 2025-03-11
 description:
 categories:
@@ -16,51 +16,50 @@ tags:
 
 它有基础版和高级版，两者都提供快速和动态翻译，但高级版提供自定义功能，例如特定领域的翻译、格式化文档翻译和批量翻译。
 
-每月发送到 API 处理的前 500,000 个字符（基础版和高级版合计）是免费的（不适用于 LLM）。
+每月发送到 API，使用NMT模型处理的前 500,000 个字符（基础版和高级版合计）是免费的（不适用于 LLM）。
 
-# 几种翻译模型
+# 2种翻译模型
 
 1.  **NMT (神经机器翻译) 模型:**
 
-    *   **`translate_v2`:**  早期版本的 NMT 模型，**现已弃用，不建议使用**。
-    *   **`translate_v3`:** 目前推荐使用的 NMT 模型，提供更高的翻译质量、更多语言支持和更丰富的功能。可以直接通过 Cloud Translation API 调用。
+    *   **`translate_v2`:**  早期版本的 NMT v2模型，**现已弃用，不建议使用**。
+    *   **`translate_v3`:** 目前推荐使用的 NMT v3模型，提供比v2更高的翻译质量、更多语言支持和更丰富的功能。可以直接通过 Cloud Translation API 调用。
 
 2.  **Translation LLM (大型语言模型):**
 
     这是 Google 基于大型语言模型技术的翻译模型，能够更好地理解上下文和生成更流畅自然的译文。尤其适合处理博客文章等复杂文本。
 
-    可以通过两种方式调用：
+    *   **更高的翻译质量：** Translation LLM 在处理博客文章等复杂文本时表现更出色，因为它在理解上下文和生成流畅译文方面更胜一筹。
+    *   **更好的格式保留：** 结合 `mime_type: text/html` 设置，Translation LLM 和 `translate_v3` 都能够更好地保留 Markdown 格式。
+    *   **更强大的功能：** Translation LLM 和 `translate_v3` 都支持词汇表等功能，可以帮助您更好地控制翻译结果。
 
-    *   **Vertex AI SDK 的 `aiplatform.TranslationModel` 接口 (推荐，更简洁):**  更易于与其他 Vertex AI 服务集成。
-    *   **Cloud Translation API 的 `translate_v3` (更灵活，可控性更强):**  可以直接调用，提供更多参数控制。
 
+可以通过以下两种方式调用：
 
-# 推荐Translation LLM 模型
-
-**理由如下：**
-
-*   **更高的翻译质量：** Translation LLM 在处理博客文章等复杂文本时表现更出色，因为它在理解上下文和生成流畅译文方面更胜一筹。
-*   **更好的格式保留：** 结合 `mime_type: text/html` 设置，Translation LLM 和 `translate_v3` 都能够更好地保留 Markdown 格式。
-*   **更强大的功能：** Translation LLM 和 `translate_v3` 都支持词汇表等功能，可以帮助您更好地控制翻译结果。
-
-## Vertex AI SDK 调用 Translation LLM
+## 通过Vertex AI SDK 调用 Translation LLM
 
 1.  **安装 Vertex AI SDK:**  `pip install google-cloud-aiplatform`
 
-2.  **参考官方文档:**  学习如何使用 `aiplatform.TranslationModel` 接口调用 Translation LLM 模型进行翻译。  
+2.  **参考官方文档:**  使用 `aiplatform.TranslationModel` 接口调用 Translation LLM 模型进行翻译。更简洁，更易于与其他 Vertex AI 服务集成。
+
 文档地址：[Generative AI - Translate text](https://cloud.google.com/vertex-ai/generative-ai/docs/translate/translate-text) 
 
 3.  **设置 `mime_type: text/html`:** 在 API 请求中将 `mime_type` 设置为 `text/html`，以告诉 API 将 Markdown 视为 HTML，从而更好地保留格式。
 
 4.  **使用词汇表 (可选):** 如果需要控制特定术语或短语的翻译，可以使用 Translation API 的词汇表功能创建自定义词汇表。
 
-# 直接使用 Cloud Translation API 的 `translate_v3`
+## 直接使用 Cloud Translation API 的 `translate_v3`
 
-如果您需要更细粒度的控制或希望避免使用 Vertex AI SDK，可以直接使用 `translate_v3` 调用 Translation LLM 或 NMT 模型。  请参考 Cloud Translation API 的文档：[Translating text (Advanced)- v3](https://cloud.google.com/translate/docs/advanced/translating-text-v3)
+如果您希望避免使用 Vertex AI SDK，可以直接使用`translate_v3` 调用 Translation LLM 或 NMT 模型。更灵活，可控性更强，提供更多（细粒度）的参数控制。
+
+请参考 Cloud Translation API 的文档：[Translating text (Advanced)- v3](https://cloud.google.com/translate/docs/advanced/translating-text-v3)
+
 
 **总结:**
 
-Translation LLM 模型是批量博客文章翻译的最佳选择。使用 Vertex AI SDK 调用 Translation LLM，并设置 `mime_type: text/html`，可以帮助您获得高质量的翻译结果，并保留 Markdown 格式。  `translate_v3`  也支持 Translation LLM 和 NMT 模型，并提供更多控制选项，可以根据需要选择。
+Translation LLM 模型是批量博客文章翻译的最佳选择。使用 Vertex AI SDK 调用 Translation LLM，并设置 `mime_type: text/html`，可以帮助您获得高质量的翻译结果，并保留 Markdown 格式。 
+
+`translate_v3`  也支持 Translation LLM 和 NMT 模型，免费并提供更多控制选项。
 
 
 # 其他模型
