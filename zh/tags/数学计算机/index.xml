@@ -15,10 +15,10 @@
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cloud Translation API 模型配置和调试</title>
-      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-model-config-debug/</link>
+      <title>Cloud Translation API 配置和调试</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-config-debug/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api-model-config-debug/</guid>
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api-config-debug/</guid>
       <description>&lt;p&gt;我们想调用 Cloud Translation API ，使用预训练的Translation LLM 模型，可以直接用于翻译，如何配置参数 MODEL_NAME 和 LOCATION等？&lt;/p&gt;
 &lt;h1 id=&#34;模型名称和地点&#34;&gt;模型名称和地点？&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;google.cloud&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;translate_v3&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;translate&lt;/span&gt;
@@ -165,9 +165,9 @@
     </item>
     <item>
       <title>Google AI模型的使用方式和适用场景</title>
-      <link>https://atomx.cc/zh/posts/it/ai-model-usage-scenarios/</link>
+      <link>https://atomx.cc/zh/posts/it/gcloud-ai-model-usage-scenarios/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/ai-model-usage-scenarios/</guid>
+      <guid>https://atomx.cc/zh/posts/it/gcloud-ai-model-usage-scenarios/</guid>
       <description>&lt;p&gt;当我们使用模型, 例如Google Gemini 1.5 Pro，它有多种使用方式，适用场景有所不同：&lt;/p&gt;
 &lt;h1 id=&#34;1-vertex-ai-studio&#34;&gt;&lt;strong&gt;1. Vertex AI Studio：&lt;/strong&gt;&lt;/h1&gt;
 &lt;ul&gt;
@@ -254,11 +254,12 @@
 &lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>如何选择模型版本？ - 编程和数学</title>
-      <link>https://atomx.cc/zh/posts/it/choose-model-versions/</link>
+      <title>如何选择Google AI模型版本？- 用于编程和数学</title>
+      <link>https://atomx.cc/zh/posts/it/choose-model-for-math-coding/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/choose-model-versions/</guid>
-      <description>&lt;p&gt;当我决定使用Google 的AI，我需要辅助解决编程和数学问题的模型，找到以下可能最适合需求的模型：&lt;/p&gt;
+      <guid>https://atomx.cc/zh/posts/it/choose-model-for-math-coding/</guid>
+      <description>&lt;p&gt;由于各家平台上的模型系列太多了，必须根据任务选择最适合需求或最强大的模型。&lt;/p&gt;
+&lt;p&gt;我决定使用Google AI，辅助解决编程和数学问题，找到以下选项：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1. Gemini 1.5 Pro：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;优势：&lt;/strong&gt;
@@ -317,41 +318,35 @@
 &lt;p&gt;&lt;strong&gt;额外提示：&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Google AI 翻译模型选择和使用建议</title>
-      <link>https://atomx.cc/zh/posts/it/gcloud-translation-ai-model/</link>
+      <title>Google 翻译模型选择和使用建议</title>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-model/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-ai-model/</guid>
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api-model/</guid>
       <description>&lt;p&gt;针对批量网页文章翻译，参考说明文档&lt;a href=&#34;https://cloud.google.com/translate&#34;&gt;Translation AI&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://console.cloud.google.com/marketplace/product/google/translate.googleapis.com&#34;&gt;Cloud Translation API&lt;/a&gt; 使用 Google 的神经机器翻译技术， Google 预训练的自定义模型或翻译专用大型语言模型 (LLM) 通过 API 动态翻译文本。&lt;/p&gt;
 &lt;p&gt;它有基础版和高级版，两者都提供快速和动态翻译，但高级版提供自定义功能，例如特定领域的翻译、格式化文档翻译和批量翻译。&lt;/p&gt;
-&lt;p&gt;每月发送到 API 处理的前 500,000 个字符（基础版和高级版合计）是免费的（不适用于 LLM）。&lt;/p&gt;
-&lt;h1 id=&#34;几种翻译模型&#34;&gt;几种翻译模型&lt;/h1&gt;
+&lt;p&gt;每月发送到 API，使用NMT模型处理的前 500,000 个字符（基础版和高级版合计）是免费的（不适用于 LLM）。&lt;/p&gt;
+&lt;h1 id=&#34;2种翻译模型&#34;&gt;2种翻译模型&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;NMT (神经机器翻译) 模型:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;translate_v2&lt;/code&gt;:&lt;/strong&gt;  早期版本的 NMT 模型，&lt;strong&gt;现已弃用，不建议使用&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;code&gt;translate_v3&lt;/code&gt;:&lt;/strong&gt; 目前推荐使用的 NMT 模型，提供更高的翻译质量、更多语言支持和更丰富的功能。可以直接通过 Cloud Translation API 调用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;translate_v2&lt;/code&gt;:&lt;/strong&gt;  早期版本的 NMT v2模型，&lt;strong&gt;现已弃用，不建议使用&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;translate_v3&lt;/code&gt;:&lt;/strong&gt; 目前推荐使用的 NMT v3模型，提供比v2更高的翻译质量、更多语言支持和更丰富的功能。可以直接通过 Cloud Translation API 调用。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Translation LLM (大型语言模型):&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这是 Google 基于大型语言模型技术的翻译模型，能够更好地理解上下文和生成更流畅自然的译文。尤其适合处理博客文章等复杂文本。&lt;/p&gt;
-&lt;p&gt;可以通过两种方式调用：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Vertex AI SDK 的 &lt;code&gt;aiplatform.TranslationModel&lt;/code&gt; 接口 (推荐，更简洁):&lt;/strong&gt;  更易于与其他 Vertex AI 服务集成。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cloud Translation API 的 &lt;code&gt;translate_v3&lt;/code&gt; (更灵活，可控性更强):&lt;/strong&gt;  可以直接调用，提供更多参数控制。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;推荐translation-llm-模型&#34;&gt;推荐Translation LLM 模型&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;理由如下：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;更高的翻译质量：&lt;/strong&gt; Translation LLM 在处理博客文章等复杂文本时表现更出色，因为它在理解上下文和生成流畅译文方面更胜一筹。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;更好的格式保留：&lt;/strong&gt; 结合 &lt;code&gt;mime_type: text/html&lt;/code&gt; 设置，Translation LLM 和 &lt;code&gt;translate_v3&lt;/code&gt; 都能够更好地保留 Markdown 格式。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;更强大的功能：&lt;/strong&gt; Translation LLM 和 &lt;code&gt;translate_v3&lt;/code&gt; 都支持词汇表等功能，可以帮助您更好地控制翻译结果。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;vertex-ai-sdk-调用-translation-llm&#34;&gt;Vertex AI SDK 调用 Translation LLM&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;可以通过以下两种方式调用：&lt;/p&gt;
+&lt;h2 id=&#34;通过vertex-ai-sdk-调用-translation-llm&#34;&gt;通过Vertex AI SDK 调用 Translation LLM&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;安装 Vertex AI SDK:&lt;/strong&gt;  &lt;code&gt;pip install google-cloud-aiplatform&lt;/code&gt;&lt;/p&gt;</description>
@@ -361,9 +356,8 @@
       <link>https://atomx.cc/zh/posts/it/vertex-ai-studio-translation/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/it/vertex-ai-studio-translation/</guid>
-      <description>&lt;p&gt;Google 人工智能服务平台有&lt;a href=&#34;https://aistudio.google.com/&#34;&gt;Google AI Studio&lt;/a&gt;, &lt;a href=&#34;https://ai.google/&#34;&gt;Google AI&lt;/a&gt;, &lt;a href=&#34;https://labs.google/&#34;&gt;Google labs&lt;/a&gt;等。由于各家平台上的模型系列太多了，必须根据任务选择最适合的模型。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;博客网站的文章翻译，选择哪个模型比较好？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我们找到了Google Cloud &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI Studio - Translation&lt;/a&gt;，其专业的翻译模型的种类多样，例如：&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;博客网站的文章翻译，选择哪个模型比较好？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们测试一下Google Cloud &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI Studio - Translation&lt;/a&gt;，其专业的翻译模型的种类多样，例如：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;NMT (modal used for translation modality)&lt;/li&gt;
 &lt;li&gt;Translation LLM (modal used for translation modality)&lt;/li&gt;
@@ -413,7 +407,8 @@
 &lt;p&gt;而Anthropic大厂computer use 似乎也是测试状态，需要开发者的终端工作环境中才能用，所以也不算是成熟的产品。&lt;/p&gt;
 &lt;p&gt;而GPT Engineer 主要用来写代码的，非用于日常通用的任务。&lt;/p&gt;
 &lt;p&gt;所以，就只剩下AutoGPT可以试用一下，&lt;/p&gt;
-&lt;h1 id=&#34;体验报告---autogpt&#34;&gt;体验报告 - AutoGPT&lt;/h1&gt;</description>
+&lt;h1 id=&#34;体验报告---autogpt&#34;&gt;体验报告 - AutoGPT&lt;/h1&gt;
+&lt;p&gt;有待补充 。。。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google AI 翻译模型 - 配置Gemini参数</title>
@@ -477,9 +472,9 @@
     </item>
     <item>
       <title>翻译项目需求概述</title>
-      <link>https://atomx.cc/zh/posts/it/gcloud-translation-ai/</link>
+      <link>https://atomx.cc/zh/posts/it/gcloud-translation-api/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-ai/</guid>
+      <guid>https://atomx.cc/zh/posts/it/gcloud-translation-api/</guid>
       <description>&lt;p&gt;适用于多语言版本的博客或网页文档翻译&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
