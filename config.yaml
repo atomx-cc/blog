@@ -71,7 +71,7 @@ languages:
        
         - identifier: Coolshell
           name: Coolshell.in
-          url: https://house.coolshell.in/
+          url: https://coolshell.in/
           weight: 10
 
   zh:
@@ -114,7 +114,7 @@ languages:
 
         - identifier: Coolshell
           name: 酷壳众创
-          url: https://house.coolshell.in/zh/
+          url: https://coolshell.in/zh-cn/
           weight: 10
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
@@ -191,7 +191,7 @@ languages:
 
         - identifier: Coolshell
           name: Coolshell.in
-          url: https://house.coolshell.in/nl/
+          url: https://coolshell.in/nl/
           weight: 10
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
@@ -254,7 +254,7 @@ languages:
 
         - identifier: Coolshell
           name: Coolshell
-          url: https://house.coolshell.in/de/
+          url: https://coolshell.in/de/
           weight: 10
 
     params:

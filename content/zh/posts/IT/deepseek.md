@@ -20,7 +20,7 @@ tags:
 
 但是最近Deepseek放出一条消息：Due to current server resource constraints, we have temporarily suspended API service recharges to prevent any potential impact on your operations. Existing balances can still be used for calls. We appreciate your understanding!
 
-可能它最近太火爆了，结果流量太大，没有接住，于是被限制使用，业务多到接不过来。
+可能它最近太火爆了，结果流量太大，没有接住，服务器资源不够，于是被限制使用，业务多到接不过来。
 
 # 安装使用方案
 
@@ -34,7 +34,14 @@ tags:
 
 [DeepSeek Coder](https://deepseekcoder.github.io/)
 
+## 最简单使用方法
 
+- IDE [trae](https://www.trae.ai)海外版，其中内置了满血版 DeepSeek R1、V3、claude等目前业内最好的数学和编程模型，关键是免费，财大气粗的字节跳动开发的，截止2025年3月，只有英文和日文版，得到好评。
+
+[中文版](https://www.trae.com.cn/ )发布迟于海外版，面向中国大陆用户，奇怪的是被网友吐槽很多。
+
+- IDE [Vscode](https://code.visualstudio.com/)+ [Cody](https://sourcegraph.com/cody) + [Claude](https://claude.ai/)
+截止2025年3月，个人用户月费9欧元，大多数时候都蛮好用，偶尔抽筋宕机，通常也是资源不够用的缘故，可能是小团队小成本制作。
 
 ## 离线使用
 
