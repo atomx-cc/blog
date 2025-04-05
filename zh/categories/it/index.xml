@@ -427,13 +427,22 @@
 &lt;p&gt;&lt;a href=&#34;https://deepseek.csdn.net/67ab1c5f79aaf67875cb96ac.html&#34;&gt;DeepSeek剖析：与国际知名 AI 模型的全方位对比&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.51cto.com/article/805393.html&#34;&gt;AI辅助编程：Cursor与DeepSeek Coder的巅峰对决&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;但是最近Deepseek放出一条消息：Due to current server resource constraints, we have temporarily suspended API service recharges to prevent any potential impact on your operations. Existing balances can still be used for calls. We appreciate your understanding!&lt;/p&gt;
-&lt;p&gt;可能它最近太火爆了，结果流量太大，没有接住，于是被限制使用，业务多到接不过来。&lt;/p&gt;
+&lt;p&gt;可能它最近太火爆了，结果流量太大，没有接住，服务器资源不够，于是被限制使用，业务多到接不过来。&lt;/p&gt;
 &lt;h1 id=&#34;安装使用方案&#34;&gt;安装使用方案&lt;/h1&gt;
 &lt;h2 id=&#34;在线使用&#34;&gt;在线使用&lt;/h2&gt;
 &lt;p&gt;依赖网络实时连接&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/GeekerJun/p/18706922&#34;&gt;VSCode+Cline+DeepSeek-V3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/20937708204&#34;&gt;Cursor+DeepSeek&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://deepseekcoder.github.io/&#34;&gt;DeepSeek Coder&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;最简单使用方法&#34;&gt;最简单使用方法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IDE &lt;a href=&#34;https://www.trae.ai&#34;&gt;trae&lt;/a&gt;海外版，其中内置了满血版 DeepSeek R1、V3、claude等目前业内最好的数学和编程模型，关键是免费，财大气粗的字节跳动开发的，截止2025年3月，只有英文和日文版，得到好评。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.trae.com.cn/&#34;&gt;中文版&lt;/a&gt;发布迟于海外版，面向中国大陆用户，奇怪的是被网友吐槽很多。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IDE &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Vscode&lt;/a&gt;+ &lt;a href=&#34;https://sourcegraph.com/cody&#34;&gt;Cody&lt;/a&gt; + &lt;a href=&#34;https://claude.ai/&#34;&gt;Claude&lt;/a&gt;
+截止2025年3月，个人用户月费9欧元，大多数时候都蛮好用，偶尔抽筋宕机，通常也是资源不够用的缘故，可能是小团队小成本制作。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;离线使用&#34;&gt;离线使用&lt;/h2&gt;
 &lt;p&gt;本地部署，搭建本地私有知识库&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://deepseek.csdn.net/67ab1f1379aaf67875cb9cd8.html&#34;&gt;llama+Deepseek&lt;/a&gt;&lt;/p&gt;
@@ -1030,9 +1039,9 @@ for(auto p : v) {&lt;br&gt;
     </item>
     <item>
       <title>纪念左耳朵耗子：让我们继续协作奋进</title>
-      <link>https://atomx.cc/zh/posts/god/memorial-our-best-friend-chen-hao/</link>
+      <link>https://atomx.cc/zh/posts/god/rip-chen-hao/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/god/memorial-our-best-friend-chen-hao/</guid>
+      <guid>https://atomx.cc/zh/posts/god/rip-chen-hao/</guid>
       <description>&lt;p&gt;今天周一早上起来，我照例先查看工作群，我闻到一丝异常信息，MegaEase网页变灰黑色，很快确证了事故。。。&lt;/p&gt;
 &lt;p&gt;一时脑子有点懵，意识有点恍惚，不知道做什么，穿衣跑出去，到附近的教堂，一个人安静地做个祈祷，我想和皓哥继续经常对话，如同过去几年。&lt;/p&gt;
 &lt;p&gt;然后回来查看网络上，已经有很多网友在分享关于他的故事，他影响了很多人，也包括我。&lt;/p&gt;
@@ -1079,7 +1088,6 @@ for(auto p : v) {&lt;br&gt;
 &lt;p&gt;工作群播报每天不能上班的人状况，2022年12月大部分人似乎都被病毒阳了，每天都有人报告生病，耗子也有两周无法上线，我想糟糕了，对于科技产品而言，从事智力劳动的人是最重要的资产，怎么就疏忽了风险控制？&lt;/p&gt;
 &lt;p&gt;我说大家都离开高风险地区吧，他总是说等等，还有一些开发没搞完，关键节点上呢，他只考虑工作的事，不在意其他方面问题。&lt;/p&gt;
 &lt;p&gt;程序员都很聪明，但有时脑筋真是不够灵活的，经常讨论“病毒、核酸、阳了、吃药打针“这些问题有意思吗？不考虑怎么在物理空间上规避风险的问题，为什么不跑得远远地呢？打不过，你可以躲开啊！&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;肥耗子&#34; loading=&#34;lazy&#34; src=&#34;https://photos.app.goo.gl/NJ871ejMqRr2gJyU8&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2023年寻找合作伙伴&#34;&gt;&lt;strong&gt;2023年，寻找合作伙伴&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;我拿着MegaEase的材料，尝试递交给海外孵化器，他把我的名字和他并列写到商业计划书中，我从难民秒变科技创业新秀了，这剧情翻转得猝不及防。&lt;/p&gt;
 &lt;p&gt;通过创业的身份安顿下来，这是一种更新或更高级的玩法，感谢安排这种生存模式，不用打工了，我们彼此帮助，共赢！&lt;/p&gt;
@@ -1094,7 +1102,8 @@ for(auto p : v) {&lt;br&gt;
 &lt;p&gt;将出现另一种完全翻转的境况，必然不会是今天这种结局。&lt;/p&gt;
 &lt;p&gt;如果 ……&lt;/p&gt;
 &lt;p&gt;如果追溯更早，我们算是阿里校友，偶然听过耗子的名字，但在职时并没有交叉点，没准在某个食堂楼道或内网里碰到过。&lt;/p&gt;
-&lt;p&gt;我2012年入职淘宝农业部门，缺乏耐心，只待不到2年就自动辞退了，不是主管和HR刁难我。我无能为力改进生鲜农产品项目，犹如耗子无法改变阿里云，理想抱负和现实差距太大，不是因为钱的事，眼不见心不烦，一走了之，可以理解彼此的遭遇心境。&lt;/p&gt;</description>
+&lt;p&gt;我2012年入职淘宝农业部门，缺乏耐心，只待不到2年就自动辞退了，不是主管和HR刁难我。我无能为力改进生鲜农产品项目，犹如耗子无法改变阿里云，理想抱负和现实差距太大，不是因为钱的事，眼不见心不烦，一走了之，可以理解彼此的遭遇心境。&lt;/p&gt;
+&lt;p&gt;后来反思，有些人天生不安分，好好的工作和福利不要，给自己找罪受，非得想要改变什么，还要得罪一圈人。&lt;/p&gt;</description>
     </item>
     <item>
       <title>用AI辅助修复旧照片</title>

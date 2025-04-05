@@ -851,21 +851,20 @@ In main: x = 7, y = 4&lt;/p&gt;</description>
 &lt;p&gt;&lt;a href=&#34;https://glowing-space-dollop-pjrj646rqwjh67jp.github.dev/?autoStart=true&amp;amp;folder=%2Fworkspaces%2F10704949&amp;amp;vscodeChannel=stable&#34;&gt;Codespace cs50&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;User Manual of C&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://manual.cs50.io/&#34;&gt;C standard library cs50&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;北美计算机四大本科课程设置：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;编程语言学&lt;/p&gt;
-&lt;p&gt;算法与数据结构&lt;/p&gt;
-&lt;p&gt;操作系统&lt;/p&gt;
-&lt;p&gt;计算机网络&lt;/p&gt;
-&lt;p&gt;数据库&lt;/p&gt;
-&lt;p&gt;分布式系统&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Four major undergraduate computer courses in North America:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Programming linguistics&lt;/p&gt;
+&lt;p&gt;Algorithms and data structures&lt;/p&gt;
+&lt;p&gt;Operating systems&lt;/p&gt;
+&lt;p&gt;Computer networks&lt;/p&gt;
+&lt;p&gt;Databases&lt;/p&gt;
+&lt;p&gt;Distributed systems&lt;/p&gt;
 &lt;h3 id=&#34;spoiler-tag&#34;&gt;Spoiler tag&lt;/h3&gt;
 &lt;p&gt;&lt;spoiler&gt; problem code snippet posted should be posted with spoiler tag &lt;/spoiler&gt;&lt;/p&gt;
 &lt;h3 id=&#34;pseudocode&#34;&gt;pseudocode?&lt;/h3&gt;
 &lt;p&gt;description  text of ideas&lt;/p&gt;
 &lt;h3 id=&#34;mathhfunctions&#34;&gt;&amp;lt;math.h&amp;gt;Functions&lt;/h3&gt;
 &lt;p&gt;Set $m/n = (z/q)^x$, m≥n≥2, z&amp;gt;q≥2, x≥0, all arguments are positive integers.&lt;/p&gt;
-&lt;p&gt;how to write an arithmetic function to get x value properly in c programming?&lt;/p&gt;
-&lt;p&gt;could it be like below?&lt;/p&gt;</description>
+&lt;p&gt;how to write an arithmetic function to get x value properly in c programming?&lt;/p&gt;</description>
     </item>
     <item>
       <title>42 School</title>
