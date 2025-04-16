@@ -51,3 +51,23 @@ EF SET - 英语测试，50分钟了解你的英语水平：[我们的2项技能�
 接受多邻国英语测试的大学名单。
 
 多邻国英语测试费用为 49 欧元。
+
+
+## 词汇量测试
+
+你知道多少单词？
+
+[测试词汇量](https://my.vocabularysize.com/)，但我认为这个网站的测试结果并不准确。
+
+雅思要达到 7 分，我们至少要知道 4000 个单词。
+
+将更多单词从被动词汇转化为主动词汇，我们的分数就会提高。
+
+精读 VS. 泛读
+
+• Vocabulary for IELTS by P.Cullen  -
+
+[IELTS Vocabulary Up to Band 6.0](https://www.cambridge.org/gb/cambridgeenglish/catalog/cambridge-english-exams-ielts/cambridge-vocabulary-ielts)
+
+免费预览 - [学生生活：学习、教育、研究](https://assets.cambridge.org/97805217/09750/excerpt/9780521709750_excerpt.pdf)
+
