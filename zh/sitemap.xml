@@ -627,7 +627,7 @@
     <loc>https://atomx.cc/zh/posts/god/rip-tea-master/</loc>
     <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/posts/edu/en/why-english-first/</loc>
+    <loc>https://atomx.cc/zh/posts/edu/lang/why-english-first/</loc>
     <lastmod>2021-08-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E8%8B%B1%E8%AF%AD/</loc>
@@ -639,18 +639,8 @@
     <loc>https://atomx.cc/zh/posts/travel/ukrainian-staff-katya-in-office/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/posts/edu/en/english-level-test/</loc>
+    <loc>https://atomx.cc/zh/posts/edu/lang/english-level-test/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/posts/edu/en/english-level-test/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/edu/en/english-level-test/"
-                />
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E5%9B%BE%E4%B9%A6/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
@@ -658,7 +648,7 @@
     <loc>https://atomx.cc/zh/posts/travel/book-anastasia/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/posts/edu/en/language-exchange-app-distorted/</loc>
+    <loc>https://atomx.cc/zh/posts/edu/lang/language-exchange-app-distorted/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/edu/elementary-education/</loc>
@@ -670,18 +660,8 @@
     <loc>https://atomx.cc/zh/posts/god/my-last-words-when-alive/</loc>
     <lastmod>2021-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/posts/edu/en/english-basic-skills/</loc>
+    <loc>https://atomx.cc/zh/posts/edu/lang/english-basic-skills/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/posts/edu/en/english-basic-skills/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/posts/edu/en/english-basic-skills/"
-                />
   </url><url>
     <loc>https://atomx.cc/zh/posts/business/the-chaos-during-opening-the-door-of-china-for-the-first-time/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
@@ -822,7 +802,7 @@
     <loc>https://atomx.cc/zh/posts/edu/my-learning-path/</loc>
     <lastmod>2019-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/posts/edu/en/how-to-learn-english/</loc>
+    <loc>https://atomx.cc/zh/posts/edu/lang/how-to-learn-english/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/it/web-app-frameworks-for-developers/</loc>
