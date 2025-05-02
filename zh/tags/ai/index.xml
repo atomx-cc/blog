@@ -357,7 +357,8 @@
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/it/vertex-ai-studio-translation/</guid>
       <description>&lt;p&gt;&lt;strong&gt;博客网站的文章翻译，选择哪个模型比较好？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我们测试一下Google Cloud &lt;a href=&#34;https://cloud.google.com/vertex-ai&#34;&gt;Vertex AI Studio - Translation&lt;/a&gt;，其专业的翻译模型的种类多样，例如：&lt;/p&gt;
+&lt;p&gt;我们测试一下Google Cloud &lt;a href=&#34;https://console.cloud.google.com/vertex-ai/studio/translation&#34;&gt;Vertex AI Studio - Translation&lt;/a&gt;，可以直接在对话框中使用，无需调用代码。&lt;/p&gt;
+&lt;p&gt;其专业的翻译模型的种类主要有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;NMT (modal used for translation modality)&lt;/li&gt;
 &lt;li&gt;Translation LLM (modal used for translation modality)&lt;/li&gt;
