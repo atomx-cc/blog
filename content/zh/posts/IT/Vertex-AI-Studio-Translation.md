@@ -12,7 +12,9 @@ tags:
 
 **博客网站的文章翻译，选择哪个模型比较好？**
 
-我们测试一下Google Cloud [Vertex AI Studio - Translation](https://cloud.google.com/vertex-ai)，其专业的翻译模型的种类多样，例如：
+我们测试一下Google Cloud [Vertex AI Studio - Translation](https://console.cloud.google.com/vertex-ai/studio/translation)，可以直接在对话框中使用，无需调用代码。
+
+其专业的翻译模型的种类主要有：
 - NMT (modal used for translation modality)
 - Translation LLM (modal used for translation modality)
 - gemini-2.0-flash-001 (next generation gemini flash, super speed, multimodal generation, 1M token context window)
@@ -40,4 +42,3 @@ Vertex AI Studio 中有Google的全部模型，我试过包括做数学题和编
 Gemini在业界也是享有盛名的，为何在这些测试中表现很差呢？是否因为Vertex AI Studio 是一个测试平台？
 
 因此我们找到另外一个方案[Translation AI](https://cloud.google.com/translate)，详情请搜索相关文章“Cloud Translation API”。
-
