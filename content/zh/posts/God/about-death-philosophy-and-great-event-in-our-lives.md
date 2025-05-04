@@ -11,13 +11,13 @@ tags:
 ---
 
 
-最近半年我接到几个消息，有多位亲朋去世，随着年岁渐长，我们越来越频繁碰到关于生死的事件，我不知道该如何与人讲这个话题。
+最近半年我接到消息，有多位亲朋去世，随着年岁渐长，我们越来越频繁碰到关于生死的事件，我不知道该如何安慰他们，有必要好好考虑一下如何与人谈这个话题。
 
 我自己的做法：
 
-1. 写一篇可能较长的文字，为了回忆历史，纪念故人的过去；
+1. 写一篇文字，回忆历史，纪念故人的过去；
 2. 给自己写一篇“意外身故遗书”，在年轻的时候就要准备好，人生随时可能发生重大变故，几年前我就想明白，并早早已经写好了；
-3. 珍惜生者，我希望所有人都放慢工作节奏，赚钱不是最重要的，业余时间认真生活，和同事也多交流工作之外的事。如果有人只和我谈工作，这就太无聊了，这生意铁定是做不好的。我更有兴趣了解人的背景，或观察人的优缺点，所以我总是会在工作中和人扯淡，请大家谅解，我总是想交往一辈子的朋友。
+3. 珍惜生者，我希望所有人都放慢工作节奏，赚钱不是最重要的，业余时间认真生活，多交流生意之外的事。如果有人只和我谈工作，这就太无聊了，这生意铁定是做不好的。我更有兴趣了解人的背景，或观察人的优缺点，所以我总是会在工作中和人扯淡，请大家谅解，我总是想交往一辈子的朋友。
 4. 按照当地传统风俗和信仰，搞些法事活动，包括道教、佛教、基督教、伊斯兰都有相应的办事程序；
 
 我自小对搞“封建迷信”是不屑的，考虑到生者感受，以及保留一种神话传说中的可能，万一真有奇迹呢？例如佛教和道教里的超度，基督教和伊斯兰教里也有引领亡灵升到天堂，花负担得起的钱，搞个超度的法事，完全合情合理。
@@ -28,9 +28,7 @@ tags:
 
 中外均有非常多的门派，这是极其古老的议题，由人类历史上最具智慧的伟人著书立说，其中部分成为宗教、哲学或人类学的经典著作。
 
-《**耶鲁大学公开课:死亡**》
-
-[https://oyc.yale.edu/death/phil-176](https://oyc.yale.edu/death/phil-176)
+[《**耶鲁大学公开课:死亡**》](https://oyc.yale.edu/death/phil-176)
 
 我周围有有不少人推荐过这门课，但我还没完整看完。
 
@@ -38,25 +36,23 @@ tags:
 
 我有几个藏传佛信徒的朋友，包括一位大老板也给我推荐这些材料，他是走江湖见多识广的人，我认为他不会胡言瞎说八道或随意迷信。
 
-《西藏度亡经》
+[《西藏度亡经》](http://www.imslr.com/thread-64024-1-1.html) 
 
-[http://www.imslr.com/thread-64024-1-1.html](http://www.imslr.com/thread-64024-1-1.html) [https://www.scribd.com/doc/280571948/西藏度亡经-254页](https://www.scribd.com/doc/280571948/%E8%A5%BF%E8%97%8F%E5%BA%A6%E4%BA%A1%E7%BB%8F-254%E9%A1%B5)
+[西藏度亡经-254页](https://www.scribd.com/doc/280571948/%E8%A5%BF%E8%97%8F%E5%BA%A6%E4%BA%A1%E7%BB%8F-254%E9%A1%B5)
 
-《西藏生死书》索甲仁波切著，對度亡經的解說本。
+[《西藏生死书》](http://www.buddhistelibrary.org/zh/albums/central/ch/Dhamma/TibetanBookLivingDying.pdf)索甲仁波切著，對度亡經的解說本。
 
-[http://www.buddhistelibrary.org/zh/albums/central/ch/Dhamma/TibetanBookLivingDying.pdf](http://www.buddhistelibrary.org/zh/albums/central/ch/Dhamma/TibetanBookLivingDying.pdf)
-
-[https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/](https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/)
+[The Life, Death and Rebirth of The Tibetan Book of the Dead](https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/)[备份](https://web.archive.org/web/20241110130242/https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/)
 
 看目录，这些标题都非常吸引人，让人充满好奇心，如果仔细看，可能觉得非常艰涩难懂枯燥乏味。
 
 总之，最近几年经历太多生死事件，我的心态变得越来越坦然面对一切，对钱和生死都看得比较淡漠。
 
-上面那些书太长，看下面这个链接就够了，该ppt图片集是对该书的精华总结。
+上面那些书太长，看下面这个链接就够了，以下ppt图片集是对该书的精华总结。
 
-[http://juang.bst.ntu.edu.tw/files/C63%20Life%20&%20Death.pdf](http://juang.bst.ntu.edu.tw/files/C63%20Life%20&%20Death.pdf)
+[生死之謎‥西藏度亡經，索甲仁波切對度亡經的解說本](http://juang.bst.ntu.edu.tw/files/C63%20Life%20&%20Death.pdf)
 
-可能是我的造化浅薄，且缺乏慧根，我默念耗哥给我托梦，告诉我一些事情该怎么搞，可是我一年都不会做几次梦，我似乎完全活在一个唯物论的世界中，从未有过灵异事件的经历。
+我造化浅薄，缺乏慧根，我默念耗哥给我托梦，告诉我一些事情该怎么做，可是我一年都不会做几次梦，我似乎完全活在一个唯物论的世界中，从未有过灵异事件的经历。
 
 接触“迷信”，是为了多一种创造奇迹的可能性，希望其他朋友能如愿。
 
