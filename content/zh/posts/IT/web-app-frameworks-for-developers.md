@@ -241,9 +241,8 @@ Namecheap
 
 ## 自定义域名邮箱
 
-使用 Cloudflare 配置个性域名邮箱，通过gmail代理收发邮件
+[如何使用 Cloudflare 配置域名邮箱收发邮件](https://blog.shuziyimin.org/1355)，通过gmail代理收发邮件。
 
-[https://blog.shuziyimin.org/1355](https://blog.shuziyimin.org/1355)
 注意事项：应用专属密码可重复使用，但无法保留和再查看，可以重复申请多个。
 
 居然绕过了google workspace注册付费，也能使用gmail做收发代理，但是立即收到了google workspace的催促注册邮件，😂，看看能挂多久吧。
@@ -255,26 +254,22 @@ Namecheap
 ## **电商三大类型平台对比**
 
 1. 托管服務（完全依附）：使用amazon, alibaba 等monopoly giant 垄断巨头的完全托管，不需要任何技术人员；
-2. 托管平台（相对独立）：使用shopify, woocommerce 等 service provider 新兴服务商的技术服务，不需要任何技术人员；
+2. 托管平台（相对独立）：使用[shopify](https://www.shopify.com/), woocommerce 等 service provider 新兴服务商的技术服务，不需要任何技术人员；
 3. 自建平台（完全独立）：使用codeigniter, laravel 等技术框架 self built completely 完全自主建造，需要聘用程序员或外包公司写代码，需要长期的技术支持和运营维护；
 
 [programming framework selection](https://quip.com/TBrwAKmOSb8X)
 
 ## **分析结论**
 
-经过对当前taiaochi公司情况和业务需求的分析，作为IT开发者，我们推荐使用第二种方案“托管平台”，适合于商户类型为高中级用户，大品牌，有稳固的客流，较好的运营团队。例如采纳shopify，能够相对更高效率，低成本达成理想目标。
+作为IT开发者，必须经过业务需求分析，才能给出相应的推荐方案，对于高中级商户，有大品牌、稳固的客流、较好的运营团队，我们推荐使用第二种中间方案“托管平台”shopify，能够相对更高效率，低成本达成理想目标。
 
-[https://www.shopify.com/](https://www.shopify.com/)
-
-自建平台vs.托管平台vs.托管服务，主要差别为是否自己自主掌握技术开发，市场营销，美术，文案，活动等等是无论任何一种类型商业都少不了的。当然藉助于讬管平台，可以最大化地外包服务，减少商户的人力投入。
+自建平台vs.托管平台vs.托管服务，主要差别为是否自主掌握技术开发，无论任何一种类型商业都少不了市场营销、美术设计、文案、活动等等。当然藉助于托管平台，可以最大化地外包服务，减少商户的直接人力投入。
 
 ## 参考资料
 
 **E-commerce for Codeigniter**
 
-Udemy教学：在CI中做电商网站
-
-[https://www.udemy.com/course/e-commerce-in-codeigniter-step-by-step-guide-from-scratch/](https://www.udemy.com/course/e-commerce-in-codeigniter-step-by-step-guide-from-scratch/)
+[Udemy教学：在CI中做电商网站](https://www.udemy.com/course/e-commerce-in-codeigniter-step-by-step-guide-from-scratch/)
 
 没太搞清楚，需要用什么框架模板搭建。
 
@@ -287,26 +282,11 @@ Udemy教学：在CI中做电商网站
 
 Magento is an open source platform
 
-[https://www.quora.com/Is-CodeIgniter-able-to-develop-an-e-commerce-website](https://www.quora.com/Is-CodeIgniter-able-to-develop-an-e-commerce-website)
+[Is CodeIgniter able to develop an e-commerce website?](https://www.quora.com/Is-CodeIgniter-able-to-develop-an-e-commerce-website)
 
 Bootsrap
 
-[https://github.com/kirilkirkov/Ecommerce-CodeIgniter-Bootstrap](https://github.com/kirilkirkov/Ecommerce-CodeIgniter-Bootstrap)
+[Github:Ecommerce-CodeIgniter-Bootstrap](https://github.com/kirilkirkov/Ecommerce-CodeIgniter-Bootstrap)
 
-在CI中集成wordpress
+在CI中集成wordpress, [integrate Wordpress into Codeigniter](https://www.quora.com/Is-it-possible-to-integrate-WordPress-into-CodeIgniter)
 
-integrate Wordpress into Codeigniter
-
-[https://www.quora.com/Is-it-possible-to-integrate-WordPress-into-CodeIgniter](https://www.quora.com/Is-it-possible-to-integrate-WordPress-into-CodeIgniter)
-
----
-
-## 媒体创作站需求分析
-
-1. 多地自动备份
-为了防备触发网络审查的敏感词而被删或屏蔽，需要在多个平台备份，
-例如在Notion上创建主站和写作，同时备份到github、gitbook和google drive。
-
-2. 分享权限范围设定
-部分文章和内容必须在限定范围分享，
-例如仅限注册和付费会员可查阅或可编辑，其他内容可面向普通公众。

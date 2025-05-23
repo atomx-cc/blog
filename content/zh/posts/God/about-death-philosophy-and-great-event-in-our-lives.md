@@ -42,7 +42,7 @@ tags:
 
 [《西藏生死书》](http://www.buddhistelibrary.org/zh/albums/central/ch/Dhamma/TibetanBookLivingDying.pdf)索甲仁波切著，對度亡經的解說本。
 
-[The Life, Death and Rebirth of The Tibetan Book of the Dead](https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/)[备份](https://web.archive.org/web/20241110130242/https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/)
+[The Life, Death and Rebirth of The Tibetan Book of the Dead](https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/)，[文件备份](https://web.archive.org/web/20241110130242/https://www.berfrois.com/2011/04/life-death-rebirth-tibetan-book-of-dead/)
 
 看目录，这些标题都非常吸引人，让人充满好奇心，如果仔细看，可能觉得非常艰涩难懂枯燥乏味。
 
