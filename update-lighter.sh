@@ -95,9 +95,9 @@ fi
 # 9. Efficient git operations in public directory
 cd public
 
-# Check what actually changed
+# Check what actually changed (use --force to ignore .gitignore)
 echo "📊 Checking for changes..."
-git add .
+git add . --force
 CHANGED_FILES=$(git status --porcelain | wc -l | tr -d ' ')
 
 if [ "$CHANGED_FILES" -eq 0 ]; then
