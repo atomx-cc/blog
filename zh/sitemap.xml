@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://atomx.cc/zh/tags/ai/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/tags/ai/"
+                />
+  </url><url>
     <loc>https://atomx.cc/zh/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -25,8 +38,11 @@
                 href="https://atomx.cc/zh/"
                 />
   </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/prospect-c&#43;&#43;/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://atomx.cc/zh/categories/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -49,7 +65,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/categories/it/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -62,7 +78,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/posts/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -85,7 +101,7 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/tags/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -108,7 +124,10 @@
                 />
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <lastmod>2025-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/it/id-recognition-filter/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
@@ -134,23 +153,7 @@
     <loc>https://atomx.cc/zh/tags/%E5%AE%97%E6%95%99/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://atomx.cc/zh/tags/ai/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://atomx.cc/tags/ai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://atomx.cc/zh/tags/ai/"
-                />
-  </url><url>
     <loc>https://atomx.cc/zh/posts/it/gcloud-translation-api-config-debug/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/it/gcloud-translation-api-tools/</loc>
@@ -224,6 +227,9 @@
   </url><url>
     <loc>https://atomx.cc/zh/posts/god/mormon-3nephi11/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/life/dd-v48/</loc>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://atomx.cc/zh/posts/life/another-explanation-to-colony/</loc>
     <lastmod>2024-05-26T00:00:00+00:00</lastmod>

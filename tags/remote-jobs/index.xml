@@ -9,7 +9,7 @@
       <url>https://atomx.cc/images/papermod-cover.png</url>
       <link>https://atomx.cc/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
     <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
@@ -125,7 +125,7 @@
       <link>https://atomx.cc/posts/it/generative-ai-learning-path/</link>
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/it/generative-ai-learning-path/</guid>
-      <description>&lt;h1 id=&#34;generative-ai-with-vertex-ai-prompt-designhttpswwwcloudskillsboostgooglepaths118course_templates976labs515636&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515636&#34;&gt;Generative AI with Vertex AI: Prompt Design&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;generative-ai-with-vertex-ai-prompt-design&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515636&#34;&gt;Generative AI with Vertex AI: Prompt Design&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/introduction-prompt-design?&#34;&gt;the official documentation on prompt design&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Open the notebook in Vertex AI Workbench&lt;/li&gt;
@@ -135,21 +135,21 @@
 &lt;li&gt;Task 5. Improve Response Quality by Including Examples&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Why we should write code and documentation in &lt;a href=&#34;https://jupyter.org/&#34;&gt;Jupyter notebook&lt;/a&gt; ?&lt;/p&gt;
-&lt;h1 id=&#34;get-started-with-vertex-ai-studiohttpswwwcloudskillsboostgooglepaths118course_templates976labs515637&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515637&#34;&gt;Get Started with Vertex AI Studio&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;get-started-with-vertex-ai-studio&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515637&#34;&gt;Get Started with Vertex AI Studio&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Analyze images with Gemini in Freeform mode&lt;/li&gt;
 &lt;li&gt;Task 2. Explore multimodal capabilities&lt;/li&gt;
 &lt;li&gt;Task 3. Design text prompts&lt;/li&gt;
 &lt;li&gt;Task 4. Generate conversations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;getting-started-with-the-gemini-api-in-vertex-aihttpswwwcloudskillsboostgooglepaths118course_templates976labs515638&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515638&#34;&gt;Getting Started with the Gemini API in Vertex AI&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;getting-started-with-the-gemini-api-in-vertex-ai&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515638&#34;&gt;Getting Started with the Gemini API in Vertex AI&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Open the notebook in Vertex AI Workbench&lt;/li&gt;
 &lt;li&gt;Task 2. Set up the notebook&lt;/li&gt;
 &lt;li&gt;Task 3. Use the Gemini 1.5 Pro model&lt;/li&gt;
 &lt;li&gt;Task 4. Generate text from a multimodal prompt&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;prompt-design-in-vertex-ai-challenge-labhttpswwwcloudskillsboostgooglepaths118course_templates976labs515639&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515639&#34;&gt;Prompt Design in Vertex AI: Challenge Lab&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;prompt-design-in-vertex-ai-challenge-lab&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515639&#34;&gt;Prompt Design in Vertex AI: Challenge Lab&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Build a Gemini image analysis tool&lt;/li&gt;
 &lt;li&gt;Task 2. Build a Gemini tagline generator&lt;/li&gt;

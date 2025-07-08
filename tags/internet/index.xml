@@ -9,7 +9,7 @@
       <url>https://atomx.cc/images/papermod-cover.png</url>
       <link>https://atomx.cc/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
     <lastBuildDate>Fri, 23 Aug 2024 00:00:00 +0000</lastBuildDate>
@@ -198,7 +198,7 @@ In main: x = 7, y = 4&lt;/p&gt;</description>
 &lt;li&gt;SilkTest: A tool that can be used for regression and functionality testing.&lt;/li&gt;
 &lt;li&gt;IBM Rational Functional Tester (RFT): A tool that can be used for creating black box test scripts with a test recorder.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;gdbhttpswwwsourcewareorggdb&#34;&gt;&lt;a href=&#34;https://www.sourceware.org/gdb/&#34;&gt;GDB&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;gdb&#34;&gt;&lt;a href=&#34;https://www.sourceware.org/gdb/&#34;&gt;GDB&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;manual &lt;a href=&#34;https://sourceware.org/gdb/current/onlinedocs/gdb&#34;&gt;Debugging with GDB (sourceware.org)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -767,7 +767,7 @@ In main: x = 7, y = 4&lt;/p&gt;</description>
       <link>https://atomx.cc/posts/edu/math-cs/ibm-cybersecurity/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/math-cs/ibm-cybersecurity/</guid>
-      <description>&lt;h1 id=&#34;cybersecurity-compliance-framework--system-administrationhttpswwwcourseraorglearncybersecurity-compliance-framework-system-administration&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-compliance-framework-system-administration&#34;&gt;&lt;strong&gt;Cybersecurity Compliance Framework &amp;amp; System Administration&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;cybersecurity-compliance-framework--system-administration&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-compliance-framework-system-administration&#34;&gt;&lt;strong&gt;Cybersecurity Compliance Framework &amp;amp; System Administration&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;subject matter experts (SMEs)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.aicpa-cima.com/resources/article/soc-for-cybersecurity-information-for-organizations&#34;&gt;SOC&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act&#34;&gt;HIPAA&lt;/a&gt;&lt;/p&gt;
@@ -775,7 +775,7 @@ In main: x = 7, y = 4&lt;/p&gt;</description>
 &lt;p&gt;&lt;a href=&#34;https://sprinto.com/blog/compliance-standards/&#34;&gt;Compliance and Industry Standards Summary(ISO/SOC/PCI/HIPAA)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cisecurity.org/blog/v7-1-introduces-implementation-groups-cis-controls/&#34;&gt;Center for Internet Security (CIS) Critical Security Controls&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CIS Controls Implementation Group&lt;/p&gt;
-&lt;h1 id=&#34;cybersecurity-roles-processes--operating-system-securityhttpswwwcourseraorglearncybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;strong&gt;Cybersecurity Roles, Processes &amp;amp; Operating System Security&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;cybersecurity-roles-processes--operating-system-security&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;strong&gt;Cybersecurity Roles, Processes &amp;amp; Operating System Security&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/ITIL&#34;&gt;The Information Technology Infrastructure Library (ITIL)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.axelos.com/certifications/itil-service-management&#34;&gt;ITIL® 4: the framework for the management of IT-enabled services&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.axelos.com/certifications/itil-service-management/what-is-it-service-management&#34;&gt;how IT Service Management (ITSM) and ITIL are related.&lt;/a&gt;&lt;/p&gt;
@@ -948,7 +948,7 @@ define the truth of φ⇒ψ in terms of the truth/falsity of φ and ψ.&lt;/p&gt
 &lt;p&gt;∨ disjunction 析取: anyone is truth, φ ∨ ψ will be truth.&lt;/p&gt;
 &lt;p&gt;∨ : Communism, Soviet Union, China, Socialism, anyone is truth, then it is truth, Big, resources absorbing power, Totalitarianism&lt;/p&gt;
 &lt;p&gt;∧ : Germany,&lt;/p&gt;
-&lt;h2 id=&#34;greek-alphabet---wikipediahttpsenwikipediaorgwikigreek_alphabet&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;greek-alphabet---wikipedia&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;φ: phi&lt;/p&gt;
 &lt;p&gt;ψ: psi&lt;/p&gt;
 &lt;p&gt;θ: Theta&lt;/p&gt;
@@ -1167,7 +1167,7 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
       <link>https://atomx.cc/posts/edu/math-cs/cs-basics/</link>
       <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/math-cs/cs-basics/</guid>
-      <description>&lt;h1 id=&#34;cs-self-study-guidehttpscsdiywiki&#34;&gt;&lt;a href=&#34;https://csdiy.wiki/&#34;&gt;CS Self-study Guide&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;cs-self-study-guide&#34;&gt;&lt;a href=&#34;https://csdiy.wiki/&#34;&gt;CS Self-study Guide&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/PKUFlyingPig/cs-self-learning&#34;&gt;Github repo: CS self-learning&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Cooshell blog: &lt;a href=&#34;https://coolshell.cn/articles/4990.html&#34;&gt;Programmer&amp;rsquo;s Technology Leveling Guide&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;basic-concepts&#34;&gt;basic concepts&lt;/h2&gt;
@@ -1175,7 +1175,7 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
 &lt;p&gt;MAC terminal, command line, Unix Shell&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html#//apple_ref/doc/uid/TP40004268-CH271-BBCBEAJD&#34;&gt;Shell Scripting Primer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/&#34;&gt;The Mac Terminal Commands Cheat Sheet&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;git-basicshttpsjuejinimpost5ae072906fb9a07a9e4ce596&#34;&gt;&lt;a href=&#34;https://juejin.im/post/5ae072906fb9a07a9e4ce596&#34;&gt;Git basics&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;git-basics&#34;&gt;&lt;a href=&#34;https://juejin.im/post/5ae072906fb9a07a9e4ce596&#34;&gt;Git basics&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.github.com/zh/pull-requests&#34;&gt;Github pull request&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Python 3&lt;/strong&gt;&lt;/p&gt;
@@ -1194,12 +1194,12 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
 &lt;p&gt;IELTS 7  = C1&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.efset.org/english-score/?lang=en&#34;&gt;English levels&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;EF SET- English test, get to know your English level in 50 minutes: &lt;a href=&#34;https://www.efset.cn/ef-set-50&#34;&gt;Our 2 skill English test&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;british-council---online-english-level-testhttpslearnenglishbritishcouncilorgenglish-levelsonline-english-level-test&#34;&gt;&lt;a href=&#34;https://learnenglish.britishcouncil.org/english-levels/online-english-level-test&#34;&gt;British Council - Online English level test&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;british-council---online-english-level-test&#34;&gt;&lt;a href=&#34;https://learnenglish.britishcouncil.org/english-levels/online-english-level-test&#34;&gt;British Council - Online English level test&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://learnenglish.britishcouncil.org/english-levels/b2-upper-intermediate&#34;&gt;B2 Upper intermediate&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;pearson-english-testsptehttpswwwpearsonptecom&#34;&gt;&lt;a href=&#34;https://www.pearsonpte.com/&#34;&gt;Pearson English Tests(PTE)&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;pearson-english-testspte&#34;&gt;&lt;a href=&#34;https://www.pearsonpte.com/&#34;&gt;Pearson English Tests(PTE)&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;It is said The first completely computer-based English test&lt;/p&gt;
 &lt;p&gt;135 minutes，250 usd，offline test center&lt;/p&gt;
-&lt;h2 id=&#34;international-business-management-instituteibmhttpswwwibm-institutecomlanguage-tests&#34;&gt;&lt;a href=&#34;https://www.ibm-institute.com/language-tests/&#34;&gt;International Business Management Institute(IBM)&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;international-business-management-instituteibm&#34;&gt;&lt;a href=&#34;https://www.ibm-institute.com/language-tests/&#34;&gt;International Business Management Institute(IBM)&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Language Tests and Certificates Fast. Trusted. Online.&lt;/p&gt;</description>
     </item>
     <item>

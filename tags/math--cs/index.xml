@@ -9,7 +9,7 @@
       <url>https://atomx.cc/images/papermod-cover.png</url>
       <link>https://atomx.cc/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
     <copyright>Atom.X</copyright>
     <lastBuildDate>Tue, 14 Jan 2025 00:00:00 +0000</lastBuildDate>
@@ -304,7 +304,7 @@ In main: x = 7, y = 4&lt;/p&gt;</description>
 &lt;li&gt;SilkTest: A tool that can be used for regression and functionality testing.&lt;/li&gt;
 &lt;li&gt;IBM Rational Functional Tester (RFT): A tool that can be used for creating black box test scripts with a test recorder.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;gdbhttpswwwsourcewareorggdb&#34;&gt;&lt;a href=&#34;https://www.sourceware.org/gdb/&#34;&gt;GDB&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;gdb&#34;&gt;&lt;a href=&#34;https://www.sourceware.org/gdb/&#34;&gt;GDB&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;manual &lt;a href=&#34;https://sourceware.org/gdb/current/onlinedocs/gdb&#34;&gt;Debugging with GDB (sourceware.org)&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -873,7 +873,7 @@ In main: x = 7, y = 4&lt;/p&gt;</description>
       <link>https://atomx.cc/posts/edu/math-cs/ibm-cybersecurity/</link>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/math-cs/ibm-cybersecurity/</guid>
-      <description>&lt;h1 id=&#34;cybersecurity-compliance-framework--system-administrationhttpswwwcourseraorglearncybersecurity-compliance-framework-system-administration&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-compliance-framework-system-administration&#34;&gt;&lt;strong&gt;Cybersecurity Compliance Framework &amp;amp; System Administration&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;cybersecurity-compliance-framework--system-administration&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-compliance-framework-system-administration&#34;&gt;&lt;strong&gt;Cybersecurity Compliance Framework &amp;amp; System Administration&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;subject matter experts (SMEs)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.aicpa-cima.com/resources/article/soc-for-cybersecurity-information-for-organizations&#34;&gt;SOC&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act&#34;&gt;HIPAA&lt;/a&gt;&lt;/p&gt;
@@ -881,7 +881,7 @@ In main: x = 7, y = 4&lt;/p&gt;</description>
 &lt;p&gt;&lt;a href=&#34;https://sprinto.com/blog/compliance-standards/&#34;&gt;Compliance and Industry Standards Summary(ISO/SOC/PCI/HIPAA)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cisecurity.org/blog/v7-1-introduces-implementation-groups-cis-controls/&#34;&gt;Center for Internet Security (CIS) Critical Security Controls&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;CIS Controls Implementation Group&lt;/p&gt;
-&lt;h1 id=&#34;cybersecurity-roles-processes--operating-system-securityhttpswwwcourseraorglearncybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;strong&gt;Cybersecurity Roles, Processes &amp;amp; Operating System Security&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;cybersecurity-roles-processes--operating-system-security&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/cybersecurity-roles-processes-operating-system-security&#34;&gt;&lt;strong&gt;Cybersecurity Roles, Processes &amp;amp; Operating System Security&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/ITIL&#34;&gt;The Information Technology Infrastructure Library (ITIL)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.axelos.com/certifications/itil-service-management&#34;&gt;ITIL® 4: the framework for the management of IT-enabled services&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.axelos.com/certifications/itil-service-management/what-is-it-service-management&#34;&gt;how IT Service Management (ITSM) and ITIL are related.&lt;/a&gt;&lt;/p&gt;
@@ -1054,7 +1054,7 @@ define the truth of φ⇒ψ in terms of the truth/falsity of φ and ψ.&lt;/p&gt
 &lt;p&gt;∨ disjunction 析取: anyone is truth, φ ∨ ψ will be truth.&lt;/p&gt;
 &lt;p&gt;∨ : Communism, Soviet Union, China, Socialism, anyone is truth, then it is truth, Big, resources absorbing power, Totalitarianism&lt;/p&gt;
 &lt;p&gt;∧ : Germany,&lt;/p&gt;
-&lt;h2 id=&#34;greek-alphabet---wikipediahttpsenwikipediaorgwikigreek_alphabet&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;greek-alphabet---wikipedia&#34;&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Greek_alphabet&#34;&gt;Greek alphabet - Wikipedia&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;φ: phi&lt;/p&gt;
 &lt;p&gt;ψ: psi&lt;/p&gt;
 &lt;p&gt;θ: Theta&lt;/p&gt;
@@ -1244,7 +1244,7 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
       <link>https://atomx.cc/posts/it/generative-ai-learning-path/</link>
       <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/it/generative-ai-learning-path/</guid>
-      <description>&lt;h1 id=&#34;generative-ai-with-vertex-ai-prompt-designhttpswwwcloudskillsboostgooglepaths118course_templates976labs515636&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515636&#34;&gt;Generative AI with Vertex AI: Prompt Design&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;generative-ai-with-vertex-ai-prompt-design&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515636&#34;&gt;Generative AI with Vertex AI: Prompt Design&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/introduction-prompt-design?&#34;&gt;the official documentation on prompt design&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Open the notebook in Vertex AI Workbench&lt;/li&gt;
@@ -1254,21 +1254,21 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
 &lt;li&gt;Task 5. Improve Response Quality by Including Examples&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Why we should write code and documentation in &lt;a href=&#34;https://jupyter.org/&#34;&gt;Jupyter notebook&lt;/a&gt; ?&lt;/p&gt;
-&lt;h1 id=&#34;get-started-with-vertex-ai-studiohttpswwwcloudskillsboostgooglepaths118course_templates976labs515637&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515637&#34;&gt;Get Started with Vertex AI Studio&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;get-started-with-vertex-ai-studio&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515637&#34;&gt;Get Started with Vertex AI Studio&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Analyze images with Gemini in Freeform mode&lt;/li&gt;
 &lt;li&gt;Task 2. Explore multimodal capabilities&lt;/li&gt;
 &lt;li&gt;Task 3. Design text prompts&lt;/li&gt;
 &lt;li&gt;Task 4. Generate conversations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;getting-started-with-the-gemini-api-in-vertex-aihttpswwwcloudskillsboostgooglepaths118course_templates976labs515638&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515638&#34;&gt;Getting Started with the Gemini API in Vertex AI&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;getting-started-with-the-gemini-api-in-vertex-ai&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515638&#34;&gt;Getting Started with the Gemini API in Vertex AI&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Open the notebook in Vertex AI Workbench&lt;/li&gt;
 &lt;li&gt;Task 2. Set up the notebook&lt;/li&gt;
 &lt;li&gt;Task 3. Use the Gemini 1.5 Pro model&lt;/li&gt;
 &lt;li&gt;Task 4. Generate text from a multimodal prompt&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;prompt-design-in-vertex-ai-challenge-labhttpswwwcloudskillsboostgooglepaths118course_templates976labs515639&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515639&#34;&gt;Prompt Design in Vertex AI: Challenge Lab&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;prompt-design-in-vertex-ai-challenge-lab&#34;&gt;&lt;a href=&#34;https://www.cloudskillsboost.google/paths/118/course_templates/976/labs/515639&#34;&gt;Prompt Design in Vertex AI: Challenge Lab&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Task 1. Build a Gemini image analysis tool&lt;/li&gt;
 &lt;li&gt;Task 2. Build a Gemini tagline generator&lt;/li&gt;
@@ -1359,7 +1359,7 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
       <link>https://atomx.cc/posts/edu/math-cs/cs-basics/</link>
       <pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/posts/edu/math-cs/cs-basics/</guid>
-      <description>&lt;h1 id=&#34;cs-self-study-guidehttpscsdiywiki&#34;&gt;&lt;a href=&#34;https://csdiy.wiki/&#34;&gt;CS Self-study Guide&lt;/a&gt;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;cs-self-study-guide&#34;&gt;&lt;a href=&#34;https://csdiy.wiki/&#34;&gt;CS Self-study Guide&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/PKUFlyingPig/cs-self-learning&#34;&gt;Github repo: CS self-learning&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Cooshell blog: &lt;a href=&#34;https://coolshell.cn/articles/4990.html&#34;&gt;Programmer&amp;rsquo;s Technology Leveling Guide&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;basic-concepts&#34;&gt;basic concepts&lt;/h2&gt;
@@ -1367,7 +1367,7 @@ Assume (∀x, y ∈ R)[$(x − y)^2$ &amp;gt; 0] is True.&lt;/p&gt;</description
 &lt;p&gt;MAC terminal, command line, Unix Shell&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html#//apple_ref/doc/uid/TP40004268-CH271-BBCBEAJD&#34;&gt;Shell Scripting Primer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/&#34;&gt;The Mac Terminal Commands Cheat Sheet&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;git-basicshttpsjuejinimpost5ae072906fb9a07a9e4ce596&#34;&gt;&lt;a href=&#34;https://juejin.im/post/5ae072906fb9a07a9e4ce596&#34;&gt;Git basics&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;git-basics&#34;&gt;&lt;a href=&#34;https://juejin.im/post/5ae072906fb9a07a9e4ce596&#34;&gt;Git basics&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.github.com/zh/pull-requests&#34;&gt;Github pull request&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Python 3&lt;/strong&gt;&lt;/p&gt;

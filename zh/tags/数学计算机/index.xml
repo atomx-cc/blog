@@ -9,11 +9,141 @@
       <url>https://atomx.cc/images/papermod-cover.png</url>
       <link>https://atomx.cc/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.141.0</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;在AI时代的必要性与前景分析</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/prospect-c&#43;&#43;/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/prospect-c&#43;&#43;/</guid>
+      <description>&lt;p&gt;以下从市场需求、技术趋势、安全挑战及行业应对四个维度综合分析C++的前景，特别聚焦网络安全与基础设施领域的最新动态：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-一c的当前市场地位与核心需求&#34;&gt;🔧 一、C++的当前市场地位与核心需求&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;高薪刚需领域&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;薪资竞争力&lt;/strong&gt;：2025年C++岗位年薪中位数达24-60万，北京67%岗位月薪20-50K，显著高于多数语言。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;行业集中度&lt;/strong&gt;：通信（华为5G协议栈）、半导体（中芯国际芯片设计）、金融科技（中信证券高频交易系统）三大领域贡献超60%的高端岗位，依赖C++的硬件级控制与低延迟性能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;不可替代的技术场景&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;游戏开发&lt;/strong&gt;：UE5引擎渲染管线优化、分布式服务器架构（40-80K薪资）仍以C++为核心。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;嵌入式系统&lt;/strong&gt;：车载娱乐系统、工业PLC控制需直接操作硬件，C++占比超80%。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI基础设施&lt;/strong&gt;：TensorFlow/PyTorch底层、CUDA加速库依赖C++实现极致性能优化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-二网络安全与基础设施领域的新挑战&#34;&gt;🔒 二、网络安全与基础设施领域的新挑战&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;美国政府强制去C/C++政策&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;安全风险定性&lt;/strong&gt;：CISA与FBI联合报告指出，C/C++的内存安全问题（如缓冲区溢出、释放后使用）对关键基础设施（能源、交通、金融）构成“异常风险”，威胁国家安全。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;政策时间表&lt;/strong&gt;：&lt;strong&gt;2026年1月1日前&lt;/strong&gt;，所有支持关键基础设施的软件必须制定“内存安全迁移路线图”，否则将承担法律责任。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;内存安全漏洞的行业影响&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;历史教训&lt;/strong&gt;：70%的严重漏洞源于内存安全问题，如SQL注入、默认密码滥用等，在C/C++代码中高发。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源生态压力&lt;/strong&gt;：要求维护软件物料清单（SBOM）、缓存依赖项，并对开源贡献实施安全审计。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-三c的技术演进与安全升级路径&#34;&gt;⚙️ 三、C++的技术演进与安全升级路径&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;语言自身进化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;现代C++标准&lt;/strong&gt;：C++20/23引入模块、协程、概念，提升开发效率；智能指针（&lt;code&gt;std::unique_ptr&lt;/code&gt;）部分缓解内存泄漏。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Safe C++ Extension提案&lt;/strong&gt;：借鉴Rust所有权模型，设计编译时借用检查器，目标实现“零成本内存安全”（如Circle编译器实验）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;增量替代与混合方案&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rust协同&lt;/strong&gt;：Linux内核自6.8版起支持Rust驱动，但C++核心模块因重构成本暂保留。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;硬件辅助安全&lt;/strong&gt;：Intel CET（控制流强制技术）、ARM MTE（内存标记扩展）在芯片层补强C++缺陷。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;工具链强化&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静态分析工具&lt;/strong&gt;：Clang-Tidy、Coverity可检测80%内存错误；Visual Studio 2022 LTSC版本支持至2032年，提供长期安全更新。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;下表总结了C++在各领域的现状及安全升级路径：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;应用领域&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;现状&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;安全升级路径&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;挑战&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;关键基础设施&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;C++主导，但面临政策压力&lt;/td&gt;
+          &lt;td&gt;Rust混合开发/硬件安全扩展&lt;/td&gt;
+          &lt;td&gt;遗留系统重构成本高&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;游戏/嵌入式&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;不可替代，性能刚需&lt;/td&gt;
+          &lt;td&gt;现代C++标准+静态分析工具&lt;/td&gt;
+          &lt;td&gt;安全特性引入性能损耗&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;AI/高性能计算&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;底层优化依赖C++&lt;/td&gt;
+          &lt;td&gt;Safe C++扩展提案&lt;/td&gt;
+          &lt;td&gt;新标准落地周期长&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-四未来十年前景与开发者建议&#34;&gt;🔭 四、未来十年前景与开发者建议&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;生命周期预测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;短期（2026-2030）&lt;/strong&gt;：传统领域（游戏、嵌入式）需求稳定，但关键基础设施份额将被Rust/Go侵蚀。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;长期（2030+）&lt;/strong&gt;：C++仍主导性能敏感场景，预计20-30年内维持“系统层基石”地位，但应用层占比下降。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;开发者应对策略&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;转型学习&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;深耕现代C++特性（模块、协程）并掌握Rust，适应混合开发现实。&lt;/li&gt;
+&lt;li&gt;补充硬件安全知识（如ARM MTE）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;领域选择&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;优先进入&lt;/strong&gt;：游戏引擎、AI芯片优化、工业控制（政策影响小）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;谨慎评估&lt;/strong&gt;：政府/金融基础设施新项目（政策合规风险高）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-结论&#34;&gt;💎 结论&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;C++不会消失，但必须进化&lt;/strong&gt;：在性能至上的领域（游戏、嵌入式、AI底层）仍是“硬核首选”；在网络安全敏感场景（关键基础设施）则需通过安全扩展或混合编程满足合规。开发者应拥抱现代C++与Rust双技能栈，以应对2026年后行业剧变。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cloud Translation API 配置和调试</title>
       <link>https://atomx.cc/zh/posts/it/gcloud-translation-api-config-debug/</link>
@@ -694,8 +824,7 @@ const_cast和dynamic_cast&lt;/p&gt;
 &lt;li&gt;External memory (hard disk, USB flash drive)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;C. Bohm &amp;amp; G. Jacopini, &amp;ldquo;Flow Diagrams, Turing Machines and Languages ​​with Only Two Formations Rules&amp;rdquo;, Communications of ACM, vol9(5) May 1966, pp 366-371.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;C. Bohm &amp;amp; G. Jacopini, &amp;ldquo;Flow Diagrams, Turing Machines and Languages ​​with Only Two Formations Rules&amp;rdquo;, Communications of ACM, vol9(5) May 1966, pp 366-371.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Everything in the world is complicated, and there are only three kinds of logic expressed in programs:&lt;/p&gt;</description>
     </item>
     <item>
@@ -887,7 +1016,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;p&gt;影响力：路径联通后，由此向空间全方位产生辐射影响力；&lt;/p&gt;
 &lt;p&gt;用&lt;strong&gt;Github&lt;/strong&gt;记录每一个数据data的已知或未知的确定性或不确定性（四种组合）的标记，数据将推演出最终的影响力impact。&lt;/p&gt;
 &lt;p&gt;从源头第1步记录碎片的元数据开始，推导出最后第5,6步的结果。为了明文加密，信息安全和隐私保护，抽象化的结果是，隐藏具体的人物，时间，地点，事件，数字等，这样就做出了通用的模型或框架。&lt;/p&gt;
-&lt;h2 id=&#34;认知层次httpszhuanlanzhihucomp67941177&#34;&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/67941177&#34;&gt;认知层次&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;认知层次&#34;&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/67941177&#34;&gt;认知层次&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id=&#34;dikw-模型&#34;&gt;&lt;strong&gt;DIKW 模型&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;知识管理&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/DIKW_pyramid&#34;&gt;Wiki：DIKW_pyramid&lt;/a&gt;&lt;/p&gt;
@@ -905,7 +1034,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;h2 id=&#34;模因谜米meme&#34;&gt;模因/谜米（meme）&lt;/h2&gt;
 &lt;p&gt;The Selfish Gene《自私的基因》，作者 Richard Dawkins里查德.道金斯，进化论科学家阐释，谜米是文化的基本单位（概念、观念、理论、故事、仪式等），通过非遗传特别是模仿方式得到类似于基因的传承与扩增。&lt;/p&gt;
 &lt;p&gt;品牌 = 核心的文化基因，可无限继承&lt;/p&gt;
-&lt;h2 id=&#34;model-thinking-思维模型httpswwwcourseraorglearnmodel-thinking&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/model-thinking&#34;&gt;Model Thinking 思维模型&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;model-thinking-思维模型&#34;&gt;&lt;a href=&#34;https://www.coursera.org/learn/model-thinking&#34;&gt;Model Thinking 思维模型&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;几乎所有事情和社会现象都是可以用数学模型表达，甚至用简单的数学公式描述。&lt;/p&gt;
 &lt;p&gt;与该课程配套的仿真软件 - &lt;strong&gt;&lt;a href=&#34;https://ccl.northwestern.edu/netlogo/&#34;&gt;Netlogo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;NetLogo 是一个用来对自然和社会现象进行仿真的可编程建模环境。它是由 Uri Wilensky 在1999 年发起的，由连接学习和计算机建模中心（CCL）负责持续开发。&lt;/p&gt;</description>
@@ -963,8 +1092,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;h1 id=&#34;作者简介&#34;&gt;作者简介&lt;/h1&gt;
 &lt;p&gt;打开他的任何一个社交媒体，看到的都是他的真人光头照、真实姓名、以及座右铭标语。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;黄勇刚：行动比语言诚实&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;黄勇刚：行动比语言诚实&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;从他在社交媒体上的言论和日常生活记录中，就可以窥见其真实性情。&lt;/p&gt;
 &lt;p&gt;据说他初中和高中也都是在名校上的，清华计算机系少年班，可能你听说过姚班，14岁上大学那种天才。&lt;/p&gt;
 &lt;p&gt;他工作几年后就做到公司董事管理层，开始涉及计算机技术之外的事务，包括法律、财务、组织架构和公司管理等，他是程序员中最早的远程工作者，最早一批研究比特币的人，在中国会写智能合约的没多少人吧，在互联网技术研究方面，他都走在最前沿。&lt;/p&gt;
@@ -987,8 +1115,7 @@ for(auto p : v) {&lt;br&gt;
 &lt;p&gt;有久旱逢甘霖的感觉，花了不少时间去学习，得到他耐心辅导和几次培训，他按分钟计时收我这多年老友的咨询费，非常理性，不尽情面，他每一句话都极其精确滴水不漏，没有歧义含糊不清，总是在极短时间内提几个问题即能抓住要害关键点，然后几句话精辟总结。&lt;/p&gt;
 &lt;p&gt;从那时开始，我确信某些人的脑子可能安装了Alpha Go操作系统，比钢铁侠马斯克更超前安装了脑机接口，实现从碳基生物人结合硅基体的过渡，在其他一切AI还都是人工智障的时候，这人的大脑已经外挂真正的人工智能，他似乎更接近上帝和真理。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;宇宙规律的奥秘和真理也一直在那里，老黄就是最早领悟真理的先知，并用代码写了出来。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;宇宙规律的奥秘和真理也一直在那里，老黄就是最早领悟真理的先知，并用代码写了出来。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;由于我对计算机和商业公司管理没有足够知识，不能直接通透理解先知老黄的话，于是我通过其他渠道验证了对psmd的印象，我亲眼见识到的，找他咨询的大老板们，包括在线教育界知名机构等等，应该都是职场上很犀利的人精吧，看着这些台面上的大人物在他的面前都被碾压智商，都被训得跟孙子似的，那种现场观摩的酸爽感真是太好了，犹如同时吃着火锅和冰激凌，冰火两重天。&lt;/p&gt;
 &lt;p&gt;老黄的气场和睿智，所有人都不服不行，简直可以封神，我不迷信，私下里崇拜其尊号：黄大仙。&lt;/p&gt;
 &lt;p&gt;如果谁不服的，不妨去试试，如果你能和他打平手，我立即改口，公开宣称更聪明的获胜者的名并打赏。&lt;/p&gt;
