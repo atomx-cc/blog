@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Atom.X</title>
+    <link>https://atomx.cc/zh/categories/</link>
+    <description>Recent content in Categories on Atom.X</description>
+    <image>
+      <title>Atom.X</title>
+      <url>https://atomx.cc/images/papermod-cover.png</url>
+      <link>https://atomx.cc/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>zh</language>
+    <copyright>Atom.X</copyright>
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://atomx.cc/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT</title>
+      <link>https://atomx.cc/zh/categories/it/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/it/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>神</title>
+      <link>https://atomx.cc/zh/categories/%E7%A5%9E/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E7%A5%9E/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>商业</title>
+      <link>https://atomx.cc/zh/categories/%E5%95%86%E4%B8%9A/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E5%95%86%E4%B8%9A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生活</title>
+      <link>https://atomx.cc/zh/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>旅行</title>
+      <link>https://atomx.cc/zh/categories/%E6%97%85%E8%A1%8C/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E6%97%85%E8%A1%8C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>教育</title>
+      <link>https://atomx.cc/zh/categories/%E6%95%99%E8%82%B2/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E6%95%99%E8%82%B2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>政治正确</title>
+      <link>https://atomx.cc/zh/categories/%E6%94%BF%E6%B2%BB%E6%AD%A3%E7%A1%AE/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E6%94%BF%E6%B2%BB%E6%AD%A3%E7%A1%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自然环境</title>
+      <link>https://atomx.cc/zh/categories/%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>农业</title>
+      <link>https://atomx.cc/zh/categories/%E5%86%9C%E4%B8%9A/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E5%86%9C%E4%B8%9A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>https://atomx.cc/zh/categories/%E5%85%B3%E4%BA%8E/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/categories/%E5%85%B3%E4%BA%8E/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
