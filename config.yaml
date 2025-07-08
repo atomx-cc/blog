@@ -7,7 +7,8 @@ copyright: "© [Atom.X](https://atomx.cc)"
 pagination:
   pagerSize: 5
 theme: [PaperMod]
-
+ignoreLogs:
+  - 'warning-partial-superfluous-prefix'
 relativeURLs: true
 canonifyURLs: true
 enableInlineShortcodes: true
@@ -442,7 +443,7 @@ params:
       title: Listen to Podcast
       url: ""
     - name: X
-      title: Follow on X /Twitter
+      title: Follow on X/Twitter
       url: "https://twitter.com/Atomxx3"
     - name: Instagram
       title: Photos and Stories
@@ -509,7 +510,7 @@ markup:
 #     disabled: false
 #     simple: true
 
-#   twitter:
+#    X/Twitter:
 #     disabled: false
 #     enableDNT: true
 #     simple: true
