@@ -10,13 +10,13 @@ tags:
 我主要涉及的环境保护、三农（农业、农村、农民）发展、纪录片和公开课科普等公益项目。
 
 
-## 中国肉食数据图谱
+## [中国肉食数据图谱](https://meatatlas.github.io/)
 
 时间：2019 
 
 地点：北京、杭州
 
-环保基金会的数据分析和可视化。
+环保基金会的宏观数据分析和可视化。
 
 **项目概述：**
 
@@ -37,20 +37,6 @@ tags:
 - b. [Quip 摘要报告](https://quip.com/RXqaASdn65Nk)
 - c. [Google Docs 演示稿](https://drive.google.com/open?id=1N4ng2wkU4QaR818fv9s8yAflpINPypbhj1L5pHEH7t4)
 
-
-## [世界有机农场组织(WWOOF)](http://www.wwoof.net/)
-
-时间：2015.6-7
-
-地点：丹麦. 奥登塞、法尔斯特
-
-环境教育项目游学
-
-**项目概述：**
-
-加入丹麦WWOOF组织，参与家庭农场和社区学校的环境教育、社区儿童陪护、园艺、农田的日常运营管理；
-
-陪同丹麦有机食品出口商、[CACN 中国认证认可监督管理委员会](http://www.cnca.gov.cn/)的官员和有机认证公司，参观当地的有机农场。
 
 
 ## [世界农场动物福利协会(CIWF)](https://www.ciwf.com/)
@@ -75,6 +61,22 @@ tags:
 
 - [英国爱丁堡大学-苏格兰农学院(SRUC)](https://www.sruc.ac.uk/)
 - [中国动物福利协会](http://www.iccaw.org.cn/)
+
+
+
+## [世界有机农场组织(WWOOF)](http://www.wwoof.net/)
+
+时间：2015.6-7
+
+地点：丹麦. 奥登塞、法尔斯特
+
+环境教育项目游学
+
+**项目概述：**
+
+加入丹麦WWOOF组织，参与家庭农场和社区学校的环境教育、社区儿童陪护、园艺、农田的日常运营管理；
+
+陪同丹麦有机食品出口商、[CACN 中国认证认可监督管理委员会](http://www.cnca.gov.cn/)的官员和有机认证公司，参观当地的有机农场。
 
 
 ## [北京小毛驴市民农园](https://chinadevelopmentbrief.org/ngos/little-donkey-farm/)
