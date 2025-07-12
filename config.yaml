@@ -113,10 +113,10 @@ languages:
           url: search/
           weight: 9
 
-        - identifier: Coolshell
-          name: 酷壳众创
-          url: https://coolshell.in/zh-cn/
-          weight: 10
+        # - identifier: Coolshell
+        #   name: 酷壳众创
+        #   url: https://coolshell.in/zh-cn/
+        #   weight: 10
     
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
     params:
