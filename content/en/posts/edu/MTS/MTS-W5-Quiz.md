@@ -110,12 +110,9 @@ $(q-ra)^2$ ≥ 0
 
 this is truth, so the statement is true.
 
-5. (e)  Let ABCD be a quadrilateral. If the opposite sides of ABCD are pairwise equal, then the
+5. (e)  Let ABCD be a quadrilateral. If the opposite sides of ABCD are pairwise equal, then the opposite angles are pairwise equal.
 
-opposite angles are pairwise equal.
-
-6. (f)  Let ABCD be a quadrilateral. If all four sides of ABCD are equal, then all four angles are
-equal.
+6. (f)  Let ABCD be a quadrilateral. If all four sides of ABCD are equal, then all four angles are equal.
 
 (g)  If n is not divisible by 3 then $n^2$ + 5 is divisible by 3. (For n a natural number.)
 

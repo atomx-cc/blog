@@ -39,6 +39,8 @@ hugo --minify
 
 
 # Commit and push gh-pages
+# if the execution of scriptures of update.sh is not successful
+# then push below scriptures manually in terminal.
 cd public
 git add .
 git commit -m "Update site content" || true
