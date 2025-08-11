@@ -1,0 +1,197 @@
+<!doctype html><html lang=zh dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>数据结构基础 - 链表操作 | Atom.X</title><meta name=keywords content="互联网,数学&计算机,AI"><meta name=description content="单元2
+链表操作详解：插入、删除、读取及指针修改次数
+以下针对四种链表类型（单链表、双链表、循环单链表、循环双链表），详细说明插入、删除、读取操作步骤及指针修改次数（仅统计已有节点的指针修改，不包括新节点初始化或删除节点释放）。
+
+1. 单链表（Singly Linked List）
+
+
+节点结构：数据 + next指针（指向后继）
+
+
+插入操作（在节点A和B之间插入C）：
+
+步骤：
+
+创建新节点C，设置 C.next = B（新节点初始化，不计入修改）。
+修改A的 next 指针指向C：A.next = C。
+
+
+指针修改次数：1次（仅修改前驱节点A的指针）。
+边界情况：
+
+头部插入：修改头指针指向C（头指针修改不计入节点指针修改）。
+尾部插入：同一般情况（修改原尾节点的 next）。
+
+
+
+
+
+删除操作（删除节点B，A为其前驱）：
+
+步骤：
+
+修改A的 next 指针指向B的后继：A.next = B.next。
+释放B（不计入指针修改）。
+
+
+指针修改次数：1次（仅修改前驱节点A的指针）。
+边界情况：
+
+删除头节点：修改头指针指向原头节点的后继（头指针修改不计入节点指针修改）。
+删除尾节点：修改倒数第二节点的 next 为 null（1次修改）。
+
+
+
+
+
+读取操作：
+
+仅支持顺序访问：从头节点遍历，时间复杂度 O(n)。
+不支持随机访问（无索引）。
+
+
+
+
+2. 双链表（Doubly Linked List）
+
+
+节点结构：数据 + next指针（指向后继） + prev指针（指向前驱）
+
+
+插入操作（在节点A和B之间插入C）：
+
+步骤：
+
+创建新节点C，设置 C.prev = A, C.next = B（新节点初始化）。
+修改A的 next 指针指向C：A.next = C。
+修改B的 prev 指针指向C：B.prev = C。
+
+
+指针修改次数：2次（修改前驱A的 next 和后继B的 prev）。
+边界情况：
+
+头部插入：需修改原头节点的 prev 指向C（1次修改）。
+尾部插入：需修改原尾节点的 next 指向C（1次修改）。
+
+
+
+
+
+删除操作（删除节点B）："><meta name=author content="Atom.X"><link rel=canonical href=https://atomx.cc/zh/posts/edu/math-cs/c++pku/c5-2-1/><meta name=google-site-verification content="XYZabc123"><meta name=yandex-verification content="XYZabc789"><meta name=msvalidate.01 content="XYZabc456"><link crossorigin=anonymous href=../../../../../../assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css integrity="sha256-j+ECM6cGvIfy4Is8+XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as=style><link rel=icon href=https://atomx.cc/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://atomx.cc/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://atomx.cc/favicon-32x32.png><link rel=apple-touch-icon href=https://atomx.cc/apple-touch-icon.png><link rel=mask-icon href=https://atomx.cc/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=zh href=https://atomx.cc/zh/posts/edu/math-cs/c++pku/c5-2-1/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js onload=renderMathInElement(document.body)></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],throwOnError:!1})})</script><meta property="og:url" content="https://atomx.cc/zh/posts/edu/math-cs/c++pku/c5-2-1/"><meta property="og:site_name" content="Atom.X"><meta property="og:title" content="数据结构基础 - 链表操作"><meta property="og:description" content="单元2
+链表操作详解：插入、删除、读取及指针修改次数 以下针对四种链表类型（单链表、双链表、循环单链表、循环双链表），详细说明插入、删除、读取操作步骤及指针修改次数（仅统计已有节点的指针修改，不包括新节点初始化或删除节点释放）。
+1. 单链表（Singly Linked List） 节点结构：数据 + next指针（指向后继）
+插入操作（在节点A和B之间插入C）：
+步骤： 创建新节点C，设置 C.next = B（新节点初始化，不计入修改）。 修改A的 next 指针指向C：A.next = C。 指针修改次数：1次（仅修改前驱节点A的指针）。 边界情况： 头部插入：修改头指针指向C（头指针修改不计入节点指针修改）。 尾部插入：同一般情况（修改原尾节点的 next）。 删除操作（删除节点B，A为其前驱）：
+步骤： 修改A的 next 指针指向B的后继：A.next = B.next。 释放B（不计入指针修改）。 指针修改次数：1次（仅修改前驱节点A的指针）。 边界情况： 删除头节点：修改头指针指向原头节点的后继（头指针修改不计入节点指针修改）。 删除尾节点：修改倒数第二节点的 next 为 null（1次修改）。 读取操作：
+仅支持顺序访问：从头节点遍历，时间复杂度 O(n)。 不支持随机访问（无索引）。 2. 双链表（Doubly Linked List） 节点结构：数据 + next指针（指向后继） + prev指针（指向前驱）
+插入操作（在节点A和B之间插入C）：
+步骤： 创建新节点C，设置 C.prev = A, C.next = B（新节点初始化）。 修改A的 next 指针指向C：A.next = C。 修改B的 prev 指针指向C：B.prev = C。 指针修改次数：2次（修改前驱A的 next 和后继B的 prev）。 边界情况： 头部插入：需修改原头节点的 prev 指向C（1次修改）。 尾部插入：需修改原尾节点的 next 指向C（1次修改）。 删除操作（删除节点B）："><meta property="og:locale" content="zh"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2025-07-22T00:00:00+00:00"><meta property="article:modified_time" content="2025-07-22T00:00:00+00:00"><meta property="article:tag" content="互联网"><meta property="article:tag" content="数学&计算机"><meta property="article:tag" content="AI"><meta property="og:image" content="https://atomx.cc/images/papermod-cover.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://atomx.cc/images/papermod-cover.png"><meta name=twitter:title content="数据结构基础 - 链表操作"><meta name=twitter:description content="单元2
+链表操作详解：插入、删除、读取及指针修改次数
+以下针对四种链表类型（单链表、双链表、循环单链表、循环双链表），详细说明插入、删除、读取操作步骤及指针修改次数（仅统计已有节点的指针修改，不包括新节点初始化或删除节点释放）。
+
+1. 单链表（Singly Linked List）
+
+
+节点结构：数据 + next指针（指向后继）
+
+
+插入操作（在节点A和B之间插入C）：
+
+步骤：
+
+创建新节点C，设置 C.next = B（新节点初始化，不计入修改）。
+修改A的 next 指针指向C：A.next = C。
+
+
+指针修改次数：1次（仅修改前驱节点A的指针）。
+边界情况：
+
+头部插入：修改头指针指向C（头指针修改不计入节点指针修改）。
+尾部插入：同一般情况（修改原尾节点的 next）。
+
+
+
+
+
+删除操作（删除节点B，A为其前驱）：
+
+步骤：
+
+修改A的 next 指针指向B的后继：A.next = B.next。
+释放B（不计入指针修改）。
+
+
+指针修改次数：1次（仅修改前驱节点A的指针）。
+边界情况：
+
+删除头节点：修改头指针指向原头节点的后继（头指针修改不计入节点指针修改）。
+删除尾节点：修改倒数第二节点的 next 为 null（1次修改）。
+
+
+
+
+
+读取操作：
+
+仅支持顺序访问：从头节点遍历，时间复杂度 O(n)。
+不支持随机访问（无索引）。
+
+
+
+
+2. 双链表（Doubly Linked List）
+
+
+节点结构：数据 + next指针（指向后继） + prev指针（指向前驱）
+
+
+插入操作（在节点A和B之间插入C）：
+
+步骤：
+
+创建新节点C，设置 C.prev = A, C.next = B（新节点初始化）。
+修改A的 next 指针指向C：A.next = C。
+修改B的 prev 指针指向C：B.prev = C。
+
+
+指针修改次数：2次（修改前驱A的 next 和后继B的 prev）。
+边界情况：
+
+头部插入：需修改原头节点的 prev 指向C（1次修改）。
+尾部插入：需修改原尾节点的 next 指向C（1次修改）。
+
+
+
+
+
+删除操作（删除节点B）："><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://atomx.cc/zh/posts/"},{"@type":"ListItem","position":2,"name":"数据结构基础 - 链表操作","item":"https://atomx.cc/zh/posts/edu/math-cs/c++pku/c5-2-1/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"数据结构基础 - 链表操作","name":"数据结构基础 - 链表操作","description":"单元2\n链表操作详解：插入、删除、读取及指针修改次数 以下针对四种链表类型（单链表、双链表、循环单链表、循环双链表），详细说明插入、删除、读取操作步骤及指针修改次数（仅统计已有节点的指针修改，不包括新节点初始化或删除节点释放）。\n1. 单链表（Singly Linked List） 节点结构：数据 + next指针（指向后继）\n插入操作（在节点A和B之间插入C）：\n步骤： 创建新节点C，设置 C.next = B（新节点初始化，不计入修改）。 修改A的 next 指针指向C：A.next = C。 指针修改次数：1次（仅修改前驱节点A的指针）。 边界情况： 头部插入：修改头指针指向C（头指针修改不计入节点指针修改）。 尾部插入：同一般情况（修改原尾节点的 next）。 删除操作（删除节点B，A为其前驱）：\n步骤： 修改A的 next 指针指向B的后继：A.next = B.next。 释放B（不计入指针修改）。 指针修改次数：1次（仅修改前驱节点A的指针）。 边界情况： 删除头节点：修改头指针指向原头节点的后继（头指针修改不计入节点指针修改）。 删除尾节点：修改倒数第二节点的 next 为 null（1次修改）。 读取操作：\n仅支持顺序访问：从头节点遍历，时间复杂度 O(n)。 不支持随机访问（无索引）。 2. 双链表（Doubly Linked List） 节点结构：数据 + next指针（指向后继） + prev指针（指向前驱）\n插入操作（在节点A和B之间插入C）：\n步骤： 创建新节点C，设置 C.prev = A, C.next = B（新节点初始化）。 修改A的 next 指针指向C：A.next = C。 修改B的 prev 指针指向C：B.prev = C。 指针修改次数：2次（修改前驱A的 next 和后继B的 prev）。 边界情况： 头部插入：需修改原头节点的 prev 指向C（1次修改）。 尾部插入：需修改原尾节点的 next 指向C（1次修改）。 删除操作（删除节点B）：\n","keywords":["互联网","数学\u0026计算机","AI"],"articleBody":"单元2\n链表操作详解：插入、删除、读取及指针修改次数 以下针对四种链表类型（单链表、双链表、循环单链表、循环双链表），详细说明插入、删除、读取操作步骤及指针修改次数（仅统计已有节点的指针修改，不包括新节点初始化或删除节点释放）。\n1. 单链表（Singly Linked List） 节点结构：数据 + next指针（指向后继）\n插入操作（在节点A和B之间插入C）：\n步骤： 创建新节点C，设置 C.next = B（新节点初始化，不计入修改）。 修改A的 next 指针指向C：A.next = C。 指针修改次数：1次（仅修改前驱节点A的指针）。 边界情况： 头部插入：修改头指针指向C（头指针修改不计入节点指针修改）。 尾部插入：同一般情况（修改原尾节点的 next）。 删除操作（删除节点B，A为其前驱）：\n步骤： 修改A的 next 指针指向B的后继：A.next = B.next。 释放B（不计入指针修改）。 指针修改次数：1次（仅修改前驱节点A的指针）。 边界情况： 删除头节点：修改头指针指向原头节点的后继（头指针修改不计入节点指针修改）。 删除尾节点：修改倒数第二节点的 next 为 null（1次修改）。 读取操作：\n仅支持顺序访问：从头节点遍历，时间复杂度 O(n)。 不支持随机访问（无索引）。 2. 双链表（Doubly Linked List） 节点结构：数据 + next指针（指向后继） + prev指针（指向前驱）\n插入操作（在节点A和B之间插入C）：\n步骤： 创建新节点C，设置 C.prev = A, C.next = B（新节点初始化）。 修改A的 next 指针指向C：A.next = C。 修改B的 prev 指针指向C：B.prev = C。 指针修改次数：2次（修改前驱A的 next 和后继B的 prev）。 边界情况： 头部插入：需修改原头节点的 prev 指向C（1次修改）。 尾部插入：需修改原尾节点的 next 指向C（1次修改）。 删除操作（删除节点B）：\n步骤： 修改B前驱A的 next 指向B的后继C：A.next = C。 修改B后继C的 prev 指向A：C.prev = A。 释放B（不计入指针修改）。 指针修改次数：2次（修改前驱A的 next 和后继C的 prev）。 边界情况： 删除头节点：需修改新头节点的 prev = null（1次修改）。 删除尾节点：需修改新尾节点的 next = null（1次修改）。 读取操作：\n支持双向顺序访问（从头或尾遍历），时间复杂度 O(n)。 不支持随机访问。 3. 循环单链表（Circular Singly Linked List） 节点结构：同单链表，尾节点 next 指向头节点。\n插入操作（在节点A和B之间插入C）：\n步骤： 创建新节点C，设置 C.next = B（新节点初始化）。 修改A的 next 指针指向C：A.next = C。 指针修改次数：1次（仅修改前驱节点A的指针）。 边界情况： 头节点前插入：需修改尾节点的 next 指向C（1次修改）。 删除操作（删除节点B，A为其前驱）：\n步骤： 修改A的 next 指向B的后继：A.next = B.next。 若删除头节点，需更新尾节点的 next 指向新头节点（1次修改）。 指针修改次数：1次（修改前驱节点A的指针）。 边界情况： 删除唯一节点：直接置空链表（无指针修改）。 读取操作：\n支持循环顺序访问，可从任意节点遍历全链表。 4. 循环双链表（Circular Doubly Linked List） 节点结构：同双链表，头节点 prev 指向尾节点，尾节点 next 指向头节点。\n插入操作（在节点A和B之间插入C）：\n步骤： 创建新节点C，设置 C.prev = A, C.next = B（新节点初始化）。 修改A的 next 指向C：A.next = C。 修改B的 prev 指向C：B.prev = C。 指针修改次数：2次（修改前驱A的 next 和后继B的 prev）。 边界情况：无特殊处理（循环特性消除头尾边界）。 删除操作（删除节点B）：\n步骤： 修改B前驱A的 next 指向B的后继C：A.next = C。 修改B后继C的 prev 指向A：C.prev = A。 指针修改次数：2次（修改前驱A的 next 和后继C的 prev）。 边界情况： 删除唯一节点：直接置空链表（无指针修改）。 读取操作：\n支持双向循环访问，可从任意节点双向遍历全链表。 操作总结表 链表类型 插入操作指针修改次数 删除操作指针修改次数 关键特性 单链表 1（前驱的 next） 1（前驱的 next） 仅支持单向遍历 双链表 1~2（视位置） 1~2（视位置） 支持双向遍历 循环单链表 1（前驱的 next） 1（前驱的 next） 尾节点指向头节点 循环双链表 2（前驱next+后继prev） 2（前驱next+后继prev） 头尾节点互相指向，无边界 核心结论 单链表/循环单链表： 插入和删除只需 1次指针修改（前驱的 next）。 双链表： 插入和删除需 1~2次指针修改（中间操作需修改前驱的 next 和后继的 prev）。 循环双链表： 插入和删除严格需 2次指针修改（循环特性消除边界情况）。 读取操作： 所有链表均需遍历（O(n)），不支持随机访问。 关于链表头部节点的详细解释 1. 头部节点是否存储数据？ 头部节点可以存储数据： 在标准链表实现中，头部节点（第一个节点）通常存储有效数据。 例如：链表 A → B → C，节点A是头部节点，存储数据A。 特殊情况（哨兵节点）： 某些实现会添加一个不存储数据的哨兵节点（Dummy Node）作为头节点，此时： 哨兵节点的数据域为空（或无效值） 其 next 指针指向真正的第一个数据节点 例如：[哨兵] → A → B → C 2. 插入新节点到头部时的操作 标准情况（无哨兵节点）：\ngraph LR subgraph 插入前 HEAD[头指针] --\u003e A A --\u003e B end subgraph 插入后 HEAD_NEW[头指针] --\u003e C C --\u003e A A --\u003e B end 创建新节点C 设置 C.next = A（原头部节点） 修改头指针指向C：HEAD = C 结果：C成为新的头部节点，链表变为 C → A → B 有哨兵节点的情况：\ngraph LR subgraph 插入前 HEAD[头指针] --\u003e SENTINEL[哨兵] SENTINEL --\u003e A A --\u003e B end subgraph 插入后 HEAD --\u003e SENTINEL SENTINEL --\u003e C C --\u003e A A --\u003e B end 创建新节点C 设置 C.next = A（原第一个数据节点） 修改哨兵节点的指针：SENTINEL.next = C 结果：C成为第一个数据节点，哨兵节点仍为逻辑头部 3. 关键问题澄清 “插入新节点C到头部时，C是否可能成为第一个节点？”\n可以成为第一个节点： 在无哨兵节点的链表中，C通过头指针的修改直接成为新的头部节点。 在有哨兵节点的链表中，C成为第一个数据节点（逻辑上的第一个有效节点）。 “头部节点的指针是否指向第二个节点？”\n是： 头部节点（无论是数据节点还是哨兵）的 next 指针始终指向链表的第二个节点。 例如： 插入前：头部A的 next 指向B 插入后：头部C的 next 指向A 4. 链表类型对比 链表类型 头部插入操作 新节点位置 标准单链表 修改头指针指向C，C.next指向原头节点A C成为新头部节点 带哨兵单链表 修改哨兵.next指向C，C.next指向原第一个节点A C成为第一个数据节点 双链表 需额外设置原头节点A.prev = C C成为新头部节点 循环链表 需更新尾节点.next指向新头节点C C成为新头部节点 总结 头部节点通常存储有效数据（除非使用哨兵节点）。 插入到头部时，新节点一定会成为链表的起始节点： 无哨兵：成为实际头部节点 有哨兵：成为第一个数据节点 头部节点的 next 指针始终指向第二个节点，这是链表的基础结构特性。 头指针（HEAD）的修改不属于节点操作，它是外部指针的更新，不纳入\"节点指针修改次数\"的统计。 ","wordCount":"398","inLanguage":"zh","image":"https://atomx.cc/images/papermod-cover.png","datePublished":"2025-07-22T00:00:00Z","dateModified":"2025-07-22T00:00:00Z","author":{"@type":"Person","name":"Atom.X"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://atomx.cc/zh/posts/edu/math-cs/c++pku/c5-2-1/"},"publisher":{"@type":"Organization","name":"Atom.X","logo":{"@type":"ImageObject","url":"https://atomx.cc/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://atomx.cc/zh/ accesskey=h title="Atom.X (Alt + H)">Atom.X</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li><li><a href=https://atomx.cc/ title=English aria-label=English>English</a></li><li><a href=https://atomx.cc/de/ title=Deutsch aria-label=Deutsch>Deutsch</a></li><li><a href=https://atomx.cc/nl/ title=Nederlands aria-label=Nederlands>Nederlands</a></li></ul></div></div><ul id=menu><li><a href=https://atomx.cc/zh/about/ title=关于><span>关于</span></a></li><li><a href=https://atomx.cc/zh/archives/ title=归档><span>归档</span></a></li><li><a href=https://atomx.cc/zh/tags/ title=标签><span>标签</span></a></li><li><a href=https://atomx.cc/zh/categories/ title=分类><span>分类</span></a></li><li><a href=https://atomx.cc/zh/search/ title="搜索 (Alt + /)" accesskey=/><span>搜索</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://atomx.cc/zh/>主页</a>&nbsp;»&nbsp;<a href=https://atomx.cc/zh/posts/>Posts</a></div><h1 class="post-title entry-hint-parent">数据结构基础 - 链表操作</h1><div class=post-meta><span>2025-7-22</span>&nbsp;·&nbsp;2 分钟&nbsp;·&nbsp;Atom.X</div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>目录</span></summary><div class=inner><ul><li><a href=#%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c%e8%af%a6%e8%a7%a3%e6%8f%92%e5%85%a5%e5%88%a0%e9%99%a4%e8%af%bb%e5%8f%96%e5%8f%8a%e6%8c%87%e9%92%88%e4%bf%ae%e6%94%b9%e6%ac%a1%e6%95%b0 aria-label=链表操作详解：插入、删除、读取及指针修改次数>链表操作详解：插入、删除、读取及指针修改次数</a><ul><li><a href=#1-%e5%8d%95%e9%93%be%e8%a1%a8singly-linked-list aria-label="1. 单链表（Singly Linked List）">1. 单链表（Singly Linked List）</a></li><li><a href=#2-%e5%8f%8c%e9%93%be%e8%a1%a8doubly-linked-list aria-label="2. 双链表（Doubly Linked List）">2. 双链表（Doubly Linked List）</a></li><li><a href=#3-%e5%be%aa%e7%8e%af%e5%8d%95%e9%93%be%e8%a1%a8circular-singly-linked-list aria-label="3. 循环单链表（Circular Singly Linked List）">3. 循环单链表（Circular Singly Linked List）</a></li><li><a href=#4-%e5%be%aa%e7%8e%af%e5%8f%8c%e9%93%be%e8%a1%a8circular-doubly-linked-list aria-label="4. 循环双链表（Circular Doubly Linked List）">4. 循环双链表（Circular Doubly Linked List）</a></li></ul></li><li><a href=#%e6%93%8d%e4%bd%9c%e6%80%bb%e7%bb%93%e8%a1%a8 aria-label=操作总结表>操作总结表</a><ul><li><a href=#%e6%a0%b8%e5%bf%83%e7%bb%93%e8%ae%ba aria-label=核心结论>核心结论</a></li></ul></li><li><a href=#%e5%85%b3%e4%ba%8e%e9%93%be%e8%a1%a8%e5%a4%b4%e9%83%a8%e8%8a%82%e7%82%b9%e7%9a%84%e8%af%a6%e7%bb%86%e8%a7%a3%e9%87%8a aria-label=关于链表头部节点的详细解释>关于链表头部节点的详细解释</a><ul><li><a href=#1-%e5%a4%b4%e9%83%a8%e8%8a%82%e7%82%b9%e6%98%af%e5%90%a6%e5%ad%98%e5%82%a8%e6%95%b0%e6%8d%ae aria-label="1. 头部节点是否存储数据？">1. 头部节点是否存储数据？</a></li><li><a href=#2-%e6%8f%92%e5%85%a5%e6%96%b0%e8%8a%82%e7%82%b9%e5%88%b0%e5%a4%b4%e9%83%a8%e6%97%b6%e7%9a%84%e6%93%8d%e4%bd%9c aria-label="2. 插入新节点到头部时的操作">2. 插入新节点到头部时的操作</a></li><li><a href=#3-%e5%85%b3%e9%94%ae%e9%97%ae%e9%a2%98%e6%be%84%e6%b8%85 aria-label="3. 关键问题澄清">3. 关键问题澄清</a></li><li><a href=#4-%e9%93%be%e8%a1%a8%e7%b1%bb%e5%9e%8b%e5%af%b9%e6%af%94 aria-label="4. 链表类型对比">4. 链表类型对比</a></li><li><a href=#%e6%80%bb%e7%bb%93 aria-label=总结>总结</a></li></ul></li></ul></div></details></div><div class=post-content><p>单元2</p><h1 id=链表操作详解插入删除读取及指针修改次数>链表操作详解：插入、删除、读取及指针修改次数<a hidden class=anchor aria-hidden=true href=#链表操作详解插入删除读取及指针修改次数>#</a></h1><p>以下针对四种链表类型（单链表、双链表、循环单链表、循环双链表），详细说明插入、删除、读取操作步骤及<strong>指针修改次数</strong>（仅统计<strong>已有节点的指针修改</strong>，不包括新节点初始化或删除节点释放）。</p><hr><h2 id=1-单链表singly-linked-list><strong>1. 单链表（Singly Linked List）</strong><a hidden class=anchor aria-hidden=true href=#1-单链表singly-linked-list>#</a></h2><ul><li><p><strong>节点结构</strong>：<code>数据 + next指针（指向后继）</code></p></li><li><p><strong>插入操作</strong>（在节点A和B之间插入C）：</p><ul><li><strong>步骤</strong>：<ol><li>创建新节点C，设置 <code>C.next = B</code>（新节点初始化，不计入修改）。</li><li>修改A的 <code>next</code> 指针指向C：<code>A.next = C</code>。</li></ol></li><li><strong>指针修改次数</strong>：<strong>1次</strong>（仅修改前驱节点A的指针）。</li><li><strong>边界情况</strong>：<ul><li><strong>头部插入</strong>：修改头指针指向C（头指针修改不计入节点指针修改）。</li><li><strong>尾部插入</strong>：同一般情况（修改原尾节点的 <code>next</code>）。</li></ul></li></ul></li><li><p><strong>删除操作</strong>（删除节点B，A为其前驱）：</p><ul><li><strong>步骤</strong>：<ol><li>修改A的 <code>next</code> 指针指向B的后继：<code>A.next = B.next</code>。</li><li>释放B（不计入指针修改）。</li></ol></li><li><strong>指针修改次数</strong>：<strong>1次</strong>（仅修改前驱节点A的指针）。</li><li><strong>边界情况</strong>：<ul><li><strong>删除头节点</strong>：修改头指针指向原头节点的后继（头指针修改不计入节点指针修改）。</li><li><strong>删除尾节点</strong>：修改倒数第二节点的 <code>next</code> 为 <code>null</code>（1次修改）。</li></ul></li></ul></li><li><p><strong>读取操作</strong>：</p><ul><li>仅支持<strong>顺序访问</strong>：从头节点遍历，时间复杂度 O(n)。</li><li>不支持随机访问（无索引）。</li></ul></li></ul><hr><h2 id=2-双链表doubly-linked-list><strong>2. 双链表（Doubly Linked List）</strong><a hidden class=anchor aria-hidden=true href=#2-双链表doubly-linked-list>#</a></h2><ul><li><p><strong>节点结构</strong>：<code>数据 + next指针（指向后继） + prev指针（指向前驱）</code></p></li><li><p><strong>插入操作</strong>（在节点A和B之间插入C）：</p><ul><li><strong>步骤</strong>：<ol><li>创建新节点C，设置 <code>C.prev = A</code>, <code>C.next = B</code>（新节点初始化）。</li><li>修改A的 <code>next</code> 指针指向C：<code>A.next = C</code>。</li><li>修改B的 <code>prev</code> 指针指向C：<code>B.prev = C</code>。</li></ol></li><li><strong>指针修改次数</strong>：<strong>2次</strong>（修改前驱A的 <code>next</code> 和后继B的 <code>prev</code>）。</li><li><strong>边界情况</strong>：<ul><li><strong>头部插入</strong>：需修改原头节点的 <code>prev</code> 指向C（1次修改）。</li><li><strong>尾部插入</strong>：需修改原尾节点的 <code>next</code> 指向C（1次修改）。</li></ul></li></ul></li><li><p><strong>删除操作</strong>（删除节点B）：</p><ul><li><strong>步骤</strong>：<ol><li>修改B前驱A的 <code>next</code> 指向B的后继C：<code>A.next = C</code>。</li><li>修改B后继C的 <code>prev</code> 指向A：<code>C.prev = A</code>。</li><li>释放B（不计入指针修改）。</li></ol></li><li><strong>指针修改次数</strong>：<strong>2次</strong>（修改前驱A的 <code>next</code> 和后继C的 <code>prev</code>）。</li><li><strong>边界情况</strong>：<ul><li><strong>删除头节点</strong>：需修改新头节点的 <code>prev = null</code>（1次修改）。</li><li><strong>删除尾节点</strong>：需修改新尾节点的 <code>next = null</code>（1次修改）。</li></ul></li></ul></li><li><p><strong>读取操作</strong>：</p><ul><li>支持<strong>双向顺序访问</strong>（从头或尾遍历），时间复杂度 O(n)。</li><li>不支持随机访问。</li></ul></li></ul><hr><h2 id=3-循环单链表circular-singly-linked-list><strong>3. 循环单链表（Circular Singly Linked List）</strong><a hidden class=anchor aria-hidden=true href=#3-循环单链表circular-singly-linked-list>#</a></h2><ul><li><p><strong>节点结构</strong>：同单链表，尾节点 <code>next</code> 指向头节点。</p></li><li><p><strong>插入操作</strong>（在节点A和B之间插入C）：</p><ul><li><strong>步骤</strong>：<ol><li>创建新节点C，设置 <code>C.next = B</code>（新节点初始化）。</li><li>修改A的 <code>next</code> 指针指向C：<code>A.next = C</code>。</li></ol></li><li><strong>指针修改次数</strong>：<strong>1次</strong>（仅修改前驱节点A的指针）。</li><li><strong>边界情况</strong>：<ul><li><strong>头节点前插入</strong>：需修改尾节点的 <code>next</code> 指向C（1次修改）。</li></ul></li></ul></li><li><p><strong>删除操作</strong>（删除节点B，A为其前驱）：</p><ul><li><strong>步骤</strong>：<ol><li>修改A的 <code>next</code> 指向B的后继：<code>A.next = B.next</code>。</li><li>若删除头节点，需更新尾节点的 <code>next</code> 指向新头节点（1次修改）。</li></ol></li><li><strong>指针修改次数</strong>：<strong>1次</strong>（修改前驱节点A的指针）。</li><li><strong>边界情况</strong>：<ul><li><strong>删除唯一节点</strong>：直接置空链表（无指针修改）。</li></ul></li></ul></li><li><p><strong>读取操作</strong>：</p><ul><li>支持<strong>循环顺序访问</strong>，可从任意节点遍历全链表。</li></ul></li></ul><hr><h2 id=4-循环双链表circular-doubly-linked-list><strong>4. 循环双链表（Circular Doubly Linked List）</strong><a hidden class=anchor aria-hidden=true href=#4-循环双链表circular-doubly-linked-list>#</a></h2><ul><li><p><strong>节点结构</strong>：同双链表，头节点 <code>prev</code> 指向尾节点，尾节点 <code>next</code> 指向头节点。</p></li><li><p><strong>插入操作</strong>（在节点A和B之间插入C）：</p><ul><li><strong>步骤</strong>：<ol><li>创建新节点C，设置 <code>C.prev = A</code>, <code>C.next = B</code>（新节点初始化）。</li><li>修改A的 <code>next</code> 指向C：<code>A.next = C</code>。</li><li>修改B的 <code>prev</code> 指向C：<code>B.prev = C</code>。</li></ol></li><li><strong>指针修改次数</strong>：<strong>2次</strong>（修改前驱A的 <code>next</code> 和后继B的 <code>prev</code>）。</li><li><strong>边界情况</strong>：无特殊处理（循环特性消除头尾边界）。</li></ul></li><li><p><strong>删除操作</strong>（删除节点B）：</p><ul><li><strong>步骤</strong>：<ol><li>修改B前驱A的 <code>next</code> 指向B的后继C：<code>A.next = C</code>。</li><li>修改B后继C的 <code>prev</code> 指向A：<code>C.prev = A</code>。</li></ol></li><li><strong>指针修改次数</strong>：<strong>2次</strong>（修改前驱A的 <code>next</code> 和后继C的 <code>prev</code>）。</li><li><strong>边界情况</strong>：<ul><li><strong>删除唯一节点</strong>：直接置空链表（无指针修改）。</li></ul></li></ul></li><li><p><strong>读取操作</strong>：</p><ul><li>支持<strong>双向循环访问</strong>，可从任意节点双向遍历全链表。</li></ul></li></ul><hr><h1 id=操作总结表>操作总结表<a hidden class=anchor aria-hidden=true href=#操作总结表>#</a></h1><table><thead><tr><th><strong>链表类型</strong></th><th><strong>插入操作指针修改次数</strong></th><th><strong>删除操作指针修改次数</strong></th><th><strong>关键特性</strong></th></tr></thead><tbody><tr><td><strong>单链表</strong></td><td>1（前驱的 <code>next</code>）</td><td>1（前驱的 <code>next</code>）</td><td>仅支持单向遍历</td></tr><tr><td><strong>双链表</strong></td><td>1~2（视位置）</td><td>1~2（视位置）</td><td>支持双向遍历</td></tr><tr><td><strong>循环单链表</strong></td><td>1（前驱的 <code>next</code>）</td><td>1（前驱的 <code>next</code>）</td><td>尾节点指向头节点</td></tr><tr><td><strong>循环双链表</strong></td><td>2（前驱<code>next</code>+后继<code>prev</code>）</td><td>2（前驱<code>next</code>+后继<code>prev</code>）</td><td>头尾节点互相指向，无边界</td></tr></tbody></table><h2 id=核心结论>核心结论<a hidden class=anchor aria-hidden=true href=#核心结论>#</a></h2><ol><li><strong>单链表/循环单链表</strong>：<ul><li>插入和删除只需 <strong>1次指针修改</strong>（前驱的 <code>next</code>）。</li></ul></li><li><strong>双链表</strong>：<ul><li>插入和删除需 <strong>1~2次指针修改</strong>（中间操作需修改前驱的 <code>next</code> 和后继的 <code>prev</code>）。</li></ul></li><li><strong>循环双链表</strong>：<ul><li>插入和删除严格需 <strong>2次指针修改</strong>（循环特性消除边界情况）。</li></ul></li><li><strong>读取操作</strong>：<ul><li>所有链表均需遍历（O(n)），不支持随机访问。</li></ul></li></ol><h1 id=关于链表头部节点的详细解释>关于链表头部节点的详细解释<a hidden class=anchor aria-hidden=true href=#关于链表头部节点的详细解释>#</a></h1><h2 id=1-头部节点是否存储数据>1. <strong>头部节点是否存储数据？</strong><a hidden class=anchor aria-hidden=true href=#1-头部节点是否存储数据>#</a></h2><ul><li><strong>头部节点可以存储数据</strong>：<ul><li>在标准链表实现中，头部节点（第一个节点）<strong>通常存储有效数据</strong>。</li><li>例如：链表 <code>A → B → C</code>，节点A是头部节点，存储数据A。</li></ul></li><li><strong>特殊情况（哨兵节点）</strong>：<ul><li>某些实现会添加一个<strong>不存储数据的哨兵节点</strong>（Dummy Node）作为头节点，此时：<ul><li>哨兵节点的数据域为空（或无效值）</li><li>其 <code>next</code> 指针指向<strong>真正的第一个数据节点</strong></li></ul></li><li>例如：<code>[哨兵] → A → B → C</code></li></ul></li></ul><h2 id=2-插入新节点到头部时的操作>2. <strong>插入新节点到头部时的操作</strong><a hidden class=anchor aria-hidden=true href=#2-插入新节点到头部时的操作>#</a></h2><ul><li><p><strong>标准情况（无哨兵节点）</strong>：</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR
+  subgraph 插入前
+    HEAD[头指针] --&gt; A
+    A --&gt; B
+  end
+
+  subgraph 插入后
+    HEAD_NEW[头指针] --&gt; C
+    C --&gt; A
+    A --&gt; B
+  end
+</code></pre><ol><li>创建新节点C</li><li>设置 <code>C.next = A</code>（原头部节点）</li><li><strong>修改头指针</strong>指向C：<code>HEAD = C</code></li></ol><ul><li><strong>结果</strong>：C成为<strong>新的头部节点</strong>，链表变为 <code>C → A → B</code></li></ul></li><li><p><strong>有哨兵节点的情况</strong>：</p><pre tabindex=0><code class=language-mermaid data-lang=mermaid>graph LR
+  subgraph 插入前
+    HEAD[头指针] --&gt; SENTINEL[哨兵]
+    SENTINEL --&gt; A
+    A --&gt; B
+  end
+
+  subgraph 插入后
+    HEAD --&gt; SENTINEL
+    SENTINEL --&gt; C
+    C --&gt; A
+    A --&gt; B
+  end
+</code></pre><ol><li>创建新节点C</li><li>设置 <code>C.next = A</code>（原第一个数据节点）</li><li><strong>修改哨兵节点的指针</strong>：<code>SENTINEL.next = C</code></li></ol><ul><li><strong>结果</strong>：C成为<strong>第一个数据节点</strong>，哨兵节点仍为逻辑头部</li></ul></li></ul><h2 id=3-关键问题澄清>3. <strong>关键问题澄清</strong><a hidden class=anchor aria-hidden=true href=#3-关键问题澄清>#</a></h2><blockquote><p><em>&ldquo;插入新节点C到头部时，C是否可能成为第一个节点？&rdquo;</em></p></blockquote><ul><li><strong>可以成为第一个节点</strong>：<ul><li>在无哨兵节点的链表中，C通过头指针的修改<strong>直接成为新的头部节点</strong>。</li><li>在有哨兵节点的链表中，C成为<strong>第一个数据节点</strong>（逻辑上的第一个有效节点）。</li></ul></li></ul><blockquote><p><em>&ldquo;头部节点的指针是否指向第二个节点？&rdquo;</em></p></blockquote><ul><li><strong>是</strong>：<ul><li>头部节点（无论是数据节点还是哨兵）的 <code>next</code> 指针<strong>始终指向链表的第二个节点</strong>。</li><li>例如：<ul><li>插入前：头部A的 <code>next</code> 指向B</li><li>插入后：头部C的 <code>next</code> 指向A</li></ul></li></ul></li></ul><h2 id=4-链表类型对比>4. <strong>链表类型对比</strong><a hidden class=anchor aria-hidden=true href=#4-链表类型对比>#</a></h2><table><thead><tr><th><strong>链表类型</strong></th><th><strong>头部插入操作</strong></th><th><strong>新节点位置</strong></th></tr></thead><tbody><tr><td><strong>标准单链表</strong></td><td>修改头指针指向C，C.next指向原头节点A</td><td>C成为<strong>新头部节点</strong></td></tr><tr><td><strong>带哨兵单链表</strong></td><td>修改哨兵.next指向C，C.next指向原第一个节点A</td><td>C成为<strong>第一个数据节点</strong></td></tr><tr><td><strong>双链表</strong></td><td>需额外设置原头节点A.prev = C</td><td>C成为新头部节点</td></tr><tr><td><strong>循环链表</strong></td><td>需更新尾节点.next指向新头节点C</td><td>C成为新头部节点</td></tr></tbody></table><h2 id=总结>总结<a hidden class=anchor aria-hidden=true href=#总结>#</a></h2><ol><li><strong>头部节点通常存储有效数据</strong>（除非使用哨兵节点）。</li><li><strong>插入到头部时，新节点一定会成为链表的起始节点</strong>：<ul><li>无哨兵：成为<strong>实际头部节点</strong></li><li>有哨兵：成为<strong>第一个数据节点</strong></li></ul></li><li><strong>头部节点的 <code>next</code> 指针始终指向第二个节点</strong>，这是链表的基础结构特性。</li><li><strong>头指针（HEAD）的修改不属于节点操作</strong>，它是外部指针的更新，不纳入"节点指针修改次数"的统计。</li></ol></div><footer class=post-footer><ul class=post-tags><li><a href=https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/>互联网</a></li><li><a href=https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/>数学&计算机</a></li><li><a href=https://atomx.cc/zh/tags/ai/>AI</a></li></ul><nav class=paginav><a class=next href=https://atomx.cc/zh/posts/edu/math-cs/c++pku/c5-3/><span class=title>下一页 »</span><br><span>数据结构基础 - 栈与队列</span></a></nav><ul class=share-buttons><li><a target=_blank rel="noopener noreferrer" aria-label="share 数据结构基础 - 链表操作 on x" href="https://x.com/intent/tweet/?text=%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%9f%ba%e7%a1%80%20-%20%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c&amp;url=https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f&amp;hashtags=%e4%ba%92%e8%81%94%e7%bd%91%2c%e6%95%b0%e5%ad%a6%26%e8%ae%a1%e7%ae%97%e6%9c%ba%2cAI"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446C483.971.0 512 28.03 512 62.554zM269.951 190.75 182.567 75.216H56L207.216 272.95 63.9 436.783h61.366L235.9 310.383l96.667 126.4H456L298.367 228.367l134-153.151H371.033zM127.633 110h36.468l219.38 290.065H349.5z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share 数据结构基础 - 链表操作 on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f&amp;title=%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%9f%ba%e7%a1%80%20-%20%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c&amp;summary=%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%9f%ba%e7%a1%80%20-%20%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c&amp;source=https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share 数据结构基础 - 链表操作 on reddit" href="https://reddit.com/submit?url=https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f&title=%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%9f%ba%e7%a1%80%20-%20%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share 数据结构基础 - 链表操作 on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share 数据结构基础 - 链表操作 on whatsapp" href="https://api.whatsapp.com/send?text=%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%9f%ba%e7%a1%80%20-%20%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c%20-%20https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share 数据结构基础 - 链表操作 on telegram" href="https://telegram.me/share/url?text=%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%9f%ba%e7%a1%80%20-%20%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c&amp;url=https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f"><svg viewBox="2 2 28 28" height="30" width="30" fill="currentColor"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></li><li><a target=_blank rel="noopener noreferrer" aria-label="share 数据结构基础 - 链表操作 on ycombinator" href="https://news.ycombinator.com/submitlink?t=%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%9f%ba%e7%a1%80%20-%20%e9%93%be%e8%a1%a8%e6%93%8d%e4%bd%9c&u=https%3a%2f%2fatomx.cc%2fzh%2fposts%2fedu%2fmath-cs%2fc%2b%2bpku%2fc5-2-1%2f"><svg width="30" height="30" viewBox="0 0 512 512" fill="currentColor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554V449.446C512 483.97 483.97 512 449.446 512H62.554C28.03 512 0 483.97.0 449.446V62.554C0 28.03 28.029.0 62.554.0H449.446zM183.8767 87.9921h-62.034L230.6673 292.4508V424.0079h50.6655V292.4508L390.1575 87.9921H328.1233L256 238.2489z"/></svg></a></li></ul></footer></article></main><footer class=footer><span>© <a href=https://atomx.cc>Atom.X</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="复制";function s(){t.innerHTML="已复制！",setTimeout(()=>{t.innerHTML="复制"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

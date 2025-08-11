@@ -12,8 +12,455 @@
     <generator>Hugo -- 0.147.8</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据结构基础 - 链表操作</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-2-1/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-2-1/</guid>
+      <description>&lt;p&gt;单元2&lt;/p&gt;
+&lt;h1 id=&#34;链表操作详解插入删除读取及指针修改次数&#34;&gt;链表操作详解：插入、删除、读取及指针修改次数&lt;/h1&gt;
+&lt;p&gt;以下针对四种链表类型（单链表、双链表、循环单链表、循环双链表），详细说明插入、删除、读取操作步骤及&lt;strong&gt;指针修改次数&lt;/strong&gt;（仅统计&lt;strong&gt;已有节点的指针修改&lt;/strong&gt;，不包括新节点初始化或删除节点释放）。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-单链表singly-linked-list&#34;&gt;&lt;strong&gt;1. 单链表（Singly Linked List）&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;节点结构&lt;/strong&gt;：&lt;code&gt;数据 + next指针（指向后继）&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;插入操作&lt;/strong&gt;（在节点A和B之间插入C）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;步骤&lt;/strong&gt;：
+&lt;ol&gt;
+&lt;li&gt;创建新节点C，设置 &lt;code&gt;C.next = B&lt;/code&gt;（新节点初始化，不计入修改）。&lt;/li&gt;
+&lt;li&gt;修改A的 &lt;code&gt;next&lt;/code&gt; 指针指向C：&lt;code&gt;A.next = C&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指针修改次数&lt;/strong&gt;：&lt;strong&gt;1次&lt;/strong&gt;（仅修改前驱节点A的指针）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;边界情况&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;头部插入&lt;/strong&gt;：修改头指针指向C（头指针修改不计入节点指针修改）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;尾部插入&lt;/strong&gt;：同一般情况（修改原尾节点的 &lt;code&gt;next&lt;/code&gt;）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;删除操作&lt;/strong&gt;（删除节点B，A为其前驱）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;步骤&lt;/strong&gt;：
+&lt;ol&gt;
+&lt;li&gt;修改A的 &lt;code&gt;next&lt;/code&gt; 指针指向B的后继：&lt;code&gt;A.next = B.next&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;释放B（不计入指针修改）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指针修改次数&lt;/strong&gt;：&lt;strong&gt;1次&lt;/strong&gt;（仅修改前驱节点A的指针）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;边界情况&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;删除头节点&lt;/strong&gt;：修改头指针指向原头节点的后继（头指针修改不计入节点指针修改）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;删除尾节点&lt;/strong&gt;：修改倒数第二节点的 &lt;code&gt;next&lt;/code&gt; 为 &lt;code&gt;null&lt;/code&gt;（1次修改）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;读取操作&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;仅支持&lt;strong&gt;顺序访问&lt;/strong&gt;：从头节点遍历，时间复杂度 O(n)。&lt;/li&gt;
+&lt;li&gt;不支持随机访问（无索引）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-双链表doubly-linked-list&#34;&gt;&lt;strong&gt;2. 双链表（Doubly Linked List）&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;节点结构&lt;/strong&gt;：&lt;code&gt;数据 + next指针（指向后继） + prev指针（指向前驱）&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;插入操作&lt;/strong&gt;（在节点A和B之间插入C）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;步骤&lt;/strong&gt;：
+&lt;ol&gt;
+&lt;li&gt;创建新节点C，设置 &lt;code&gt;C.prev = A&lt;/code&gt;, &lt;code&gt;C.next = B&lt;/code&gt;（新节点初始化）。&lt;/li&gt;
+&lt;li&gt;修改A的 &lt;code&gt;next&lt;/code&gt; 指针指向C：&lt;code&gt;A.next = C&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;修改B的 &lt;code&gt;prev&lt;/code&gt; 指针指向C：&lt;code&gt;B.prev = C&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指针修改次数&lt;/strong&gt;：&lt;strong&gt;2次&lt;/strong&gt;（修改前驱A的 &lt;code&gt;next&lt;/code&gt; 和后继B的 &lt;code&gt;prev&lt;/code&gt;）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;边界情况&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;头部插入&lt;/strong&gt;：需修改原头节点的 &lt;code&gt;prev&lt;/code&gt; 指向C（1次修改）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;尾部插入&lt;/strong&gt;：需修改原尾节点的 &lt;code&gt;next&lt;/code&gt; 指向C（1次修改）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;删除操作&lt;/strong&gt;（删除节点B）：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数据结构基础 - 栈与队列</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-3/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-3/</guid>
+      <description>&lt;p&gt;栈和队列有哪些特殊的操作？栈和队列能解决什么样的问题？用栈和队列这种数据结构，来解决与“先进先出”、“先进后出”有关的实际问题了，如宽度优先搜索、表达式求值等。&lt;/p&gt;
+&lt;h1 id=&#34;常生活普遍规律&#34;&gt;常生活普遍规律&lt;/h1&gt;
+&lt;p&gt;如果桌上有一叠盘子，大家都只会拿最上面的那一个。食堂排队的时候，你总是先找到队尾加入，而排在队首的同学打完饭之后就会离开。&lt;/p&gt;
+&lt;p&gt;类比计算机，也许只需要在线性序列的一端或两端进行操作，对应的就是栈和队列这两种受限的线性表，他们是最简单的基础数据结构，应用也最广泛。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;重点：栈的 LIFO 特性，深度优先搜索，理解递归中栈的作用；队列的 FIFO 特性，宽度优先搜索。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;难点：机械的递归转非递归，简单理解就可以了，不需要掌握；顺序队列的实现假溢出处理。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>数据结构基础 - 顺序表 vs 链表</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-2/</link>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-2/</guid>
+      <description>&lt;p&gt;单元2&lt;/p&gt;
+&lt;p&gt;下面是一个简洁的 C++ 程序示例，展示了**顺序表（使用 &lt;code&gt;vector&lt;/code&gt;）&lt;strong&gt;和&lt;/strong&gt;链表（使用自定义单向链表）**的基本操作对比，包括插入、删除和访问元素：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-顺序表-vs-链表c-示例对比&#34;&gt;🧪 顺序表 vs 链表：C++ 示例对比&lt;/h2&gt;
+&lt;h3 id=&#34;-顺序表使用-stdvector&#34;&gt;✅ 顺序表（使用 &lt;code&gt;std::vector&lt;/code&gt;）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// 插入元素
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// 删除元素（删除第二个）
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;erase&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;begin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// 访问元素
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;顺序表元素[&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;] = &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;seqList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;-链表自定义单向链表&#34;&gt;✅ 链表（自定义单向链表）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;namespace&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;struct&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Node&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;nullptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;newNode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;newNode&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;newNode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;deleteNode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;nullptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;prev&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;prev&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;delete&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;prev&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;curr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;printList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;链表元素[&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;++&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;] = &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;next&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Node&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;head&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;nullptr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// 插入元素（头插法）
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// 删除元素（删除值为 20 的节点）
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;deleteNode&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// 打印链表
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;printList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-对比总结&#34;&gt;📊 对比总结&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;特性&lt;/th&gt;
+          &lt;th&gt;顺序表（vector）&lt;/th&gt;
+          &lt;th&gt;链表（自定义）&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;插入效率&lt;/td&gt;
+          &lt;td&gt;中间插入需移动元素，较慢&lt;/td&gt;
+          &lt;td&gt;修改指针即可，效率高&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;删除效率&lt;/td&gt;
+          &lt;td&gt;删除需移动元素&lt;/td&gt;
+          &lt;td&gt;修改指针即可&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;随机访问&lt;/td&gt;
+          &lt;td&gt;支持 O(1) 下标访问&lt;/td&gt;
+          &lt;td&gt;需遍历，O(n)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;内存结构&lt;/td&gt;
+          &lt;td&gt;连续内存，缓存友好&lt;/td&gt;
+          &lt;td&gt;分散内存，灵活扩展&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;实现复杂度&lt;/td&gt;
+          &lt;td&gt;简单（STL支持）&lt;/td&gt;
+          &lt;td&gt;需手动管理指针&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;单链表中，做插入数据的操作时，是否需要同时做两处数据的操作？
+也就是修改前一个数据的后置链接指向，并增加新数据，例如在数据A和B之间插入C，首先要生成新的数据C，其后驱指针指向B，再修改前一个数据A的后驱指针，删除其与B的链接，建立与C的链接。
+此外删除操作也是类似的的需要修改两处，该规则适用于双链表和循环链表。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数据结构基础 - C/C&#43;&#43;编程范式与模板</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-1-1/</link>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-1-1/</guid>
+      <description>&lt;p&gt;单元1&lt;/p&gt;
+&lt;p&gt;C++补充知识，关于 &lt;strong&gt;C语言与C++编程范式&lt;/strong&gt; 以及 &lt;strong&gt;模板函数与模板类&lt;/strong&gt;——融合整理为一份清晰系统的总结文章，完整展现 C/C++ 编程思想与核心机制 👇&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;-c--c-编程范式与模板机制详解&#34;&gt;🧠 C / C++ 编程范式与模板机制详解&lt;/h1&gt;
+&lt;h2 id=&#34;一c语言典型的面向过程编程&#34;&gt;一、C语言：典型的面向过程编程&lt;/h2&gt;
+&lt;p&gt;C语言是计算机科学中广泛使用的一种底层语言，其编程范式是 &lt;strong&gt;面向过程（Procedure-Oriented Programming, POP）&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;-面向过程核心理念&#34;&gt;📌 面向过程核心理念&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;程序以“函数”为基本单位，强调&lt;strong&gt;从上到下的执行过程&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;问题被逐步拆解为多个函数，每个函数处理一个子任务&lt;/li&gt;
+&lt;li&gt;数据结构与操作行为分离，函数通过参数操控数据&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-c语言特征简述&#34;&gt;🧪 C语言特征简述&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;特征&lt;/th&gt;
+          &lt;th&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;模块化设计&lt;/td&gt;
+          &lt;td&gt;使用函数实现各子过程&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;程序从 &lt;code&gt;main()&lt;/code&gt; 执行&lt;/td&gt;
+          &lt;td&gt;顺序调用各个逻辑步骤&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;struct&lt;/code&gt; 仅用于封装数据&lt;/td&gt;
+          &lt;td&gt;不支持行为或方法定义&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;无类与对象机制&lt;/td&gt;
+          &lt;td&gt;不具备封装、继承、多态&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;-示例比较冰箱装大象c语言方式&#34;&gt;🧱 示例比较：冰箱装大象（C语言方式）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;openFridge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;putElephant&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;closeFridge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;强调函数的调用流程，数据通过参数传递，不具备对象概念。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二c融合面向过程与面向对象&#34;&gt;二、C++：融合面向过程与面向对象&lt;/h2&gt;
+&lt;p&gt;C++ 是基于 C 语言发展而来的一种多范式语言，既支持面向过程，又强调 &lt;strong&gt;面向对象（OOP）&lt;/strong&gt; 和 &lt;strong&gt;泛型编程&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;-面向对象编程思想&#34;&gt;🔍 面向对象编程思想&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;程序以“对象”为单位组织，强调数据与行为的封装&lt;/li&gt;
+&lt;li&gt;引入类、对象、继承、多态等高级机制&lt;/li&gt;
+&lt;li&gt;更接近现实世界建模，适用于复杂系统开发&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-oop-核心特性&#34;&gt;⚙️ OOP 核心特性&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;特性&lt;/th&gt;
+          &lt;th&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;封装&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;将数据和操作行为打包成一个对象&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;继承&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;子类继承父类属性和行为&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;多态&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;同一种操作可作用于不同类型对象&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;-示例比较冰箱装大象c-面向对象方式&#34;&gt;🧱 示例比较：冰箱装大象（C++ 面向对象方式）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Fridge&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;fridge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Elephant&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;elephant&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fridge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fridge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;put&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;elephant&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fridge&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;close&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;对象封装行为，语义清晰，可扩展性强。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数据结构基础 - 数据和算法类型</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-1/</link>
+      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-1/</guid>
+      <description>&lt;p&gt;单元1&lt;/p&gt;
+&lt;p&gt;算法+数据结构 = 程序&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;算法：如何让计算机分析这些数据？&lt;/li&gt;
+&lt;li&gt;数据结构：如何把这些数据表示给计算机？&lt;/li&gt;
+&lt;li&gt;程序：如何让计算机明白我要做什么？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;网课地址：&lt;a href=&#34;https://www.coursera.org/learn/shuju-jiegou-suanfa/&#34;&gt;数据结构基础&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;-数据结构与算法效率总览&#34;&gt;🧠 数据结构与算法效率总览&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一-抽象数据类型adtabstract-data-type&#34;&gt;一、📦 抽象数据类型（ADT：Abstract Data Type）&lt;/h2&gt;
+&lt;p&gt;抽象数据类型定义了一类数据的逻辑结构和操作方式，它&lt;strong&gt;不依赖具体的实现方式&lt;/strong&gt;，是算法设计的基础。&lt;/p&gt;
+&lt;h3 id=&#34;-adt-特点&#34;&gt;✨ ADT 特点：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;封装性：隐藏内部存储与操作细节，只暴露接口&lt;/li&gt;
+&lt;li&gt;独立性：实现方式灵活（可用数组、链表等）&lt;/li&gt;
+&lt;li&gt;通用性：跨语言、跨平台适用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-常见-adt-与实现方式及应用&#34;&gt;📚 常见 ADT 与实现方式及应用&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;ADT名称&lt;/th&gt;
+          &lt;th&gt;描述&lt;/th&gt;
+          &lt;th&gt;常见实现方式&lt;/th&gt;
+          &lt;th&gt;应用场景举例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;数组&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;固定大小，顺序排列&lt;/td&gt;
+          &lt;td&gt;顺序存储&lt;/td&gt;
+          &lt;td&gt;图像处理、表格数据&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;链表&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;节点动态链接&lt;/td&gt;
+          &lt;td&gt;单/双向链表&lt;/td&gt;
+          &lt;td&gt;内存分配、编辑器缓冲区&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;栈&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;后进先出（LIFO）&lt;/td&gt;
+          &lt;td&gt;数组、链表&lt;/td&gt;
+          &lt;td&gt;函数调用、撤销操作&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;队列&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;先进先出（FIFO）&lt;/td&gt;
+          &lt;td&gt;链表、循环数组&lt;/td&gt;
+          &lt;td&gt;消息调度、打印系统&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;集合&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;无序不重复元素集合&lt;/td&gt;
+          &lt;td&gt;哈希表、树结构&lt;/td&gt;
+          &lt;td&gt;数据去重、元素管理&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;映射（Map）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;键值对集合&lt;/td&gt;
+          &lt;td&gt;哈希表、搜索树&lt;/td&gt;
+          &lt;td&gt;参数配置、缓存索引&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;堆（Heap）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;特殊优先队列结构&lt;/td&gt;
+          &lt;td&gt;完全二叉树&lt;/td&gt;
+          &lt;td&gt;优先任务调度、TOP-k问题&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;树（Tree）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;分层父子关系结构&lt;/td&gt;
+          &lt;td&gt;二叉树、AVL树等&lt;/td&gt;
+          &lt;td&gt;文件系统、数据库索引&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;图（Graph）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;顶点与边构成关系网&lt;/td&gt;
+          &lt;td&gt;邻接表、邻接矩阵&lt;/td&gt;
+          &lt;td&gt;地图导航、社交关系网络&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二-数据结构逻辑组织层级关系&#34;&gt;二、📊 数据结构逻辑组织层级关系&lt;/h2&gt;
+&lt;p&gt;根据元素之间的逻辑关系，可分为线性与非线性结构：&lt;/p&gt;
+&lt;h3 id=&#34;-线性结构&#34;&gt;🧩 线性结构&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;元素一对一排列&lt;/li&gt;
+&lt;li&gt;包括：线性表、栈、队列、串（字符串）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-非线性结构&#34;&gt;🌲 非线性结构&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;元素存在一对多或多对多关系&lt;/li&gt;
+&lt;li&gt;包括：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;示例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;树&lt;/td&gt;
+          &lt;td&gt;二叉树、搜索树、Huffman 树等&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;图&lt;/td&gt;
+          &lt;td&gt;有向图、无向图、加权图等&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;✅ 层级包含关系：&lt;strong&gt;图 ⊇ 树 ⊇ 二叉树 ⊇ 线性表&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>C&#43;&#43;在AI时代的必要性与前景分析</title>
       <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/prospect-c&#43;&#43;/</link>
@@ -796,9 +1243,9 @@
     </item>
     <item>
       <title>C&#43;&#43;程序设计</title>
-      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc3/</link>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c3/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc3/</guid>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c3/</guid>
       <description>&lt;p&gt;原课程链接：&lt;a href=&#34;https://www.coursera.org/learn/cpp-chengxu-sheji/&#34;&gt;C++程序设计&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://cplusplus.com/&#34;&gt;cplusplus.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;教材《新标准 c++程序设计》 郭炜, 清华大学&lt;/p&gt;
@@ -840,9 +1287,9 @@ const_cast和dynamic_cast&lt;/p&gt;
     </item>
     <item>
       <title>数列 Array</title>
-      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2-w10-array/</link>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c2-w10-array/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2-w10-array/</guid>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c2-w10-array/</guid>
       <description>&lt;p&gt;Week 10&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.coursera.org/learn/jisuanji-biancheng/lecture/a53He/shu-zu-de-zuo-yong-zhi-er&#34;&gt;array function&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&amp;lt;iostream&amp;gt;
@@ -881,9 +1328,9 @@ const_cast和dynamic_cast&lt;/p&gt;
     </item>
     <item>
       <title>C程序设计进阶</title>
-      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2/</link>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c2/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc2/</guid>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c2/</guid>
       <description>&lt;p&gt;原课程链接：&lt;a href=&#34;https://www.coursera.org/learn/c-chengxu-sheji/&#34;&gt;C程序设计进阶&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;const-vs-static&#34;&gt;const vs. static&lt;/h1&gt;
 &lt;p&gt;const 限制指针实参的功能&lt;/p&gt;
@@ -928,9 +1375,9 @@ const_cast和dynamic_cast&lt;/p&gt;
     </item>
     <item>
       <title>计算导论与C语言基础</title>
-      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc1/</link>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c1/</link>
       <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc1/</guid>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c1/</guid>
       <description>&lt;p&gt;原课程链接：&lt;a href=&#34;https://www.coursera.org/learn/jisuanji-biancheng/&#34;&gt;计算导论与C语言基础&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;turing-machine&#34;&gt;Turing machine&lt;/h2&gt;
 &lt;p&gt;The ranking is in descending order of price and working speed&lt;/p&gt;
@@ -946,9 +1393,9 @@ const_cast和dynamic_cast&lt;/p&gt;
     </item>
     <item>
       <title>公开课《程序设计与算法》</title>
-      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc-programming-and-algorithm/</link>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c-programming-and-algorithm/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/pkuc-programming-and-algorithm/</guid>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c-programming-and-algorithm/</guid>
       <description>&lt;p&gt;课程笔记&lt;/p&gt;
 &lt;p&gt;北京大学coursera &lt;a href=&#34;https://www.coursera.org/specializations/biancheng-suanfa&#34;&gt;程序设计与算法&lt;/a&gt; Specialization 专项课程。&lt;/p&gt;
 &lt;p&gt;练习题&lt;a href=&#34;https://github.com/Atomx3/Coding-practice/tree/main/C%2B%2BPKU&#34;&gt;Github 库&lt;/a&gt;&lt;/p&gt;
