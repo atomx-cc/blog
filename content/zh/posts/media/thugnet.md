@@ -3,7 +3,7 @@ title: "如何应对流氓的网络世界？"
 date: 2019-09-26
 description: 
 categories:
-  - IT
+  - 媒体
 tags:
   - 社交媒体
   - 营销

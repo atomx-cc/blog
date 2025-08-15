@@ -4,7 +4,7 @@ date: 2023-05-29
 description: 
 categories:
   - 生活
-  - IT
+  - 媒体
 tags:
   - 健康
   - 创业者

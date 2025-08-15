@@ -24,7 +24,7 @@ tags:
 
 **合作机构：**
 
-- [中国生物多样性保护与绿色发展基金会（绿发会）](https://en.wikipedia.org/wiki/China_Biodiversity_Conservation_and_Green_Development_Foundation)，中国政府背景的大型环保基金；
+- [中国生物多样性保护与绿色发展基金会（绿发会）](https://en.wikipedia.org/wiki/China_Biodiversity_Conservation_and_Green_Development_Foundation)，政府背景的大型环保基金；
 - [良食基金](https://www.goodfoodchina.net/en)，绿发会下属分支的项目主办机构；
 - [Brighter Green’s consultants](https://brightergreen.org/)，提供专家支持的美国智库；
 
