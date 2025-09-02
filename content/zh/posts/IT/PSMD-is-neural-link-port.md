@@ -46,7 +46,7 @@ tags:
 他过去很多年都在研发PSMD组织体系建模和部署，希望最后将变成软件infra基础设施，可供开发者（建模者、部署者）使用，但我在和他会面的当时还看不懂代码和公司管理层的工作。
 
 - [hyg- Github](http://xuemen.github.io/PSMD/)
-- [hyg-gitee](https://gitee.com/hyg)
+- [hyg-gitee](https://gitee.com/hyg)，国内码云仓库版本更新更多。
 - [hyg-微博](https://weibo.com/u/1494926084)
 - [hyg-新浪博客](http://blog.sina.com.cn/mars22)
 - [hyg-知乎](https://www.zhihu.com/people/huang-yong-gang)
