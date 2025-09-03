@@ -683,6 +683,16 @@
   </url><url>
     <loc>https://atomx.cc/zh/posts/edu/lang/english-level-test/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/edu/lang/english-level-test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/edu/lang/english-level-test/"
+                />
   </url><url>
     <loc>https://atomx.cc/zh/tags/%E5%9B%BE%E4%B9%A6/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
@@ -704,6 +714,16 @@
   </url><url>
     <loc>https://atomx.cc/zh/posts/edu/lang/english-basic-skills/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/edu/lang/english-basic-skills/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/edu/lang/english-basic-skills/"
+                />
   </url><url>
     <loc>https://atomx.cc/zh/posts/business/the-chaos-during-opening-the-door-of-china-for-the-first-time/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
@@ -864,6 +884,16 @@
   </url><url>
     <loc>https://atomx.cc/zh/posts/edu/lang/how-to-learn-english/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://atomx.cc/posts/edu/lang/how-to-learn-english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://atomx.cc/zh/posts/edu/lang/how-to-learn-english/"
+                />
   </url><url>
     <loc>https://atomx.cc/zh/posts/it/web-app-frameworks-for-developers/</loc>
     <lastmod>2019-06-12T00:00:00+00:00</lastmod>
@@ -1149,6 +1179,8 @@
   </url><url>
     <loc>https://atomx.cc/zh/posts/edu/good-film-books/</loc>
     <lastmod>2000-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://atomx.cc/zh/posts/edu/learning-science/model3-reading/</loc>
   </url><url>
     <loc>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c4/</loc>
   </url><url>
