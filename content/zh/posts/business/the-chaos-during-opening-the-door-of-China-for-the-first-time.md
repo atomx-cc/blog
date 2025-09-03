@@ -14,6 +14,18 @@ tags:
 牟其中第三次出狱创业，我加入创业团队，这是他推荐的阅读材料，了解他亲身经历的中国改革开放的坷坎历程。
 
 
+# 资料来源
+
+[《当代中国八种社会思潮》第二章节选](https://www.shutxt.com/rw/19385/)
+
+马立诚，社会科学文献出版社
+
+书号：ISBN：9787509727966
+
+下載：[《当代中国八种社会思潮》-chapter2.docx](https://quip.com/-/blob/dDKAAATiCLO/LVEuCkFPMF7zHW4i7Dc8bQ?name=%E3%80%8A%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%85%AB%E7%A7%8D%E7%A4%BE%E4%BC%9A%E6%80%9D%E6%BD%AE%E3%80%8B-chapter2.docx)
+
+
+
 # 目录
 
 第35页，第二波：问一问姓社姓资 1
@@ -23,22 +35,6 @@ tags:
 第51页，第四波：呼唤再来一次“文革” 12
 
 注释：
-
-
-## 资料来源
-
-《当代中国八种社会思潮》第二章节选
-
-马立诚
-
-社会科学文献出版社
-
-书号：ISBN：9787509727966
-
-[https://www.shutxt.com/rw/19385/](https://www.shutxt.com/rw/19385/)
-
-下載：[《当代中国八种社会思潮》-chapter2.docx](https://quip.com/-/blob/dDKAAATiCLO/LVEuCkFPMF7zHW4i7Dc8bQ?name=%E3%80%8A%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD%E5%85%AB%E7%A7%8D%E7%A4%BE%E4%BC%9A%E6%80%9D%E6%BD%AE%E3%80%8B-chapter2.docx)
-
 
 ## 第35页，第二波：问一问姓社姓资
 
