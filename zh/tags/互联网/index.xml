@@ -12,8 +12,92 @@
     <generator>Hugo -- 0.147.8</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>数据结构基础 - 双端队列生成排列数计算</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-3-assignment2/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-3-assignment2/</guid>
+      <description>&lt;p&gt;题目：将 4 个不同元素按顺序输入到双端队列（deque）中，可以得到多少种不同的输出排列？&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-问题理解&#34;&gt;✅ 问题理解&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;我们有一个 &lt;strong&gt;双端队列（deque）&lt;/strong&gt;，可以在 &lt;strong&gt;队头&lt;/strong&gt; 和 &lt;strong&gt;队尾&lt;/strong&gt; 进行插入和删除。&lt;/li&gt;
+&lt;li&gt;有 4 个不同的元素，&lt;strong&gt;按固定顺序输入&lt;/strong&gt;（比如 1, 2, 3, 4），但每个元素在入队时可以选择从&lt;strong&gt;前端插入&lt;/strong&gt;或&lt;strong&gt;后端插入&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;所有元素入队后，我们再考虑&lt;strong&gt;出队&lt;/strong&gt;的顺序。由于双端队列允许两端删除，出队顺序会有很多种可能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-分析思路&#34;&gt;❓ 分析思路&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第一个元素从左或右入队没有区别，以后每个元素都有从左和从右两种入队方式，即有 $2^{x-1}$ 种方法。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这个思路是正确的，它描述了&lt;strong&gt;入队策略&lt;/strong&gt;的数量。对于 $x=4$ 个元素，确实有 $2^{4-1} = 8$ 种不同的入队方式。&lt;/p&gt;
+&lt;p&gt;但是，这 &lt;strong&gt;不是&lt;/strong&gt; 本题要求的答案。题目问的是：&lt;strong&gt;最终可以得到多少种不同的输出排列？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;也就是说，我们需要计算：在所有可能的入队策略下，通过后续的出队操作，总共能产生多少种不同的元素排列（顺序）。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-正确解题思路&#34;&gt;🔍 正确解题思路&lt;/h2&gt;
+&lt;p&gt;这是一个经典的组合数学问题，与 &lt;strong&gt;双栈排序（Two Stack Sortable Permutations）&lt;/strong&gt; 或 &lt;strong&gt;双端队列生成的排列（Deque-generated Permutations）&lt;/strong&gt; 有关。&lt;/p&gt;
+&lt;p&gt;对于 $n$ 个元素按顺序入双端队列，最终能得到的不同排列数，是一个已知的数列，称为 &lt;strong&gt;大施罗德数（Large Schröder Numbers）&lt;/strong&gt; 的一种变形。&lt;/p&gt;
+&lt;p&gt;对于 $n=4$，我们可以通过程序来&lt;strong&gt;模拟所有可能的入队策略，并计算所有可能的出队序列&lt;/strong&gt;，从而得到最终的不同排列数。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-程序思路&#34;&gt;🧠 程序思路&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;我们用一个 &lt;code&gt;std::deque&amp;lt;int&amp;gt;&lt;/code&gt; 来模拟双端队列的行为。&lt;/li&gt;
+&lt;li&gt;对于 4 个元素 (1, 2, 3, 4)，我们按顺序处理每个元素。&lt;/li&gt;
+&lt;li&gt;对于每个元素，它有两种入队方式：&lt;code&gt;push_front&lt;/code&gt; 或 &lt;code&gt;push_back&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;这构成了一个二叉树的搜索空间（每个节点代表一种入队选择）。&lt;/li&gt;
+&lt;li&gt;在所有元素都入队后，我们模拟所有可能的出队方式（即，从 &lt;code&gt;front&lt;/code&gt; 或 &lt;code&gt;back&lt;/code&gt; 弹出元素），并记录所有可能产生的排列。&lt;/li&gt;
+&lt;li&gt;最后，我们统计所有不同排列的数量。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;为了高效实现，我们可以使用 &lt;strong&gt;递归 + 回溯&lt;/strong&gt; 的方法来遍历所有可能的状态。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>数据结构基础 - 后缀表达式</title>
+      <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-3-assignment4/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-3-assignment4/</guid>
+      <description>&lt;h1 id=&#34;中缀表达式-infix-notation&#34;&gt;&lt;strong&gt;中缀表达式 (Infix Notation)&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;这是我们人类最习惯的数学表达式写法。操作符（如 &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;）放在两个操作数（数字）之间。例如：&lt;code&gt;3 + 4&lt;/code&gt;, &lt;code&gt;(10 - 2) * 5&lt;/code&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;优点&lt;/strong&gt;：符合我们的阅读和书写习惯。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺点&lt;/strong&gt;：计算机在解析时需要处理运算符优先级和括号，比较复杂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;后缀表达式-postfix-notation--reverse-polish-notation---rpn&#34;&gt;&lt;strong&gt;后缀表达式 (Postfix Notation / Reverse Polish Notation - RPN)&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;在这种表示法中，操作符放在它的操作数&lt;strong&gt;之后&lt;/strong&gt;。例如：&lt;code&gt;3 4 +&lt;/code&gt; 表示 &lt;code&gt;3 + 4&lt;/code&gt;。&lt;code&gt;(10 - 2) * 5&lt;/code&gt; 会写成 &lt;code&gt;10 2 - 5 *&lt;/code&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;优点&lt;/strong&gt;：
+&lt;ol&gt;
+&lt;li&gt;没有括号：运算顺序完全由操作符和操作数的位置决定。&lt;/li&gt;
+&lt;li&gt;无歧义：表达式只有一个明确的含义。&lt;/li&gt;
+&lt;li&gt;易于计算机求值：只需要一个栈即可轻松计算结果。算法如下：
+&lt;ul&gt;
+&lt;li&gt;从左到右扫描表达式。&lt;/li&gt;
+&lt;li&gt;如果是数字，则压入栈。&lt;/li&gt;
+&lt;li&gt;如果是操作符，则从栈中弹出所需数量的操作数（例如，对于二元操作符&lt;code&gt;-&lt;/code&gt;，弹出两个），执行运算，然后将结果压回栈中。&lt;/li&gt;
+&lt;li&gt;最终，栈中剩下的唯一一个数就是表达式的值。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;中缀转后缀-调度场算法---shunting-yard-algorithm-的简化版&#34;&gt;&lt;strong&gt;中缀转后缀 (调度场算法 - Shunting-yard algorithm 的简化版)&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;将中缀表达式转换为后缀表达式的基本思路是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用一个栈来存放操作符。&lt;/li&gt;
+&lt;li&gt;从左到右扫描中缀表达式。&lt;/li&gt;
+&lt;li&gt;如果遇到操作数（数字），直接输出。&lt;/li&gt;
+&lt;li&gt;如果遇到左括号 &lt;code&gt;(&lt;/code&gt;，将其压入操作符栈。&lt;/li&gt;
+&lt;li&gt;如果遇到右括号 &lt;code&gt;)&lt;/code&gt;，则依次弹出操作符栈中的操作符并输出，直到遇到左括号 &lt;code&gt;(&lt;/code&gt; 为止，并将左括号 &lt;code&gt;(&lt;/code&gt; 弹出（但不输出）。&lt;/li&gt;
+&lt;li&gt;如果遇到操作符（如 &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt;）：
+&lt;ul&gt;
+&lt;li&gt;当操作符栈顶的操作符优先级&lt;strong&gt;大于或等于&lt;/strong&gt;当前操作符的优先级时，将栈顶操作符弹出并输出。&lt;/li&gt;
+&lt;li&gt;将当前操作符压入操作符栈。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;当整个表达式扫描完毕后，将操作符栈中剩余的所有操作符依次弹出并输出。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这种写法（指将数字（操作数）和操作符（如 &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt; 等）都用空格分隔开，形成一个由token（词法单元）组成的序列）&lt;strong&gt;非常符合&lt;/strong&gt; C++ 数据结构和算法课程中对于表达式处理的要求和实践。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>数据结构基础 - 链表操作</title>
       <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-2-1/</link>
@@ -106,20 +190,105 @@
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-3/</guid>
       <description>&lt;p&gt;栈和队列有哪些特殊的操作？栈和队列能解决什么样的问题？用栈和队列这种数据结构，来解决与“先进先出”、“先进后出”有关的实际问题了，如宽度优先搜索、表达式求值等。&lt;/p&gt;
-&lt;h1 id=&#34;常生活普遍规律&#34;&gt;常生活普遍规律&lt;/h1&gt;
+&lt;h1 id=&#34;类比---日常生活普遍规律&#34;&gt;类比 - 日常生活普遍规律&lt;/h1&gt;
 &lt;p&gt;如果桌上有一叠盘子，大家都只会拿最上面的那一个。食堂排队的时候，你总是先找到队尾加入，而排在队首的同学打完饭之后就会离开。&lt;/p&gt;
 &lt;p&gt;类比计算机，也许只需要在线性序列的一端或两端进行操作，对应的就是栈和队列这两种受限的线性表，他们是最简单的基础数据结构，应用也最广泛。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;重点：栈的 LIFO 特性，深度优先搜索，理解递归中栈的作用；队列的 FIFO 特性，宽度优先搜索。&lt;/p&gt;
+&lt;p&gt;重点：栈的 LIFO（后进先出） 特性，深度优先搜索，理解递归中栈的作用；队列的 FIFO（先进先出）特性，宽度优先搜索。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;难点：机械的递归转非递归，简单理解就可以了，不需要掌握；顺序队列的实现假溢出处理。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;h1 id=&#34;栈&#34;&gt;栈&lt;/h1&gt;
+&lt;p&gt;在C++程序中，&lt;strong&gt;栈（Stack）&lt;/strong&gt; 是一种非常重要的&lt;strong&gt;线性数据结构&lt;/strong&gt;，它遵循 &lt;strong&gt;LIFO（Last In, First Out）&lt;/strong&gt; 原则，即 &lt;strong&gt;后进先出&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;一栈的核心特点&#34;&gt;一、栈的核心特点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;后进先出（LIFO）&lt;/strong&gt;：最后被添加到栈中的元素，会最先被移除。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;只能在一端操作&lt;/strong&gt;：所有的插入（入栈/Push）和删除（出栈/Pop）操作都发生在栈的同一端，这一端被称为 &lt;strong&gt;栈顶（Top）&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;另一端是固定的&lt;/strong&gt;：栈的另一端称为 &lt;strong&gt;栈底（Bottom）&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-类比&#34;&gt;📌 类比：&lt;/h3&gt;
+&lt;p&gt;想象一个放羽毛球的筒：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你只能从筒的开口（栈顶）放入或取出羽毛球。&lt;/li&gt;
+&lt;li&gt;最后放进去的球，会最先被拿出来。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二栈的基本操作&#34;&gt;二、栈的基本操作&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;操作&lt;/th&gt;
+          &lt;th&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;push(x)&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;将元素 &lt;code&gt;x&lt;/code&gt; 压入栈顶&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;pop()&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;移除并返回栈顶元素&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;top()&lt;/code&gt; / &lt;code&gt;peek()&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;返回栈顶元素，但不移除&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;empty()&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;判断栈是否为空&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;size()&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;返回栈中元素的个数&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三c-中如何实现栈&#34;&gt;三、C++ 中如何实现栈？&lt;/h2&gt;
+&lt;p&gt;C++ 提供了两种主要方式来使用栈：&lt;/p&gt;
+&lt;h3 id=&#34;1-使用-stl-容器适配器-stdstack&#34;&gt;1. 使用 STL 容器适配器 &lt;code&gt;std::stack&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;这是最常用、最推荐的方式。&lt;code&gt;std::stack&lt;/code&gt; 是一个&lt;strong&gt;容器适配器&lt;/strong&gt;，默认基于 &lt;code&gt;std::deque&lt;/code&gt; 实现。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stack&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 创建一个存储 int 类型的栈
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 入栈
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;20&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;栈顶元素: &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出: 30
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 出栈
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;新的栈顶元素: &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;top&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出: 20
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;栈的大小: &amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 输出: 2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;())&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;栈非空&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;stdstack-的特点&#34;&gt;&lt;code&gt;std::stack&lt;/code&gt; 的特点：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用简单，接口清晰。&lt;/li&gt;
+&lt;li&gt;默认底层容器是 &lt;code&gt;std::deque&lt;/code&gt;，也可以指定为 &lt;code&gt;std::vector&lt;/code&gt; 或 &lt;code&gt;std::list&lt;/code&gt;：
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s_vec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// 基于 vector
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;list&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s_list&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// 基于 list
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-自己用数组或链表实现&#34;&gt;2. 自己用数组或链表实现&lt;/h3&gt;
+&lt;p&gt;虽然不常用，但理解其原理很重要。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>数据结构基础 - 顺序表 vs 链表</title>
+      <title>数据结构基础 - 线性表</title>
       <link>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-2/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/posts/edu/math-cs/c&#43;&#43;pku/c5-2/</guid>

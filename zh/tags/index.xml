@@ -12,27 +12,48 @@
     <generator>Hugo -- 0.147.8</generator>
     <language>zh</language>
     <copyright>Atom.X</copyright>
-    <lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://atomx.cc/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://atomx.cc/zh/tags/ai/</link>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>互联网</title>
       <link>https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/</link>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/tags/%E4%BA%92%E8%81%94%E7%BD%91/</guid>
       <description></description>
     </item>
     <item>
       <title>数学&amp;计算机</title>
       <link>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/tags/%E6%95%B0%E5%AD%A6%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>认知科学</title>
+      <link>https://atomx.cc/zh/tags/%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/tags/%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>网络课程</title>
+      <link>https://atomx.cc/zh/tags/%E7%BD%91%E7%BB%9C%E8%AF%BE%E7%A8%8B/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/tags/%E7%BD%91%E7%BB%9C%E8%AF%BE%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自学</title>
+      <link>https://atomx.cc/zh/tags/%E8%87%AA%E5%AD%A6/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://atomx.cc/zh/tags/%E8%87%AA%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
@@ -183,13 +204,6 @@
       <description></description>
     </item>
     <item>
-      <title>网络课程</title>
-      <link>https://atomx.cc/zh/tags/%E7%BD%91%E7%BB%9C%E8%AF%BE%E7%A8%8B/</link>
-      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/tags/%E7%BD%91%E7%BB%9C%E8%AF%BE%E7%A8%8B/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>难民</title>
       <link>https://atomx.cc/zh/tags/%E9%9A%BE%E6%B0%91/</link>
       <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
@@ -250,13 +264,6 @@
       <link>https://atomx.cc/zh/tags/npo/</link>
       <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://atomx.cc/zh/tags/npo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>自学</title>
-      <link>https://atomx.cc/zh/tags/%E8%87%AA%E5%AD%A6/</link>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://atomx.cc/zh/tags/%E8%87%AA%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
