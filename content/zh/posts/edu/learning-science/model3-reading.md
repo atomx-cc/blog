@@ -1,6 +1,15 @@
+---
+title: "阅读材料3"
+date: 2018-09-05
+description:
+categories:
+  - 教育
+tags:
+  - 网络课程
+  - 自学
+  - 认知科学
+---
 
-
-# 阅读材料
 
 原文：[拖延与记忆](https://www.coursera.org/learn/learning-how-to-learn/supplement/H7Pv0/reading-procrastination-and-memory)
 
