@@ -51,14 +51,18 @@ languages:
           name: "Business"
           url: posts/about/cases-business/
           weight: 4
+        - identifier: business
+          name: "Education"
+          url: posts/about/education-training/
+          weight: 5
         - identifier: archives
           name: Archive
           url: /archives/
-          weight: 5
+          weight: 6
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 6
+          weight: 7
 
         - identifier: categories
           name: Categories
@@ -130,12 +134,15 @@ languages:
         # imageHeight: 120
         subtitle: "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应"
         buttons:
-          - name: "价值观"
-            url: posts/about/values/
+        
           - name: "社会活动"  
             url: posts/about/cases-social-works/
           - name: "商业案例"
             url: posts/about/cases-business/
+          - name: "教育培训"
+            url: posts/about/education-training/
+          - name: "价值观"
+            url: posts/about/values/
             
       homeInfoParams:
           Title: "欢迎来访!"
