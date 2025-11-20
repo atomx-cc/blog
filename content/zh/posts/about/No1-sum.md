@@ -1,5 +1,5 @@
 ---
-title: "我们做过的诸多网红项目烂尾的根源"
+title: "诸多网红项目烂尾的根源"
 date: 2022-10-06
 description: 
 categories:
