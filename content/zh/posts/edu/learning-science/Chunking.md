@@ -10,6 +10,7 @@ tags:
   - 认知科学
 ---
 
+**认知科学（Cognitive Science）**核心课程 - [学习如何学习：强大的思维工具助你掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
 
 课程笔记：[阅读材料：组块化 (Chunking)](https://www.coursera.org/learn/learning-how-to-learn/supplement/fWyi5/reading-chunking)的中文翻译，其中引用的文章链接有待增加。
 

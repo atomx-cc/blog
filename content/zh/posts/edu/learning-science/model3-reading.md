@@ -10,8 +10,9 @@ tags:
   - 认知科学
 ---
 
+**认知科学（Cognitive Science）**核心课程 - [学习如何学习：强大的思维工具助你掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
 
-原文：[拖延与记忆](https://www.coursera.org/learn/learning-how-to-learn/supplement/H7Pv0/reading-procrastination-and-memory)
+补充阅读材料：[拖延与记忆](https://www.coursera.org/learn/learning-how-to-learn/supplement/H7Pv0/reading-procrastination-and-memory)
 
 
 - ”[健康状况不佳，生活方式因素与记忆力问题有关，即使在年轻人中也是如此](https://medicalxpress.com/news/2014-06-poor-health-lifestyle-factors-linked.html)

@@ -11,9 +11,9 @@ tags:
 ---
 
 
-I work for agriculture industry with the e-commerce technology, like sporting and chatting, and will go to work and travel in Russia far east, anybody want to exchange language for Russian - English here? 
+I work for agriculture industry with the e-commerce technology, like sporting and chatting, and will go to work and travel in the Far east of Russia, anybody want to exchange language for Russian - English here? 
 
-I love the topics about politics, sociality, IT etc.
+I like the topics about Environment, Agriculture & Food, Sociality, IT etc.
 
 [**Русско-английский языковой обмен**](https://www.mylanguageexchange.com/)
 

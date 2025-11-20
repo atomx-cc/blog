@@ -10,9 +10,12 @@ tags:
   - 
 ---
 
-# 老师[Barbara Oakley](https://barbaraoakley.com/)
+**认知科学（Cognitive Science）**核心课程 - [学习如何学习：强大的思维工具助你掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
 
-她拥有 **四个学位**，横跨语言与工程领域，并拥有多个专业头衔和荣誉称号：
+
+# [Barbara Oakley](https://barbaraoakley.com/)
+
+Barbara老师拥有 **四个学位**，横跨语言与工程领域，并拥有多个专业头衔和荣誉称号：
 
 ---
 
@@ -43,8 +46,6 @@ tags:
 ---
 
 # 课程笔记 
-
-[学习如何学习：强大的思维工具助你掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
 
 该课程的核心属于**认知科学（Cognitive Science）**，并紧密关联以下具体领域：
 

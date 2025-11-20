@@ -134,6 +134,6 @@ Vladimirskyi Rynok 接近市中心最大市场- 偏南
 已经零碎地了解过两次，现提出以下建议：
 
 1. 做大：如果业主不想贱卖转让资产，想对市场整体改进，继续掌握这片地产，建议找本土或有国际经验背景的商业管理咨询公司，如
-麦肯锡[https://www.mckinsey.com/](https://www.mckinsey.com/) ，兰德[https://www.rand.org/zh-hans.html](https://www.rand.org/zh-hans.html) 
+[麦肯锡 Mckinsey](https://www.mckinsey.com/) ，[兰德 Rand](https://www.rand.org/zh-hans.html) 
 每个案例的费用大约5 - 10万美金（由地主支付该费用），具体请详询。我们可以跟着专业的询公司跑腿学习，同时从中寻找机会。
 2. 做小：不用考虑整体市场改造，找地主直接租1个摊位，自己尝试经营，如果取得成功，可以推而广之，否则放弃；

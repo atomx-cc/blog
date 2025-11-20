@@ -10,7 +10,9 @@ tags:
   - 认知科学
 ---
 
-课程知识卡片 Flashcards 
+**认知科学（Cognitive Science）**核心课程 - [学习如何学习：强大的思维工具助你掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
+
+知识卡片 Flashcards 
 
 # Retrieval Practice
 
