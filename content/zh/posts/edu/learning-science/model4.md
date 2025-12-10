@@ -1,5 +1,5 @@
 ---
-title: "检索练习 4"
+title: "认知科学-检索练习 4"
 date: 2025-09-10
 description:
 categories:

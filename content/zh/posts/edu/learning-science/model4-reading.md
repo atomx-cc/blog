@@ -1,5 +1,5 @@
 ---
-title: "阅读材料4：文艺复兴式学习与潜能激发"
+title: "认知科学-阅读材料4：文艺复兴式学习与潜能激发"
 date: 2025-09-11
 description:
 categories:

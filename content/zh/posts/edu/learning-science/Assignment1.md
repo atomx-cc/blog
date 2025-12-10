@@ -1,5 +1,5 @@
 ---
-title: "同学互评作业：关于学习挑战的反思性论文"
+title: "认知科学-同学互评作业：关于学习挑战的反思性论文"
 date: 2019-08-26
 description:
 categories:

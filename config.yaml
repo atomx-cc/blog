@@ -127,12 +127,12 @@ languages:
       languageAltTitle: "简体中文"
       profileMode:
         enabled: true
-        title: "欢迎来访!"
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        imageTitle: ProfileMode image
+        title: "欢迎来访！"
+        imageUrl: "/images/atom-f.jpg"
+        imageTitle: Atom
         # imageWidth: 120
         # imageHeight: 120
-        subtitle: "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应"
+        subtitle: "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应 "
         buttons:
         
           - name: "社会活动"  
@@ -143,21 +143,9 @@ languages:
             url: posts/about/education-training/
           - name: "价值观"
             url: posts/about/values/
+          - name: "历史记录"
+            url: posts/about/No1/
             
-      homeInfoParams:
-          Title: "欢迎来访!"
-          Content: >
-            "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应"
-
-            - My favourite **Topics**:
-
-            - Think of danger in times of safety;
-
-            - Disaster Recovery;
-
-            - Load balancing;
-
-            - Multi-Site High Availability(Active-Active across multiple locations), several live places in urban and rural areas;
   
   nl:
     languageName: "Nederlands"
@@ -208,7 +196,7 @@ languages:
       profileMode:
         enabled: true
         title: "Welkom!"
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageUrl: "/images/atom-f.jpg"
         imageTitle: ProfileMode image
         # imageWidth: 120
         # imageHeight: 120
@@ -270,7 +258,7 @@ languages:
       profileMode:
         enabled: true
         title: "Willkommen!"
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageUrl: "/images/atom-f.jpg"
         imageTitle: Profilbild
         # imageWidth: 120
         # imageHeight: 120

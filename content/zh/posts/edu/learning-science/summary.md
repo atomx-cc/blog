@@ -1,5 +1,5 @@
 ---
-title: "Coursera课程：学习如何学习"
+title: "认知科学-Coursera课程：学习如何学习"
 date: 2019-08-25
 description:
 categories:

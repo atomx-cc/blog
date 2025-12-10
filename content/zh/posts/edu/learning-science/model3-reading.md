@@ -1,5 +1,5 @@
 ---
-title: "阅读材料3"
+title: "认知科学-阅读材料3"
 date: 2018-09-05
 description:
 categories:

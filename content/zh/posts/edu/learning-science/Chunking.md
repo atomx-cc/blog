@@ -1,5 +1,5 @@
 ---
-title: "阅读材料：组块化 (Chunking)"
+title: "认知科学-阅读材料：组块化 (Chunking)"
 date: 2019-08-27
 description:
 categories:
