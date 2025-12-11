@@ -132,9 +132,8 @@ languages:
         imageTitle: Atom
         # imageWidth: 120
         # imageHeight: 120
-        subtitle: "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应 "
+        subtitle: "☄️ 高并发-高可用 | ☁️ 异地多活 | 🌙 负载均衡 | ⚡️ 快速响应 | 📱 自适应 
         buttons:
-        
           - name: "社会活动"  
             url: posts/about/cases-social-works/
           - name: "商业案例"
@@ -144,7 +143,7 @@ languages:
           - name: "价值观"
             url: posts/about/values/
           - name: "历史记录"
-            url: posts/about/No1/
+            url: posts/about/no1/
             
   
   nl:
