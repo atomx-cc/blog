@@ -9,7 +9,7 @@ tags:
 ---
 
 
-我的学历背景是IT和电子商务。
+我的学历专业背景是IT和电子商务。
 
 由于职业发展需要，补了一些相关课程，目前（2024.5）我的行业知识和技能结构，主要如下：
 
@@ -33,7 +33,7 @@ tags:
 - 良好农业规范 GAP
 - 社区支持农业 CSA
 - 环境、健康与安全规范 EHS
-- HACCP 危害分析临界控制点
+- 危害分析临界控制点 HACCP
 - 食品安全管理体系 ISO22000
 - 三品一标（有机、绿色、无公害、地理标志）
   
@@ -69,27 +69,27 @@ tags:
 
 **主要课程：**
 
-[食品安全和毒理学](https://www.coursera.org/learn/shipin-anquan)
+[国立台湾大学：食品安全和毒理学](https://www.coursera.org/learn/shipin-anquan)
 
-[动物行为和福利](https://www.coursera.org/learn/animal-welfare)
+[爱丁堡大学：动物行为和福利](https://www.coursera.org/learn/animal-welfare)
 
-[当代世界第一部：全球历史](https://www.coursera.org/learn/modern-world)
+[弗吉尼亚大学- 当代世界第一部：全球历史](https://www.coursera.org/learn/modern-world)
 
-[Python专项课](https://www.coursera.org/specializations/python)
+[密歇根大学：Python专项课](https://www.coursera.org/specializations/python)
 
-[模型思维](https://www.coursera.org/learn/model-thinking)
+[密歇根大学：模型思维](https://www.coursera.org/learn/model-thinking)
 
-[互联网历史、技术和安全](https://www.coursera.org/learn/internet-history)
+[密歇根大学：互联网历史、技术和安全](https://www.coursera.org/learn/internet-history)
 
 [Google IT 技术支持](https://www.coursera.org/professional-certificates/google-it-support?)
 
-[学习如何学习：强大的心里工具帮助掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
+[Deep Teaching Solution- 学习如何学习：强大的心理工具帮助掌握难题](https://www.coursera.org/learn/learning-how-to-learn)
 
-[北京大学- C++编程和算法](https://www.coursera.org/specializations/biancheng-suanfa)
+[北京大学：C++编程和算法](https://www.coursera.org/specializations/biancheng-suanfa)
 
-[斯坦福大学- 数学思考入门](https://www.coursera.org/learn/mathematical-thinking/)
+[斯坦福大学：数学思考入门](https://www.coursera.org/learn/mathematical-thinking/)
 
-[杜克大学- C语言专项课](https://www.coursera.org/specializations/c-programming)
+[杜克大学：C语言专项课](https://www.coursera.org/specializations/c-programming)
 
 [IBM 网络安全分析](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst)
 
@@ -109,13 +109,13 @@ tags:
 
 **主要课程：**
 
-[可持续发展时代](https://www.coursera.org/learn/sustainable-development) ；
+[哥伦比亚大学（纽约）：可持续发展时代](https://www.coursera.org/learn/sustainable-development) ；
 
-[数字营销](https://www.coursera.org/specializations/digital-marketing)；
+[伊利诺伊大学：数字营销](https://www.coursera.org/specializations/digital-marketing)；
 
-[我们的地球, 气候, 历史和进程](https://www.coursera.org/learn/our-earth)；
+[曼切斯特大学：我们的地球、气候、历史和进程](https://www.coursera.org/learn/our-earth)；
 
-注释：```我们的地球``` 课程附带模拟软件，欢迎试用！
+注释：`我们的地球` 课程附带模拟软件，欢迎试用！
 
 数字地球教学模拟软件BYOE（build your own earth），用于探索地球过去 45 亿年的空气、水、土壤和生命如何形成，及宏观和微观生态的相互影响。
 

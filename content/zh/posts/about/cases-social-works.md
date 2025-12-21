@@ -25,8 +25,8 @@ tags:
 **合作机构：**
 
 - [中国生物多样性保护与绿色发展基金会（绿发会）](https://en.wikipedia.org/wiki/China_Biodiversity_Conservation_and_Green_Development_Foundation)，政府背景的大型环保基金；
-- [良食基金](https://www.goodfoodchina.net/en)，绿发会下属分支的项目主办机构；
-- [Brighter Green’s consultants](https://brightergreen.org/)，提供专家支持的美国智库；
+- [良食基金](https://www.goodfoodchina.net/en)是绿发会下属的项目主办机构；
+- 美国专家智库[Brighter Green’s consultants](https://brightergreen.org/)，提供咨询顾问支持；
 
 
 **项目文件**
@@ -101,7 +101,7 @@ tags:
 - [中国人民大学农业与农村发展学院](http://sarden.ruc.edu.cn/About/AboutUs/index.htm);
 
 
-## [南方国家可持续发展论坛(SSFS)](https://commons.ln.edu.hk/southsouthforum/2011/)
+## [全球南方国家可持续发展论坛(SSFS)](https://commons.ln.edu.hk/southsouthforum/2011/)
 
 日期：2011.12
 
@@ -111,7 +111,7 @@ tags:
 
 **项目概述：**
 
-调研中国东部（江浙沪）的会议团队来自12个国家的学者和专家，主要议题为生态文明、三农问题、乡村建设、可持续发展等；
+为国际会议考察团提供的会务和活动服务，陪同来自12个国家的学者专家，调研访问中国东部（江浙沪）的线路。会议议题为生态文明、三农问题、乡村建设、可持续发展等。
 
 **项目材料：**
 
