@@ -3,11 +3,12 @@ title: "欧洲老船长"
 date: 2025-04-15
 description: 
 categories:
-  - 神
-tags:
-  - 欧洲
+  - 旅行
   - 玄学
-  - 宗教
+tags:
+  - 神话
+  - 造物主
+  - 宗教信仰
 ---
 
 
