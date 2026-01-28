@@ -127,7 +127,7 @@ languages:
       languageAltTitle: "简体中文"
       profileMode:
         enabled: true
-        title: "欢迎来访！"
+        title: "你好世界！"
         imageUrl: "/images/atom-f.jpg"
         imageTitle: Atom
         # imageWidth: 120
