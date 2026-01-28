@@ -125,7 +125,7 @@ PSMD（Pivot Structure Modeling and Deploy）管理体系设计和实施
 PSMD培养共同体建模、部署人员，帮助适应分布式自治组织( Distributed Autonomous Community)的需要。它本身是开放、半自助的共同体。
 
 **具体说明**
-参考前文：[PSMD会成为脑机接口吗？]
+参考前文：[会成为脑机接口吗？]
 
 # **高效率的工具库**
 
